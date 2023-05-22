@@ -1,0 +1,15 @@
+{
+  "ConfigurationTable.library.label.base.Accordion.instance_details.details.title": "Detalhes da tabela de configuração",
+  "ConfigurationTable.library.label.base.Attachments.additional_attachments.label": "Anexos da documentação",
+  "ConfigurationTable.library.label.base.Button.save.label": "Salvar",
+  "ConfigurationTable.library.label.base.CirrusObjectsLinks.documentation_links.label": "Links da documentação",
+  "ConfigurationTable.library.label.base.Comments.additional_comments.label": "Comentários",
+  "ConfigurationTable.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "Spreadsheet",
+  "ConfigurationTable.library.label.base.InputText.name.label": "Nome da tabela de configuração",
+  "ConfigurationTable.library.label.base.InputText.objectId.label": "ID da tabela de configuração",
+  "ConfigurationTable.library.label.base.InputTextarea.description.label": "Descrição da tabela de configuração",
+  "ConfigurationTable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.0.title": "Detalhes",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.1.title": "Documentação",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.2.title": "Alterar histórico"
+}

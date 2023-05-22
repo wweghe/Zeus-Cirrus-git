@@ -1,0 +1,10 @@
+{
+  "AttributionTemplate.AttributionTemplate.schema.field.objectId.label": "Attribution template ID",
+  "AttributionTemplate.library.label.base.Accordion.attribution_template_details.details.title": "Attribution Template Details",
+  "AttributionTemplate.library.label.base.Button.save.label": "Save",
+  "AttributionTemplate.library.label.base.ReadonlyFieldWidget.name_readonly.label": " ",
+  "AttributionTemplate.library.label.base.TabView.attribution_template_tabs.0.title": "Factors",
+  "AttributionTemplate.library.label.base.TabView.attribution_template_tabs.1.title": "Documentation",
+  "AttributionTemplate.library.label.base.TabView.attribution_template_tabs.2.title": "Change History",
+  "AttributionTemplate.library.label.base.TabView.attribution_template_tabs.tabDetails.title": "Details"
+}

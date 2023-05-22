@@ -1,0 +1,11 @@
+{
+  "RuleSet.library.label.base.Button.save.label": "Enregistrer",
+  "RuleSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "RuleSet.library.label.base.TabView.TabView.1.title": "Détails",
+  "RuleSet.library.label.base.TabView.TabView.2.title": "Documentation",
+  "RuleSet.library.label.base.TabView.TabView.3.title": "Historique des modifications",
+  "RuleSet.library.label.base.TabView.rule_set_tab.1.title": "Détails",
+  "RuleSet.library.label.base.TabView.rule_set_tab.2.title": "Documentation",
+  "RuleSet.library.label.base.TabView.rule_set_tab.3.title": "Historique des modifications",
+  "undefined": "Onglet"
+}

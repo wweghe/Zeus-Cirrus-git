@@ -1,0 +1,17 @@
+{
+  "DataDefinition.DataDefinition.schema.field.objectId.label": "ID definizione dei dati",
+  "DataDefinition.library.label.base.Accordion.instance_details.details.title": "Dettagli della definizione dei dati",
+  "DataDefinition.library.label.base.Button.save.label": "Salva",
+  "DataDefinition.library.label.base.DropdownWidget.supportedDataActions.label": "Azioni sui dati supportate",
+  "DataDefinition.library.label.base.DropdownWidget.supportedDataActions.option.APPEND.label": "ACCODA",
+  "DataDefinition.library.label.base.DropdownWidget.supportedDataActions.option.APPEND_DELETE.label": "ACCODA/ELIMINA",
+  "DataDefinition.library.label.base.DropdownWidget.supportedDataActions.option.DELETE.label": "ELIMINA",
+  "DataDefinition.library.label.base.DropdownWidget.supportedDataActions.option.NONE.label": "NESSUNA",
+  "DataDefinition.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "Foglio di calcolo",
+  "DataDefinition.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "DataDefinition.library.label.base.TabView.data_definition_tabs.0.title": "Attributi dei dati",
+  "DataDefinition.library.label.base.TabView.data_definition_tabs.1.title": "Documentazione",
+  "DataDefinition.library.label.base.TabView.data_definition_tabs.2.title": "Cronologia delle modifiche",
+  "DataDefinition.library.label.base.TabView.data_definition_tabs.tabDetails.title": "Dettagli",
+  "DataDefinition.library.label.base.TabView.data_definition_tabs.tabReportMart.title": "Report mart"
+}

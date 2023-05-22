@@ -1,0 +1,11 @@
+{
+  "RuleSet.library.label.base.Button.save.label": "儲存",
+  "RuleSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "RuleSet.library.label.base.TabView.TabView.1.title": "詳細資料",
+  "RuleSet.library.label.base.TabView.TabView.2.title": "文件",
+  "RuleSet.library.label.base.TabView.TabView.3.title": "變更歷程記錄",
+  "RuleSet.library.label.base.TabView.rule_set_tab.1.title": "詳細資料",
+  "RuleSet.library.label.base.TabView.rule_set_tab.2.title": "文件",
+  "RuleSet.library.label.base.TabView.rule_set_tab.3.title": "變更歷程記錄",
+  "undefined": "頁籤"
+}

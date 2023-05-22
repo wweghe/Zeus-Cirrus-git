@@ -1,0 +1,15 @@
+{
+  "ConfigurationTable.library.label.base.Accordion.instance_details.details.title": "Configuration Table Details",
+  "ConfigurationTable.library.label.base.Attachments.additional_attachments.label": "Documentation attachments",
+  "ConfigurationTable.library.label.base.Button.save.label": "Save",
+  "ConfigurationTable.library.label.base.CirrusObjectsLinks.documentation_links.label": "Documentation links",
+  "ConfigurationTable.library.label.base.Comments.additional_comments.label": "Comments",
+  "ConfigurationTable.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "Spreadsheet",
+  "ConfigurationTable.library.label.base.InputText.name.label": "Configuration table name",
+  "ConfigurationTable.library.label.base.InputText.objectId.label": "Configuration table ID",
+  "ConfigurationTable.library.label.base.InputTextarea.description.label": "Configuration table description",
+  "ConfigurationTable.library.label.base.ReadonlyFieldWidget.name_readonly.label": " ",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.0.title": "Details",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.1.title": "Documentation",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.2.title": "Change History"
+}

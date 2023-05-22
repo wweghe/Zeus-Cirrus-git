@@ -1,0 +1,15 @@
+{
+  "MarketDashboard.library.label.base.Accordion.Accordion.panel1.title": "TODO: translate Panel 1",
+  "MarketDashboard.library.label.base.Button.Dashboard_Configuration_SaveConfig.label": "TODO: translate Save current config",
+  "MarketDashboard.library.label.base.Button.Dashboard_Configuration_SetDefault.label": "TODO: translate Set config as default",
+  "MarketDashboard.library.label.base.CalendarWidget.Dashboard_BaseDate.label": "TODO: translate Base date",
+  "MarketDashboard.library.label.base.CalendarWidget.Dashboard_RelativeDate.label": "TODO: translate Relative date",
+  "MarketDashboard.library.label.base.DropdownWidget.Dashboard_Configuration_DropdownWidget.label": "TODO: translate Dashboard Configuration",
+  "MarketDashboard.library.label.base.RFCurveTileWidget.Dashboard_RFCurveTileWidget_Single_Tile.label": "TODO: translate Risk Factor/Curve Dashboard Tile",
+  "MarketDashboard.library.label.base.RFCurveTileWidget.Dashboard_RFCurveTileWidget_W1.label": "TODO: translate Risk Factor/Curve Dashboard Tile",
+  "MarketDashboard.library.label.base.RFCurveTileWidget.Dashboard_RFCurveTileWidget_W2.label": "TODO: translate Risk Factor/Curve Dashboard Tile",
+  "MarketDashboard.library.label.base.RFCurveTileWidget.Dashboard_RFCurveTileWidget_W3.label": "TODO: translate Risk Factor/Curve Dashboard Tile",
+  "MarketDashboard.library.label.base.RFCurveTileWidget.Dashboard_RFCurveTileWidget_W4.label": "TODO: translate Risk Factor/Curve Dashboard Tile",
+  "MarketDashboard.library.label.base.RFCurveTileWidget.Dashboard_RFCurveTileWidget_W5.label": "TODO: translate Risk Factor/Curve Dashboard Tile",
+  "MarketDashboard.library.label.base.RFCurveTileWidget.Dashboard_RFCurveTileWidget_W6.label": "TODO: translate Risk Factor/Curve Dashboard Tile"
+}

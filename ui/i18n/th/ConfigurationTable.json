@@ -1,0 +1,15 @@
+{
+  "ConfigurationTable.library.label.base.Accordion.instance_details.details.title": "รายละเอียดตารางการกำหนดค่า",
+  "ConfigurationTable.library.label.base.Attachments.additional_attachments.label": "ไฟล์แนบของเอกสาร",
+  "ConfigurationTable.library.label.base.Button.save.label": "บันทึก",
+  "ConfigurationTable.library.label.base.CirrusObjectsLinks.documentation_links.label": "ลิงก์เอกสาร",
+  "ConfigurationTable.library.label.base.Comments.additional_comments.label": "ข้อคิดเห็น",
+  "ConfigurationTable.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "สเปรดชีต",
+  "ConfigurationTable.library.label.base.InputText.name.label": "ชื่อตารางการกำหนดค่า",
+  "ConfigurationTable.library.label.base.InputText.objectId.label": "ID ตารางการกำหนดค่า",
+  "ConfigurationTable.library.label.base.InputTextarea.description.label": "คำอธิบายตารางการกำหนดค่า",
+  "ConfigurationTable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.0.title": "รายละเอียด",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.1.title": "เอกสารประกอบ",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.2.title": "ประวัติการเปลี่ยนแปลง"
+}

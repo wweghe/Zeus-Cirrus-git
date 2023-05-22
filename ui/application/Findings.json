@@ -1,0 +1,51 @@
+{
+  "layouts": {
+    "base": {
+      "Template": {
+        "h": 713,
+        "i": "Template",
+        "minH": 26,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "onPageLoad": {
+        "name": "onPageLoad"
+      }
+    },
+    "events": {
+      "onTabClose": {}
+    },
+    "props": {
+      "description": "The inventory page for the findings object.",
+      "icon": "base://ISSUE",
+      "id": "Findings",
+      "label": "Findings",
+      "tabLabel": "Findings"
+    }
+  },
+  "structure": {
+    "base": {
+      "Template": {
+        "compName": "Template",
+        "containerId": "base",
+        "id": "Template",
+        "label": "appbuilder.toolboxitem.template.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "combineObjects": true,
+          "pageId": "ObjectManagerTemplate"
+        },
+        "sasProvided": true
+      }
+    }
+  }
+}

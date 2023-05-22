@@ -1,0 +1,197 @@
+{
+  "AnalysisData.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "AnalysisRun.computeContext.default": {
+    "readonly": false,
+    "type": "string",
+    "value": ""
+  },
+  "AnalysisRun.productionFlg.default.value": {
+    "readonly": false,
+    "type": "boolean",
+    "value": false
+  },
+  "AnalysisRuns.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "AttributionTemplates.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "CodeLibraries.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "ConfigurationSets.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "ConfigurationTables.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "Cycles.baseDttm.required": {
+    "readonly": false,
+    "type": "boolean",
+    "value": false
+  },
+  "Cycles.codeLibrary.default": {
+    "readonly": false,
+    "type": "string",
+    "value": "{\"sourceSystemCd\":\"RCC\",\"objectId\":\"release-core-2023.05\"}"
+  },
+  "Cycles.codeLibrary.required": {
+    "readonly": false,
+    "type": "boolean",
+    "value": false
+  },
+  "Cycles.computeContext.default": {
+    "readonly": false,
+    "type": "string",
+    "value": ""
+  },
+  "Cycles.configurationSet.default": {
+    "readonly": false,
+    "type": "string",
+    "value": "{\"sourceSystemCd\":\"RCC\",\"objectId\":\"Config_Set_1\"}"
+  },
+  "Cycles.configurationSet.required": {
+    "readonly": false,
+    "type": "boolean",
+    "value": false
+  },
+  "Cycles.dimensions.requiredList": {
+    "readonly": false,
+    "type": "string",
+    "value": "entity_id"
+  },
+  "Cycles.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "Cycles.initScriptName.default": {
+    "readonly": false,
+    "type": "string",
+    "value": "{\"name\":\"Core - Init\",\"sourceSystemCd\":\"RCC\",\"objectId\":\"Core-001-Init\"}"
+  },
+  "Cycles.initTaskName.default": {
+    "readonly": false,
+    "type": "string",
+    "value": "__start_workflow__"
+  },
+  "Cycles.updateWorkflowHistoryFromUI.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "Cycles.workflowTransitions.validateParameters": {
+    "readonly": false,
+    "type": "string",
+    "value": "CIRRUS_RUN_SCRIPT"
+  },
+  "DataDefinitions.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "DataMaps.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "DataSecurityRules.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "Findings.dimensions.requiredList": {
+    "readonly": false,
+    "type": "string",
+    "value": ""
+  },
+  "Findings.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "Forms.dimensions.requiredList": {
+    "readonly": false,
+    "type": "string",
+    "value": ""
+  },
+  "Forms.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "InventoryAttestations.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "ModelAttestations.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "ModelCandidateAssessments.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "ModelReviews.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "Models.dimensions.requiredList": {
+    "readonly": false,
+    "type": "string",
+    "value": ""
+  },
+  "Models.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "NonModels.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "RuleSets.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "Scripts.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "Solution.adminGroupId": {
+    "readonly": false,
+    "type": "string",
+    "value": ""
+  },
+  "WorkflowTemplates.conversionTool.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "WorkflowTemplates.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  }
+}

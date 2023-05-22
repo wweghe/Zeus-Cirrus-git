@@ -1,0 +1,10 @@
+{
+  "AttributionTemplate.AttributionTemplate.schema.field.objectId.label": "归因模板 ID",
+  "AttributionTemplate.library.label.base.Accordion.attribution_template_details.details.title": "归因模板详细信息",
+  "AttributionTemplate.library.label.base.Button.save.label": "保存",
+  "AttributionTemplate.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "AttributionTemplate.library.label.base.TabView.attribution_template_tabs.0.title": "因子",
+  "AttributionTemplate.library.label.base.TabView.attribution_template_tabs.1.title": "文档",
+  "AttributionTemplate.library.label.base.TabView.attribution_template_tabs.2.title": "更改历史",
+  "AttributionTemplate.library.label.base.TabView.attribution_template_tabs.tabDetails.title": "详细信息"
+}

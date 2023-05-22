@@ -1,0 +1,142 @@
+{
+  "onPageLoad": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "4877875a-389f-4670-b0db-e1c432ea71d2",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "isCurrentUserInGroup",
+          "library": "CirrusLibCurrentUser",
+          "params": {
+            "group": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "RiskAdministrators"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isUserRiskAdmin",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "b5733efd-8c26-461c-baf5-3df9f68dc3dc",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "isCurrentUserInGroup",
+          "library": "CirrusLibCurrentUser",
+          "params": {
+            "group": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "RiskUsers"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isUserRiskUser",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "92c665d8-a759-4f8c-80f3-1719bb7a8c15",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "or",
+          "library": "CirrusLibBoolean",
+          "params": {
+            "bool1": {
+              "datatype": "boolean",
+              "name": "isUserRiskAdmin",
+              "scope": "local"
+            },
+            "bool2": {
+              "datatype": "boolean",
+              "name": "isUserRiskUser",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isUserRisk",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "9b8eb078-b093-4985-8af6-3899ce14430e",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "not",
+          "library": "CirrusLibBoolean",
+          "params": {
+            "bool": {
+              "datatype": "boolean",
+              "name": "isUserRisk",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isUserNotRisk",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "f164ce7a-f06b-4707-83fa-692ef8ea130c",
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isUserNotRisk",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "navigate",
+        "id": "8b2bbd1c-b740-4b90-9462-d7dee83486b1",
+        "isCommented": false,
+        "library": "CirrusLibNav",
+        "params": {
+          "location": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "/"
+          }
+        },
+        "returnType": "text"
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "4045150f-82de-470f-996b-75952197000a",
+        "isCommented": false,
+        "main": "f164ce7a-f06b-4707-83fa-692ef8ea130c",
+        "test": {
+          "datatype": "boolean",
+          "name": "isUserNotRisk",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  }
+}

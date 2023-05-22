@@ -1,0 +1,15 @@
+{
+  "ConfigurationTable.library.label.base.Accordion.instance_details.details.title": "구성 테이블 상세 정보",
+  "ConfigurationTable.library.label.base.Attachments.additional_attachments.label": "문서 첨부",
+  "ConfigurationTable.library.label.base.Button.save.label": "저장",
+  "ConfigurationTable.library.label.base.CirrusObjectsLinks.documentation_links.label": "문서 링크",
+  "ConfigurationTable.library.label.base.Comments.additional_comments.label": "주석",
+  "ConfigurationTable.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "스프레드시트",
+  "ConfigurationTable.library.label.base.InputText.name.label": "구성 테이블 이름",
+  "ConfigurationTable.library.label.base.InputText.objectId.label": "구성 테이블 ID",
+  "ConfigurationTable.library.label.base.InputTextarea.description.label": "구성 테이블 설명",
+  "ConfigurationTable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.0.title": "상세 정보",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.1.title": "문서",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.2.title": "변경 히스토리"
+}

@@ -1,0 +1,17 @@
+{
+  "DataDefinition.DataDefinition.schema.field.objectId.label": "XData definition ID补Z",
+  "DataDefinition.library.label.base.Accordion.instance_details.details.title": "XData Definition Details补Z",
+  "DataDefinition.library.label.base.Button.save.label": "XSave补Z",
+  "DataDefinition.library.label.base.DropdownWidget.supportedDataActions.label": "XSupported data actions补Z",
+  "DataDefinition.library.label.base.DropdownWidget.supportedDataActions.option.APPEND.label": "XAPPEND补Z",
+  "DataDefinition.library.label.base.DropdownWidget.supportedDataActions.option.APPEND_DELETE.label": "XAPPEND/DELETE补Z",
+  "DataDefinition.library.label.base.DropdownWidget.supportedDataActions.option.DELETE.label": "XDELETE补Z",
+  "DataDefinition.library.label.base.DropdownWidget.supportedDataActions.option.NONE.label": "XNONE补Z",
+  "DataDefinition.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "XSpreadsheet补Z",
+  "DataDefinition.library.label.base.ReadonlyFieldWidget.name_readonly.label": "X 补Z",
+  "DataDefinition.library.label.base.TabView.data_definition_tabs.0.title": "XData Attributes补Z",
+  "DataDefinition.library.label.base.TabView.data_definition_tabs.1.title": "XDocumentation补Z",
+  "DataDefinition.library.label.base.TabView.data_definition_tabs.2.title": "XChange History补Z",
+  "DataDefinition.library.label.base.TabView.data_definition_tabs.tabDetails.title": "XDetails补Z",
+  "DataDefinition.library.label.base.TabView.data_definition_tabs.tabReportMart.title": "XReport Mart补Z"
+}

@@ -1,0 +1,10 @@
+{
+  "AttributionTemplate.AttributionTemplate.schema.field.objectId.label": "XAttribution template ID补Z",
+  "AttributionTemplate.library.label.base.Accordion.attribution_template_details.details.title": "XAttribution Template Details补Z",
+  "AttributionTemplate.library.label.base.Button.save.label": "XSave补Z",
+  "AttributionTemplate.library.label.base.ReadonlyFieldWidget.name_readonly.label": "X 补Z",
+  "AttributionTemplate.library.label.base.TabView.attribution_template_tabs.0.title": "XFactors补Z",
+  "AttributionTemplate.library.label.base.TabView.attribution_template_tabs.1.title": "XDocumentation补Z",
+  "AttributionTemplate.library.label.base.TabView.attribution_template_tabs.2.title": "XChange History补Z",
+  "AttributionTemplate.library.label.base.TabView.attribution_template_tabs.tabDetails.title": "XDetails补Z"
+}

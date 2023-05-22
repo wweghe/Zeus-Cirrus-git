@@ -1,0 +1,11 @@
+{
+  "RuleSet.library.label.base.Button.save.label": "Zapisz",
+  "RuleSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "RuleSet.library.label.base.TabView.TabView.1.title": "Informacje",
+  "RuleSet.library.label.base.TabView.TabView.2.title": "Dokumentacja",
+  "RuleSet.library.label.base.TabView.TabView.3.title": "Historia zmian",
+  "RuleSet.library.label.base.TabView.rule_set_tab.1.title": "Informacje",
+  "RuleSet.library.label.base.TabView.rule_set_tab.2.title": "Dokumentacja",
+  "RuleSet.library.label.base.TabView.rule_set_tab.3.title": "Historia zmian",
+  "undefined": "Karta"
+}
