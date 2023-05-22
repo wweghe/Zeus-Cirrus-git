@@ -1,0 +1,507 @@
+{
+  "apiName": "analysisRuns",
+  "bulkAPI": true,
+  "fields": {
+    "additional_comments": {
+      "id": "additional_comments",
+      "label": "Comments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Comments",
+        "libName": "base"
+      }
+    },
+    "baseDt": {
+      "id": "baseDt",
+      "index": 3,
+      "label": "Base date",
+      "newId": "baseDt",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "baseDttm": {
+      "id": "baseDttm",
+      "index": 4,
+      "label": "Base date",
+      "newId": "baseDttm",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "createdInTag": {
+      "id": "createdInTag",
+      "label": "Created in",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "creationTimeStamp": {
+      "id": "creationTimeStamp",
+      "label": "Date created",
+      "newId": "creationTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "default": {
+      "id": "default",
+      "label": "Default classification",
+      "newId": "default",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsClassification",
+        "libName": "base"
+      }
+    },
+    "description": {
+      "id": "description",
+      "index": 0,
+      "label": "Analysis run description",
+      "newId": "description",
+      "props": {
+        "maxLength": 4000
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "documentation_attachments": {
+      "id": "documentation_attachments",
+      "label": "Documentation Attachments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsAttachments",
+        "libName": "base"
+      }
+    },
+    "documentation_links": {
+      "id": "documentation_links",
+      "label": "Documentation Links",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsLinks",
+        "libName": "base"
+      }
+    },
+    "execution_logs": {
+      "id": "execution_logs",
+      "index": 7,
+      "label": "Execution Logs",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsLinks",
+        "libName": "base"
+      }
+    },
+    "modifiedTimeStamp": {
+      "id": "modifiedTimeStamp",
+      "label": "Date modified",
+      "newId": "modifiedTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "name": {
+      "id": "name",
+      "index": 2,
+      "label": "Analysis run name",
+      "newId": "name",
+      "props": {
+        "maxLength": 200
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "objectId": {
+      "id": "objectId",
+      "index": 1,
+      "label": "Analysis run ID",
+      "newId": "objectId",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "dataType": "string",
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "productionFlg": {
+      "id": "productionFlg",
+      "index": 6,
+      "label": "Is this a production run?",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "RadioButtonField",
+        "libName": "base"
+      }
+    },
+    "resolvedExpressions": {
+      "id": "resolvedExpressions",
+      "index": 9,
+      "label": "Resolved Expressions",
+      "newId": "resolvedExpressions",
+      "props": {
+        "maxLength": 100000
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "resolved_script": {
+      "id": "resolved_script",
+      "label": "Resolved Scripts",
+      "newId": "resolved_script",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsAttachments",
+        "libName": "base"
+      }
+    },
+    "scriptParameters": {
+      "id": "scriptParameters",
+      "label": "Script Parameters",
+      "newId": "scriptParameters",
+      "props": {
+        "maxLength": 100000
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "statusCd": {
+      "id": "statusCd",
+      "index": 8,
+      "label": "Status",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "userTaskName": {
+      "id": "userTaskName",
+      "label": "User task name",
+      "props": {
+        "maxLength": 100
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    }
+  },
+  "id": "AnalysisRun",
+  "index": 1,
+  "labelPlural": "Analysis Runs",
+  "labelSingular": "Analysis Run",
+  "nameField": "name",
+  "relationships": {
+    "analysisData_analysisRun_out": {
+      "cardinality": "manyToOne",
+      "index": 0,
+      "label": "Analysis data outputs",
+      "sourceLabel": "Output analysis data",
+      "sourceLabelPlural": "Output analysis data",
+      "sourceName": "linked_outputAnalysisData",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisData",
+      "targetLabel": "Analysis Run (producing this data)",
+      "targetLabelPlural": "Analysis Runs (producing this data)",
+      "targetName": "linked_analysisRunProducingData",
+      "targetType": "AnalysisRun",
+      "type": "lookup"
+    },
+    "analysisRun_codeLibrary": {
+      "cardinality": "manyToOne",
+      "index": 5,
+      "label": "Primary Libraries",
+      "sourceLabel": "Analysis Run",
+      "sourceLabelPlural": "Analysis Runs",
+      "sourceName": "AnalysisRun",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisRun",
+      "targetLabel": "Primary Library",
+      "targetLabelPlural": "Primary Libraries",
+      "targetName": "CodeLibrary",
+      "targetType": "CodeLibrary",
+      "type": "lookup"
+    },
+    "analysisRun_codeLibrary_dependents": {
+      "cardinality": "manyToMany",
+      "index": 3,
+      "label": "Dependent Libraries",
+      "sourceLabel": "Analysis Run",
+      "sourceLabelPlural": "Analysis Runs",
+      "sourceName": "core_AnalysisRun",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisRun",
+      "targetLabel": "Dependent Library",
+      "targetLabelPlural": "Dependent Libraries",
+      "targetName": "core_dependentLibrary",
+      "targetType": "CodeLibrary",
+      "type": "lookup"
+    },
+    "analysisRun_configurationSet": {
+      "cardinality": "manyToOne",
+      "index": 1,
+      "label": "Configuration Sets",
+      "sourceLabel": "Analysis Run",
+      "sourceLabelPlural": "Analysis Runs",
+      "sourceName": "linkedAnalysisRuns",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisRun",
+      "targetLabel": "Configuration Set",
+      "targetLabelPlural": "Configuration Sets",
+      "targetName": "linkedConfigurationSets",
+      "targetType": "ConfigurationSet",
+      "type": "lookup"
+    },
+    "analysisRun_cycle": {
+      "cardinality": "manyToOne",
+      "index": 1,
+      "label": "Cycles",
+      "sourceLabel": "Analysis Run",
+      "sourceLabelPlural": "Analysis Runs",
+      "sourceName": "AnalysisRun",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisRun",
+      "targetLabel": "Cycle",
+      "targetLabelPlural": "Cycles",
+      "targetName": "Cycle",
+      "targetType": "Cycle",
+      "type": "lookup"
+    },
+    "analysisRun_jobOwner": {
+      "cardinality": "manyToOne",
+      "index": 7,
+      "label": "Users",
+      "sourceLabel": "Analysis Run",
+      "sourceLabelPlural": "Analysis Runs",
+      "sourceName": "AnalysisRun",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisRun",
+      "targetLabel": "Job Owner",
+      "targetLabelPlural": "Job Owners",
+      "targetName": "User",
+      "targetType": "User",
+      "type": "lookup"
+    },
+    "analysisRun_param_analysisData": {
+      "cardinality": "manyToMany",
+      "index": 0,
+      "label": "Analysis Runs (consuming this data)",
+      "sourceLabel": "Analysis Run (consuming this data)",
+      "sourceLabelPlural": "Analysis Runs (consuming this data)",
+      "sourceName": "linked_analysisRunsConsumingData",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisRun",
+      "targetLabel": "Analysis data parameter",
+      "targetLabelPlural": "Analysis data parameters",
+      "targetName": "linked_analysisDataParams",
+      "targetType": "AnalysisData",
+      "type": "lookup"
+    },
+    "analysisRun_param_dataDefinitions": {
+      "cardinality": "manyToMany",
+      "sourceLabel": "Analysis Run",
+      "sourceLabelPlural": "Analysis Runs",
+      "sourceName": "AnalysisRun",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisRun",
+      "targetLabel": "Data definition parameter",
+      "targetLabelPlural": "Data definition parameters",
+      "targetName": "DataDefinition",
+      "targetType": "DataDefinition",
+      "type": "lookup"
+    },
+    "analysisRun_postExec_script": {
+      "cardinality": "manyToMany",
+      "sourceLabel": "Analysis Run",
+      "sourceLabelPlural": "Analysis Runs",
+      "sourceName": "AnalysisRun",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisRun",
+      "targetLabel": "Post-Execution Script",
+      "targetLabelPlural": "Post-Execution Scripts",
+      "targetName": "PostExecScripts",
+      "targetType": "Script",
+      "type": "lookup"
+    },
+    "analysisRun_script": {
+      "cardinality": "manyToOne",
+      "index": 0,
+      "label": "Analysis Runs",
+      "sourceLabel": "Analysis Run",
+      "sourceLabelPlural": "Analysis Runs",
+      "sourceName": "AnalysisRun",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisRun",
+      "targetLabel": "Script",
+      "targetLabelPlural": "Scripts",
+      "targetName": "Script",
+      "targetType": "Script",
+      "type": "lookup"
+    },
+    "attributionTemplate_analysisRun": {
+      "cardinality": "manyToMany",
+      "sourceLabel": "Attribution template",
+      "sourceLabelPlural": "Attribution templates",
+      "sourceName": "AttributionTemplate",
+      "sourceSysCode": "RCC",
+      "sourceType": "AttributionTemplate",
+      "targetLabel": "Analysis run",
+      "targetLabelPlural": "Analysis runs",
+      "targetName": "AnalysisRun",
+      "targetType": "AnalysisRun",
+      "type": "lookup"
+    },
+    "ruleSet_analysisRun": {
+      "cardinality": "manyToMany",
+      "index": 0,
+      "label": "Analysis Runs",
+      "sourceLabel": "Rule Set",
+      "sourceLabelPlural": "Rule Sets",
+      "sourceName": "RuleSet",
+      "sourceSysCode": "RCC",
+      "sourceType": "RuleSet",
+      "targetLabel": "Analysis Run",
+      "targetLabelPlural": "Analysis Runs",
+      "targetName": "AnalysisRun",
+      "targetType": "AnalysisRun",
+      "type": "lookup"
+    }
+  },
+  "sasProvided": true,
+  "searchable": true,
+  "security": {
+    "actions": {
+      "edit": false,
+      "execute": false,
+      "view": true
+    },
+    "allowSharing": true,
+    "useHierarchy": true
+  },
+  "streamAPI": true,
+  "tasks": {}
+}

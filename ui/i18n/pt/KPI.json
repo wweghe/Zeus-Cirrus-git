@@ -1,0 +1,15 @@
+{
+  "KPI.KPI.schema.field.category.label": "Categoria de KPI",
+  "KPI.KPI.schema.field.thresholdsApplicable.help.label": "This option enables you to set thresholds for monitoring the KPI's health. Select this option if the KPI is a single measurable value.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.help.label": "The application assigns the threshold's color band based on the KPI health range selected.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.label": "Which of the following KPI values represents a better health?",
+  "KPI.library.label.base.Button.save_button.label": "Guardar",
+  "KPI.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "KPI.library.label.base.TabView.TabView.changeHistory.title": "Histórico de Alterações",
+  "KPI.library.label.base.TabView.TabView.code.title": "Código",
+  "KPI.library.label.base.TabView.TabView.details.title": "Detalhes",
+  "KPI.library.label.base.TabView.TabView.documentation.title": "Documentação",
+  "KPI.library.label.base.TabView.TabView.relatedObjects.title": "Objetos Relacionados",
+  "KPI.library.label.base.TabView.TabView.tab_parameters.title": "Parâmetros",
+  "KPI.library.label.base.TabView.TabView.threshold.title": "Threshold"
+}

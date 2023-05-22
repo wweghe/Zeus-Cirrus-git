@@ -1,0 +1,380 @@
+{
+  "apiName": "scripts",
+  "bulkAPI": true,
+  "fields": {
+    "additional_comments": {
+      "id": "additional_comments",
+      "index": 1,
+      "label": "Comments",
+      "newId": "additional_comments",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Comments",
+        "libName": "base"
+      }
+    },
+    "codeEditor": {
+      "id": "codeEditor",
+      "index": 0,
+      "label": "Code editor",
+      "newId": "codeEditor",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {},
+      "type": {
+        "compName": "CodeEditor",
+        "libName": "base"
+      }
+    },
+    "createdInTag": {
+      "id": "createdInTag",
+      "label": "Created in",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "creationTimeStamp": {
+      "id": "creationTimeStamp",
+      "label": "Date created",
+      "newId": "creationTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "default": {
+      "id": "default",
+      "index": 5,
+      "label": "Default classification",
+      "newId": "default",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsClassification",
+        "libName": "base"
+      }
+    },
+    "description": {
+      "id": "description",
+      "index": 8,
+      "label": "Script description",
+      "newId": "description",
+      "props": {
+        "maxLength": 4000
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "documentation_attachments": {
+      "id": "documentation_attachments",
+      "index": 6,
+      "label": "Documentation Attachments",
+      "newId": "documentation_attachments",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsAttachments",
+        "libName": "base"
+      }
+    },
+    "documentation_links": {
+      "id": "documentation_links",
+      "index": 7,
+      "label": "Documentation Links",
+      "newId": "documentation_links",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsLinks",
+        "libName": "base"
+      }
+    },
+    "endsInAsyncCallFlg": {
+      "id": "endsInAsyncCallFlg",
+      "label": "Does this code end in a asynchronous call?",
+      "newId": "endsInAsyncCallFlg",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "RadioButtonField",
+        "libName": "base"
+      }
+    },
+    "engineCd": {
+      "id": "engineCd",
+      "index": 9,
+      "label": "Engine",
+      "newId": "engineCd",
+      "props": {
+        "options": {}
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "krmOutputTables": {
+      "id": "krmOutputTables",
+      "index": 10,
+      "label": "KRM output tables",
+      "props": {
+        "hideColumn": true,
+        "maxLength": 30000
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "modifiedTimeStamp": {
+      "id": "modifiedTimeStamp",
+      "label": "Date modified",
+      "newId": "modifiedTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "name": {
+      "id": "name",
+      "index": 10,
+      "label": "Script name",
+      "newId": "name",
+      "props": {
+        "maxLength": 200
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "objectId": {
+      "id": "objectId",
+      "index": 9,
+      "label": "Script ID",
+      "newId": "objectId",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "dataType": "string",
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "parameters": {
+      "id": "parameters",
+      "index": 9,
+      "label": "Parameters",
+      "newId": "parameters",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {},
+      "type": {
+        "compName": "EmbeddedBuilder",
+        "libName": "base"
+      }
+    },
+    "sourceSystemCd": {
+      "id": "sourceSystemCd",
+      "label": "Source system",
+      "newId": "sourceSystemCd",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "ReadonlyField",
+        "libName": "base"
+      }
+    },
+    "statusCd": {
+      "id": "statusCd",
+      "label": "Status",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "subtypeCd": {
+      "id": "subtypeCd",
+      "label": "Script subtype",
+      "newId": "subtypeCd",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "typeCd": {
+      "id": "typeCd",
+      "label": "Script type",
+      "newId": "typeCd",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    }
+  },
+  "id": "Script",
+  "index": 19,
+  "labelPlural": "Scripts",
+  "labelSingular": "Script",
+  "nameField": "name",
+  "relationships": {
+    "analysisRun_postExec_script": {
+      "cardinality": "manyToMany",
+      "sourceLabel": "Analysis Run",
+      "sourceLabelPlural": "Analysis Runs",
+      "sourceName": "AnalysisRun",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisRun",
+      "targetLabel": "Post-Execution Script",
+      "targetLabelPlural": "Post-Execution Scripts",
+      "targetName": "PostExecScripts",
+      "targetType": "Script",
+      "type": "lookup"
+    },
+    "analysisRun_script": {
+      "cardinality": "manyToOne",
+      "index": 0,
+      "label": "Analysis Runs",
+      "sourceLabel": "Analysis Run",
+      "sourceLabelPlural": "Analysis Runs",
+      "sourceName": "AnalysisRun",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisRun",
+      "targetLabel": "Script",
+      "targetLabelPlural": "Scripts",
+      "targetName": "Script",
+      "targetType": "Script",
+      "type": "lookup"
+    },
+    "wfTemplate_script": {
+      "cardinality": "manyToMany",
+      "sourceLabel": "Workflow Template",
+      "sourceLabelPlural": "Workflow Templates",
+      "sourceName": "workflowTemplate",
+      "sourceSysCode": "RCC",
+      "sourceType": "WorkflowTemplate",
+      "targetLabel": "Script",
+      "targetLabelPlural": "Scripts",
+      "targetName": "Script",
+      "targetType": "Script",
+      "type": "lookup"
+    }
+  },
+  "sasProvided": true,
+  "searchable": true,
+  "security": {
+    "actions": {
+      "edit": false,
+      "execute": false,
+      "view": true
+    },
+    "allowSharing": true,
+    "useHierarchy": true
+  },
+  "streamAPI": true,
+  "tasks": {}
+}

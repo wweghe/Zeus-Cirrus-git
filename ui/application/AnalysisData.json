@@ -1,0 +1,846 @@
+{
+  "layouts": {
+    "Accordion": {
+      "classifications": {
+        "default": {
+          "h": 205,
+          "i": "default",
+          "minH": 186,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "BaseDateContainer": {
+      "baseDt": {
+        "baseDt": {
+          "h": 52,
+          "i": "baseDt",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "baseDttm": {
+        "baseDttm": {
+          "h": 52,
+          "i": "baseDttm",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "default": {}
+    },
+    "base": {
+      "Accordion": {
+        "h": 229,
+        "i": "Accordion",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 130
+      },
+      "Image": {
+        "h": 23,
+        "i": "Image",
+        "minH": 1,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 53
+      },
+      "main_tabs": {
+        "h": 626,
+        "i": "main_tabs",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 409
+      },
+      "name_readonly": {
+        "h": 50,
+        "i": "name_readonly",
+        "minH": 24,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 0
+      },
+      "save_container": {
+        "h": 50,
+        "i": "save_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 8,
+        "x": 4,
+        "y": 0
+      },
+      "statusCd": {
+        "h": 52,
+        "i": "statusCd",
+        "minH": 52,
+        "minW": 3,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 78
+      }
+    },
+    "instance_details": {
+      "details": {}
+    },
+    "main_tabs": {
+      "changeHistory": {
+        "ChangeHistory": {
+          "h": 236,
+          "i": "ChangeHistory",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "data": {
+        "ExportMessageWidget": {
+          "h": 24,
+          "i": "ExportMessageWidget",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 10
+        },
+        "exportData": {
+          "h": 26,
+          "i": "exportData",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 5,
+          "y": 159
+        },
+        "sampleRows": {
+          "h": 50,
+          "i": "sampleRows",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 5,
+          "y": 60
+        }
+      },
+      "details": {
+        "BaseDateContainer": {
+          "h": 52,
+          "i": "BaseDateContainer",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 128
+        },
+        "Cycle": {
+          "h": 50,
+          "i": "Cycle",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 196
+        },
+        "DataDefinition": {
+          "h": 50,
+          "i": "DataDefinition",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 256
+        },
+        "columnCount": {
+          "h": 55,
+          "i": "columnCount",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 192
+        },
+        "creationTimeStamp": {
+          "h": 52,
+          "i": "creationTimeStamp",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 64
+        },
+        "description": {
+          "h": 50,
+          "i": "description",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 0
+        },
+        "modifiedTimeStamp": {
+          "h": 52,
+          "i": "modifiedTimeStamp",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 128
+        },
+        "name": {
+          "h": 50,
+          "i": "name",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 64
+        },
+        "objectId": {
+          "h": 50,
+          "i": "objectId",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 1
+        },
+        "rowCount": {
+          "h": 52,
+          "i": "rowCount",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 256
+        }
+      },
+      "documentation": {
+        "additional_comments": {
+          "h": 550,
+          "i": "additional_comments",
+          "minH": 236,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 0
+        },
+        "documentation_attachments": {
+          "h": 286,
+          "i": "documentation_attachments",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 0
+        },
+        "documentation_links": {
+          "h": 241,
+          "i": "documentation_links",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 287
+        }
+      },
+      "relatedObjects": {
+        "linked_analysisRunProducingData": {
+          "h": 55,
+          "i": "linked_analysisRunProducingData",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 11
+        },
+        "linked_analysisRunsConsumingData": {
+          "h": 153,
+          "i": "linked_analysisRunsConsumingData",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 10,
+          "x": 0,
+          "y": 87
+        }
+      }
+    },
+    "save_container": {
+      "default": {},
+      "save": {
+        "save": {
+          "h": 26,
+          "i": "save",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "draft": {},
+      "edit": {
+        "name": "onEditLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "onAnyEvent"
+      },
+      "onTabClose": {
+        "name": "onTabClose"
+      }
+    },
+    "props": {
+      "description": "",
+      "icon": "base://REPOSITORY",
+      "id": "AnalysisData",
+      "label": "AnalysisData",
+      "tabLabel": ""
+    }
+  },
+  "structure": {
+    "Accordion": {
+      "classifications": {
+        "default": {
+          "compName": "CirrusObjectsClassification",
+          "containerId": "Accordion",
+          "fieldName": "default",
+          "id": "default",
+          "libName": "base",
+          "parentId": "Accordion",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "BaseDateContainer": {
+      "baseDt": {
+        "baseDt": {
+          "compName": "Calendar",
+          "containerId": "BaseDateContainer",
+          "fieldName": "baseDt",
+          "id": "baseDt",
+          "libName": "base",
+          "parentId": "BaseDateContainer",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        }
+      },
+      "baseDttm": {
+        "baseDttm": {
+          "compName": "Calendar",
+          "containerId": "BaseDateContainer",
+          "fieldName": "baseDttm",
+          "id": "baseDttm",
+          "libName": "base",
+          "parentId": "BaseDateContainer",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      },
+      "default": {}
+    },
+    "base": {
+      "Accordion": {
+        "compName": "Accordion",
+        "containerId": "base",
+        "id": "Accordion",
+        "label": "appbuilder.toolboxitem.accordion.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "childProps": {
+            "classifications": {
+              "label": "Classifications",
+              "name": "classifications",
+              "position": 0
+            }
+          },
+          "showOutline": true
+        },
+        "sasProvided": true
+      },
+      "Image": {
+        "compName": "Image",
+        "containerId": "base",
+        "id": "Image",
+        "label": "appbuilder.toolboxitem.image.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {},
+        "sasProvided": true
+      },
+      "main_tabs": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "main_tabs",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 2,
+          "childProps": {
+            "changeHistory": {
+              "label": "Change History",
+              "name": "changeHistory",
+              "position": 4
+            },
+            "data": {
+              "label": "Data",
+              "name": "data",
+              "position": 1
+            },
+            "details": {
+              "label": "Details",
+              "name": "details",
+              "position": 0
+            },
+            "documentation": {
+              "label": "Documentation",
+              "name": "documentation",
+              "position": 3
+            },
+            "relatedObjects": {
+              "id": "relatedObjects",
+              "label": "Related Objects",
+              "name": "relatedObjects",
+              "position": 2
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "name_readonly": {
+        "compName": "ReadonlyFieldWidget",
+        "containerId": "base",
+        "id": "name_readonly",
+        "label": "appbuilder.toolboxitem.readonlyfield.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldValue": true,
+          "stacked": false
+        },
+        "sasProvided": true
+      },
+      "save_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "save_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "default": {
+              "name": "default",
+              "position": 0
+            },
+            "save": {
+              "name": "save",
+              "position": 1
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "statusCd": {
+        "compName": "Dropdown",
+        "containerId": "base",
+        "fieldName": "statusCd",
+        "id": "statusCd",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "colon": true,
+          "displayAsText": true
+        },
+        "sasProvided": true
+      }
+    },
+    "instance_details": {
+      "details": {}
+    },
+    "main_tabs": {
+      "changeHistory": {
+        "ChangeHistory": {
+          "compName": "ChangeHistory",
+          "containerId": "main_tabs",
+          "id": "ChangeHistory",
+          "label": "appbuilder.toolboxitem.changeHistory.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "data": {
+        "ExportMessageWidget": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "main_tabs",
+          "id": "ExportMessageWidget",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "align": "center",
+            "colon": false,
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "exportData": {
+          "compName": "Button",
+          "containerId": "main_tabs",
+          "events": {
+            "click": {
+              "name": "onExportData"
+            }
+          },
+          "id": "exportData",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "sampleRows": {
+          "compName": "InputTextWidget",
+          "containerId": "main_tabs",
+          "id": "sampleRows",
+          "label": "appbuilder.toolboxitem.inputtext.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      },
+      "details": {
+        "BaseDateContainer": {
+          "compName": "GroupableContainer",
+          "containerId": "main_tabs",
+          "id": "BaseDateContainer",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "activeIndex": 0,
+            "childProps": {
+              "baseDt": {
+                "name": "baseDt",
+                "position": 1
+              },
+              "baseDttm": {
+                "name": "baseDttm",
+                "position": 2
+              },
+              "default": {
+                "name": "default",
+                "position": 0
+              }
+            },
+            "removePadding": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "Cycle": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "Cycle",
+          "id": "Cycle",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "DataDefinition": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "DataDefinition",
+          "id": "DataDefinition",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "columnCount": {
+          "compName": "InputNumberComponent",
+          "containerId": "main_tabs",
+          "fieldName": "columnCount",
+          "id": "columnCount",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "boldValue": true,
+            "colon": true,
+            "displayAsText": false
+          },
+          "sasProvided": true
+        },
+        "creationTimeStamp": {
+          "compName": "Calendar",
+          "containerId": "main_tabs",
+          "fieldName": "creationTimeStamp",
+          "id": "creationTimeStamp",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "colon": true,
+            "displayAsText": false
+          },
+          "sasProvided": true
+        },
+        "description": {
+          "compName": "InputTextarea",
+          "containerId": "main_tabs",
+          "fieldName": "description",
+          "id": "description",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "boldValue": true,
+            "rows": 1
+          },
+          "sasProvided": true
+        },
+        "modifiedTimeStamp": {
+          "compName": "Calendar",
+          "containerId": "main_tabs",
+          "fieldName": "modifiedTimeStamp",
+          "id": "modifiedTimeStamp",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "colon": true,
+            "displayAsText": false
+          },
+          "sasProvided": true
+        },
+        "name": {
+          "compName": "InputText",
+          "containerId": "main_tabs",
+          "events": {
+            "onChange": {
+              "name": "onNameChange"
+            }
+          },
+          "fieldName": "name",
+          "id": "name",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "boldValue": true,
+            "colon": true,
+            "displayAsText": false
+          },
+          "sasProvided": true
+        },
+        "objectId": {
+          "compName": "InputText",
+          "containerId": "main_tabs",
+          "fieldName": "objectId",
+          "id": "objectId",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "boldValue": true,
+            "colon": true,
+            "displayAsText": false
+          },
+          "sasProvided": true
+        },
+        "rowCount": {
+          "compName": "InputNumberComponent",
+          "containerId": "main_tabs",
+          "fieldName": "rowCount",
+          "id": "rowCount",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "boldValue": true,
+            "colon": true,
+            "displayAsText": false
+          },
+          "sasProvided": true
+        }
+      },
+      "documentation": {
+        "additional_comments": {
+          "compName": "Comments",
+          "containerId": "main_tabs",
+          "fieldName": "additional_comments",
+          "id": "additional_comments",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_attachments": {
+          "compName": "CirrusObjectsAttachments",
+          "containerId": "main_tabs",
+          "fieldName": "documentation_attachments",
+          "id": "documentation_attachments",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_links": {
+          "compName": "CirrusObjectsLinks",
+          "containerId": "main_tabs",
+          "fieldName": "documentation_links",
+          "id": "documentation_links",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "relatedObjects": {
+        "linked_analysisRunProducingData": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "fieldName": "linked_analysisRunProducingData",
+          "id": "linked_analysisRunProducingData",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "linked_analysisRunsConsumingData": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "fieldName": "linked_analysisRunsConsumingData",
+          "id": "linked_analysisRunsConsumingData",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        }
+      }
+    },
+    "save_container": {
+      "default": {},
+      "save": {
+        "save": {
+          "compName": "Button",
+          "containerId": "save_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "save_container",
+          "props": {},
+          "sasProvided": true
+        }
+      }
+    }
+  }
+}

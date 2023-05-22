@@ -1,0 +1,15 @@
+{
+  "KPI.KPI.schema.field.category.label": "XKPI category补Z",
+  "KPI.KPI.schema.field.thresholdsApplicable.help.label": "XThis option enables you to set thresholds for monitoring the KPI's health. Select this option if the KPI is a single measurable value.补Z",
+  "KPI.KPI.schema.field.thresholdsBetterBound.help.label": "XThe application assigns the threshold's color band based on the KPI health range selected.补Z",
+  "KPI.KPI.schema.field.thresholdsBetterBound.label": "XWhich of the following KPI values represents a better health?补Z",
+  "KPI.library.label.base.Button.save_button.label": "XSave补Z",
+  "KPI.library.label.base.ReadonlyFieldWidget.name_readonly.label": "X 补Z",
+  "KPI.library.label.base.TabView.TabView.changeHistory.title": "XChange History补Z",
+  "KPI.library.label.base.TabView.TabView.code.title": "XCode补Z",
+  "KPI.library.label.base.TabView.TabView.details.title": "XDetails补Z",
+  "KPI.library.label.base.TabView.TabView.documentation.title": "XDocumentation补Z",
+  "KPI.library.label.base.TabView.TabView.relatedObjects.title": "XRelated Objects补Z",
+  "KPI.library.label.base.TabView.TabView.tab_parameters.title": "XParameters补Z",
+  "KPI.library.label.base.TabView.TabView.threshold.title": "XThreshold补Z"
+}

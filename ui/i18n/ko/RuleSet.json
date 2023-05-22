@@ -1,0 +1,19 @@
+{
+  "RuleSet.RuleSet.schema.field.statusCd.label": "상태",
+  "RuleSet.library.label.base.Accordion.Accordion.qFactorInfo.help": "",
+  "RuleSet.library.label.base.Accordion.qFactorAccordion.qFactorInfo.title": "Q-요인 정보",
+  "RuleSet.library.label.base.Button.save.label": "저장",
+  "RuleSet.library.label.base.GenericSpreadsheetWidget.RulesSpreadsheet.label": "스프레드시트",
+  "RuleSet.library.label.base.HierarchySpreadsheetWidget.RulesHierarchySpreadsheet.label": "계층 스프레드시트",
+  "RuleSet.library.label.base.HierarchySpreadsheetWidget.qFactorInfoSpreadsheet.label": "",
+  "RuleSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "RuleSet.library.label.base.TabView.TabView.1.title": "상세 정보",
+  "RuleSet.library.label.base.TabView.TabView.2.title": "문서",
+  "RuleSet.library.label.base.TabView.TabView.3.title": "변경 히스토리",
+  "RuleSet.library.label.base.TabView.rule_set_tab.1.title": "상세 정보",
+  "RuleSet.library.label.base.TabView.rule_set_tab.2.title": "문서",
+  "RuleSet.library.label.base.TabView.rule_set_tab.3.title": "변경 히스토리",
+  "RuleSet.library.label.base.TabView.rule_set_tab.4.title": "규칙",
+  "RuleSet.library.label.base.TabView.rule_set_tab.tabRelatedObjects.title": "관련 개체",
+  "undefined": "탭"
+}

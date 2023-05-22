@@ -1,0 +1,12 @@
+{
+  "DataSecurityRule.DataSecurityRule.schema.field.objectId.label": "資料安全性規則 ID",
+  "DataSecurityRule.DataSecurityRule.schema.field.securityRules.label": "安全性規則",
+  "DataSecurityRule.library.label.base.Accordion.classification_accordion.classifications.title": "分類",
+  "DataSecurityRule.library.label.base.Accordion.instance_details.details.title": "資料安全性規則詳細資料",
+  "DataSecurityRule.library.label.base.Button.save.label": "儲存",
+  "DataSecurityRule.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "DataSecurityRule.library.label.base.TabView.TabView.0.title": "安全性規則",
+  "DataSecurityRule.library.label.base.TabView.TabView.1.title": "文件",
+  "DataSecurityRule.library.label.base.TabView.TabView.2.title": "變更歷程記錄",
+  "DataSecurityRule.library.label.base.TabView.TabView.tab_details.title": "詳細資料"
+}

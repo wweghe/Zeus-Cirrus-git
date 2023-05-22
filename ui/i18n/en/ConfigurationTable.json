@@ -1,0 +1,21 @@
+{
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd.label": "Status",
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd_1.label": "Status",
+  "ConfigurationTable.library.label.base.Accordion.instance_details.details.title": "Configuration Table Details",
+  "ConfigurationTable.library.label.base.Attachments.additional_attachments.label": "Documentation attachments",
+  "ConfigurationTable.library.label.base.Button.save.label": "Save",
+  "ConfigurationTable.library.label.base.CirrusObjectsLinks.documentation_links.label": "Documentation links",
+  "ConfigurationTable.library.label.base.Comments.additional_comments.label": "Comments",
+  "ConfigurationTable.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget_1.label": "Spreadsheet",
+  "ConfigurationTable.library.label.base.InputText.name.label": "Configuration table name",
+  "ConfigurationTable.library.label.base.InputText.objectId.label": "Configuration table ID",
+  "ConfigurationTable.library.label.base.InputTextarea.description.label": "Configuration table description",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.help.label": "If any of the linked configuration sets are in production status, configuration table is considered as production as well.",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.label": "Is Production",
+  "ConfigurationTable.library.label.base.ReadonlyFieldWidget.name_readonly.label": " ",
+  "ConfigurationTable.library.label.base.RichText.RichText_1.label": "Rich Text",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabChangeHistory.title": "Change History",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabData.title": "Data",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDetails.title": "Details",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDocumentation.title": "Documentation"
+}

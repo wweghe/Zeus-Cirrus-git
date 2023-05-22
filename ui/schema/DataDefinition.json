@@ -1,0 +1,367 @@
+{
+  "apiName": "dataDefinitions",
+  "bulkAPI": true,
+  "fields": {
+    "additional_comments": {
+      "id": "additional_comments",
+      "label": "Comments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Comments",
+        "libName": "base"
+      }
+    },
+    "allowDataAppend": {
+      "id": "allowDataAppend",
+      "label": "Allow data append operation on linked Analysis Data",
+      "newId": "allowDataAppend",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "RadioButtonField",
+        "libName": "base"
+      }
+    },
+    "allowDataDelete": {
+      "id": "allowDataDelete",
+      "label": "Allow data delete operation on linked Analysis Data",
+      "newId": "allowDataDelete",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "RadioButtonField",
+        "libName": "base"
+      }
+    },
+    "createdInTag": {
+      "id": "createdInTag",
+      "label": "Created in",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "creationTimeStamp": {
+      "id": "creationTimeStamp",
+      "label": "Date created",
+      "newId": "creationTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "default": {
+      "id": "default",
+      "label": "Default classification",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsClassification",
+        "libName": "base"
+      }
+    },
+    "description": {
+      "id": "description",
+      "index": 2,
+      "label": "Data definition description",
+      "newId": "description",
+      "props": {
+        "maxLength": 4000
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "documentation_attachments": {
+      "id": "documentation_attachments",
+      "label": "Documentation Attachments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsAttachments",
+        "libName": "base"
+      }
+    },
+    "documentation_links": {
+      "id": "documentation_links",
+      "label": "Documentation Links",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsLinks",
+        "libName": "base"
+      }
+    },
+    "martLibraryNm": {
+      "id": "martLibraryNm",
+      "index": 10,
+      "label": "Report mart library",
+      "newId": "martLibraryNm",
+      "props": {
+        "maxLength": 256
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "martTableNm": {
+      "id": "martTableNm",
+      "index": 11,
+      "label": "Report mart table",
+      "newId": "martTableNm",
+      "props": {
+        "maxLength": 32
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "modifiedTimeStamp": {
+      "id": "modifiedTimeStamp",
+      "label": "Date modified",
+      "newId": "modifiedTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "name": {
+      "id": "name",
+      "index": 4,
+      "label": "Data definition name",
+      "newId": "name",
+      "props": {
+        "maxLength": 200
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "objectId": {
+      "id": "objectId",
+      "index": 3,
+      "label": "Data definition ID",
+      "newId": "objectId",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "dataType": "string",
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    }
+  },
+  "id": "DataDefinition",
+  "index": 7,
+  "labelPlural": "Data Definitions",
+  "labelSingular": "Data Definition",
+  "nameField": "name",
+  "relationships": {
+    "analysisData_dataDefinition": {
+      "cardinality": "manyToOne",
+      "sourceLabel": "Analysis Data",
+      "sourceLabelPlural": "Analysis Data",
+      "sourceName": "AnalysisData",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisData",
+      "targetLabel": "Data Definition",
+      "targetLabelPlural": "Data Definitions",
+      "targetName": "DataDefinition",
+      "targetType": "DataDefinition",
+      "type": "lookup"
+    },
+    "analysisRun_param_dataDefinitions": {
+      "cardinality": "manyToMany",
+      "sourceLabel": "Analysis Run",
+      "sourceLabelPlural": "Analysis Runs",
+      "sourceName": "AnalysisRun",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisRun",
+      "targetLabel": "Data definition parameter",
+      "targetLabelPlural": "Data definition parameters",
+      "targetName": "DataDefinition",
+      "targetType": "DataDefinition",
+      "type": "lookup"
+    },
+    "attributionTemplate_dataDefinition_input": {
+      "cardinality": "manyToOne",
+      "index": 0,
+      "label": "Input data definitions",
+      "sourceLabel": "Attribution Template",
+      "sourceLabelPlural": "Attribution Templates",
+      "sourceName": "core_AttributionTemplate",
+      "sourceSysCode": "RCC",
+      "sourceType": "AttributionTemplate",
+      "targetLabel": "Input data definition",
+      "targetLabelPlural": "Input data definitions",
+      "targetName": "core_DataDefinition_input",
+      "targetType": "DataDefinition",
+      "type": "lookup"
+    },
+    "attributionTemplate_dataDefinition_output": {
+      "cardinality": "manyToOne",
+      "index": 1,
+      "label": "Output data definitions",
+      "sourceLabel": "Attribution Template",
+      "sourceLabelPlural": "Attribution Templates",
+      "sourceName": "core_AttributionTemplate",
+      "sourceSysCode": "RCC",
+      "sourceType": "AttributionTemplate",
+      "targetLabel": "Output data definition",
+      "targetLabelPlural": "Output data definitions",
+      "targetName": "core_DataDefinition_output",
+      "targetType": "DataDefinition",
+      "type": "lookup"
+    },
+    "dataDefinition_dataSecurityRules": {
+      "cardinality": "many",
+      "index": 1,
+      "label": "Data Definitions",
+      "sourceLabel": "Data Security Rule",
+      "sourceLabelPlural": "Data Security Rules",
+      "sourceName": "DataSecurityRule",
+      "sourceSysCode": "RCC",
+      "sourceType": "DataSecurityRule",
+      "targetLabel": "Data Definition",
+      "targetLabelPlural": "Data Definitions",
+      "targetName": "DataDefinition",
+      "targetType": "DataDefinition",
+      "type": "lookup"
+    },
+    "dataMap_dataDefinition_src": {
+      "cardinality": "one",
+      "sourceLabel": "Data Maps",
+      "sourceLabelPlural": "Data Maps",
+      "sourceName": "dataMap",
+      "sourceSysCode": "RCC",
+      "sourceType": "DataMap",
+      "targetLabel": "Data Definition Source",
+      "targetLabelPlural": "Data Definition Sources",
+      "targetName": "dataDefinition_src",
+      "targetType": "DataDefinition",
+      "type": "lookup"
+    },
+    "dataMap_dataDefinition_tgt": {
+      "cardinality": "one",
+      "sourceLabel": "Data Map",
+      "sourceLabelPlural": "Data Maps",
+      "sourceName": "dataMap",
+      "sourceSysCode": "RCC",
+      "sourceType": "DataMap",
+      "targetLabel": "Data Definition Target",
+      "targetLabelPlural": "Data Definition Targets",
+      "targetName": "dataDefinition_tgt",
+      "targetType": "DataDefinition",
+      "type": "lookup"
+    },
+    "ruleSet_dataDefinition": {
+      "cardinality": "manyToOne",
+      "index": 0,
+      "label": "Data Definitions",
+      "sourceLabel": "Rule Set",
+      "sourceLabelPlural": "Rule Sets",
+      "sourceName": "RuleSet",
+      "sourceSysCode": "RCC",
+      "sourceType": "RuleSet",
+      "targetLabel": "Data Definition",
+      "targetLabelPlural": "Data Definitions",
+      "targetName": "DataDefinition",
+      "targetType": "DataDefinition",
+      "type": "lookup"
+    }
+  },
+  "sasProvided": true,
+  "searchable": true,
+  "security": {
+    "actions": {
+      "edit": false,
+      "execute": false,
+      "view": true
+    },
+    "allowSharing": true,
+    "useHierarchy": true
+  },
+  "streamAPI": true,
+  "tasks": {}
+}

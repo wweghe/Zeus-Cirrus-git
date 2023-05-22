@@ -1,0 +1,159 @@
+{
+  "apiName": "sampleObjects",
+  "fields": {
+    "additional_comments": {
+      "id": "additional_comments",
+      "label": "Comments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Comments",
+        "libName": "base"
+      }
+    },
+    "createdInTag": {
+      "id": "createdInTag",
+      "index": 4,
+      "label": "Created in",
+      "newId": "createdInTag",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "creationTimeStamp": {
+      "id": "creationTimeStamp",
+      "label": "Date created",
+      "newId": "creationTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "description": {
+      "id": "description",
+      "index": 0,
+      "label": "Sample Object description",
+      "newId": "description",
+      "props": {
+        "maxLength": 4000
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "documentation_attachments": {
+      "id": "documentation_attachments",
+      "label": "Documentation Attachments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsAttachments",
+        "libName": "base"
+      }
+    },
+    "documentation_links": {
+      "id": "documentation_links",
+      "label": "Documentation Links",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsLinks",
+        "libName": "base"
+      }
+    },
+    "modifiedTimeStamp": {
+      "id": "modifiedTimeStamp",
+      "label": "Date modified",
+      "newId": "modifiedTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "name": {
+      "id": "name",
+      "index": 2,
+      "label": "Sample Object name",
+      "newId": "name",
+      "props": {
+        "maxLength": 200
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "objectId": {
+      "id": "objectId",
+      "index": 1,
+      "label": "Sample Object ID",
+      "newId": "objectId",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "dataType": "string",
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    }
+  },
+  "id": "SampleObject",
+  "labelPlural": "Sample Objects",
+  "labelSingular": "Sample Object",
+  "nameField": "name",
+  "relationships": {},
+  "sasProvided": true,
+  "tasks": {}
+}

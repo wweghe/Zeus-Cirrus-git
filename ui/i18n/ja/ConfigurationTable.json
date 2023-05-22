@@ -1,0 +1,21 @@
+{
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd.label": "状態",
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd_1.label": "状態",
+  "ConfigurationTable.library.label.base.Accordion.instance_details.details.title": "構成テーブルの詳細",
+  "ConfigurationTable.library.label.base.Attachments.additional_attachments.label": "ドキュメントの添付",
+  "ConfigurationTable.library.label.base.Button.save.label": "保存",
+  "ConfigurationTable.library.label.base.CirrusObjectsLinks.documentation_links.label": "ドキュメントのリンク",
+  "ConfigurationTable.library.label.base.Comments.additional_comments.label": "コメント",
+  "ConfigurationTable.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget_1.label": "スプレッドシート",
+  "ConfigurationTable.library.label.base.InputText.name.label": "構成テーブル名",
+  "ConfigurationTable.library.label.base.InputText.objectId.label": "構成テーブル ID",
+  "ConfigurationTable.library.label.base.InputTextarea.description.label": "構成テーブルの詳細",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.help.label": "リンクされた構成セットのいずれかが本稼働の状態にある場合、構成テーブルも本稼働と見なされます。",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.label": "本稼働",
+  "ConfigurationTable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationTable.library.label.base.RichText.RichText_1.label": "リッチテキスト",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabChangeHistory.title": "変更履歴",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabData.title": "データ",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDetails.title": "詳細",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDocumentation.title": "ドキュメント"
+}

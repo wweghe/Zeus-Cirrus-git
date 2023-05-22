@@ -1,0 +1,16 @@
+{
+  "Script.Script.schema.field.endsInAsyncCallFlg.option.label1.label": "はい",
+  "Script.Script.schema.field.endsInAsyncCallFlg.option.label2.label": "いいえ",
+  "Script.library.label.base.Accordion.Accordion.KRMOutputPane.title": "KRM 出力テーブル",
+  "Script.library.label.base.Accordion.instance_details.details.title": "スクリプトの詳細",
+  "Script.library.label.base.Button.save.label": "保存",
+  "Script.library.label.base.GenericSpreadsheetWidget.KRMSpreadsheetWidget.label": "スプレッドシート",
+  "Script.library.label.base.ReadonlyFieldWidget.ReadonlyFieldWidget.label": "現在、実行後スクリプトのパラメーターはサポートされていません。",
+  "Script.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "Script.library.label.base.TabView.script_tabs.tab_analysis_runs.title": "分析実行",
+  "Script.library.label.base.TabView.script_tabs.tab_change_history.title": "変更履歴",
+  "Script.library.label.base.TabView.script_tabs.tab_code.title": "コード",
+  "Script.library.label.base.TabView.script_tabs.tab_details.title": "詳細",
+  "Script.library.label.base.TabView.script_tabs.tab_documentation.title": "ドキュメント",
+  "Script.library.label.base.TabView.script_tabs.tab_parameters.title": "パラメーター"
+}

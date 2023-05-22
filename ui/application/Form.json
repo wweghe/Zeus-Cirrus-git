@@ -1,0 +1,569 @@
+{
+  "layouts": {
+    "GroupableContainer": {
+      "default": {
+        "Button": {
+          "h": 26,
+          "i": "Button",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 2
+        }
+      }
+    },
+    "TabView": {
+      "0": {
+        "description": {
+          "h": 50,
+          "i": "description",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 114
+        },
+        "formBuilder": {
+          "h": 800,
+          "i": "formBuilder",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 191
+        },
+        "name": {
+          "h": 50,
+          "i": "name",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 63
+        },
+        "objectId": {
+          "h": 50,
+          "i": "objectId",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 13
+        }
+      },
+      "1": {
+        "createdBy": {
+          "h": 50,
+          "i": "createdBy",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 6
+        },
+        "creationTimeStamp": {
+          "h": 50,
+          "i": "creationTimeStamp",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 3,
+          "y": 6
+        },
+        "modifiedBy": {
+          "h": 50,
+          "i": "modifiedBy",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 8
+        },
+        "modifiedTimeStamp": {
+          "h": 50,
+          "i": "modifiedTimeStamp",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 9,
+          "y": 6
+        }
+      },
+      "2": {
+        "linkedModels": {
+          "h": 50,
+          "i": "linkedModels",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 12
+        }
+      },
+      "4": {
+        "additionalComments": {
+          "h": 236,
+          "i": "additionalComments",
+          "minH": 236,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 115
+        },
+        "formLinks": {
+          "h": 100,
+          "i": "formLinks",
+          "minH": 100,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 8
+        },
+        "supportingDoc": {
+          "h": 100,
+          "i": "supportingDoc",
+          "minH": 100,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 4
+        }
+      },
+      "5": {
+        "ChangeHistory": {
+          "h": 236,
+          "i": "ChangeHistory",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 8
+        }
+      }
+    },
+    "base": {
+      "GroupableContainer": {
+        "h": 50,
+        "i": "GroupableContainer",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 8,
+        "x": 4,
+        "y": 0
+      },
+      "TabView": {
+        "h": 810,
+        "i": "TabView",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 295
+      },
+      "classifications_accordion": {
+        "h": 193,
+        "i": "classifications_accordion",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 89
+      },
+      "name_readonly": {
+        "h": 28,
+        "i": "name_readonly",
+        "minH": 24,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 0
+      }
+    },
+    "classifications_accordion": {
+      "classifications": {
+        "default": {
+          "h": 192,
+          "i": "default",
+          "minH": 186,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "draft": {
+        "name": "onDraftLoad"
+      },
+      "edit": {
+        "name": "onEditLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "onAnyEvent"
+      },
+      "onTabClose": {
+        "name": "onTabClose"
+      }
+    },
+    "props": {
+      "description": "",
+      "icon": "base://FORM",
+      "id": "Form",
+      "label": "Form",
+      "tabLabel": ""
+    }
+  },
+  "structure": {
+    "GroupableContainer": {
+      "default": {
+        "Button": {
+          "compName": "Button",
+          "containerId": "GroupableContainer",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "Button",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {},
+          "sasProvided": true
+        }
+      }
+    },
+    "TabView": {
+      "0": {
+        "description": {
+          "compName": "InputTextarea",
+          "containerId": "TabView",
+          "fieldName": "description",
+          "id": "description",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true,
+            "rows": 3
+          },
+          "sasProvided": true
+        },
+        "formBuilder": {
+          "compName": "EmbeddedBuilder",
+          "containerId": "TabView",
+          "fieldName": "formBuilder",
+          "id": "formBuilder",
+          "label": "appbuilder.toolboxitem.riskCirrusAppBuilder.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true
+        },
+        "name": {
+          "compName": "InputText",
+          "containerId": "TabView",
+          "events": {
+            "onChange": {
+              "name": "onNameChange"
+            }
+          },
+          "fieldName": "name",
+          "id": "name",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "objectId": {
+          "compName": "InputText",
+          "containerId": "TabView",
+          "events": {
+            "onChange": {
+              "name": "setDefaultName"
+            }
+          },
+          "fieldName": "objectId",
+          "id": "objectId",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      },
+      "1": {
+        "createdBy": {
+          "compName": "InputText",
+          "containerId": "TabView",
+          "fieldName": "createdBy",
+          "id": "createdBy",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "creationTimeStamp": {
+          "compName": "Calendar",
+          "containerId": "TabView",
+          "fieldName": "creationTimeStamp",
+          "id": "creationTimeStamp",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "modifiedBy": {
+          "compName": "InputText",
+          "containerId": "TabView",
+          "fieldName": "modifiedBy",
+          "id": "modifiedBy",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "modifiedTimeStamp": {
+          "compName": "Calendar",
+          "containerId": "TabView",
+          "fieldName": "modifiedTimeStamp",
+          "id": "modifiedTimeStamp",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      },
+      "2": {
+        "linkedModels": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "TabView",
+          "events": {
+            "getDraftLink": {
+              "name": "getDraftLink"
+            },
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "linkedModels",
+          "id": "linkedModels",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "4": {
+        "additionalComments": {
+          "compName": "Comments",
+          "containerId": "TabView",
+          "fieldName": "additionalComments",
+          "id": "additionalComments",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": false
+          },
+          "sasProvided": true
+        },
+        "formLinks": {
+          "compName": "CirrusObjectsLinks",
+          "containerId": "TabView",
+          "fieldName": "formLinks",
+          "id": "formLinks",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true
+        },
+        "supportingDoc": {
+          "compName": "CirrusObjectsAttachments",
+          "containerId": "TabView",
+          "fieldName": "supportingDoc",
+          "id": "supportingDoc",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "5": {
+        "ChangeHistory": {
+          "compName": "ChangeHistory",
+          "containerId": "TabView",
+          "id": "ChangeHistory",
+          "label": "appbuilder.toolboxitem.changeHistory.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true
+        }
+      }
+    },
+    "base": {
+      "GroupableContainer": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "GroupableContainer",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "TabView": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "TabView",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 2,
+          "childProps": {
+            "0": {
+              "label": "Details",
+              "name": "0",
+              "position": 0
+            },
+            "1": {
+              "label": "Team",
+              "name": "1",
+              "position": 1
+            },
+            "2": {
+              "label": "Related Objects",
+              "name": "2",
+              "position": 2
+            },
+            "4": {
+              "label": "Documentation",
+              "name": "4",
+              "position": 3
+            },
+            "5": {
+              "label": "Change History",
+              "name": "5",
+              "position": 4
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "classifications_accordion": {
+        "compName": "Accordion",
+        "containerId": "base",
+        "id": "classifications_accordion",
+        "label": "appbuilder.toolboxitem.accordion.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "classifications": {
+              "label": "Classifications",
+              "name": "classifications",
+              "position": 0
+            }
+          },
+          "showOutline": true
+        },
+        "sasProvided": true
+      },
+      "name_readonly": {
+        "compName": "ReadonlyFieldWidget",
+        "containerId": "base",
+        "id": "name_readonly",
+        "label": "appbuilder.toolboxitem.readonlyfield.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldValue": true,
+          "colon": false,
+          "stacked": false
+        },
+        "sasProvided": true
+      }
+    },
+    "classifications_accordion": {
+      "classifications": {
+        "default": {
+          "compName": "CirrusObjectsClassification",
+          "containerId": "classifications_accordion",
+          "fieldName": "default",
+          "id": "default",
+          "libName": "base",
+          "parentId": "classifications_accordion",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      }
+    }
+  }
+}

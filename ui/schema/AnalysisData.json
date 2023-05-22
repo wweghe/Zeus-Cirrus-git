@@ -1,0 +1,478 @@
+{
+  "apiName": "analysisData",
+  "bulkAPI": true,
+  "fields": {
+    "additional_comments": {
+      "id": "additional_comments",
+      "label": "Comments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Comments",
+        "libName": "base"
+      }
+    },
+    "baseDt": {
+      "id": "baseDt",
+      "index": 3,
+      "label": "Base date",
+      "newId": "baseDt",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "baseDttm": {
+      "id": "baseDttm",
+      "index": 4,
+      "label": "Base date",
+      "newId": "baseDttm",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "columnCount": {
+      "id": "columnCount",
+      "index": 13,
+      "label": "No. of columns",
+      "newId": "columnCount",
+      "props": {
+        "decimals": 0
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputNumberComponent",
+        "libName": "base"
+      }
+    },
+    "createdBy": {
+      "id": "createdBy",
+      "label": "Created by",
+      "newId": "createdBy",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "createdInTag": {
+      "id": "createdInTag",
+      "index": 4,
+      "label": "Created in",
+      "newId": "createdInTag",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "creationTimeStamp": {
+      "id": "creationTimeStamp",
+      "label": "Date created",
+      "newId": "creationTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "default": {
+      "id": "default",
+      "index": 9,
+      "label": "Default classification",
+      "newId": "default",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsClassification",
+        "libName": "base"
+      }
+    },
+    "description": {
+      "id": "description",
+      "index": 0,
+      "label": "Analysis data description",
+      "newId": "description",
+      "props": {
+        "maxLength": 4000
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "documentation_attachments": {
+      "id": "documentation_attachments",
+      "label": "Documentation Attachments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsAttachments",
+        "libName": "base"
+      }
+    },
+    "documentation_links": {
+      "id": "documentation_links",
+      "label": "Documentation Links",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsLinks",
+        "libName": "base"
+      }
+    },
+    "importJobId": {
+      "id": "importJobId",
+      "label": "SAS Job Id",
+      "newId": "importJobId",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "importJobURI": {
+      "id": "importJobURI",
+      "label": "URI for job tracking status",
+      "newId": "importJobURI",
+      "props": {
+        "maxLength": 1000
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "indexList": {
+      "id": "indexList",
+      "label": "List of indexes",
+      "newId": "indexList",
+      "props": {
+        "maxLength": 5000
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "modifiedTimeStamp": {
+      "id": "modifiedTimeStamp",
+      "label": "Date modified",
+      "newId": "modifiedTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "name": {
+      "id": "name",
+      "index": 2,
+      "label": "Analysis data name",
+      "newId": "name",
+      "props": {
+        "maxLength": 200
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "objectId": {
+      "id": "objectId",
+      "index": 1,
+      "label": "Analysis data ID",
+      "newId": "objectId",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "dataType": "string",
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "partitionCount": {
+      "id": "partitionCount",
+      "label": "No. of partitions",
+      "newId": "partitionCount",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "physicalTableNm": {
+      "id": "physicalTableNm",
+      "label": "Physical table name",
+      "newId": "physicalTableNm",
+      "props": {
+        "maxLength": 30
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "rowCount": {
+      "id": "rowCount",
+      "index": 15,
+      "label": "No. of rows",
+      "newId": "rowCount",
+      "props": {
+        "decimals": 0
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputNumberComponent",
+        "libName": "base"
+      }
+    },
+    "rowsPerPartition": {
+      "id": "rowsPerPartition",
+      "label": "Rows per partition",
+      "newId": "rowsPerPartition",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "statusCd": {
+      "id": "statusCd",
+      "label": "Status",
+      "newId": "statusCd",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "strategyType": {
+      "id": "strategyType",
+      "index": 18,
+      "label": "Strategy deriving number of partitions",
+      "newId": "strategyType",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    }
+  },
+  "id": "AnalysisData",
+  "index": 0,
+  "labelPlural": "Analysis Data",
+  "labelSingular": "Analysis Data",
+  "nameField": "name",
+  "relationships": {
+    "analysisData_analysisRun_out": {
+      "cardinality": "manyToOne",
+      "index": 0,
+      "label": "Analysis data outputs",
+      "sourceLabel": "Output analysis data",
+      "sourceLabelPlural": "Output analysis data",
+      "sourceName": "linked_outputAnalysisData",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisData",
+      "targetLabel": "Analysis Run (producing this data)",
+      "targetLabelPlural": "Analysis Runs (producing this data)",
+      "targetName": "linked_analysisRunProducingData",
+      "targetType": "AnalysisRun",
+      "type": "lookup"
+    },
+    "analysisData_cycle": {
+      "cardinality": "manyToOne",
+      "sourceLabel": "Analysis Data",
+      "sourceLabelPlural": "Analysis Data",
+      "sourceName": "AnalysisData",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisData",
+      "targetLabel": "Cycle",
+      "targetLabelPlural": "Cycles",
+      "targetName": "Cycle",
+      "targetType": "Cycle",
+      "type": "lookup"
+    },
+    "analysisData_dataDefinition": {
+      "cardinality": "manyToOne",
+      "sourceLabel": "Analysis Data",
+      "sourceLabelPlural": "Analysis Data",
+      "sourceName": "AnalysisData",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisData",
+      "targetLabel": "Data Definition",
+      "targetLabelPlural": "Data Definitions",
+      "targetName": "DataDefinition",
+      "targetType": "DataDefinition",
+      "type": "lookup"
+    },
+    "analysisData_dataSecurityRules": {
+      "cardinality": "many",
+      "index": 0,
+      "label": "Analysis Data",
+      "sourceLabel": "Data Security Rule",
+      "sourceLabelPlural": "Data Security Rules",
+      "sourceName": "DataSecurityRule",
+      "sourceSysCode": "RCC",
+      "sourceType": "DataSecurityRule",
+      "targetLabel": "Analysis Data",
+      "targetLabelPlural": "Analysis Data",
+      "targetName": "AnalysisData",
+      "targetType": "AnalysisData",
+      "type": "lookup"
+    },
+    "analysisRun_param_analysisData": {
+      "cardinality": "manyToMany",
+      "index": 0,
+      "label": "Analysis Runs (consuming this data)",
+      "sourceLabel": "Analysis Run (consuming this data)",
+      "sourceLabelPlural": "Analysis Runs (consuming this data)",
+      "sourceName": "linked_analysisRunsConsumingData",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisRun",
+      "targetLabel": "Analysis data parameter",
+      "targetLabelPlural": "Analysis data parameters",
+      "targetName": "linked_analysisDataParams",
+      "targetType": "AnalysisData",
+      "type": "lookup"
+    }
+  },
+  "sasProvided": true,
+  "searchable": true,
+  "security": {
+    "actions": {
+      "edit": false,
+      "execute": false,
+      "view": true
+    },
+    "allowSharing": true,
+    "useHierarchy": true
+  },
+  "streamAPI": true,
+  "tasks": {}
+}

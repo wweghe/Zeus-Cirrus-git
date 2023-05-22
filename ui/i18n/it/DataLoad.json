@@ -1,0 +1,13 @@
+{
+  "DataLoad.library.label.base.Accordion.Accordion.runEtlTab.help": "",
+  "DataLoad.library.label.base.Accordion.Accordion.runEtlTab.title": "Esecuzione dell’ETL",
+  "DataLoad.library.label.base.Accordion.Accordion_1.runEtlTab.help": "",
+  "DataLoad.library.label.base.Accordion.Accordion_files_exist.runEtlTab.title": "Esecuzione dell’ETL",
+  "DataLoad.library.label.base.CirrusObjectsDataLoad.CirrusObjectsDataLoad.label": "Data loader",
+  "DataLoad.library.label.base.CirrusObjectsDataLoad.CirrusObjectsDataLoad_files_exist.label": "Data loader",
+  "DataLoad.library.label.base.CirrusObjectsDataMart.CirrusObjectsDataMart_files_exist.label": "Reporter del data mart",
+  "DataLoad.library.label.base.LinksListWidget.LinksListWidget.label": "File del data loader",
+  "DataLoad.library.label.base.TabView.TabView.0.title": "Caricamento dei dati",
+  "DataLoad.library.label.base.TabView.TabView.1.title": "File",
+  "undefined": "Sezione dinamica"
+}

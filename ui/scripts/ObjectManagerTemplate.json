@@ -1,0 +1,563 @@
+{
+  "onCopy": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_widgetID"
+      },
+      {
+        "datatype": "numeric array",
+        "name": "input_keys"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "03b4c311-05f7-4d99-a76b-c5eae7262262",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "copy"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "entrypoint",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "cc100f63-eaa4-43b0-93b9-e869fb9768c5",
+        "type": "fixed",
+        "value": {
+          "datatype": "boolean",
+          "dataval": "false"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "replace",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "feb71906-e559-4372-b2c3-6c866a02583a",
+        "type": "calculated",
+        "value": {
+          "function": "map",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "numeric array",
+              "name": "input_keys",
+              "scope": "local"
+            },
+            "callback": {
+              "function": "buildCopyLocation",
+              "library": "WidgetObjectManager",
+              "params": {
+                "entrypoint": {
+                  "datatype": "text",
+                  "name": "entrypoint",
+                  "scope": "local"
+                },
+                "key": {
+                  "datatype": "numeric",
+                  "label": "Current value",
+                  "name": "loop_currentValue",
+                  "scope": "local"
+                },
+                "widgetID": {
+                  "datatype": "text",
+                  "name": "input_widgetID",
+                  "scope": "local"
+                }
+              },
+              "returnType": "text"
+            }
+          },
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "locations",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "forEach",
+        "id": "06653a84-c00f-44db-806d-0a8caa322384",
+        "library": "CirrusLibArray",
+        "params": {
+          "array": {
+            "datatype": "text array",
+            "name": "locations",
+            "scope": "local"
+          },
+          "callback": {
+            "function": "navigate",
+            "library": "CirrusLibNav",
+            "params": {
+              "location": {
+                "datatype": "text",
+                "label": "Current value",
+                "name": "loop_currentValue",
+                "scope": "local"
+              },
+              "replace": {
+                "datatype": "boolean",
+                "name": "replace",
+                "scope": "local"
+              }
+            },
+            "returnType": "text"
+          }
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onCreate": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_widgetID"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "cbc91f1f-0d1b-499f-af9d-8fdbca07030c",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "draft"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "entrypoint",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "cbaffd9a-305f-4cce-a8d5-c4c2176d9975",
+        "type": "calculated",
+        "value": {
+          "function": "buildDraftLocation",
+          "library": "WidgetObjectManager",
+          "params": {
+            "entrypoint": {
+              "datatype": "text",
+              "name": "entrypoint",
+              "scope": "local"
+            },
+            "widgetID": {
+              "datatype": "text",
+              "name": "input_widgetID",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "location",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "nav",
+        "id": "f2d35a0a-7ab6-4928-848c-aa9ff948f97e",
+        "location": {
+          "datatype": "text",
+          "name": "location",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onDelete": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_widgetID"
+      },
+      {
+        "datatype": "numeric array",
+        "name": "input_keys"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "8fec35a0-94d5-441b-a9df-55ca28608e8f",
+        "type": "calculated",
+        "value": {
+          "function": "getObjectType",
+          "library": "WidgetObjectManager",
+          "params": {
+            "widgetID": {
+              "datatype": "text",
+              "name": "input_widgetID",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "deleteObjects",
+        "id": "cbbba3f5-7b00-45ec-a342-923b7b352175",
+        "library": "CirrusLibCirrusObject",
+        "params": {
+          "keys": {
+            "datatype": "numeric array",
+            "name": "input_keys",
+            "scope": "local"
+          },
+          "type": {
+            "datatype": "text",
+            "name": "objectType",
+            "scope": "local"
+          }
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onEdit": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_widgetID"
+      },
+      {
+        "datatype": "numeric",
+        "name": "input_key"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "88fcac23-2100-4a86-ab90-3f24b738d034",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "edit"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "entrypoint",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "b80accc3-c82b-40b8-8ca9-2341296415f8",
+        "type": "calculated",
+        "value": {
+          "function": "buildEditLocation",
+          "library": "WidgetObjectManager",
+          "params": {
+            "entrypoint": {
+              "datatype": "text",
+              "name": "entrypoint",
+              "scope": "local"
+            },
+            "key": {
+              "datatype": "numeric",
+              "name": "input_key",
+              "scope": "local"
+            },
+            "widgetID": {
+              "datatype": "text",
+              "name": "input_widgetID",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "location",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "nav",
+        "id": "32a96b82-504d-43b6-ac78-7f89eedd4819",
+        "location": {
+          "datatype": "text",
+          "name": "location",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onExport": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_widgetID"
+      },
+      {
+        "datatype": "text",
+        "name": "input_fields"
+      },
+      {
+        "datatype": "text",
+        "name": "input_filter"
+      },
+      {
+        "datatype": "numeric",
+        "name": "input_limit"
+      },
+      {
+        "datatype": "SortBy",
+        "name": "input_sortBy"
+      },
+      {
+        "datatype": "numeric",
+        "name": "input_start"
+      },
+      {
+        "datatype": "text array",
+        "name": "input_keys"
+      },
+      {
+        "datatype": "text",
+        "name": "input_includeFields"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "80cea824-8f53-4ae7-87ae-0a2198365587",
+        "type": "calculated",
+        "value": {
+          "function": "getObjectType",
+          "library": "WidgetObjectManager",
+          "params": {
+            "widgetID": {
+              "datatype": "text",
+              "name": "input_widgetID",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "exportObjects",
+        "id": "ad188f85-2ce1-4913-a20c-4a6abd8aa1fe",
+        "library": "CirrusLibCirrusObject",
+        "params": {
+          "fields": {
+            "datatype": "text",
+            "name": "input_fields",
+            "scope": "local"
+          },
+          "filter": {
+            "datatype": "text",
+            "name": "input_filter",
+            "scope": "local"
+          },
+          "includeFields": {
+            "datatype": "text",
+            "name": "input_includeFields",
+            "scope": "local"
+          },
+          "keys": {
+            "datatype": "text array",
+            "name": "input_keys",
+            "scope": "local"
+          },
+          "limit": {
+            "datatype": "numeric",
+            "name": "input_limit",
+            "scope": "local"
+          },
+          "sortBy": {
+            "datatype": "SortBy",
+            "name": "input_sortBy",
+            "scope": "local"
+          },
+          "start": {
+            "datatype": "numeric",
+            "name": "input_start",
+            "scope": "local"
+          },
+          "type": {
+            "datatype": "text",
+            "name": "objectType",
+            "scope": "local"
+          }
+        },
+        "returnType": "None"
+      }
+    ],
+    "sasProvided": true
+  },
+  "onFetch": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_widgetID"
+      },
+      {
+        "datatype": "text array",
+        "name": "input_fields"
+      },
+      {
+        "datatype": "text",
+        "name": "input_filter"
+      },
+      {
+        "datatype": "numeric",
+        "name": "input_limit"
+      },
+      {
+        "datatype": "SortBy",
+        "name": "input_sortBy"
+      },
+      {
+        "datatype": "numeric",
+        "name": "input_start"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "ed80cde2-e1ac-45ac-a21e-a628c606d6d4",
+        "type": "calculated",
+        "value": {
+          "function": "getObjectType",
+          "library": "WidgetObjectManager",
+          "params": {
+            "widgetID": {
+              "datatype": "text",
+              "name": "input_widgetID",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "cc8e0d9e-0bb7-480e-bb49-1bd2552be501",
+        "type": "calculated",
+        "value": {
+          "function": "fetchObjectsWithCount",
+          "library": "CirrusLibCirrusObject",
+          "params": {
+            "fields": {
+              "datatype": "text array",
+              "name": "input_fields",
+              "scope": "local"
+            },
+            "filter": {
+              "datatype": "text",
+              "name": "input_filter",
+              "scope": "local"
+            },
+            "limit": {
+              "datatype": "numeric",
+              "name": "input_limit",
+              "scope": "local"
+            },
+            "sortBy": {
+              "datatype": "SortBy",
+              "name": "input_sortBy",
+              "scope": "local"
+            },
+            "start": {
+              "datatype": "numeric",
+              "name": "input_start",
+              "scope": "local"
+            },
+            "type": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            }
+          },
+          "returnType": "All Data"
+        },
+        "variable": {
+          "datatype": "All Data",
+          "name": "items",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "returnvar",
+        "id": "f5dde8ea-b881-4304-a65a-53204757927d",
+        "variable": {
+          "datatype": "object array",
+          "name": "items",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onSave": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_widgetID"
+      },
+      {
+        "datatype": "Save Patch",
+        "name": "input_patch"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "ea51c85f-d1c7-4feb-8eeb-31fd0c86ff72",
+        "type": "calculated",
+        "value": {
+          "function": "getObjectType",
+          "library": "WidgetObjectManager",
+          "params": {
+            "widgetID": {
+              "datatype": "text",
+              "name": "input_widgetID",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  }
+}

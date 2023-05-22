@@ -1,0 +1,13 @@
+{
+  "DataLoad.library.label.base.Accordion.Accordion.runEtlTab.help": "",
+  "DataLoad.library.label.base.Accordion.Accordion.runEtlTab.title": "Ejecutar ETL",
+  "DataLoad.library.label.base.Accordion.Accordion_1.runEtlTab.help": "",
+  "DataLoad.library.label.base.Accordion.Accordion_files_exist.runEtlTab.title": "Ejecutar ETL",
+  "DataLoad.library.label.base.CirrusObjectsDataLoad.CirrusObjectsDataLoad.label": "Cargador de datos",
+  "DataLoad.library.label.base.CirrusObjectsDataLoad.CirrusObjectsDataLoad_files_exist.label": "Cargador de datos",
+  "DataLoad.library.label.base.CirrusObjectsDataMart.CirrusObjectsDataMart_files_exist.label": "Informador de Data Mart",
+  "DataLoad.library.label.base.LinksListWidget.LinksListWidget.label": "Archivos del cargador de datos",
+  "DataLoad.library.label.base.TabView.TabView.0.title": "Carga de datos",
+  "DataLoad.library.label.base.TabView.TabView.1.title": "Archivos",
+  "undefined": "Acordeón"
+}

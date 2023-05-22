@@ -1,0 +1,76 @@
+{
+  "apiName": "users",
+  "bulkAPI": true,
+  "fields": {
+    "id": {
+      "id": "id",
+      "index": 0,
+      "label": "ID",
+      "newId": "id",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "name": {
+      "id": "name",
+      "index": 1,
+      "label": "Name",
+      "newId": "name",
+      "props": {
+        "maxLength": 200
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    }
+  },
+  "id": "User",
+  "index": 14,
+  "labelPlural": "Users",
+  "labelSingular": "User",
+  "relationships": {
+    "analysisRun_jobOwner": {
+      "cardinality": "manyToOne",
+      "index": 7,
+      "label": "Users",
+      "sourceLabel": "Analysis Run",
+      "sourceLabelPlural": "Analysis Runs",
+      "sourceName": "AnalysisRun",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisRun",
+      "targetLabel": "Job Owner",
+      "targetLabelPlural": "Job Owners",
+      "targetName": "User",
+      "targetType": "User",
+      "type": "lookup"
+    }
+  },
+  "sasProvided": true,
+  "searchable": true,
+  "security": {
+    "actions": {
+      "edit": false,
+      "execute": false,
+      "view": true
+    },
+    "allowSharing": true,
+    "useHierarchy": true
+  },
+  "streamAPI": true,
+  "tasks": {}
+}

@@ -1,0 +1,20 @@
+{
+  "CodeLibrary.CodeLibrary.schema.field.description.label": "Opis biblioteki kodów",
+  "CodeLibrary.CodeLibrary.schema.field.gitBranch.label": "Gałąź Gita",
+  "CodeLibrary.CodeLibrary.schema.field.gitCommit.label": "Zatwierdzenie Gita",
+  "CodeLibrary.CodeLibrary.schema.field.gitRepoName.label": "Nazwa repozytorium Gita",
+  "CodeLibrary.CodeLibrary.schema.field.git_commit_selector.label": "Zatwierdzenie Gita",
+  "CodeLibrary.CodeLibrary.schema.field.name.label": "Nazwa biblioteki kodów",
+  "CodeLibrary.CodeLibrary.schema.field.objectId.label": "Identyfikator biblioteki kodów",
+  "CodeLibrary.CodeLibrary.schema.field.statusCd.label": "Status biblioteki kodów",
+  "CodeLibrary.library.label.base.Accordion.Accordion.branchDetails.title": "Informacje o gałęzi",
+  "CodeLibrary.library.label.base.Accordion.instance_details.details.title": "Informacje o bibliotece kodów",
+  "CodeLibrary.library.label.base.Button.save.label": "Zapisz",
+  "CodeLibrary.library.label.base.GitCommitSelector.gitCommit.label": "Zatwierdzenie Gita",
+  "CodeLibrary.library.label.base.LinkWidget.gitRepoURL.label": "",
+  "CodeLibrary.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "CodeLibrary.library.label.base.TabView.main_tabs.1.title": "Dokumentacja",
+  "CodeLibrary.library.label.base.TabView.main_tabs.2.title": "Zależności",
+  "CodeLibrary.library.label.base.TabView.main_tabs.3.title": "Historia zmian",
+  "CodeLibrary.library.label.base.TabView.main_tabs.tabDetails.title": "Informacje"
+}

@@ -1,0 +1,21 @@
+{
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd.label": "Stato",
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd_1.label": "Stato",
+  "ConfigurationTable.library.label.base.Accordion.instance_details.details.title": "Dettagli della tabella di configurazione",
+  "ConfigurationTable.library.label.base.Attachments.additional_attachments.label": "Allegati alla documentazione",
+  "ConfigurationTable.library.label.base.Button.save.label": "Salva",
+  "ConfigurationTable.library.label.base.CirrusObjectsLinks.documentation_links.label": "Collegamenti alla documentazione",
+  "ConfigurationTable.library.label.base.Comments.additional_comments.label": "Commenti",
+  "ConfigurationTable.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget_1.label": "Foglio di calcolo",
+  "ConfigurationTable.library.label.base.InputText.name.label": "Nome tabella di configurazione",
+  "ConfigurationTable.library.label.base.InputText.objectId.label": "ID tabella di configurazione",
+  "ConfigurationTable.library.label.base.InputTextarea.description.label": "Descrizione tabella di configurazione",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.help.label": "Se uno dei set di configurazione collegati è in stato di produzione, anche la tabella di configurazione viene considerata come produzione.",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.label": "È produzione",
+  "ConfigurationTable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationTable.library.label.base.RichText.RichText_1.label": "RTF",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabChangeHistory.title": "Cronologia delle modifiche",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabData.title": "Dati",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDetails.title": "Dettagli",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDocumentation.title": "Documentazione"
+}

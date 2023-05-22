@@ -1,0 +1,318 @@
+{
+  "apiName": "kpis",
+  "fields": {
+    "additional_comments": {
+      "id": "additional_comments",
+      "label": "Comments",
+      "newId": "additional_comments",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Comments",
+        "libName": "base"
+      }
+    },
+    "category": {
+      "id": "category",
+      "index": 8,
+      "label": "KPI category",
+      "newId": "category",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "codeEditor": {
+      "id": "codeEditor",
+      "label": "Code editor",
+      "newId": "codeEditor",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {},
+      "type": {
+        "compName": "CodeEditor",
+        "libName": "base"
+      }
+    },
+    "createdBy": {
+      "id": "createdBy",
+      "label": "Creator",
+      "newId": "createdBy",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "createdInTag": {
+      "id": "createdInTag",
+      "label": "Created in",
+      "newId": "createdInTag",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "creationTimeStamp": {
+      "id": "creationTimeStamp",
+      "label": "Date created",
+      "newId": "creationTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "default": {
+      "id": "default",
+      "label": "Default classification",
+      "newId": "default",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsClassification",
+        "libName": "base"
+      }
+    },
+    "description": {
+      "id": "description",
+      "index": 7,
+      "label": "KPI description",
+      "newId": "description",
+      "props": {
+        "maxLength": 4000
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "documentation_attachments": {
+      "id": "documentation_attachments",
+      "label": "Documentation Attachments",
+      "newId": "documentation_attachments",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsAttachments",
+        "libName": "base"
+      }
+    },
+    "documentation_links": {
+      "id": "documentation_links",
+      "index": 6,
+      "label": "Documentation Links",
+      "newId": "documentation_links",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsLinks",
+        "libName": "base"
+      }
+    },
+    "modifiedBy": {
+      "id": "modifiedBy",
+      "label": "Last editor",
+      "newId": "modifiedBy",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "modifiedTimeStamp": {
+      "id": "modifiedTimeStamp",
+      "label": "Date modified",
+      "newId": "modifiedTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "name": {
+      "id": "name",
+      "label": "KPI name",
+      "newId": "name",
+      "props": {
+        "maxLength": 200
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "objectId": {
+      "id": "objectId",
+      "label": "KPI ID",
+      "newId": "objectId",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "parameters": {
+      "id": "parameters",
+      "label": "Parameters",
+      "newId": "parameters",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {},
+      "type": {
+        "compName": "EmbeddedBuilder",
+        "libName": "base"
+      }
+    },
+    "thresholdsApplicable": {
+      "id": "thresholdsApplicable",
+      "index": 15,
+      "label": "Thresholds are applicable",
+      "newId": "thresholdsApplicable",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CheckboxField",
+        "libName": "base"
+      }
+    },
+    "thresholdsBetterBound": {
+      "id": "thresholdsBetterBound",
+      "index": 16,
+      "label": "Which of the following KPI values represents a better health?",
+      "newId": "thresholdsBetterBound",
+      "props": {
+        "hideColumn": true,
+        "options": {
+          "higherIsBetter": {
+            "index": 1,
+            "label": "Higher values",
+            "value": "higherIsBetter"
+          },
+          "lowerIsBetter": {
+            "index": 0,
+            "label": "Lower values",
+            "value": "lowerIsBetter"
+          }
+        }
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "RadioButtonGroup",
+        "libName": "base"
+      }
+    }
+  },
+  "id": "KPI",
+  "index": 12,
+  "labelPlural": "KPIs",
+  "labelSingular": "KPI",
+  "nameField": "name",
+  "relationships": {
+    "monitoringPlan_kpi": {
+      "cardinality": "manyToMany",
+      "index": 0,
+      "label": "Monitoring Plans",
+      "sourceLabel": "Monitoring Plan",
+      "sourceLabelPlural": "Monitoring Plans",
+      "sourceName": "linkedMonitoringPlans",
+      "sourceSysCode": "RCC",
+      "sourceType": "MonitoringPlan",
+      "targetLabel": "KPI",
+      "targetLabelPlural": "KPIs",
+      "targetName": "linkedKPIs",
+      "targetType": "KPI",
+      "type": "lookup"
+    }
+  },
+  "tasks": {}
+}

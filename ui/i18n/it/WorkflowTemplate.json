@@ -1,0 +1,23 @@
+{
+  "WorkflowTemplate.WorkflowTemplate.schema.field.createNewDefinition.label": "Creare un nuovo template del workflow o selezionarne uno esistente?",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.initializeFlg.option.label1.label": "Sì",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.initializeFlg.option.label2.label": "No",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.input_file_attachment.label": "File del template del workflow",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.objectType.help.label": "L’elenco delle scelte a discesa si basa sulle registrazioni degli oggetti per cui il workflow è stato abilitato tramite la proprietà workflowEnabled.",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.objectType_1.help.label": "L’elenco delle scelte a discesa si basa sulle registrazioni degli oggetti per cui il workflow è stato abilitato tramite la proprietà workflowEnabled.",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.message.label": "La definizione del workflow non deve avere nomi di task duplicati. Selezionare una definizione del workflow con nomi di task univoci.",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.script.summary.label": "I seguenti script sono stati referenziati nei dettagli dei task del workflow ma non esistono:",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.summary.label": "La definizione del workflow non è valida.",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.wfDefinitionName.label": "Nome definizione del workflow",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.wfDefinitionName_1.label": "Nome definizione del workflow",
+  "WorkflowTemplate.library.label.base.Accordion.instance_details.details.title": "Dettagli del template del workflow",
+  "WorkflowTemplate.library.label.base.Button.save.label": "Salva",
+  "WorkflowTemplate.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.0.title": "Task",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.1.title": "Documentazione",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.2.title": "Oggetti correlati",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.3.title": "Cronologia delle modifiche",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.tab_details.title": "Dettagli",
+  "WorkflowTemplate.library.label.base.TabView.save_container.0.title": "Salvataggio",
+  "WorkflowTemplate.library.label.base.WorkflowDiagram.WorkflowDiagram.label": "Diagramma del workflow"
+}

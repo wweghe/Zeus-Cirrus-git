@@ -1,0 +1,23 @@
+{
+  "WorkflowTemplate.WorkflowTemplate.schema.field.createNewDefinition.label": "建立新的工作流程範本還是選取現有工作流程範本?",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.initializeFlg.option.label1.label": "是",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.initializeFlg.option.label2.label": "否",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.input_file_attachment.label": "工作流程範本檔案",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.objectType.help.label": "下拉式選項清單是根據透過 workflowEnabled 屬性啟用工作流程的物件註冊。",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.objectType_1.help.label": "下拉式選項清單是根據透過 workflowEnabled 屬性啟用工作流程的物件註冊。",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.message.label": "工作流程定義不得有重複的任務名稱。請選取具有唯一任務名稱的工作流程定義。",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.script.summary.label": "工作流程任務詳細資料中已參考下列指令碼，但不存在：",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.summary.label": "工作流程定義無效。",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.wfDefinitionName.label": "工作流程定義名稱",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.wfDefinitionName_1.label": "工作流程定義名稱",
+  "WorkflowTemplate.library.label.base.Accordion.instance_details.details.title": "工作流程範本詳細資料",
+  "WorkflowTemplate.library.label.base.Button.save.label": "儲存",
+  "WorkflowTemplate.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.0.title": "任務",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.1.title": "文件",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.2.title": "相關物件",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.3.title": "變更歷程記錄",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.tab_details.title": "詳細資料",
+  "WorkflowTemplate.library.label.base.TabView.save_container.0.title": "儲存",
+  "WorkflowTemplate.library.label.base.WorkflowDiagram.WorkflowDiagram.label": "工作流程圖表"
+}

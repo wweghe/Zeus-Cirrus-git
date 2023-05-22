@@ -1,0 +1,245 @@
+{
+  "apiName": "monitoringPlans",
+  "fields": {
+    "additional_attachments": {
+      "id": "additional_attachments",
+      "index": 9,
+      "label": "Monitoring Plan-related links",
+      "newId": "additional_attachments",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsAttachments",
+        "libName": "base"
+      }
+    },
+    "additional_comments": {
+      "id": "additional_comments",
+      "index": 0,
+      "label": "Additional comments",
+      "newId": "additional_comments",
+      "props": {
+        "commentEditMode": "editableByOwner",
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Comments",
+        "libName": "base"
+      }
+    },
+    "createdBy": {
+      "id": "createdBy",
+      "label": "Creator",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "createdInTag": {
+      "id": "createdInTag",
+      "label": "Created in",
+      "newId": "createdInTag",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "creationTimeStamp": {
+      "id": "creationTimeStamp",
+      "label": "Date created",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "description": {
+      "id": "description",
+      "index": 6,
+      "label": "Monitoring plan description",
+      "newId": "description",
+      "props": {
+        "maxLength": 4000
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "documentation_links": {
+      "id": "documentation_links",
+      "index": 10,
+      "label": "Supporting documentation link",
+      "newId": "documentation_links",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsLinks",
+        "libName": "base"
+      }
+    },
+    "modifiedBy": {
+      "id": "modifiedBy",
+      "index": 5,
+      "label": "Last editor",
+      "newId": "modifiedBy",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "modifiedTimeStamp": {
+      "id": "modifiedTimeStamp",
+      "label": "Date modified",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "name": {
+      "id": "name",
+      "index": 6,
+      "label": "Monitoring plan name",
+      "newId": "name",
+      "props": {
+        "maxLength": 200
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "objectId": {
+      "id": "objectId",
+      "index": 5,
+      "label": "Monitoring plan ID",
+      "newId": "objectId",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "thresholds": {
+      "id": "thresholds",
+      "index": 11,
+      "label": "Thresholds",
+      "newId": "thresholds",
+      "props": {
+        "hideColumn": true,
+        "maxLength": 100000
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    }
+  },
+  "id": "MonitoringPlan",
+  "index": 16,
+  "labelPlural": "Monitoring Plans",
+  "labelSingular": "Monitoring Plan",
+  "nameField": "name",
+  "relationships": {
+    "model_monitoringPlan": {
+      "cardinality": "manyToOne",
+      "index": 1,
+      "label": "Models",
+      "sourceLabel": "Model",
+      "sourceLabelPlural": "Models",
+      "sourceName": "linkedModels",
+      "sourceSysCode": "RCC",
+      "sourceType": "Model",
+      "targetLabel": "Monitoring Plan",
+      "targetLabelPlural": "Monitoring Plans",
+      "targetName": "linkedMonitoringPlans",
+      "targetType": "MonitoringPlan",
+      "type": "lookup"
+    },
+    "monitoringPlan_kpi": {
+      "cardinality": "manyToMany",
+      "index": 0,
+      "label": "Monitoring Plans",
+      "sourceLabel": "Monitoring Plan",
+      "sourceLabelPlural": "Monitoring Plans",
+      "sourceName": "linkedMonitoringPlans",
+      "sourceSysCode": "RCC",
+      "sourceType": "MonitoringPlan",
+      "targetLabel": "KPI",
+      "targetLabelPlural": "KPIs",
+      "targetName": "linkedKPIs",
+      "targetType": "KPI",
+      "type": "lookup"
+    }
+  },
+  "tasks": {}
+}

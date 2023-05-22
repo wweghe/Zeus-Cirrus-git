@@ -1,0 +1,15 @@
+{
+  "KPI.KPI.schema.field.category.label": "KPI 범주",
+  "KPI.KPI.schema.field.thresholdsApplicable.help.label": "이 옵션을 통해 KPI의 상태를 모니터링하기 위한 임계값을 설정할 수 있습니다. KPI가 측정 가능한 단일 값인 경우 이 옵션을 선택합니다.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.help.label": "응용 프로그램은 선택된 KPI 상태 범위를 기반으로 임계값의 색상 띠를 할당합니다.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.label": "다음 KPI 값 중 더 나은 상태를 나타내는 값은 무엇입니까?",
+  "KPI.library.label.base.Button.save_button.label": "저장",
+  "KPI.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "KPI.library.label.base.TabView.TabView.changeHistory.title": "변경 히스토리",
+  "KPI.library.label.base.TabView.TabView.code.title": "코드",
+  "KPI.library.label.base.TabView.TabView.details.title": "상세 정보",
+  "KPI.library.label.base.TabView.TabView.documentation.title": "문서",
+  "KPI.library.label.base.TabView.TabView.relatedObjects.title": "관련 개체",
+  "KPI.library.label.base.TabView.TabView.tab_parameters.title": "파라미터",
+  "KPI.library.label.base.TabView.TabView.threshold.title": "임계값"
+}

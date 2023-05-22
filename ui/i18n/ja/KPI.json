@@ -1,0 +1,15 @@
+{
+  "KPI.KPI.schema.field.category.label": "KPI カテゴリ",
+  "KPI.KPI.schema.field.thresholdsApplicable.help.label": "このオプションを使用すると、KPI の正常性をモニタリングするためのしきい値を設定できます。KPI が単一の測定可能な値である場合は、このオプションを選択します。",
+  "KPI.KPI.schema.field.thresholdsBetterBound.help.label": "選択された KPI の正常性範囲に基づいて、しきい値のカラーバンドが割り当てられます。",
+  "KPI.KPI.schema.field.thresholdsBetterBound.label": "次の KPI 値のうち、より良い正常性を表すものを選択してください。",
+  "KPI.library.label.base.Button.save_button.label": "保存",
+  "KPI.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "KPI.library.label.base.TabView.TabView.changeHistory.title": "変更履歴",
+  "KPI.library.label.base.TabView.TabView.code.title": "コード",
+  "KPI.library.label.base.TabView.TabView.details.title": "詳細",
+  "KPI.library.label.base.TabView.TabView.documentation.title": "ドキュメント",
+  "KPI.library.label.base.TabView.TabView.relatedObjects.title": "関連オブジェクト",
+  "KPI.library.label.base.TabView.TabView.tab_parameters.title": "パラメーター",
+  "KPI.library.label.base.TabView.TabView.threshold.title": "しきい値"
+}

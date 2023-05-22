@@ -1,0 +1,518 @@
+{
+  "layouts": {
+    "TabView": {
+      "changehistory": {
+        "ChangeHistory": {
+          "h": 236,
+          "i": "ChangeHistory",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "details": {
+        "description": {
+          "h": 80,
+          "i": "description",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 104
+        },
+        "name": {
+          "h": 50,
+          "i": "name",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 52
+        },
+        "objectId": {
+          "h": 50,
+          "i": "objectId",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "documentation": {
+        "additional_comments": {
+          "h": 550,
+          "i": "additional_comments",
+          "minH": 236,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 0
+        },
+        "documentation_attachments": {
+          "h": 286,
+          "i": "documentation_attachments",
+          "minH": 100,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 16
+        },
+        "documentation_links": {
+          "h": 241,
+          "i": "documentation_links",
+          "minH": 100,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 312
+        }
+      },
+      "relatedObjects": {
+        "linkedKPIs": {
+          "h": 200,
+          "i": "linkedKPIs",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 235
+        },
+        "linkedModels": {
+          "h": 200,
+          "i": "linkedModels",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 1
+        }
+      },
+      "thresholds": {
+        "ThresholdsSpreadsheet": {
+          "h": 510,
+          "i": "ThresholdsSpreadsheet",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 15
+        }
+      }
+    },
+    "TabView_1": {
+      "tab1": {}
+    },
+    "TabView_2": {
+      "tab1": {}
+    },
+    "base": {
+      "TabView": {
+        "h": 626,
+        "i": "TabView",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 50
+      },
+      "name_readonly": {
+        "h": 26,
+        "i": "name_readonly",
+        "minH": 24,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 0
+      },
+      "save": {
+        "h": 26,
+        "i": "save",
+        "minH": 26,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 2,
+        "x": 10,
+        "y": 0
+      },
+      "workflow_container": {
+        "h": 50,
+        "i": "workflow_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 8,
+        "x": 4,
+        "y": 0
+      }
+    },
+    "workflow_container": {
+      "default": {
+        "save": {
+          "h": 26,
+          "i": "save",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "copy": {
+        "name": "onCopyLoad"
+      },
+      "draft": {
+        "name": "onDraftLoad"
+      },
+      "edit": {
+        "name": "onEditLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "onAnyEvent"
+      },
+      "onTabClose": {
+        "name": "onTabClose"
+      }
+    },
+    "props": {
+      "description": "",
+      "icon": "base://EVIDENCE_COLLECTIONS",
+      "id": "MonitoringPlan",
+      "label": "Monitoring Plan",
+      "tabLabel": ""
+    }
+  },
+  "structure": {
+    "TabView": {
+      "changehistory": {
+        "ChangeHistory": {
+          "compName": "ChangeHistory",
+          "containerId": "TabView",
+          "id": "ChangeHistory",
+          "label": "appbuilder.toolboxitem.changeHistory.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        }
+      },
+      "details": {
+        "description": {
+          "compName": "InputTextarea",
+          "containerId": "TabView",
+          "fieldName": "description",
+          "id": "description",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true,
+            "rows": 3
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        },
+        "name": {
+          "compName": "InputText",
+          "containerId": "TabView",
+          "events": {
+            "onChange": {
+              "name": "onNameChange"
+            }
+          },
+          "fieldName": "name",
+          "id": "name",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        },
+        "objectId": {
+          "compName": "InputText",
+          "containerId": "TabView",
+          "events": {
+            "onChange": {
+              "name": "setDefaultName"
+            }
+          },
+          "fieldName": "objectId",
+          "id": "objectId",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        }
+      },
+      "documentation": {
+        "additional_comments": {
+          "compName": "Comments",
+          "containerId": "TabView",
+          "fieldName": "additional_comments",
+          "id": "additional_comments",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.01"
+        },
+        "documentation_attachments": {
+          "compName": "CirrusObjectsAttachments",
+          "containerId": "TabView",
+          "fieldName": "additional_attachments",
+          "id": "documentation_attachments",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.01"
+        },
+        "documentation_links": {
+          "compName": "CirrusObjectsLinks",
+          "containerId": "TabView",
+          "fieldName": "documentation_links",
+          "id": "documentation_links",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.01"
+        }
+      },
+      "relatedObjects": {
+        "linkedKPIs": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "TabView",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            },
+            "onAddedLinkInstances": {
+              "name": "onAssociatedKPIsAdded"
+            },
+            "onRemovedLinkInstances": {
+              "name": "onAssociatedKPIsRemoved"
+            }
+          },
+          "fieldName": "linkedKPIs",
+          "id": "linkedKPIs",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.03"
+        },
+        "linkedModels": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "TabView",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "linkedModels",
+          "id": "linkedModels",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.01"
+        }
+      },
+      "thresholds": {
+        "ThresholdsSpreadsheet": {
+          "compName": "GenericSpreadsheetWidget",
+          "containerId": "TabView",
+          "events": {
+            "onCellEdit": {
+              "name": "onThresholdCellEditHandler"
+            }
+          },
+          "id": "ThresholdsSpreadsheet",
+          "label": "appbuilder.toolboxitem.spreadsheet.generic.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "columnMetaData": "{\"table\": { \"options\": {  \"selectionMode\": \"Single\" }, \"columnOptions\": {  \"areLabelsLocalized\": true,  \"visible\": true,  \"defaultVisible\": true,  \"autoResizable\": true,  \"readonly\": false,  \"width\": \"150px\" }, \"cellOptions\": {  \"readonly\": false,  \"cellType\": \"string\" }},\"columns\": [ { \"options\": {\"id\": \"objectSelector\",\"label\": \"MonitoringPlan.library.label.base.TabView.TabView.thresholds.spreadsheet.column.name.title\",\"columnType\": \"objectSelector\" }, \"cellOptions\": {\"cellType\": \"objectSelector\",\"objectType\": \"KPI\",\"filter\": \"\",\"readonly\": true }}, {  \"options\": {   \"id\": \"threshold\",   \"label\": \"MonitoringPlan.library.label.base.TabView.TabView.thresholds.spreadsheet.column.threshold.title\",   \"columnType\": \"threshold\"  },  \"cellOptions\": {   \"cellType\": \"threshold\",   \"readonly\": false  } }]}",
+            "pagination": false,
+            "suppressRowDragIndicator": true,
+            "suppressSideBar": true,
+            "suppressToolBarAddAction": true,
+            "suppressToolBarCollapseAllAction": true,
+            "suppressToolBarDeleteAction": true,
+            "suppressToolBarExpandAllAction": true,
+            "suppressToolBarRefreshAction": true,
+            "uniqueRowIdProperty": "key",
+            "value": "\u003cp\u003e{\u003cbr\u003e\"table\": {\u003cbr\u003e\u0026nbsp; \"options\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp; \"selectionMode\": \"Single\"\u003cbr\u003e\u0026nbsp; },\u003cbr\u003e\u0026nbsp; \"columnOptions\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp; \"areLabelsLocalized\": true,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \"visible\": true,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \"defaultVisible\": true,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \"autoResizable\": true,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \"readonly\": false,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \"width\": \"150px\"\u003cbr\u003e\u0026nbsp; },\u003cbr\u003e\u0026nbsp; \"cellOptions\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp; \"readonly\": false,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \"cellType\": \"string\"\u003cbr\u003e\u0026nbsp; }\u003cbr\u003e},\u003cbr\u003e\"columns\": [\u003cbr\u003e\u0026nbsp; {\u003cbr\u003e\u0026nbsp; \"options\": {\u003cbr\u003e\u0026nbsp;\"id\": \"objectSelector\",\u003cbr\u003e\u0026nbsp;\"label\": \"MonitoringPlan.library.label.base.TabView.TabView.thresholds.spreadsheet.column.name.title\",\u003cbr\u003e\u0026nbsp;\"columnType\": \"objectSelector\"\u003cbr\u003e\u0026nbsp; },\u003cbr\u003e\u0026nbsp; \"cellOptions\": {\u003cbr\u003e\u0026nbsp;\"cellType\": \"objectSelector\",\u003cbr\u003e\u0026nbsp;\"objectType\": \"KPI\",\u003cbr\u003e\u0026nbsp;\"filter\": \"\",\u003cbr\u003e\u0026nbsp;\"readonly\": true\u003cbr\u003e\u0026nbsp; }\u003cbr\u003e},\u003cbr\u003e\u0026nbsp; {\u003cbr\u003e\u0026nbsp; \u0026nbsp; \"options\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \"id\": \"threshold\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \"label\": \"MonitoringPlan.library.label.base.TabView.TabView.thresholds.spreadsheet.column.threshold.title\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \"columnType\": \"threshold\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; },\u003cbr\u003e\u0026nbsp; \u0026nbsp; \"cellOptions\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \"cellType\": \"threshold\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \"readonly\": false\u003cbr\u003e\u0026nbsp; \u0026nbsp; }\u003cbr\u003e\u0026nbsp; }\u003cbr\u003e]\u003cbr\u003e}\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        }
+      }
+    },
+    "TabView_1": {
+      "tab1": {}
+    },
+    "TabView_2": {
+      "tab1": {}
+    },
+    "base": {
+      "TabView": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "TabView",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 1,
+          "childProps": {
+            "changehistory": {
+              "label": "Change History",
+              "name": "changehistory",
+              "position": 4
+            },
+            "details": {
+              "label": "Details",
+              "name": "details",
+              "position": 0
+            },
+            "documentation": {
+              "label": "Documentation",
+              "name": "documentation",
+              "position": 3
+            },
+            "relatedObjects": {
+              "id": "relatedObjects",
+              "label": "Related Objects",
+              "name": "relatedObjects",
+              "position": 1
+            },
+            "thresholds": {
+              "id": "thresholds",
+              "label": "Thresholds",
+              "name": "thresholds",
+              "position": 2
+            }
+          }
+        },
+        "sasProvided": true,
+        "versionAdded": "2022.12"
+      },
+      "name_readonly": {
+        "compName": "ReadonlyFieldWidget",
+        "containerId": "base",
+        "id": "name_readonly",
+        "label": "appbuilder.toolboxitem.readonlyfield.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldLabel": true,
+          "boldValue": true,
+          "colon": false,
+          "stacked": false
+        },
+        "sasProvided": true,
+        "versionAdded": "2022.12"
+      },
+      "save": {
+        "compName": "Button",
+        "containerId": "base",
+        "events": {
+          "click": {
+            "name": "onSave"
+          }
+        },
+        "id": "save",
+        "label": "appbuilder.toolboxitem.button.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {},
+        "sasProvided": true,
+        "versionAdded": "2022.12",
+        "versionDeprecated": "2023.01"
+      },
+      "workflow_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "workflow_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.01"
+      }
+    },
+    "workflow_container": {
+      "default": {
+        "save": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.01"
+        }
+      }
+    }
+  }
+}

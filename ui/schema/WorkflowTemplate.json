@@ -1,0 +1,347 @@
+{
+  "apiName": "workflowTemplates",
+  "bulkAPI": true,
+  "fields": {
+    "additional_comments": {
+      "id": "additional_comments",
+      "index": 0,
+      "label": "Comments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Comments",
+        "libName": "base"
+      }
+    },
+    "createNewDefinition": {
+      "id": "createNewDefinition",
+      "index": 1,
+      "label": "Create a new workflow template or select an existing one?",
+      "newId": "createNewDefinition",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "RadioButtonField",
+        "libName": "base"
+      }
+    },
+    "createdInTag": {
+      "id": "createdInTag",
+      "label": "Created in",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "creationTimeStamp": {
+      "id": "creationTimeStamp",
+      "label": "Date created",
+      "newId": "creationTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "default": {
+      "id": "default",
+      "label": "Default classification",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsClassification",
+        "libName": "base"
+      }
+    },
+    "description": {
+      "id": "description",
+      "index": 11,
+      "label": "Workflow template description",
+      "newId": "description",
+      "props": {
+        "maxLength": 4000
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "documentation_attachments": {
+      "id": "documentation_attachments",
+      "label": "Documentation Attachments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsAttachments",
+        "libName": "base"
+      }
+    },
+    "documentation_links": {
+      "id": "documentation_links",
+      "label": "Documentation Links",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsLinks",
+        "libName": "base"
+      }
+    },
+    "initializeFlg": {
+      "id": "initializeFlg",
+      "index": 8,
+      "label": "Does the workflow require initialization?",
+      "newId": "initializeFlg",
+      "props": {
+        "options": {
+          "false": {
+            "index": 1,
+            "label": "No",
+            "value": false
+          },
+          "true": {
+            "index": 0,
+            "label": "Yes",
+            "value": true
+          }
+        }
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "RadioButtonField",
+        "libName": "base"
+      }
+    },
+    "input_file_attachment": {
+      "id": "input_file_attachment",
+      "label": "Workflow template file",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsAttachments",
+        "libName": "base"
+      }
+    },
+    "modifiedTimeStamp": {
+      "id": "modifiedTimeStamp",
+      "label": "Date modified",
+      "newId": "modifiedTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "name": {
+      "id": "name",
+      "index": 14,
+      "label": "Workflow template name",
+      "newId": "name",
+      "props": {
+        "maxLength": 200
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "objectId": {
+      "id": "objectId",
+      "index": 13,
+      "label": "Workflow template ID",
+      "newId": "objectId",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "dataType": "string",
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "objectType": {
+      "id": "objectType",
+      "index": 5,
+      "label": "Object type",
+      "mapped": "objectType,objectType_1",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "wfDefinitionName": {
+      "id": "wfDefinitionName",
+      "index": 6,
+      "label": "Workflow definition name",
+      "mapped": "wfDefinitionName,wfDefinitionName_1",
+      "props": {},
+      "tableMeta": {},
+      "type": {
+        "compName": "WorkflowDefinitionSelector",
+        "libName": "base"
+      }
+    },
+    "wfDefinitionRevision": {
+      "id": "wfDefinitionRevision",
+      "index": 7,
+      "label": "Workflow definition revision",
+      "mapped": "wfDefinitionRevision,wfDefinitionRevision_1",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputNumberComponent",
+        "libName": "base"
+      }
+    },
+    "wfDiagram": {
+      "id": "wfDiagram",
+      "index": 10,
+      "label": "Workflow diagram",
+      "newId": "wfDiagram",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "wfTaskDetails": {
+      "id": "wfTaskDetails",
+      "label": "Workflow task details",
+      "props": {},
+      "tableMeta": {},
+      "type": {
+        "compName": "TaskDetails",
+        "libName": "base"
+      }
+    }
+  },
+  "id": "WorkflowTemplate",
+  "index": 21,
+  "labelPlural": "Workflow Templates",
+  "labelSingular": "Workflow Template",
+  "nameField": "name",
+  "relationships": {
+    "wfTemplate_cycle": {
+      "cardinality": "many",
+      "index": 0,
+      "label": "Cycles",
+      "sourceLabel": "Workflow Template",
+      "sourceLabelPlural": "Workflow Templates",
+      "sourceName": "workflowTemplate",
+      "sourceSysCode": "RCC",
+      "sourceType": "WorkflowTemplate",
+      "targetLabel": "Cycle",
+      "targetLabelPlural": "Cycles",
+      "targetName": "cycle",
+      "targetType": "Cycle",
+      "type": "lookup"
+    },
+    "wfTemplate_script": {
+      "cardinality": "manyToMany",
+      "sourceLabel": "Workflow Template",
+      "sourceLabelPlural": "Workflow Templates",
+      "sourceName": "workflowTemplate",
+      "sourceSysCode": "RCC",
+      "sourceType": "WorkflowTemplate",
+      "targetLabel": "Script",
+      "targetLabelPlural": "Scripts",
+      "targetName": "Script",
+      "targetType": "Script",
+      "type": "lookup"
+    }
+  },
+  "sasProvided": true,
+  "searchable": true,
+  "security": {
+    "actions": {
+      "edit": false,
+      "execute": false,
+      "view": true
+    },
+    "allowSharing": true,
+    "useHierarchy": true
+  },
+  "streamAPI": true,
+  "tasks": {}
+}

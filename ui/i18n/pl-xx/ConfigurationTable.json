@@ -1,0 +1,21 @@
+{
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd.label": "[Śţąţűś']",
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd_1.label": "[Śţąţűś']",
+  "ConfigurationTable.library.label.base.Accordion.instance_details.details.title": "[Ćőňfígűřąţíőň Ţąblę Đęţąílś']",
+  "ConfigurationTable.library.label.base.Attachments.additional_attachments.label": "[Đőćűmęňţąţíőň ąţţąćhmęňţś']",
+  "ConfigurationTable.library.label.base.Button.save.label": "[Śąvę']",
+  "ConfigurationTable.library.label.base.CirrusObjectsLinks.documentation_links.label": "[Đőćűmęňţąţíőň líňkś']",
+  "ConfigurationTable.library.label.base.Comments.additional_comments.label": "[Ćőmmęňţś']",
+  "ConfigurationTable.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget_1.label": "[Śpřęąđśhęęţ']",
+  "ConfigurationTable.library.label.base.InputText.name.label": "[Ćőňfígűřąţíőň ţąblę ňąmę']",
+  "ConfigurationTable.library.label.base.InputText.objectId.label": "[Ćőňfígűřąţíőň ţąblę ÍĐ']",
+  "ConfigurationTable.library.label.base.InputTextarea.description.label": "[Ćőňfígűřąţíőň ţąblę đęśćřípţíőň']",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.help.label": "[Íf ąňy őf ţhę líňkęđ ćőňfígűřąţíőň śęţś ąřę íň přőđűćţíőň śţąţűś, ćőňfígűřąţíőň ţąblę íś ćőňśíđęřęđ ąś přőđűćţíőň ąś węll.']",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.label": "[Íś Přőđűćţíőň']",
+  "ConfigurationTable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "[ ']",
+  "ConfigurationTable.library.label.base.RichText.RichText_1.label": "[Říćh Ţęxţ']",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabChangeHistory.title": "[Ćhąňgę Híśţőřy']",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabData.title": "[Đąţą']",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDetails.title": "[Đęţąílś']",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDocumentation.title": "[Đőćűmęňţąţíőň']"
+}

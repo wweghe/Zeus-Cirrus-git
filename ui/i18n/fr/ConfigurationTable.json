@@ -1,0 +1,21 @@
+{
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd.label": "Statut",
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd_1.label": "Statut",
+  "ConfigurationTable.library.label.base.Accordion.instance_details.details.title": "Détails de la table de configuration",
+  "ConfigurationTable.library.label.base.Attachments.additional_attachments.label": "Documentation en pièces jointes",
+  "ConfigurationTable.library.label.base.Button.save.label": "Enregistrer",
+  "ConfigurationTable.library.label.base.CirrusObjectsLinks.documentation_links.label": "Liens vers la documentation",
+  "ConfigurationTable.library.label.base.Comments.additional_comments.label": "Commentaires",
+  "ConfigurationTable.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget_1.label": "Feuille de calcul",
+  "ConfigurationTable.library.label.base.InputText.name.label": "Nom de la table de configuration",
+  "ConfigurationTable.library.label.base.InputText.objectId.label": "ID de la table de configuration",
+  "ConfigurationTable.library.label.base.InputTextarea.description.label": "Description de la table de configuration",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.help.label": "Si l’un des jeux de configurations liés a le statut Production, la table de configuration est également considérée en production.",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.label": "En production",
+  "ConfigurationTable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationTable.library.label.base.RichText.RichText_1.label": "Texte enrichi",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabChangeHistory.title": "Historique des modifications",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabData.title": "Données",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDetails.title": "Détails",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDocumentation.title": "Documentation"
+}

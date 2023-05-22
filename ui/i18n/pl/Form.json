@@ -1,0 +1,12 @@
+{
+  "Form.library.label.base.Accordion.Accordion.panel1.title": "Panel 1",
+  "Form.library.label.base.Accordion.classifications_accordion.classifications.title": "Zastrzeżenia",
+  "Form.library.label.base.Button.Button.label": "Zapisz",
+  "Form.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "Form.library.label.base.TabView.TabView.0.title": "Informacje",
+  "Form.library.label.base.TabView.TabView.1.title": "Zespół",
+  "Form.library.label.base.TabView.TabView.2.title": "Powiązane obiekty",
+  "Form.library.label.base.TabView.TabView.4.title": "Dokumentacja",
+  "Form.library.label.base.TabView.TabView.5.title": "Historia zmian",
+  "undefined": "Menu akordeonowe"
+}

@@ -1,0 +1,17 @@
+{
+  "DataMap.DataMap.schema.field.mapType.label": "Map type",
+  "DataMap.DataMap.schema.field.objectId.label": "Data map ID",
+  "DataMap.library.label.base.Accordion.cycle_details.0.title": "Data Map Details",
+  "DataMap.library.label.base.Accordion.instance_details.details.title": "Data Map Details",
+  "DataMap.library.label.base.Button.save.label": "Save",
+  "DataMap.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "Spreadsheet",
+  "DataMap.library.label.base.ReadonlyFieldWidget.cycle_name_readonly.label": "",
+  "DataMap.library.label.base.ReadonlyFieldWidget.name_readonly.label": " ",
+  "DataMap.library.label.base.RichText.RichText.label": "Rich Text",
+  "DataMap.library.label.base.TabView.cycle_tabs.0.title": "Mapping",
+  "DataMap.library.label.base.TabView.cycle_tabs.1.title": "Documentation",
+  "DataMap.library.label.base.TabView.data_map_tabs.0.title": "Data Map Attributes",
+  "DataMap.library.label.base.TabView.data_map_tabs.1.title": "Documentation",
+  "DataMap.library.label.base.TabView.data_map_tabs.2.title": "Change History",
+  "DataMap.library.label.base.TabView.data_map_tabs.tabDetails.title": "Details"
+}

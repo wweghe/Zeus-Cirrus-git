@@ -1,0 +1,675 @@
+{
+  "layouts": {
+    "base": {
+      "header_container": {
+        "h": 50,
+        "i": "header_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 8,
+        "x": 4,
+        "y": 0
+      },
+      "name_readonly": {
+        "h": 26,
+        "i": "name_readonly",
+        "minH": 24,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 0
+      },
+      "rule_set_tab": {
+        "h": 626,
+        "i": "rule_set_tab",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 113
+      },
+      "statusCd": {
+        "h": 52,
+        "i": "statusCd",
+        "minH": 52,
+        "minW": 3,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 30
+      }
+    },
+    "header_container": {
+      "default": {
+        "save": {
+          "h": 26,
+          "i": "save",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      }
+    },
+    "qFactorAccordion": {
+      "qFactorInfo": {
+        "qFactorInfoSpreadsheet": {
+          "h": 510,
+          "i": "qFactorInfoSpreadsheet",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "rule_set_tab": {
+      "1": {
+        "DataDefinition": {
+          "h": 52,
+          "i": "DataDefinition",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 6,
+          "y": 128
+        },
+        "RulesHierarchySpreadsheet": {
+          "h": 510,
+          "i": "RulesHierarchySpreadsheet",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "categoryCd": {
+          "h": 52,
+          "i": "categoryCd",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 186
+        },
+        "description": {
+          "h": 86,
+          "i": "description",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 6,
+          "y": 15
+        },
+        "name": {
+          "h": 50,
+          "i": "name",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 70
+        },
+        "objectId": {
+          "h": 50,
+          "i": "objectId",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 12
+        },
+        "typeCd": {
+          "h": 52,
+          "i": "typeCd",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 128
+        }
+      },
+      "2": {
+        "additional_comments": {
+          "h": 550,
+          "i": "additional_comments",
+          "minH": 236,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 0
+        },
+        "documentation_attachments": {
+          "h": 286,
+          "i": "documentation_attachments",
+          "minH": 100,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 0
+        },
+        "documentation_links": {
+          "h": 241,
+          "i": "documentation_links",
+          "minH": 100,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 312
+        }
+      },
+      "3": {
+        "ChangeHistory": {
+          "h": 236,
+          "i": "ChangeHistory",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "4": {
+        "RulesHierarchySpreadsheet": {
+          "h": 510,
+          "i": "RulesHierarchySpreadsheet",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "RulesSpreadsheet": {
+          "h": 510,
+          "i": "RulesSpreadsheet",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 304
+        },
+        "qFactorAccordion": {
+          "h": 300,
+          "i": "qFactorAccordion",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tabRelatedObjects": {
+        "AnalysisRun": {
+          "h": 78,
+          "i": "AnalysisRun",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "Cycle": {
+          "h": 96,
+          "i": "Cycle",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 98
+        }
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "copy": {
+        "name": "onCopyLoad"
+      },
+      "draft": {
+        "name": "onDraftLoad"
+      },
+      "edit": {
+        "name": "onEditLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "onAnyEvent"
+      },
+      "onTabClose": {
+        "name": "onTabClose"
+      }
+    },
+    "props": {
+      "description": "",
+      "icon": "base://ALLOCATION_RULE",
+      "id": "RuleSet",
+      "label": "Rule Set",
+      "tabLabel": ""
+    }
+  },
+  "structure": {
+    "base": {
+      "header_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "header_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true,
+        "versionAdded": "2022.12"
+      },
+      "name_readonly": {
+        "compName": "ReadonlyFieldWidget",
+        "containerId": "base",
+        "id": "name_readonly",
+        "label": "appbuilder.toolboxitem.readonlyfield.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldLabel": true,
+          "boldValue": true,
+          "colon": false,
+          "stacked": false
+        },
+        "sasProvided": true,
+        "versionAdded": "2022.12"
+      },
+      "rule_set_tab": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "rule_set_tab",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 1,
+          "childProps": {
+            "1": {
+              "label": "Details",
+              "name": "1",
+              "position": 0
+            },
+            "2": {
+              "label": "Documentation",
+              "name": "2",
+              "position": 3
+            },
+            "3": {
+              "label": "Change History",
+              "name": "3",
+              "position": 4
+            },
+            "4": {
+              "id": "4",
+              "label": "Rules",
+              "name": "4",
+              "position": 1
+            },
+            "tabRelatedObjects": {
+              "id": "tabRelatedObjects",
+              "label": "Related Obejcts",
+              "name": "tabRelatedObjects",
+              "position": 2
+            }
+          }
+        },
+        "sasProvided": true,
+        "versionAdded": "2022.12"
+      },
+      "statusCd": {
+        "compName": "Dropdown",
+        "containerId": "base",
+        "fieldName": "statusCd",
+        "id": "statusCd",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "colon": true
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.04"
+      }
+    },
+    "header_container": {
+      "default": {
+        "save": {
+          "compName": "Button",
+          "containerId": "header_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "header_container",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        }
+      }
+    },
+    "qFactorAccordion": {
+      "qFactorInfo": {
+        "qFactorInfoSpreadsheet": {
+          "compName": "HierarchySpreadsheetWidget",
+          "containerId": "qFactorAccordion",
+          "id": "qFactorInfoSpreadsheet",
+          "label": "appbuilder.toolboxitem.spreadsheet.hierarchy.title",
+          "libName": "base",
+          "parentId": "qFactorAccordion",
+          "props": {
+            "columnMetaData": "{  \"table\":{    \"options\":{      \"selectionMode\":\"None\",      \"isTree\":true,      \"numberOfExpandedLevels\":1,      \"fixedColumnCount\":2    },    \"columnOptions\":{      \"visible\":true,      \"defaultVisible\":true    },    \"cellOptions\":{      \"readonly\":true,      \"cellType\":\"string\",      \"wrapText\": true    }  },  \"columns\":[    {      \"options\":{        \"id\":\"factor\",        \"label\":[          \"\",          \"Factor\"        ],        \"quickSearch\":true,        \"sortProperty\":\"factor\",        \"columnType\":\"string\"      }    },    {      \"options\":{        \"id\":\"description\",        \"label\":[          \"\",          \"Description\"        ],        \"quickSearch\":true,        \"sortProperty\":\"description\",        \"width\":\"600px\",        \"columnType\":\"string\"      }    },    {      \"options\":{        \"id\":\"label\",        \"autoResizable\":true,        \"label\":[          \"\",          \"Label\"        ],        \"columnType\":\"string\"      }    },    {      \"options\":{        \"id\":\"qFactor\",        \"autoResizable\":true,        \"label\":[          \"\",          \"Q-Factor\"        ],        \"columnType\":\"number\"      }    },        {      \"options\":{        \"id\":\"default\",        \"autoResizable\":true,        \"label\":[          \"\",          \"Default\"        ],        \"columnType\":\"string\"      }    }  ]}",
+            "hierarchicalTreeHierarchyColumnLabelProperty": "factor",
+            "pagination": false,
+            "suppressSideBar": true,
+            "suppressToolBarAddAction": true,
+            "suppressToolBarDeleteAction": true,
+            "suppressToolBarRefreshAction": true,
+            "value": "\u003cp\u003e{\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \"table\":{\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"options\":{\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"selectionMode\":\"None\",\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"isTree\":true,\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"numberOfExpandedLevels\":1,\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"fixedColumnCount\":2\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; },\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"columnOptions\":{\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"visible\":true,\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"defaultVisible\":true\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; },\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"cellOptions\":{\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"readonly\":true,\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"cellType\":\"string\",\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"wrapText\": true\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; }\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; },\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \"columns\":[\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; {\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"options\":{\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"id\":\"factor\",\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"label\":[\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"\",\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"Factor\"\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; ],\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"quickSearch\":true,\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"sortProperty\":\"factor\",\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"columnType\":\"string\"\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; }\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; },\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; {\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"options\":{\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"id\":\"description\",\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"label\":[\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"\",\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"Description\"\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; ],\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"quickSearch\":true,\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"sortProperty\":\"description\",\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"width\":\"600px\",\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"columnType\":\"string\"\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; }\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; },\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; {\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"options\":{\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"id\":\"label\",\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"autoResizable\":true,\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"label\":[\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"\",\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"Label\"\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; ],\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"columnType\":\"string\"\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; }\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; },\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; {\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"options\":{\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"id\":\"qFactor\",\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"autoResizable\":true,\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"label\":[\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"\",\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"Q-Factor\"\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; ],\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"columnType\":\"number\"\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; }\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; }, \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; {\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"options\":{\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"id\":\"default\",\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"autoResizable\":true,\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"label\":[\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"\",\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"Default\"\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; ],\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \"columnType\":\"string\"\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; }\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; }\u003c/p\u003e\u003cp\u003e\u0026nbsp; \u0026nbsp; ]\u003c/p\u003e\u003cp\u003e\u0026nbsp;}\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        }
+      }
+    },
+    "rule_set_tab": {
+      "1": {
+        "DataDefinition": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "rule_set_tab",
+          "events": {
+            "onAddedLinkInstances": {
+              "name": "onChangeDataDefinition"
+            },
+            "onRemovedLinkInstances": {
+              "name": "onChangeDataDefinition"
+            }
+          },
+          "fieldName": "DataDefinition",
+          "id": "DataDefinition",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        },
+        "categoryCd": {
+          "compName": "Dropdown",
+          "containerId": "rule_set_tab",
+          "fieldName": "categoryCd",
+          "id": "categoryCd",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {
+            "align": "start",
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "description": {
+          "compName": "InputTextarea",
+          "containerId": "rule_set_tab",
+          "fieldName": "description",
+          "id": "description",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {
+            "colon": true,
+            "rows": 3
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        },
+        "name": {
+          "compName": "InputText",
+          "containerId": "rule_set_tab",
+          "events": {
+            "onChange": {
+              "name": "onNameChange"
+            }
+          },
+          "fieldName": "name",
+          "id": "name",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        },
+        "objectId": {
+          "compName": "InputText",
+          "containerId": "rule_set_tab",
+          "events": {
+            "onChange": {
+              "name": "setDefaultName"
+            }
+          },
+          "fieldName": "objectId",
+          "id": "objectId",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        },
+        "typeCd": {
+          "compName": "Dropdown",
+          "containerId": "rule_set_tab",
+          "events": {
+            "onChange": {
+              "name": "onChangeRulesetType"
+            }
+          },
+          "fieldName": "typeCd",
+          "id": "typeCd",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {
+            "align": "start",
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        }
+      },
+      "2": {
+        "additional_comments": {
+          "compName": "Comments",
+          "containerId": "rule_set_tab",
+          "fieldName": "additional_comments",
+          "id": "additional_comments",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        },
+        "documentation_attachments": {
+          "compName": "CirrusObjectsAttachments",
+          "containerId": "rule_set_tab",
+          "fieldName": "documentation_attachments",
+          "id": "documentation_attachments",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        },
+        "documentation_links": {
+          "compName": "CirrusObjectsLinks",
+          "containerId": "rule_set_tab",
+          "fieldName": "documentation_links",
+          "id": "documentation_links",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        }
+      },
+      "3": {
+        "ChangeHistory": {
+          "compName": "ChangeHistory",
+          "containerId": "rule_set_tab",
+          "id": "ChangeHistory",
+          "label": "appbuilder.toolboxitem.changeHistory.title",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        }
+      },
+      "4": {
+        "RulesHierarchySpreadsheet": {
+          "compName": "HierarchySpreadsheetWidget",
+          "containerId": "rule_set_tab",
+          "id": "RulesHierarchySpreadsheet",
+          "label": "appbuilder.toolboxitem.spreadsheet.hierarchy.title",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {
+            "suppressToolBarAddAction": true,
+            "suppressToolBarCollapseAllAction": true,
+            "suppressToolBarDeleteAction": true,
+            "suppressToolBarExpandAllAction": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02",
+          "versionDeprecated": "2023.04"
+        },
+        "RulesSpreadsheet": {
+          "compName": "GenericSpreadsheetWidget",
+          "containerId": "rule_set_tab",
+          "events": {
+            "onAdd": {
+              "name": "onAdd"
+            },
+            "onCellEdit": {
+              "name": "refreshAdjustmentValue"
+            }
+          },
+          "id": "RulesSpreadsheet",
+          "label": "appbuilder.toolboxitem.spreadsheet.generic.title",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {
+            "suppressToolBarCollapseAllAction": true,
+            "suppressToolBarExpandAllAction": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "qFactorAccordion": {
+          "compName": "Accordion",
+          "containerId": "rule_set_tab",
+          "id": "qFactorAccordion",
+          "label": "appbuilder.toolboxitem.accordion.title",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {
+            "childProps": {
+              "qFactorInfo": {
+                "help": "",
+                "label": "Q-Factor Information",
+                "name": "qFactorInfo",
+                "position": 0
+              }
+            }
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        }
+      },
+      "tabRelatedObjects": {
+        "AnalysisRun": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "rule_set_tab",
+          "fieldName": "AnalysisRun",
+          "id": "AnalysisRun",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "Cycle": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "rule_set_tab",
+          "fieldName": "Cycle",
+          "id": "Cycle",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        }
+      }
+    }
+  }
+}

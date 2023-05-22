@@ -1,0 +1,16 @@
+{
+  "Script.Script.schema.field.endsInAsyncCallFlg.option.label1.label": "是",
+  "Script.Script.schema.field.endsInAsyncCallFlg.option.label2.label": "否",
+  "Script.library.label.base.Accordion.Accordion.KRMOutputPane.title": "KRM 輸出表格",
+  "Script.library.label.base.Accordion.instance_details.details.title": "指令碼詳細資料",
+  "Script.library.label.base.Button.save.label": "儲存",
+  "Script.library.label.base.GenericSpreadsheetWidget.KRMSpreadsheetWidget.label": "試算表",
+  "Script.library.label.base.ReadonlyFieldWidget.ReadonlyFieldWidget.label": "後置執行指令碼目前不支援參數。",
+  "Script.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "Script.library.label.base.TabView.script_tabs.tab_analysis_runs.title": "分析執行",
+  "Script.library.label.base.TabView.script_tabs.tab_change_history.title": "變更歷程記錄",
+  "Script.library.label.base.TabView.script_tabs.tab_code.title": "程式碼",
+  "Script.library.label.base.TabView.script_tabs.tab_details.title": "詳細資料",
+  "Script.library.label.base.TabView.script_tabs.tab_documentation.title": "文件",
+  "Script.library.label.base.TabView.script_tabs.tab_parameters.title": "參數"
+}

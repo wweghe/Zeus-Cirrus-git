@@ -1,0 +1,15 @@
+{
+  "KPI.KPI.schema.field.category.label": "[KPÍ ćąţęgőřy']",
+  "KPI.KPI.schema.field.thresholdsApplicable.help.label": "[Ţhíś őpţíőň ęňąblęś yőű ţő śęţ ţhřęśhőlđś főř mőňíţőříňg ţhę KPÍ'ś hęąlţh. Śęlęćţ ţhíś őpţíőň íf ţhę KPÍ íś ą śíňglę męąśűřąblę vąlűę.']",
+  "KPI.KPI.schema.field.thresholdsBetterBound.help.label": "[Ţhę ąpplíćąţíőň ąśśígňś ţhę ţhřęśhőlđ'ś ćőlőř bąňđ bąśęđ őň ţhę KPÍ hęąlţh řąňgę śęlęćţęđ.']",
+  "KPI.KPI.schema.field.thresholdsBetterBound.label": "[Whíćh őf ţhę főllőwíňg KPÍ vąlűęś řępřęśęňţś ą bęţţęř hęąlţh?']",
+  "KPI.library.label.base.Button.save_button.label": "[Śąvę']",
+  "KPI.library.label.base.ReadonlyFieldWidget.name_readonly.label": "[ ']",
+  "KPI.library.label.base.TabView.TabView.changeHistory.title": "[Ćhąňgę Híśţőřy']",
+  "KPI.library.label.base.TabView.TabView.code.title": "[Ćőđę']",
+  "KPI.library.label.base.TabView.TabView.details.title": "[Đęţąílś']",
+  "KPI.library.label.base.TabView.TabView.documentation.title": "[Đőćűmęňţąţíőň']",
+  "KPI.library.label.base.TabView.TabView.relatedObjects.title": "[Řęląţęđ Őbjęćţś']",
+  "KPI.library.label.base.TabView.TabView.tab_parameters.title": "[Pąřąmęţęřś']",
+  "KPI.library.label.base.TabView.TabView.threshold.title": "[Ţhřęśhőlđ']"
+}

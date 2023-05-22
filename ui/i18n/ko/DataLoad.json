@@ -1,0 +1,13 @@
+{
+  "DataLoad.library.label.base.Accordion.Accordion.runEtlTab.help": "",
+  "DataLoad.library.label.base.Accordion.Accordion.runEtlTab.title": "ETL 실행",
+  "DataLoad.library.label.base.Accordion.Accordion_1.runEtlTab.help": "",
+  "DataLoad.library.label.base.Accordion.Accordion_files_exist.runEtlTab.title": "ETL 실행",
+  "DataLoad.library.label.base.CirrusObjectsDataLoad.CirrusObjectsDataLoad.label": "데이터 로더",
+  "DataLoad.library.label.base.CirrusObjectsDataLoad.CirrusObjectsDataLoad_files_exist.label": "데이터 로더",
+  "DataLoad.library.label.base.CirrusObjectsDataMart.CirrusObjectsDataMart_files_exist.label": "데이터 마트 리포터",
+  "DataLoad.library.label.base.LinksListWidget.LinksListWidget.label": "데이터 로더 파일",
+  "DataLoad.library.label.base.TabView.TabView.0.title": "데이터 로드",
+  "DataLoad.library.label.base.TabView.TabView.1.title": "파일",
+  "undefined": "아코디언"
+}

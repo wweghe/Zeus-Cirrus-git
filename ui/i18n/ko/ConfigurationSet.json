@@ -1,0 +1,14 @@
+{
+  "ConfigurationSet.ConfigurationSet.schema.field.linkedConfigurationTables.label": "구성 테이블",
+  "ConfigurationSet.library.label.base.Accordion.instance_details.details.title": "구성 집합 상세 정보",
+  "ConfigurationSet.library.label.base.Button.save.label": "저장",
+  "ConfigurationSet.library.label.base.CirrusObjectsLinks.documentation_links.label": "문서 링크",
+  "ConfigurationSet.library.label.base.Comments.additional_comments.label": "주석",
+  "ConfigurationSet.library.label.base.InputText.name.label": "구성 집합 이름",
+  "ConfigurationSet.library.label.base.InputText.objectId.label": "구성 집합 ID",
+  "ConfigurationSet.library.label.base.InputTextarea.description.label": "구성 집합 설명",
+  "ConfigurationSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.0.title": "상세 정보",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.1.title": "문서",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.2.title": "변경 히스토리"
+}

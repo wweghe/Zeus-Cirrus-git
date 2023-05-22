@@ -1,0 +1,15 @@
+{
+  "KPI.KPI.schema.field.category.label": "KPI 類別",
+  "KPI.KPI.schema.field.thresholdsApplicable.help.label": "此選項可讓您設定臨界值以監控 KPI 的健康狀況。如果 KPI 是單一可量測值，請選取此選項。",
+  "KPI.KPI.schema.field.thresholdsBetterBound.help.label": "應用程式會根據所選的 KPI 健康狀況範圍指派臨界值的色彩區間。",
+  "KPI.KPI.schema.field.thresholdsBetterBound.label": "下列哪些 KPI 值代表更健康的狀態?",
+  "KPI.library.label.base.Button.save_button.label": "儲存",
+  "KPI.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "KPI.library.label.base.TabView.TabView.changeHistory.title": "變更歷程記錄",
+  "KPI.library.label.base.TabView.TabView.code.title": "程式碼",
+  "KPI.library.label.base.TabView.TabView.details.title": "詳細資料",
+  "KPI.library.label.base.TabView.TabView.documentation.title": "文件",
+  "KPI.library.label.base.TabView.TabView.relatedObjects.title": "相關物件",
+  "KPI.library.label.base.TabView.TabView.tab_parameters.title": "參數",
+  "KPI.library.label.base.TabView.TabView.threshold.title": "臨界值"
+}
