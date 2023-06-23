@@ -1,0 +1,17 @@
+{
+  "DataDefinition.DataDefinition.schema.field.objectId.label": "データ定義 ID",
+  "DataDefinition.library.label.base.Accordion.instance_details.details.title": "データ定義の詳細",
+  "DataDefinition.library.label.base.Button.save.label": "保存",
+  "DataDefinition.library.label.base.DropdownWidget.supportedDataActions.label": "サポートされているデータアクション",
+  "DataDefinition.library.label.base.DropdownWidget.supportedDataActions.option.APPEND.label": "APPEND",
+  "DataDefinition.library.label.base.DropdownWidget.supportedDataActions.option.APPEND_DELETE.label": "APPEND/DELETE",
+  "DataDefinition.library.label.base.DropdownWidget.supportedDataActions.option.DELETE.label": "DELETE",
+  "DataDefinition.library.label.base.DropdownWidget.supportedDataActions.option.NONE.label": "NONE",
+  "DataDefinition.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "スプレッドシート",
+  "DataDefinition.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "DataDefinition.library.label.base.TabView.data_definition_tabs.0.title": "データの属性",
+  "DataDefinition.library.label.base.TabView.data_definition_tabs.1.title": "ドキュメント",
+  "DataDefinition.library.label.base.TabView.data_definition_tabs.2.title": "変更履歴",
+  "DataDefinition.library.label.base.TabView.data_definition_tabs.tabDetails.title": "詳細",
+  "DataDefinition.library.label.base.TabView.data_definition_tabs.tabReportMart.title": "レポートマート"
+}

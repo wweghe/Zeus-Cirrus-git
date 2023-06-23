@@ -1,0 +1,15 @@
+{
+  "ConfigurationTable.library.label.base.Accordion.instance_details.details.title": "Detalles de la tabla de configuración",
+  "ConfigurationTable.library.label.base.Attachments.additional_attachments.label": "Archivos adjuntos de documentación",
+  "ConfigurationTable.library.label.base.Button.save.label": "Guardar",
+  "ConfigurationTable.library.label.base.CirrusObjectsLinks.documentation_links.label": "Enlaces de la documentación",
+  "ConfigurationTable.library.label.base.Comments.additional_comments.label": "Comentarios",
+  "ConfigurationTable.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "Hoja de cálculo",
+  "ConfigurationTable.library.label.base.InputText.name.label": "Nombre de la tabla de configuración",
+  "ConfigurationTable.library.label.base.InputText.objectId.label": "ID de la tabla de configuración",
+  "ConfigurationTable.library.label.base.InputTextarea.description.label": "Descripción de la tabla de configuración",
+  "ConfigurationTable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.0.title": "Detalles",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.1.title": "Documentación",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.2.title": "Historial de cambios"
+}

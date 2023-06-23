@@ -1,0 +1,15 @@
+{
+  "ConfigurationTable.library.label.base.Accordion.instance_details.details.title": "XConfiguration Table Details补Z",
+  "ConfigurationTable.library.label.base.Attachments.additional_attachments.label": "XDocumentation attachments补Z",
+  "ConfigurationTable.library.label.base.Button.save.label": "XSave补Z",
+  "ConfigurationTable.library.label.base.CirrusObjectsLinks.documentation_links.label": "XDocumentation links补Z",
+  "ConfigurationTable.library.label.base.Comments.additional_comments.label": "XComments补Z",
+  "ConfigurationTable.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "XSpreadsheet补Z",
+  "ConfigurationTable.library.label.base.InputText.name.label": "XConfiguration table name补Z",
+  "ConfigurationTable.library.label.base.InputText.objectId.label": "XConfiguration table ID补Z",
+  "ConfigurationTable.library.label.base.InputTextarea.description.label": "XConfiguration table description补Z",
+  "ConfigurationTable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "X 补Z",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.0.title": "XDetails补Z",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.1.title": "XDocumentation补Z",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.2.title": "XChange History补Z"
+}

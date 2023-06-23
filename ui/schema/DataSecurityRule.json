@@ -1,0 +1,218 @@
+{
+  "apiName": "dataSecurityRules",
+  "fields": {
+    "additional_comments": {
+      "id": "additional_comments",
+      "label": "Comments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Comments",
+        "libName": "base"
+      }
+    },
+    "createdInTag": {
+      "id": "createdInTag",
+      "label": "Created in",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "creationTimeStamp": {
+      "id": "creationTimeStamp",
+      "label": "Date created",
+      "newId": "creationTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "default": {
+      "id": "default",
+      "label": "Default classification",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsClassification",
+        "libName": "base"
+      }
+    },
+    "description": {
+      "id": "description",
+      "index": 2,
+      "label": "Data security rules description",
+      "newId": "description",
+      "props": {
+        "maxLength": 4000
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "documentation_attachments": {
+      "id": "documentation_attachments",
+      "label": "Documentation Attachments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsAttachments",
+        "libName": "base"
+      }
+    },
+    "documentation_links": {
+      "id": "documentation_links",
+      "label": "Documentation Links",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsLinks",
+        "libName": "base"
+      }
+    },
+    "modifiedTimeStamp": {
+      "id": "modifiedTimeStamp",
+      "label": "Date modified",
+      "newId": "modifiedTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "name": {
+      "id": "name",
+      "index": 4,
+      "label": "Data security rules name",
+      "newId": "name",
+      "props": {
+        "maxLength": 200
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "objectId": {
+      "id": "objectId",
+      "index": 3,
+      "label": "Data security rules ID",
+      "newId": "objectId",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "securityRules": {
+      "id": "securityRules",
+      "index": 8,
+      "label": "Security rules",
+      "newId": "securityRules",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    }
+  },
+  "id": "DataSecurityRule",
+  "index": 9,
+  "labelPlural": "Data Security Rules",
+  "labelSingular": "Data Security Rule",
+  "nameField": "name",
+  "relationships": {
+    "analysisData_dataSecurityRules": {
+      "cardinality": "many",
+      "index": 0,
+      "label": "Analysis Data",
+      "sourceLabel": "Data Security Rule",
+      "sourceLabelPlural": "Data Security Rules",
+      "sourceName": "DataSecurityRule",
+      "sourceSysCode": "RCC",
+      "sourceType": "DataSecurityRule",
+      "targetLabel": "Analysis Data",
+      "targetLabelPlural": "Analysis Data",
+      "targetName": "AnalysisData",
+      "targetType": "AnalysisData",
+      "type": "lookup"
+    },
+    "dataDefinition_dataSecurityRules": {
+      "cardinality": "many",
+      "index": 1,
+      "label": "Data Definitions",
+      "sourceLabel": "Data Security Rule",
+      "sourceLabelPlural": "Data Security Rules",
+      "sourceName": "DataSecurityRule",
+      "sourceSysCode": "RCC",
+      "sourceType": "DataSecurityRule",
+      "targetLabel": "Data Definition",
+      "targetLabelPlural": "Data Definitions",
+      "targetName": "DataDefinition",
+      "targetType": "DataDefinition",
+      "type": "lookup"
+    }
+  },
+  "sasProvided": true,
+  "tasks": {}
+}

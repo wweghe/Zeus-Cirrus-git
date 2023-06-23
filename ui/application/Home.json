@@ -1,0 +1,78 @@
+{
+  "layouts": {
+    "base": {
+      "ClaimTasksTable": {
+        "h": 240,
+        "i": "ClaimTasksTable",
+        "minH": 30,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      },
+      "PotentialTasksTable": {
+        "h": 600,
+        "i": "PotentialTasksTable",
+        "minH": 30,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 304
+      }
+    }
+  },
+  "page": {
+    "events": {},
+    "props": {
+      "description": "The Home Page",
+      "icon": "base://HOME",
+      "id": "Home",
+      "label": "Home Page",
+      "tabLabel": "Home"
+    }
+  },
+  "structure": {
+    "base": {
+      "ClaimTasksTable": {
+        "compName": "ClaimTasksTable",
+        "containerId": "base",
+        "events": {
+          "onSelectTask": {
+            "name": "onSelectTask"
+          },
+          "refreshTable": {
+            "name": "onReleaseTask"
+          }
+        },
+        "id": "ClaimTasksTable",
+        "label": "appbuilder.toolboxitem.claimTasksTable.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {},
+        "sasProvided": true
+      },
+      "PotentialTasksTable": {
+        "compName": "PotentialTasksTable",
+        "containerId": "base",
+        "events": {
+          "onSelectTask": {
+            "name": "onSelectTask"
+          },
+          "refreshTable": {
+            "name": "onClaimTask"
+          }
+        },
+        "id": "PotentialTasksTable",
+        "label": "appbuilder.toolboxitem.potentialTasksTable.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {},
+        "sasProvided": true
+      }
+    }
+  }
+}

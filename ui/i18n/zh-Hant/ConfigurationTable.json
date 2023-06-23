@@ -1,0 +1,15 @@
+{
+  "ConfigurationTable.library.label.base.Accordion.instance_details.details.title": "設定表格詳細資料",
+  "ConfigurationTable.library.label.base.Attachments.additional_attachments.label": "文件附件",
+  "ConfigurationTable.library.label.base.Button.save.label": "儲存",
+  "ConfigurationTable.library.label.base.CirrusObjectsLinks.documentation_links.label": "文件連結",
+  "ConfigurationTable.library.label.base.Comments.additional_comments.label": "註解",
+  "ConfigurationTable.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "試算表",
+  "ConfigurationTable.library.label.base.InputText.name.label": "設定表格名稱",
+  "ConfigurationTable.library.label.base.InputText.objectId.label": "設定表格 ID",
+  "ConfigurationTable.library.label.base.InputTextarea.description.label": "設定表格說明",
+  "ConfigurationTable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.0.title": "詳細資料",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.1.title": "文件",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.2.title": "變更歷程記錄"
+}

@@ -1,0 +1,10 @@
+{
+  "AttributionTemplate.AttributionTemplate.schema.field.objectId.label": "アトリビューションテンプレート ID",
+  "AttributionTemplate.library.label.base.Accordion.attribution_template_details.details.title": "アトリビューションテンプレートの詳細",
+  "AttributionTemplate.library.label.base.Button.save.label": "保存",
+  "AttributionTemplate.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "AttributionTemplate.library.label.base.TabView.attribution_template_tabs.0.title": "ファクター",
+  "AttributionTemplate.library.label.base.TabView.attribution_template_tabs.1.title": "ドキュメント",
+  "AttributionTemplate.library.label.base.TabView.attribution_template_tabs.2.title": "変更履歴",
+  "AttributionTemplate.library.label.base.TabView.attribution_template_tabs.tabDetails.title": "詳細"
+}

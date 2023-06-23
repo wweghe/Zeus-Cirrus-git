@@ -1,0 +1,470 @@
+{
+  "layouts": {
+    "TabView": {
+      "exportRiskFactors": {
+        "ExportRiskFactorDefinitionsTextLabel": {
+          "h": 48,
+          "i": "ExportRiskFactorDefinitionsTextLabel",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 14
+        },
+        "exportButton": {
+          "h": 26,
+          "i": "exportButton",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 3,
+          "y": 25
+        }
+      },
+      "importMarketData": {
+        "FileUploadMarketData": {
+          "h": 42,
+          "i": "FileUploadMarketData",
+          "minH": 30,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 62
+        },
+        "ImportFileTextLabel_": {
+          "h": 48,
+          "i": "ImportFileTextLabel_",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 14
+        },
+        "ImportMarketDataButton": {
+          "h": 26,
+          "i": "ImportMarketDataButton",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 3,
+          "y": 78
+        },
+        "ImportMarketDataFileTextLabel": {
+          "h": 50,
+          "i": "ImportMarketDataFileTextLabel",
+          "minH": 10,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 12
+        },
+        "ImportMarketDataFileTextLabel_": {
+          "h": 48,
+          "i": "ImportMarketDataFileTextLabel_",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 1,
+          "y": 266
+        }
+      },
+      "importRiskFactors": {
+        "FileUpload": {
+          "h": 42,
+          "i": "FileUpload",
+          "minH": 30,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 62
+        },
+        "ImportFileTextLabel": {
+          "h": 50,
+          "i": "ImportFileTextLabel",
+          "minH": 10,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 12
+        },
+        "ImportFileTextLabel_": {
+          "h": 48,
+          "i": "ImportFileTextLabel_",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 14
+        },
+        "ImportMarketDataFileTextLabel_": {
+          "h": 48,
+          "i": "ImportMarketDataFileTextLabel_",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 1,
+          "y": 266
+        },
+        "importButton": {
+          "h": 26,
+          "i": "importButton",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 0,
+          "y": 810
+        },
+        "reportTable": {
+          "h": 350,
+          "i": "reportTable",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 120
+        },
+        "reportTableShort": {
+          "h": 300,
+          "i": "reportTableShort",
+          "minH": 125,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 495
+        },
+        "validateButton": {
+          "h": 26,
+          "i": "validateButton",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 3,
+          "y": 78
+        }
+      }
+    },
+    "base": {
+      "TabView": {
+        "h": 876,
+        "i": "TabView",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "onPageLoad": {
+        "name": "onPageLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {},
+      "onTabClose": {}
+    },
+    "props": {
+      "description": "",
+      "icon": "base://EXPORT",
+      "id": "ImportExport",
+      "label": "Import and Export",
+      "tabLabel": "Import and Export"
+    }
+  },
+  "structure": {
+    "TabView": {
+      "exportRiskFactors": {
+        "ExportRiskFactorDefinitionsTextLabel": {
+          "compName": "RichText",
+          "containerId": "TabView",
+          "id": "ExportRiskFactorDefinitionsTextLabel",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "value": "\u003cp\u003eExport risk factor definitions to an Excel workbook.\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "exportButton": {
+          "compName": "Button",
+          "containerId": "TabView",
+          "events": {
+            "click": {
+              "name": "exportRiskFactors"
+            }
+          },
+          "id": "exportButton",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "shrink": false
+          },
+          "sasProvided": true
+        }
+      },
+      "importMarketData": {
+        "FileUploadMarketData": {
+          "compName": "FileUpload",
+          "containerId": "TabView",
+          "events": {
+            "onSelectFile": {
+              "name": "onMarketDataFileSelection"
+            }
+          },
+          "id": "FileUploadMarketData",
+          "label": "appbuilder.toolboxitem.fileUpload.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.03"
+        },
+        "ImportMarketDataButton": {
+          "compName": "Button",
+          "containerId": "TabView",
+          "events": {
+            "click": {
+              "name": "onImportDataButtonClick"
+            }
+          },
+          "id": "ImportMarketDataButton",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "shrink": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.03"
+        },
+        "ImportMarketDataFileTextLabel": {
+          "compName": "CirrusLabel",
+          "containerId": "TabView",
+          "id": "ImportMarketDataFileTextLabel",
+          "label": "appbuilder.toolboxitem.CirrusLabel.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "EUA": true,
+            "colon": true,
+            "contentKey": "importRiskFactorMarketData",
+            "library": "rfmEUAlib"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "ImportMarketDataFileTextLabel_": {
+          "compName": "RichText",
+          "containerId": "TabView",
+          "id": "ImportMarketDataFileTextLabel_",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "value": "\u003cp\u003eImport market data from an Excel workbook:\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.03",
+          "versionDeprecated": "2023.05"
+        }
+      },
+      "importRiskFactors": {
+        "FileUpload": {
+          "compName": "FileUpload",
+          "containerId": "TabView",
+          "events": {
+            "onSelectFile": {
+              "name": "onSelectFile"
+            }
+          },
+          "id": "FileUpload",
+          "label": "appbuilder.toolboxitem.fileUpload.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        },
+        "ImportFileTextLabel": {
+          "compName": "CirrusLabel",
+          "containerId": "TabView",
+          "id": "ImportFileTextLabel",
+          "label": "appbuilder.toolboxitem.CirrusLabel.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "EUA": true,
+            "colon": true,
+            "contentKey": "importRiskFactorDef",
+            "library": "rfmEUAlib"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "ImportFileTextLabel_": {
+          "compName": "RichText",
+          "containerId": "TabView",
+          "id": "ImportFileTextLabel_",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "value": "\u003cp\u003eImport file:\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02",
+          "versionDeprecated": "2023.05"
+        },
+        "importButton": {
+          "compName": "Button",
+          "containerId": "TabView",
+          "events": {
+            "click": {
+              "name": "importRiskFactors"
+            }
+          },
+          "id": "importButton",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "shrink": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        },
+        "reportTable": {
+          "compName": "GenericSpreadsheetWidget",
+          "containerId": "TabView",
+          "id": "reportTable",
+          "label": "appbuilder.toolboxitem.spreadsheet.generic.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "columnMetaData": "{\"table\": {\"options\": { \"selectionMode\": \"MultiToggle\", \"height\": \"100px\", \"width\": \"300px\"},\"columnOptions\": { \"visible\": true, \"defaultVisible\": true, \"autoResizable\": true, \"sortable\": false, \"width\": \"75px\", \"areLabelsLocalized\": true},\"cellOptions\": { \"readonly\": true, \"cellType\": \"string\"}},\"columns\": [{ \"options\": { \"id\": \"createOrUpdate\", \"label\": \"ImportExport.library.label.base.validationDetailChangeType\" }, \"cellOptions\": { \"cellType\": \"string\" }},{ \"options\": { \"id\": \"name\", \"label\": \"ImportExport.library.label.base.validationDetailName\" }, \"cellOptions\": { \"cellType\": \"string\" }},{ \"options\": { \"id\": \"type\", \"label\": \"ImportExport.library.label.base.validationDetailType\" }, \"cellOptions\": { \"cellType\": \"string\" }}]}",
+            "pagination": true,
+            "paginationPageSize": 10,
+            "suppressToolBar": false,
+            "suppressToolBarAddAction": true,
+            "suppressToolBarCollapseAllAction": true,
+            "suppressToolBarDeleteAction": true,
+            "suppressToolBarExpandAllAction": true,
+            "suppressToolBarRefreshAction": true,
+            "suppressToolBarSearchField": false,
+            "value": "\u003cp\u003e{\u003cbr\u003e\"table\": {\u003cbr\u003e\u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp; \"selectionMode\": \"MultiToggle\",\u003cbr\u003e\u0026nbsp; \"height\": \"100px\",\u003cbr\u003e\u0026nbsp; \"width\": \"300px\"\u003cbr\u003e\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\"columnOptions\": {\u003cbr\u003e\u0026nbsp; \"visible\": true,\u003cbr\u003e\u0026nbsp; \"defaultVisible\": true,\u003cbr\u003e\u0026nbsp; \"autoResizable\": true,\u003cbr\u003e\u0026nbsp; \"sortable\": false,\u003cbr\u003e\u0026nbsp; \"width\": \"75px\",\u003cbr\u003e\u0026nbsp; \"areLabelsLocalized\": true\u003cbr\u003e\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\"cellOptions\": {\u003cbr\u003e\u0026nbsp; \"readonly\": true,\u003cbr\u003e\u0026nbsp; \"cellType\": \"string\"\u003cbr\u003e\u0026nbsp;}\u003cbr\u003e},\u003cbr\u003e\"columns\": [\u003cbr\u003e\u0026nbsp;{\u003cbr\u003e\u0026nbsp; \"options\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"id\": \"createOrUpdate\",\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"label\": \"ImportExport.library.label.base.validationDetailChangeType\"\u003cbr\u003e\u0026nbsp; },\u003cbr\u003e\u0026nbsp; \"cellOptions\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"cellType\": \"string\"\u003cbr\u003e\u0026nbsp; }\u003cbr\u003e\u0026nbsp;},\u003cbr\u003e\u0026nbsp;{\u003cbr\u003e\u0026nbsp; \"options\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"id\": \"name\",\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"label\": \"ImportExport.library.label.base.validationDetailName\"\u003cbr\u003e\u0026nbsp; },\u003cbr\u003e\u0026nbsp; \"cellOptions\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"cellType\": \"string\"\u003cbr\u003e\u0026nbsp; }\u003cbr\u003e\u0026nbsp;},\u003cbr\u003e\u0026nbsp;{\u003cbr\u003e\u0026nbsp; \"options\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"id\": \"type\",\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"label\": \"ImportExport.library.label.base.validationDetailType\"\u003cbr\u003e\u0026nbsp; },\u003cbr\u003e\u0026nbsp; \"cellOptions\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"cellType\": \"string\"\u003cbr\u003e\u0026nbsp; }\u003cbr\u003e\u0026nbsp;}\u003cbr\u003e]\u003cbr\u003e}\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        },
+        "reportTableShort": {
+          "compName": "GenericSpreadsheetWidget",
+          "containerId": "TabView",
+          "id": "reportTableShort",
+          "label": "appbuilder.toolboxitem.spreadsheet.generic.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "columnMetaData": "{\"table\": {\"options\": { \"selectionMode\": \"MultiToggle\", \"height\": \"100px\", \"width\": \"300px\"},\"columnOptions\": { \"visible\": true, \"defaultVisible\": true, \"autoResizable\": true, \"sortable\": false, \"width\": \"75px\", \"areLabelsLocalized\": true},\"cellOptions\": { \"readonly\": true, \"cellType\": \"string\"}},\"columns\": [{ \"options\": { \"id\": \"createOrUpdate\", \"label\": \"ImportExport.library.label.base.validationSummaryChangeType\" }, \"cellOptions\": { \"cellType\": \"string\" }},{ \"options\": { \"id\": \"count\", \"label\": \"ImportExport.library.label.base.validationSummaryTotalChanges\" }, \"cellOptions\": { \"cellType\": \"string\" }}]}",
+            "suppressSideBar": true,
+            "suppressToolBar": true,
+            "suppressToolBarAddAction": true,
+            "suppressToolBarCollapseAllAction": true,
+            "suppressToolBarDeleteAction": true,
+            "suppressToolBarExpandAllAction": true,
+            "suppressToolBarRefreshAction": true,
+            "suppressToolBarSearchField": true,
+            "value": "\u003cp\u003e{\u003cbr\u003e\"table\": {\u003cbr\u003e\u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp; \"selectionMode\": \"MultiToggle\",\u003cbr\u003e\u0026nbsp; \"height\": \"100px\",\u003cbr\u003e\u0026nbsp; \"width\": \"300px\"\u003cbr\u003e\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\"columnOptions\": {\u003cbr\u003e\u0026nbsp; \"visible\": true,\u003cbr\u003e\u0026nbsp; \"defaultVisible\": true,\u003cbr\u003e\u0026nbsp; \"autoResizable\": true,\u003cbr\u003e\u0026nbsp; \"sortable\": false,\u003cbr\u003e\u0026nbsp; \"width\": \"75px\",\u003cbr\u003e\u0026nbsp; \"areLabelsLocalized\": true\u003cbr\u003e\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\"cellOptions\": {\u003cbr\u003e\u0026nbsp; \"readonly\": true,\u003cbr\u003e\u0026nbsp; \"cellType\": \"string\"\u003cbr\u003e\u0026nbsp;}\u003cbr\u003e},\u003cbr\u003e\"columns\": [\u003cbr\u003e\u0026nbsp;{\u003cbr\u003e\u0026nbsp; \"options\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"id\": \"createOrUpdate\",\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"label\": \"ImportExport.library.label.base.validationSummaryChangeType\"\u003cbr\u003e\u0026nbsp; },\u003cbr\u003e\u0026nbsp; \"cellOptions\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"cellType\": \"string\"\u003cbr\u003e\u0026nbsp; }\u003cbr\u003e\u0026nbsp;},\u003cbr\u003e\u0026nbsp;{\u003cbr\u003e\u0026nbsp; \"options\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"id\": \"count\",\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"label\": \"ImportExport.library.label.base.validationSummaryTotalChanges\"\u003cbr\u003e\u0026nbsp; },\u003cbr\u003e\u0026nbsp; \"cellOptions\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"cellType\": \"string\"\u003cbr\u003e\u0026nbsp; }\u003cbr\u003e\u0026nbsp;}\u003cbr\u003e]\u003cbr\u003e}\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        },
+        "validateButton": {
+          "compName": "Button",
+          "containerId": "TabView",
+          "events": {
+            "click": {
+              "name": "validateRiskFactors"
+            }
+          },
+          "id": "validateButton",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "shrink": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        }
+      }
+    },
+    "base": {
+      "TabView": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "TabView",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "exportRiskFactors": {
+              "label": "Export Definitions",
+              "name": "exportRiskFactors",
+              "position": 1
+            },
+            "importMarketData": {
+              "label": "Import Market Data",
+              "name": "importMarketData",
+              "position": 2
+            },
+            "importRiskFactors": {
+              "label": "Import Definitions",
+              "name": "importRiskFactors",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      }
+    }
+  }
+}

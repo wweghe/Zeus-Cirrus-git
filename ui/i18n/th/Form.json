@@ -1,0 +1,12 @@
+{
+  "Form.library.label.base.Accordion.Accordion.panel1.title": "แผง 1",
+  "Form.library.label.base.Accordion.classifications_accordion.classifications.title": "การจำแนกประเภท",
+  "Form.library.label.base.Button.Button.label": "บันทึก",
+  "Form.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "Form.library.label.base.TabView.TabView.0.title": "รายละเอียด",
+  "Form.library.label.base.TabView.TabView.1.title": "ทีม",
+  "Form.library.label.base.TabView.TabView.2.title": "ออบเจ็กต์ที่เกี่ยวข้อง",
+  "Form.library.label.base.TabView.TabView.4.title": "เอกสารประกอบ",
+  "Form.library.label.base.TabView.TabView.5.title": "ประวัติการเปลี่ยนแปลง",
+  "undefined": "แอคคอร์เดียน"
+}

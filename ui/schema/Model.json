@@ -1,0 +1,378 @@
+{
+  "apiName": "models",
+  "bulkAPI": true,
+  "fields": {
+    "createdBy": {
+      "id": "createdBy",
+      "label": "Creator",
+      "tableMeta": {
+        "dataType": "string",
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "createdInTag": {
+      "id": "createdInTag",
+      "index": 8,
+      "label": "Created in",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "creationTimeStamp": {
+      "id": "creationTimeStamp",
+      "label": "Date created",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "dataType": "date",
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "default": {
+      "id": "default",
+      "label": "Default classification",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsClassification",
+        "libName": "base"
+      }
+    },
+    "description": {
+      "id": "description",
+      "index": 6,
+      "label": "Model description",
+      "newId": "description",
+      "props": {
+        "maxLength": 4000
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "engineCd": {
+      "id": "engineCd",
+      "index": 5,
+      "label": "Engine",
+      "newId": "engineCd",
+      "props": {
+        "options": {
+          "RE": {
+            "index": 0,
+            "label": "Risk Engine",
+            "value": "RE"
+          },
+          "SAS": {
+            "index": 1,
+            "label": "SAS",
+            "value": "SAS"
+          }
+        }
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "engineModelUri": {
+      "id": "engineModelUri",
+      "label": "Engine Model URI",
+      "newId": "engineModelUri",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "ReadonlyField",
+        "libName": "base"
+      }
+    },
+    "modelCode": {
+      "id": "modelCode",
+      "index": 8,
+      "label": "Model Code",
+      "newId": "modelCode",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {},
+      "type": {
+        "compName": "CodeEditor",
+        "libName": "base"
+      }
+    },
+    "modelStatus": {
+      "id": "modelStatus",
+      "index": 12,
+      "label": "Model status",
+      "newId": "modelStatus",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "dataType": "string",
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "modifiedBy": {
+      "id": "modifiedBy",
+      "label": "Last editor",
+      "tableMeta": {
+        "dataType": "string",
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "modifiedTimeStamp": {
+      "id": "modifiedTimeStamp",
+      "label": "Date modified",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "dataType": "date",
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "name": {
+      "id": "name",
+      "index": 8,
+      "label": "Model name",
+      "mapped": "",
+      "newId": "name",
+      "props": {
+        "maxLength": 200
+      },
+      "tableMeta": {
+        "dataType": "string",
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "objectId": {
+      "id": "objectId",
+      "index": 7,
+      "label": "Model ID",
+      "newId": "objectId",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "postModelCode": {
+      "id": "postModelCode",
+      "index": 14,
+      "label": "Post-Model Code",
+      "newId": "postModelCode",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {},
+      "type": {
+        "compName": "CodeEditor",
+        "libName": "base"
+      }
+    },
+    "postReActionsCode": {
+      "id": "postReActionsCode",
+      "index": 16,
+      "label": "Risk Engine Post-Actions Code",
+      "newId": "postReActionsCode",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {},
+      "type": {
+        "compName": "CodeEditor",
+        "libName": "base"
+      }
+    },
+    "preModelCode": {
+      "id": "preModelCode",
+      "index": 15,
+      "label": "Pre-Model Code",
+      "newId": "preModelCode",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {},
+      "type": {
+        "compName": "CodeEditor",
+        "libName": "base"
+      }
+    },
+    "preReActionsCode": {
+      "id": "preReActionsCode",
+      "index": 17,
+      "label": "Risk Engine Pre-Actions Code",
+      "newId": "preReActionsCode",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {},
+      "type": {
+        "compName": "CodeEditor",
+        "libName": "base"
+      }
+    },
+    "source_model_name": {
+      "id": "source_model_name",
+      "label": "Source model name",
+      "props": {},
+      "tableMeta": {},
+      "type": {
+        "compName": "ModelRepositorySelector",
+        "libName": "base"
+      }
+    },
+    "statusCd": {
+      "id": "statusCd",
+      "index": 10,
+      "label": "Status",
+      "props": {
+        "options": {
+          "PROD": {
+            "index": 2,
+            "label": "Production",
+            "value": "PROD"
+          },
+          "REV": {
+            "index": 1,
+            "label": "Under review",
+            "value": "REV"
+          },
+          "TEST": {
+            "index": 0,
+            "label": "Testing",
+            "value": "TEST"
+          }
+        }
+      },
+      "tableMeta": {
+        "dataType": "string",
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "version": {
+      "id": "version",
+      "label": "Model version",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    }
+  },
+  "id": "Model",
+  "index": 12,
+  "labelPlural": "Models",
+  "labelSingular": "Model",
+  "nameField": "name",
+  "options": {},
+  "relationships": {
+    "form_model": {
+      "cardinality": "manyToMany",
+      "sourceLabel": "Form",
+      "sourceLabelPlural": "Forms",
+      "sourceName": "linkedForm",
+      "sourceSysCode": "RCC",
+      "sourceType": "Form",
+      "targetLabel": "Model",
+      "targetLabelPlural": "Models",
+      "targetName": "linkedModels",
+      "targetType": "Model",
+      "type": "lookup"
+    }
+  },
+  "sasProvided": true,
+  "searchable": true,
+  "security": {
+    "actions": {
+      "edit": false,
+      "execute": false,
+      "view": true
+    },
+    "allowSharing": true,
+    "useHierarchy": true
+  },
+  "streamAPI": true,
+  "tasks": {}
+}

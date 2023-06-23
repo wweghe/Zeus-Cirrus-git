@@ -1,0 +1,402 @@
+{
+  "layouts": {
+    "base": {
+      "header_container": {
+        "h": 50,
+        "i": "header_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 8,
+        "x": 4,
+        "y": 0
+      },
+      "name_readonly": {
+        "h": 26,
+        "i": "name_readonly",
+        "minH": 24,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 0
+      },
+      "rule_set_tab": {
+        "h": 626,
+        "i": "rule_set_tab",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 51
+      }
+    },
+    "header_container": {
+      "default": {
+        "save": {
+          "h": 26,
+          "i": "save",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      }
+    },
+    "rule_set_tab": {
+      "1": {
+        "DataDefinition": {
+          "h": 52,
+          "i": "DataDefinition",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 6,
+          "y": 128
+        },
+        "description": {
+          "h": 86,
+          "i": "description",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 6,
+          "y": 15
+        },
+        "name": {
+          "h": 50,
+          "i": "name",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 70
+        },
+        "objectId": {
+          "h": 50,
+          "i": "objectId",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 12
+        },
+        "typeCd": {
+          "h": 52,
+          "i": "typeCd",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 128
+        }
+      },
+      "2": {
+        "additional_comments": {
+          "h": 550,
+          "i": "additional_comments",
+          "minH": 236,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 0
+        },
+        "documentation_attachments": {
+          "h": 286,
+          "i": "documentation_attachments",
+          "minH": 100,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 0
+        },
+        "documentation_links": {
+          "h": 241,
+          "i": "documentation_links",
+          "minH": 100,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 312
+        }
+      },
+      "3": {
+        "ChangeHistory": {
+          "h": 236,
+          "i": "ChangeHistory",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "draft": {
+        "name": "onDraftLoad"
+      },
+      "edit": {
+        "name": "onEditLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "onAnyEvent"
+      },
+      "onTabClose": {
+        "name": "onTabClose"
+      }
+    },
+    "props": {
+      "description": "",
+      "icon": "base://ALLOCATION_RULE",
+      "id": "RuleSet",
+      "label": "Rule Set",
+      "tabLabel": ""
+    }
+  },
+  "structure": {
+    "base": {
+      "header_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "header_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true,
+        "versionAdded": "2022.12"
+      },
+      "name_readonly": {
+        "compName": "ReadonlyFieldWidget",
+        "containerId": "base",
+        "id": "name_readonly",
+        "label": "appbuilder.toolboxitem.readonlyfield.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldValue": true,
+          "colon": false,
+          "stacked": false
+        },
+        "sasProvided": true,
+        "versionAdded": "2022.12"
+      },
+      "rule_set_tab": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "rule_set_tab",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "1": {
+              "label": "Details",
+              "name": "1",
+              "position": 0
+            },
+            "2": {
+              "label": "Documentation",
+              "name": "2",
+              "position": 1
+            },
+            "3": {
+              "label": "Change History",
+              "name": "3",
+              "position": 2
+            }
+          }
+        },
+        "sasProvided": true,
+        "versionAdded": "2022.12"
+      }
+    },
+    "header_container": {
+      "default": {
+        "save": {
+          "compName": "Button",
+          "containerId": "header_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "header_container",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        }
+      }
+    },
+    "rule_set_tab": {
+      "1": {
+        "DataDefinition": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "rule_set_tab",
+          "fieldName": "DataDefinition",
+          "id": "DataDefinition",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        },
+        "description": {
+          "compName": "InputTextarea",
+          "containerId": "rule_set_tab",
+          "fieldName": "description",
+          "id": "description",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {
+            "colon": true,
+            "rows": 3
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        },
+        "name": {
+          "compName": "InputText",
+          "containerId": "rule_set_tab",
+          "events": {
+            "onChange": {
+              "name": "onNameChange"
+            }
+          },
+          "fieldName": "name",
+          "id": "name",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        },
+        "objectId": {
+          "compName": "InputText",
+          "containerId": "rule_set_tab",
+          "events": {
+            "onChange": {
+              "name": "setDefaultName"
+            }
+          },
+          "fieldName": "objectId",
+          "id": "objectId",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        },
+        "typeCd": {
+          "compName": "Dropdown",
+          "containerId": "rule_set_tab",
+          "fieldName": "typeCd",
+          "id": "typeCd",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {
+            "align": "start",
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        }
+      },
+      "2": {
+        "additional_comments": {
+          "compName": "Comments",
+          "containerId": "rule_set_tab",
+          "fieldName": "additional_comments",
+          "id": "additional_comments",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        },
+        "documentation_attachments": {
+          "compName": "CirrusObjectsAttachments",
+          "containerId": "rule_set_tab",
+          "fieldName": "documentation_attachments",
+          "id": "documentation_attachments",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        },
+        "documentation_links": {
+          "compName": "CirrusObjectsLinks",
+          "containerId": "rule_set_tab",
+          "fieldName": "documentation_links",
+          "id": "documentation_links",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        }
+      },
+      "3": {
+        "ChangeHistory": {
+          "compName": "ChangeHistory",
+          "containerId": "rule_set_tab",
+          "id": "ChangeHistory",
+          "label": "appbuilder.toolboxitem.changeHistory.title",
+          "libName": "base",
+          "parentId": "rule_set_tab",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        }
+      }
+    }
+  }
+}

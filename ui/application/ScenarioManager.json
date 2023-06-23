@@ -1,0 +1,53 @@
+{
+  "layouts": {
+    "base": {
+      "ApplicationFrame": {
+        "h": 660,
+        "i": "ApplicationFrame",
+        "minH": 1,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "onPageLoad": {
+        "name": "onPageLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {},
+      "onTabClose": {}
+    },
+    "props": {
+      "description": "",
+      "icon": "base://GROOVE_SCENARIO",
+      "id": "ScenarioManager",
+      "label": "Scenario Manager",
+      "tabLabel": "Scenario Manager"
+    }
+  },
+  "structure": {
+    "base": {
+      "ApplicationFrame": {
+        "compName": "ApplicationFrame",
+        "containerId": "base",
+        "id": "ApplicationFrame",
+        "label": "appbuilder.toolboxitem.applicationFrame.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "fillParentContainer": true,
+          "urlPath": "/SASRiskScenarioManager/Embedded"
+        },
+        "sasProvided": true,
+        "versionAdded": "2022.11"
+      }
+    }
+  }
+}

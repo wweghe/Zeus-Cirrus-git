@@ -1,0 +1,70 @@
+{
+  "layouts": {
+    "base": {
+      "ObjectManager": {
+        "h": 520,
+        "i": "ObjectManager",
+        "minH": 30,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "onPageLoad": {
+        "params": {}
+      }
+    },
+    "events": {
+      "onTabClose": {}
+    },
+    "props": {
+      "description": "",
+      "icon": "",
+      "id": "ObjectManagerTemplate",
+      "label": "Object Manager Template"
+    }
+  },
+  "structure": {
+    "base": {
+      "ObjectManager": {
+        "compName": "ObjectManager",
+        "containerId": "base",
+        "events": {
+          "onCopy": {
+            "name": "onCopy"
+          },
+          "onCreate": {
+            "name": "onCreate"
+          },
+          "onDelete": {
+            "name": "onDelete"
+          },
+          "onEdit": {
+            "name": "onEdit"
+          },
+          "onExport": {
+            "name": "onExport"
+          },
+          "onFetch": {
+            "name": "onFetch"
+          },
+          "onSave": {
+            "name": "onSave"
+          }
+        },
+        "id": "ObjectManager",
+        "label": "appbuilder.toolboxitem.objectmanager.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {},
+        "sasProvided": true
+      }
+    }
+  }
+}

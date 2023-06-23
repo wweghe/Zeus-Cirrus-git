@@ -1,0 +1,11 @@
+{
+  "RuleSet.library.label.base.Button.save.label": "保存",
+  "RuleSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "RuleSet.library.label.base.TabView.TabView.1.title": "詳細",
+  "RuleSet.library.label.base.TabView.TabView.2.title": "ドキュメント",
+  "RuleSet.library.label.base.TabView.TabView.3.title": "変更履歴",
+  "RuleSet.library.label.base.TabView.rule_set_tab.1.title": "詳細",
+  "RuleSet.library.label.base.TabView.rule_set_tab.2.title": "ドキュメント",
+  "RuleSet.library.label.base.TabView.rule_set_tab.3.title": "変更履歴",
+  "undefined": "タブ"
+}

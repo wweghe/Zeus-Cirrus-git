@@ -1,0 +1,45 @@
+{
+  "layouts": {
+    "base": {
+      "CirrusObjectsDataLoad": {
+        "h": 600,
+        "i": "CirrusObjectsDataLoad",
+        "minH": 150,
+        "minW": 5,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "page": {
+    "events": {
+      "onTabClose": {}
+    },
+    "props": {
+      "description": "",
+      "icon": "base://SOURCE_DATABASE",
+      "id": "DataLoad",
+      "label": "DataLoad",
+      "tabLabel": "Data Load"
+    }
+  },
+  "structure": {
+    "base": {
+      "CirrusObjectsDataLoad": {
+        "compName": "CirrusObjectsDataLoad",
+        "containerId": "base",
+        "id": "CirrusObjectsDataLoad",
+        "label": "CirrusObjects Data Load",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "ignoreTabs": "UI"
+        },
+        "sasProvided": true
+      }
+    }
+  }
+}

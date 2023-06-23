@@ -1,0 +1,24 @@
+{
+  "id": "CORE",
+  "objects": [
+    "AnalysisData",
+    "AnalysisRun",
+    "AttributionTemplate",
+    "CodeLibrary",
+    "ConfigurationSet",
+    "ConfigurationTable",
+    "Cycle",
+    "DataDefinition",
+    "DataMap",
+    "DataSecurityRule",
+    "Finding",
+    "Form",
+    "Model",
+    "ModelReview",
+    "RuleSet",
+    "Script",
+    "User",
+    "WorkflowTemplate"
+  ],
+  "sasProvided": true
+}

@@ -1,0 +1,15 @@
+{
+  "ConfigurationTable.library.label.base.Accordion.instance_details.details.title": "構成テーブルの詳細",
+  "ConfigurationTable.library.label.base.Attachments.additional_attachments.label": "ドキュメントの添付",
+  "ConfigurationTable.library.label.base.Button.save.label": "保存",
+  "ConfigurationTable.library.label.base.CirrusObjectsLinks.documentation_links.label": "ドキュメントのリンク",
+  "ConfigurationTable.library.label.base.Comments.additional_comments.label": "コメント",
+  "ConfigurationTable.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "スプレッドシート",
+  "ConfigurationTable.library.label.base.InputText.name.label": "構成テーブル名",
+  "ConfigurationTable.library.label.base.InputText.objectId.label": "構成テーブル ID",
+  "ConfigurationTable.library.label.base.InputTextarea.description.label": "構成テーブルの詳細",
+  "ConfigurationTable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.0.title": "詳細",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.1.title": "ドキュメント",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.2.title": "変更履歴"
+}

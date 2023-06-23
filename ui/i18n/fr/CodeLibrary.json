@@ -1,0 +1,20 @@
+{
+  "CodeLibrary.CodeLibrary.schema.field.description.label": "Description de la bibliothèque de code",
+  "CodeLibrary.CodeLibrary.schema.field.gitBranch.label": "Branche Git",
+  "CodeLibrary.CodeLibrary.schema.field.gitCommit.label": "Commit Git",
+  "CodeLibrary.CodeLibrary.schema.field.gitRepoName.label": "Nom du référentiel Git",
+  "CodeLibrary.CodeLibrary.schema.field.git_commit_selector.label": "Git Commit",
+  "CodeLibrary.CodeLibrary.schema.field.name.label": "Nom de la bibliothèque de code",
+  "CodeLibrary.CodeLibrary.schema.field.objectId.label": "ID de la bibliothèque de code",
+  "CodeLibrary.CodeLibrary.schema.field.statusCd.label": "Statut de la bibliothèque de code",
+  "CodeLibrary.library.label.base.Accordion.Accordion.branchDetails.title": "Détails de la branche",
+  "CodeLibrary.library.label.base.Accordion.instance_details.details.title": "Détails de la bibliothèque de code",
+  "CodeLibrary.library.label.base.Button.save.label": "Enregistrer",
+  "CodeLibrary.library.label.base.GitCommitSelector.gitCommit.label": "Git Commit",
+  "CodeLibrary.library.label.base.LinkWidget.gitRepoURL.label": "",
+  "CodeLibrary.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "CodeLibrary.library.label.base.TabView.main_tabs.1.title": "Documentation",
+  "CodeLibrary.library.label.base.TabView.main_tabs.2.title": "Dépendances",
+  "CodeLibrary.library.label.base.TabView.main_tabs.3.title": "Historique des modifications",
+  "CodeLibrary.library.label.base.TabView.main_tabs.tabDetails.title": "Détails"
+}

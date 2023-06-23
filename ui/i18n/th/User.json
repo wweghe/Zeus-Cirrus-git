@@ -1,0 +1,7 @@
+{
+  "User.schema.field.email.label": "อีเมล",
+  "User.schema.field.key.label": "คีย์",
+  "User.schema.field.name.label": "ชื่อ",
+  "User.schema.field.status.label": "สถานะ",
+  "User.schema.field.userId.label": "ID ผู้ใช้"
+}
