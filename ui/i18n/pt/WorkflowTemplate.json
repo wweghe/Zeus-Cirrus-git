@@ -1,0 +1,23 @@
+{
+  "WorkflowTemplate.WorkflowTemplate.schema.field.createNewDefinition.label": "Criar um novo modelo de fluxo ou selecionar um já existente?",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.initializeFlg.option.label1.label": "Sim",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.initializeFlg.option.label2.label": "Não",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.input_file_attachment.label": "Ficheiro de modelo de fluxo",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.objectType.help.label": "A lista de opções de menu pendente baseia-se nos registos de objeto para os quais foi ativado o fluxo através da propriedade workflowEnabled.",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.objectType_1.help.label": "A lista de opções de menu pendente baseia-se nos registos de objeto para os quais foi ativado o fluxo através da propriedade workflowEnabled.",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.message.label": "A definição do fluxo não deve ter nomes de tarefa duplicados. Selecione uma definição de fluxo com nomes de tarefa únicos.",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.script.summary.label": "Os seguintes scripts foram referenciados nos detalhes da tarefa de fluxo, mas não existem:",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.summary.label": "A definição de fluxo não é válida.",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.wfDefinitionName.label": "Nome de definição de fluxo",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.wfDefinitionName_1.label": "Nome de definição de fluxo",
+  "WorkflowTemplate.library.label.base.Accordion.instance_details.details.title": "Detalhes do Modelo de Fluxo",
+  "WorkflowTemplate.library.label.base.Button.save.label": "Guardar",
+  "WorkflowTemplate.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.0.title": "Tarefas",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.1.title": "Documentação",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.2.title": "Objetos Relacionados",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.3.title": "Histórico de Alterações",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.tab_details.title": "Detalhes",
+  "WorkflowTemplate.library.label.base.TabView.save_container.0.title": "Guardar",
+  "WorkflowTemplate.library.label.base.WorkflowDiagram.WorkflowDiagram.label": "Diagrama de Fluxo"
+}

@@ -1,0 +1,16 @@
+{
+  "Script.Script.schema.field.endsInAsyncCallFlg.option.label1.label": "예",
+  "Script.Script.schema.field.endsInAsyncCallFlg.option.label2.label": "아니요",
+  "Script.library.label.base.Accordion.Accordion.KRMOutputPane.title": "KRM 출력 테이블",
+  "Script.library.label.base.Accordion.instance_details.details.title": "스크립트 상세 정보",
+  "Script.library.label.base.Button.save.label": "저장",
+  "Script.library.label.base.GenericSpreadsheetWidget.KRMSpreadsheetWidget.label": "스프레드시트",
+  "Script.library.label.base.ReadonlyFieldWidget.ReadonlyFieldWidget.label": "파라미터는 현재 사후 실행 스크립트에 대해 지원되지 않습니다.",
+  "Script.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "Script.library.label.base.TabView.script_tabs.tab_analysis_runs.title": "분석 런",
+  "Script.library.label.base.TabView.script_tabs.tab_change_history.title": "변경 히스토리",
+  "Script.library.label.base.TabView.script_tabs.tab_code.title": "코드",
+  "Script.library.label.base.TabView.script_tabs.tab_details.title": "상세 정보",
+  "Script.library.label.base.TabView.script_tabs.tab_documentation.title": "문서",
+  "Script.library.label.base.TabView.script_tabs.tab_parameters.title": "파라미터"
+}

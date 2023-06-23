@@ -1,0 +1,639 @@
+{
+  "layouts": {
+    "base": {
+      "configurationtable_tabs": {
+        "h": 848,
+        "i": "configurationtable_tabs",
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 84
+      },
+      "header_container": {
+        "h": 50,
+        "i": "header_container",
+        "moved": false,
+        "static": false,
+        "w": 8,
+        "x": 4,
+        "y": 2
+      },
+      "name_readonly": {
+        "h": 26,
+        "i": "name_readonly",
+        "minH": 24,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 0
+      },
+      "statusCd": {
+        "h": 52,
+        "i": "statusCd",
+        "minH": 52,
+        "minW": 3,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 30
+      }
+    },
+    "configurationtable_tabs": {
+      "tabChangeHistory": {
+        "ChangeHistory": {
+          "h": 236,
+          "i": "ChangeHistory",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "statusCd": {
+          "h": 69,
+          "i": "statusCd",
+          "minH": 24,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 51
+        }
+      },
+      "tabData": {
+        "GenericSpreadsheetWidget": {
+          "h": 413,
+          "i": "GenericSpreadsheetWidget",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 48
+        },
+        "GenericSpreadsheetWidget_1": {
+          "h": 413,
+          "i": "GenericSpreadsheetWidget_1",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 412
+        },
+        "RichText": {
+          "h": 48,
+          "i": "RichText",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 0
+        },
+        "RichText_1": {
+          "h": 48,
+          "i": "RichText_1",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 332
+        },
+        "isProduction": {
+          "h": 48,
+          "i": "isProduction",
+          "minH": 24,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 6,
+          "y": 184
+        },
+        "statusCd_1": {
+          "h": 52,
+          "i": "statusCd_1",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 26
+        }
+      },
+      "tabDetails": {
+        "GenericSpreadsheetWidget_1": {
+          "h": 413,
+          "i": "GenericSpreadsheetWidget_1",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 412
+        },
+        "Image": {
+          "h": 23,
+          "i": "Image",
+          "minH": 1,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 282
+        },
+        "RichText_1": {
+          "h": 48,
+          "i": "RichText_1",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 332
+        },
+        "description": {
+          "h": 80,
+          "i": "description",
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 6,
+          "y": 1
+        },
+        "isProduction": {
+          "h": 48,
+          "i": "isProduction",
+          "minH": 24,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 6,
+          "y": 184
+        },
+        "linkedConfigurationSets": {
+          "h": 89,
+          "i": "linkedConfigurationSets",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 118
+        },
+        "name": {
+          "h": 50,
+          "i": "name",
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 55
+        },
+        "objectId": {
+          "h": 51,
+          "i": "objectId",
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 2
+        },
+        "statusCd_1": {
+          "h": 52,
+          "i": "statusCd_1",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 26
+        }
+      },
+      "tabDocumentation": {
+        "additional_attachments": {
+          "h": 286,
+          "i": "additional_attachments",
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 16
+        },
+        "additional_comments": {
+          "h": 550,
+          "i": "additional_comments",
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 0
+        },
+        "documentation_links": {
+          "h": 241,
+          "i": "documentation_links",
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 312
+        },
+        "statusCd": {
+          "h": 69,
+          "i": "statusCd",
+          "minH": 24,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 51
+        }
+      }
+    },
+    "header_container": {
+      "default": {
+        "save": {
+          "h": 26,
+          "i": "save",
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      }
+    },
+    "instance_details": {
+      "details": {}
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "draft": {
+        "name": "onDraftLoad"
+      },
+      "edit": {
+        "name": "onEditLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "onAnyEvent"
+      },
+      "onTabClose": {
+        "name": "onTabClose"
+      }
+    },
+    "props": {
+      "description": "",
+      "icon": "base://CONFIGURATION_TABLE",
+      "id": "ConfigurationTable",
+      "label": "Configuration Table"
+    }
+  },
+  "structure": {
+    "base": {
+      "configurationtable_tabs": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "configurationtable_tabs",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 1,
+          "childProps": {
+            "tabChangeHistory": {
+              "label": "Change History",
+              "name": "tabChangeHistory",
+              "position": 3
+            },
+            "tabData": {
+              "id": "tabData",
+              "label": "Data",
+              "name": "tabData",
+              "position": 1
+            },
+            "tabDetails": {
+              "label": "Details",
+              "name": "tabDetails",
+              "position": 0
+            },
+            "tabDocumentation": {
+              "label": "Documentation",
+              "name": "tabDocumentation",
+              "position": 2
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "header_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "header_container",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "name_readonly": {
+        "compName": "ReadonlyFieldWidget",
+        "containerId": "base",
+        "id": "name_readonly",
+        "label": "appbuilder.toolboxitem.readonlyfield.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldLabel": true,
+          "boldValue": true,
+          "colon": false,
+          "stacked": false
+        },
+        "sasProvided": true
+      },
+      "statusCd": {
+        "compName": "Dropdown",
+        "containerId": "base",
+        "fieldName": "statusCd",
+        "id": "statusCd",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldValue": true,
+          "colon": true
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.05"
+      }
+    },
+    "configurationtable_tabs": {
+      "tabChangeHistory": {
+        "ChangeHistory": {
+          "compName": "ChangeHistory",
+          "containerId": "configurationtable_tabs",
+          "id": "ChangeHistory",
+          "label": "appbuilder.toolboxitem.changeHistory.title",
+          "libName": "base",
+          "parentId": "configurationtable_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "tabData": {
+        "GenericSpreadsheetWidget": {
+          "compName": "GenericSpreadsheetWidget",
+          "containerId": "configurationtable_tabs",
+          "id": "GenericSpreadsheetWidget",
+          "label": "appbuilder.toolboxitem.spreadsheet.generic.title",
+          "libName": "base",
+          "parentId": "configurationtable_tabs",
+          "props": {
+            "pagination": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "RichText": {
+          "compName": "RichText",
+          "containerId": "configurationtable_tabs",
+          "id": "RichText",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "configurationtable_tabs",
+          "props": {
+            "value": "\u003cp\u003eConfiguration table data\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        }
+      },
+      "tabDetails": {
+        "GenericSpreadsheetWidget_1": {
+          "compName": "GenericSpreadsheetWidget",
+          "containerId": "configurationtable_tabs",
+          "events": {},
+          "id": "GenericSpreadsheetWidget_1",
+          "label": "appbuilder.toolboxitem.spreadsheet.generic.title",
+          "libName": "base",
+          "parentId": "configurationtable_tabs",
+          "props": {
+            "columnMetaData": "",
+            "suppressToolBar": false,
+            "suppressToolBarDeleteAction": false,
+            "value": ""
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12",
+          "versionDeprecated": "2023.05"
+        },
+        "Image": {
+          "compName": "Image",
+          "containerId": "configurationtable_tabs",
+          "id": "Image",
+          "label": "appbuilder.toolboxitem.image.title",
+          "libName": "base",
+          "parentId": "configurationtable_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "RichText_1": {
+          "compName": "RichText",
+          "containerId": "configurationtable_tabs",
+          "id": "RichText_1",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "configurationtable_tabs",
+          "props": {
+            "value": "\u003cp\u003eConfiguration table data:\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.01",
+          "versionDeprecated": "2023.05"
+        },
+        "description": {
+          "compName": "InputTextarea",
+          "containerId": "configurationtable_tabs",
+          "fieldName": "description",
+          "id": "description",
+          "libName": "base",
+          "parentId": "configurationtable_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "isProduction": {
+          "compName": "RadioButtonFieldWidget",
+          "containerId": "configurationtable_tabs",
+          "id": "isProduction",
+          "label": "appbuilder.toolboxitem.radioButtonField.title",
+          "libName": "base",
+          "parentId": "configurationtable_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04",
+          "versionDeprecated": "2023.05"
+        },
+        "linkedConfigurationSets": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "configurationtable_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            },
+            "onAddedLinkInstances": {
+              "name": "onConfigSetSelect"
+            },
+            "onRemovedLinkInstances": {
+              "name": "onConfigSetRemove"
+            }
+          },
+          "fieldName": "linkedConfigurationSets",
+          "id": "linkedConfigurationSets",
+          "libName": "base",
+          "parentId": "configurationtable_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.01"
+        },
+        "name": {
+          "compName": "InputText",
+          "containerId": "configurationtable_tabs",
+          "events": {
+            "onChange": {
+              "name": "onNameChange"
+            }
+          },
+          "fieldName": "name",
+          "id": "name",
+          "libName": "base",
+          "parentId": "configurationtable_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "objectId": {
+          "compName": "InputText",
+          "containerId": "configurationtable_tabs",
+          "events": {
+            "onChange": {
+              "name": "setDefaultName"
+            }
+          },
+          "fieldName": "objectId",
+          "id": "objectId",
+          "libName": "base",
+          "parentId": "configurationtable_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "statusCd_1": {
+          "compName": "ReadonlyField",
+          "containerId": "configurationtable_tabs",
+          "fieldName": "statusCd",
+          "id": "statusCd_1",
+          "libName": "base",
+          "parentId": "configurationtable_tabs",
+          "props": {
+            "align": "start",
+            "boldValue": true,
+            "colon": false,
+            "stacked": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.01",
+          "versionDeprecated": "2023.05"
+        }
+      },
+      "tabDocumentation": {
+        "additional_attachments": {
+          "compName": "Attachments",
+          "containerId": "configurationtable_tabs",
+          "fieldName": "additional_attachments",
+          "id": "additional_attachments",
+          "libName": "base",
+          "parentId": "configurationtable_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "additional_comments": {
+          "compName": "Comments",
+          "containerId": "configurationtable_tabs",
+          "fieldName": "additional_comments",
+          "id": "additional_comments",
+          "libName": "base",
+          "parentId": "configurationtable_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_links": {
+          "compName": "CirrusObjectsLinks",
+          "containerId": "configurationtable_tabs",
+          "fieldName": "documentation_links",
+          "id": "documentation_links",
+          "libName": "base",
+          "parentId": "configurationtable_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      }
+    },
+    "header_container": {
+      "default": {
+        "save": {
+          "compName": "Button",
+          "containerId": "header_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save",
+          "libName": "base",
+          "parentId": "header_container",
+          "props": {},
+          "sasProvided": true
+        }
+      }
+    },
+    "instance_details": {
+      "details": {}
+    }
+  }
+}

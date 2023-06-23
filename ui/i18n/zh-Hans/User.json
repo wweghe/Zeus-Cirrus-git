@@ -1,0 +1,7 @@
+{
+  "User.schema.field.email.label": "电子邮件",
+  "User.schema.field.key.label": "键",
+  "User.schema.field.name.label": "名称",
+  "User.schema.field.status.label": "状态",
+  "User.schema.field.userId.label": "用户 ID"
+}

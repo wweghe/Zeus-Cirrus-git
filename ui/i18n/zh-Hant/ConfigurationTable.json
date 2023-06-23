@@ -1,0 +1,21 @@
+{
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd.label": "狀態",
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd_1.label": "狀態",
+  "ConfigurationTable.library.label.base.Accordion.instance_details.details.title": "設定表格詳細資料",
+  "ConfigurationTable.library.label.base.Attachments.additional_attachments.label": "文件附件",
+  "ConfigurationTable.library.label.base.Button.save.label": "儲存",
+  "ConfigurationTable.library.label.base.CirrusObjectsLinks.documentation_links.label": "文件連結",
+  "ConfigurationTable.library.label.base.Comments.additional_comments.label": "註解",
+  "ConfigurationTable.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget_1.label": "試算表",
+  "ConfigurationTable.library.label.base.InputText.name.label": "設定表格名稱",
+  "ConfigurationTable.library.label.base.InputText.objectId.label": "設定表格 ID",
+  "ConfigurationTable.library.label.base.InputTextarea.description.label": "設定表格說明",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.help.label": "如果任何連結的設定集處於生產狀態，則也會將設定表格視為生產表格。",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.label": "處於生產狀態",
+  "ConfigurationTable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationTable.library.label.base.RichText.RichText_1.label": "RTF 文字",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabChangeHistory.title": "變更歷程記錄",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabData.title": "資料",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDetails.title": "詳細資料",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDocumentation.title": "文件"
+}

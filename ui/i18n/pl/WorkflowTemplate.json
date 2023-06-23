@@ -1,0 +1,23 @@
+{
+  "WorkflowTemplate.WorkflowTemplate.schema.field.createNewDefinition.label": "Utworzyć nowy szablon obiegów czy wybrać istniejący?",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.initializeFlg.option.label1.label": "Tak",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.initializeFlg.option.label2.label": "Nie",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.input_file_attachment.label": "Plik szablonu obiegów",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.objectType.help.label": "Lista opcji jest oparta na rejestracjach obiektów, dla których obieg został włączony za pomocą właściwości workflowEnabled.",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.objectType_1.help.label": "Lista opcji jest oparta na rejestracjach obiektów, dla których obieg został włączony za pomocą właściwości workflowEnabled.",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.message.label": "Definicja obiegu nie może mieć zduplikowanych nazw zadań. Wybierz definicję obiegu z unikatowymi nazwami zadań.",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.script.summary.label": "Następujące skrypty zostały wymienione w informacjach o zadaniach obiegu, tymczasem nie istnieją:",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.summary.label": "Definicja obiegu jest niewłaściwa.",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.wfDefinitionName.label": "Nazwa definicji obiegu",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.wfDefinitionName_1.label": "Nazwa definicji obiegu",
+  "WorkflowTemplate.library.label.base.Accordion.instance_details.details.title": "Informacje o szablonie obiegów",
+  "WorkflowTemplate.library.label.base.Button.save.label": "Zapisz",
+  "WorkflowTemplate.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.0.title": "Zadania",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.1.title": "Dokumentacja",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.2.title": "Powiązane obiekty",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.3.title": "Historia zmian",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.tab_details.title": "Informacje",
+  "WorkflowTemplate.library.label.base.TabView.save_container.0.title": "Zapisz",
+  "WorkflowTemplate.library.label.base.WorkflowDiagram.WorkflowDiagram.label": "Diagram obiegu"
+}

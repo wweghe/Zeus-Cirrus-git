@@ -1,0 +1,23 @@
+{
+  "WorkflowTemplate.WorkflowTemplate.schema.field.createNewDefinition.label": "XCreate a new workflow template or select an existing one?补Z",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.initializeFlg.option.label1.label": "XYes补Z",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.initializeFlg.option.label2.label": "XNo补Z",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.input_file_attachment.label": "XWorkflow template file补Z",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.objectType.help.label": "XThe list of dropdown choices is based on the object registrations for which workflow has been enabled via the workflowEnabled property.补Z",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.objectType_1.help.label": "XThe list of dropdown choices is based on the object registrations for which workflow has been enabled via the workflowEnabled property.补Z",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.message.label": "XThe workflow definition must not have duplicate task names. Please select a workflow definition with unique task names.补Z",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.script.summary.label": "XThe following scripts were referenced in the workflow task details but do not exist:补Z",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.summary.label": "XWorkflow definition is not valid.补Z",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.wfDefinitionName.label": "XWorkflow definition name补Z",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.wfDefinitionName_1.label": "XWorkflow definition name补Z",
+  "WorkflowTemplate.library.label.base.Accordion.instance_details.details.title": "XWorkflow Template Details补Z",
+  "WorkflowTemplate.library.label.base.Button.save.label": "XSave补Z",
+  "WorkflowTemplate.library.label.base.ReadonlyFieldWidget.name_readonly.label": "X 补Z",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.0.title": "XTasks补Z",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.1.title": "XDocumentation补Z",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.2.title": "XRelated Objects补Z",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.3.title": "XChange History补Z",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.tab_details.title": "XDetails补Z",
+  "WorkflowTemplate.library.label.base.TabView.save_container.0.title": "XSave补Z",
+  "WorkflowTemplate.library.label.base.WorkflowDiagram.WorkflowDiagram.label": "XWorkflow Diagram补Z"
+}

@@ -1,0 +1,13 @@
+{
+  "DataLoad.library.label.base.Accordion.Accordion.runEtlTab.help": "",
+  "DataLoad.library.label.base.Accordion.Accordion.runEtlTab.title": "ETL の実行",
+  "DataLoad.library.label.base.Accordion.Accordion_1.runEtlTab.help": "",
+  "DataLoad.library.label.base.Accordion.Accordion_files_exist.runEtlTab.title": "ETL の実行",
+  "DataLoad.library.label.base.CirrusObjectsDataLoad.CirrusObjectsDataLoad.label": "データローダー",
+  "DataLoad.library.label.base.CirrusObjectsDataLoad.CirrusObjectsDataLoad_files_exist.label": "データローダー",
+  "DataLoad.library.label.base.CirrusObjectsDataMart.CirrusObjectsDataMart_files_exist.label": "データマートレポーター",
+  "DataLoad.library.label.base.LinksListWidget.LinksListWidget.label": "データローダーファイル",
+  "DataLoad.library.label.base.TabView.TabView.0.title": "データロード",
+  "DataLoad.library.label.base.TabView.TabView.1.title": "ファイル",
+  "undefined": "アコーディオン"
+}

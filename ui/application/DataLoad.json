@@ -1,0 +1,500 @@
+{
+  "layouts": {
+    "Accordion": {
+      "runEtlTab": {
+        "CirrusObjectsDataMart": {
+          "h": 600,
+          "i": "CirrusObjectsDataMart",
+          "minH": 150,
+          "minW": 5,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 4
+        }
+      }
+    },
+    "Accordion_files_exist": {
+      "runEtlTab": {
+        "CirrusObjectsDataMart_files_exist": {
+          "h": 600,
+          "i": "CirrusObjectsDataMart_files_exist",
+          "minH": 150,
+          "minW": 5,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "TabView": {
+      "0": {
+        "CirrusObjectsDataLoad_files_exist": {
+          "h": 600,
+          "i": "CirrusObjectsDataLoad_files_exist",
+          "minH": 150,
+          "minW": 5,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "run_etl_container_files_exist": {
+          "h": 690,
+          "i": "run_etl_container_files_exist",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 687
+        }
+      },
+      "1": {
+        "LinksListWidget": {
+          "h": 54,
+          "i": "LinksListWidget",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "base": {
+      "Accordion": {
+        "h": 680,
+        "i": "Accordion",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      },
+      "CirrusObjectsDataLoad": {
+        "h": 600,
+        "i": "CirrusObjectsDataLoad",
+        "minH": 150,
+        "minW": 5,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      },
+      "data_loader_container": {
+        "h": 1500,
+        "i": "data_loader_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      },
+      "run_etl_container": {
+        "h": 690,
+        "i": "run_etl_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 613
+      }
+    },
+    "data_loader_container": {
+      "data_load_sample_files_exist": {
+        "TabView": {
+          "h": 1500,
+          "i": "TabView",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "default": {
+        "CirrusObjectsDataLoad": {
+          "h": 600,
+          "i": "CirrusObjectsDataLoad",
+          "minH": 150,
+          "minW": 5,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "run_etl_container": {
+          "h": 690,
+          "i": "run_etl_container",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 610
+        }
+      }
+    },
+    "run_etl_container": {
+      "default": {},
+      "runEtlLayout": {
+        "Accordion": {
+          "h": 680,
+          "i": "Accordion",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "run_etl_container_files_exist": {
+      "default": {},
+      "runEtlLayout": {
+        "Accordion_files_exist": {
+          "h": 680,
+          "i": "Accordion_files_exist",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 20
+        }
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "onPageLoad": {
+        "name": "onPageLoad"
+      }
+    },
+    "events": {
+      "onTabClose": {}
+    },
+    "props": {
+      "description": "",
+      "icon": "base://SOURCE_DATABASE",
+      "id": "DataLoad",
+      "label": "DataLoad",
+      "tabLabel": "Data Load"
+    }
+  },
+  "structure": {
+    "Accordion": {
+      "runEtlTab": {
+        "CirrusObjectsDataMart": {
+          "compName": "CirrusObjectsDataMart",
+          "containerId": "Accordion",
+          "id": "CirrusObjectsDataMart",
+          "label": "appbuilder.toolboxitem.DataMart.title",
+          "libName": "base",
+          "parentId": "Accordion",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        }
+      }
+    },
+    "Accordion_files_exist": {
+      "runEtlTab": {
+        "CirrusObjectsDataMart_files_exist": {
+          "compName": "CirrusObjectsDataMart",
+          "containerId": "Accordion_files_exist",
+          "id": "CirrusObjectsDataMart_files_exist",
+          "label": "appbuilder.toolboxitem.DataMart.title",
+          "libName": "base",
+          "parentId": "Accordion_files_exist",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        }
+      }
+    },
+    "TabView": {
+      "0": {
+        "CirrusObjectsDataLoad_files_exist": {
+          "compName": "CirrusObjectsDataLoad",
+          "containerId": "TabView",
+          "id": "CirrusObjectsDataLoad_files_exist",
+          "label": "appbuilder.toolboxitem.DataLoad.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "ignoreTabs": "UI"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "run_etl_container_files_exist": {
+          "compName": "GroupableContainer",
+          "containerId": "TabView",
+          "id": "run_etl_container_files_exist",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "activeIndex": 0,
+            "childProps": {
+              "default": {
+                "name": "default",
+                "position": 1
+              },
+              "runEtlLayout": {
+                "name": "runEtlLayout",
+                "position": 0
+              }
+            },
+            "removePadding": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        }
+      },
+      "1": {
+        "LinksListWidget": {
+          "compName": "LinksListWidget",
+          "containerId": "TabView",
+          "id": "LinksListWidget",
+          "label": "appbuilder.toolboxitem.linkslist.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        }
+      }
+    },
+    "base": {
+      "Accordion": {
+        "compName": "Accordion",
+        "containerId": "base",
+        "id": "Accordion",
+        "label": "appbuilder.toolboxitem.accordion.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "childProps": {
+            "panel1": {
+              "label": "Panel 1",
+              "name": "panel1",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.04",
+        "versionDeprecated": "2023.04"
+      },
+      "CirrusObjectsDataLoad": {
+        "compName": "CirrusObjectsDataLoad",
+        "containerId": "base",
+        "id": "CirrusObjectsDataLoad",
+        "label": "CirrusObjects Data Load",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "ignoreTabs": "UI"
+        },
+        "sasProvided": true,
+        "versionDeprecated": "2023.04"
+      },
+      "data_loader_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "data_loader_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "data_load_sample_files_exist": {
+              "name": "data_load_sample_files_exist",
+              "position": 1
+            },
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.04"
+      },
+      "run_etl_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "run_etl_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 1,
+          "childProps": {
+            "default": {
+              "name": "default",
+              "position": 0
+            },
+            "runEtlLayout": {
+              "name": "runEtlLayout",
+              "position": 1
+            }
+          },
+          "removePadding": true
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.01",
+        "versionDeprecated": "2023.04"
+      }
+    },
+    "data_loader_container": {
+      "data_load_sample_files_exist": {
+        "TabView": {
+          "compName": "TabView",
+          "containerId": "data_loader_container",
+          "id": "TabView",
+          "label": "appbuilder.toolboxitem.tabview.title",
+          "libName": "base",
+          "parentId": "data_loader_container",
+          "props": {
+            "activeIndex": 1,
+            "childProps": {
+              "0": {
+                "label": "Data Load",
+                "name": "0",
+                "position": 0
+              },
+              "1": {
+                "label": "Files",
+                "name": "1",
+                "position": 1
+              }
+            }
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        }
+      },
+      "default": {
+        "CirrusObjectsDataLoad": {
+          "compName": "CirrusObjectsDataLoad",
+          "containerId": "data_loader_container",
+          "id": "CirrusObjectsDataLoad",
+          "label": "appbuilder.toolboxitem.DataLoad.title",
+          "libName": "base",
+          "parentId": "data_loader_container",
+          "props": {
+            "ignoreTabs": "UI"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "run_etl_container": {
+          "compName": "GroupableContainer",
+          "containerId": "data_loader_container",
+          "id": "run_etl_container",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "data_loader_container",
+          "props": {
+            "activeIndex": 1,
+            "childProps": {
+              "default": {
+                "name": "default",
+                "position": 0
+              },
+              "runEtlLayout": {
+                "name": "runEtlLayout",
+                "position": 1
+              }
+            },
+            "removePadding": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        }
+      }
+    },
+    "run_etl_container": {
+      "default": {},
+      "runEtlLayout": {
+        "Accordion": {
+          "compName": "Accordion",
+          "containerId": "run_etl_container",
+          "id": "Accordion",
+          "label": "appbuilder.toolboxitem.accordion.title",
+          "libName": "base",
+          "parentId": "run_etl_container",
+          "props": {
+            "childProps": {
+              "runEtlTab": {
+                "help": "",
+                "label": "Run ETL",
+                "name": "runEtlTab",
+                "position": 0
+              }
+            },
+            "showOutline": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        }
+      }
+    },
+    "run_etl_container_files_exist": {
+      "default": {},
+      "runEtlLayout": {
+        "Accordion_files_exist": {
+          "compName": "Accordion",
+          "containerId": "run_etl_container_files_exist",
+          "id": "Accordion_files_exist",
+          "label": "appbuilder.toolboxitem.accordion.title",
+          "libName": "base",
+          "parentId": "run_etl_container_files_exist",
+          "props": {
+            "childProps": {
+              "runEtlTab": {
+                "help": "",
+                "label": "Run ETL",
+                "name": "runEtlTab",
+                "position": 0
+              }
+            },
+            "showOutline": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        }
+      }
+    }
+  }
+}

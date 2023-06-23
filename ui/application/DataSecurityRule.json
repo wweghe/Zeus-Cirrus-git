@@ -1,0 +1,380 @@
+{
+  "layouts": {
+    "TabView": {
+      "0": {
+        "securityRules": {
+          "h": 80,
+          "i": "securityRules",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "1": {},
+      "2": {
+        "ChangeHistory": {
+          "h": 236,
+          "i": "ChangeHistory",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tab_details": {
+        "description": {
+          "h": 80,
+          "i": "description",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 104
+        },
+        "name": {
+          "h": 50,
+          "i": "name",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 52
+        },
+        "objectId": {
+          "h": 50,
+          "i": "objectId",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "base": {
+      "TabView": {
+        "h": 626,
+        "i": "TabView",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 311
+      },
+      "classification_accordion": {
+        "h": 247,
+        "i": "classification_accordion",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 11,
+        "x": 0,
+        "y": 54
+      },
+      "header_container": {
+        "h": 50,
+        "i": "header_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 8,
+        "x": 4,
+        "y": 2
+      },
+      "name_readonly": {
+        "h": 26,
+        "i": "name_readonly",
+        "minH": 24,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 0
+      }
+    },
+    "classification_accordion": {
+      "classifications": {
+        "default": {
+          "h": 186,
+          "i": "default",
+          "minH": 186,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "header_container": {
+      "default": {
+        "save": {
+          "h": 26,
+          "i": "save",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      }
+    },
+    "instance_details": {
+      "details": {}
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "draft": {
+        "name": "onDraftLoad"
+      },
+      "edit": {
+        "name": "onEditLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "onAnyEvent"
+      },
+      "onTabClose": {
+        "name": "onTabClose"
+      }
+    },
+    "props": {
+      "description": "",
+      "icon": "base://SECURED_TABLE",
+      "id": "DataSecurityRule",
+      "label": "Data Security Rule",
+      "tabLabel": ""
+    }
+  },
+  "structure": {
+    "TabView": {
+      "0": {
+        "securityRules": {
+          "compName": "InputTextarea",
+          "containerId": "TabView",
+          "fieldName": "securityRules",
+          "id": "securityRules",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true,
+            "rows": 3
+          },
+          "sasProvided": true
+        }
+      },
+      "1": {},
+      "2": {
+        "ChangeHistory": {
+          "compName": "ChangeHistory",
+          "containerId": "TabView",
+          "id": "ChangeHistory",
+          "label": "appbuilder.toolboxitem.changeHistory.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "tab_details": {
+        "description": {
+          "compName": "InputTextarea",
+          "containerId": "TabView",
+          "fieldName": "description",
+          "id": "description",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true,
+            "rows": 3
+          },
+          "sasProvided": true
+        },
+        "name": {
+          "compName": "InputText",
+          "containerId": "TabView",
+          "events": {
+            "onChange": {
+              "name": "onNameChange"
+            }
+          },
+          "fieldName": "name",
+          "id": "name",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "objectId": {
+          "compName": "InputText",
+          "containerId": "TabView",
+          "events": {
+            "onChange": {
+              "name": "setDefaultName"
+            }
+          },
+          "fieldName": "objectId",
+          "id": "objectId",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "base": {
+      "TabView": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "TabView",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "0": {
+              "label": "Security Rules",
+              "name": "0",
+              "position": 1
+            },
+            "1": {
+              "label": "Documentation",
+              "name": "1",
+              "position": 2
+            },
+            "2": {
+              "label": "Change History",
+              "name": "2",
+              "position": 3
+            },
+            "tab_details": {
+              "id": "tab_details",
+              "label": "Details",
+              "name": "tab_details",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "classification_accordion": {
+        "compName": "Accordion",
+        "containerId": "base",
+        "id": "classification_accordion",
+        "label": "appbuilder.toolboxitem.accordion.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "childProps": {
+            "classifications": {
+              "label": "Classifications",
+              "name": "classifications",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "header_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "header_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "name_readonly": {
+        "compName": "ReadonlyFieldWidget",
+        "containerId": "base",
+        "id": "name_readonly",
+        "label": "appbuilder.toolboxitem.readonlyfield.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldLabel": true,
+          "boldValue": true,
+          "colon": false,
+          "stacked": false
+        },
+        "sasProvided": true
+      }
+    },
+    "classification_accordion": {
+      "classifications": {
+        "default": {
+          "compName": "CirrusObjectsClassification",
+          "containerId": "classification_accordion",
+          "fieldName": "default",
+          "id": "default",
+          "libName": "base",
+          "parentId": "classification_accordion",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "header_container": {
+      "default": {
+        "save": {
+          "compName": "Button",
+          "containerId": "header_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "header_container",
+          "props": {},
+          "sasProvided": true
+        }
+      }
+    },
+    "instance_details": {
+      "details": {}
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd.label": "状态",
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd_1.label": "状态",
+  "ConfigurationTable.library.label.base.Accordion.instance_details.details.title": "配置表详细信息",
+  "ConfigurationTable.library.label.base.Attachments.additional_attachments.label": "文档附件",
+  "ConfigurationTable.library.label.base.Button.save.label": "保存",
+  "ConfigurationTable.library.label.base.CirrusObjectsLinks.documentation_links.label": "文档链接",
+  "ConfigurationTable.library.label.base.Comments.additional_comments.label": "评论",
+  "ConfigurationTable.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget_1.label": "电子表格",
+  "ConfigurationTable.library.label.base.InputText.name.label": "配置表名称",
+  "ConfigurationTable.library.label.base.InputText.objectId.label": "配置表 ID",
+  "ConfigurationTable.library.label.base.InputTextarea.description.label": "配置表说明",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.help.label": "若任意链接的配置集处于生产状态，则配置表也会视为生产。",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.label": "生产",
+  "ConfigurationTable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationTable.library.label.base.RichText.RichText_1.label": "多信息文本",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabChangeHistory.title": "更改历史",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabData.title": "数据",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDetails.title": "详细信息",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDocumentation.title": "文档"
+}

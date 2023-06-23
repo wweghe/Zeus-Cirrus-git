@@ -1,0 +1,525 @@
+{
+  "layouts": {
+    "base": {
+      "data_definition_tabs": {
+        "h": 626,
+        "i": "data_definition_tabs",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 57
+      },
+      "header_container": {
+        "h": 50,
+        "i": "header_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 8,
+        "x": 4,
+        "y": 0
+      },
+      "name_readonly": {
+        "h": 26,
+        "i": "name_readonly",
+        "minH": 24,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 0
+      }
+    },
+    "data_definition_tabs": {
+      "0": {
+        "GenericSpreadsheetWidget": {
+          "h": 510,
+          "i": "GenericSpreadsheetWidget",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "1": {
+        "additional_comments": {
+          "h": 550,
+          "i": "additional_comments",
+          "minH": 236,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 0
+        },
+        "documentation_attachments": {
+          "h": 286,
+          "i": "documentation_attachments",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 16
+        },
+        "documentation_links": {
+          "h": 241,
+          "i": "documentation_links",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 312
+        }
+      },
+      "2": {
+        "ChangeHistory": {
+          "h": 236,
+          "i": "ChangeHistory",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tabDetails": {
+        "Image": {
+          "h": 23,
+          "i": "Image",
+          "minH": 1,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 374
+        },
+        "description": {
+          "h": 80,
+          "i": "description",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 128
+        },
+        "name": {
+          "h": 50,
+          "i": "name",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 64
+        },
+        "objectId": {
+          "h": 50,
+          "i": "objectId",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 0
+        },
+        "supportedDataActions": {
+          "h": 52,
+          "i": "supportedDataActions",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 222
+        }
+      },
+      "tabReportMart": {
+        "martLibraryNm": {
+          "h": 50,
+          "i": "martLibraryNm",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 0
+        },
+        "martTableNm": {
+          "h": 50,
+          "i": "martTableNm",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 64
+        }
+      }
+    },
+    "header_container": {
+      "default": {},
+      "save": {
+        "save": {
+          "h": 26,
+          "i": "save",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 1
+        }
+      }
+    },
+    "instance_details": {
+      "details": {}
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "draft": {
+        "name": "onDraftLoad"
+      },
+      "edit": {
+        "name": "onEditLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "onAnyEvent"
+      },
+      "onTabClose": {
+        "name": "onTabClose"
+      }
+    },
+    "props": {
+      "description": "",
+      "icon": "base://SAS_FOLDERS",
+      "id": "DataDefinition",
+      "label": "Data Definition",
+      "tabLabel": ""
+    }
+  },
+  "structure": {
+    "base": {
+      "data_definition_tabs": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "data_definition_tabs",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 1,
+          "childProps": {
+            "0": {
+              "label": "Data Attributes",
+              "name": "0",
+              "position": 1
+            },
+            "1": {
+              "label": "Documentation",
+              "name": "1",
+              "position": 3
+            },
+            "2": {
+              "label": "Change History",
+              "name": "2",
+              "position": 4
+            },
+            "tabDetails": {
+              "id": "tabDetails",
+              "label": "Details",
+              "name": "tabDetails",
+              "position": 0
+            },
+            "tabReportMart": {
+              "label": "Report Mart",
+              "name": "tabReportMart",
+              "position": 2
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "header_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "header_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 1,
+          "childProps": {
+            "default": {
+              "name": "default",
+              "position": 0
+            },
+            "save": {
+              "name": "save",
+              "position": 1
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "name_readonly": {
+        "compName": "ReadonlyFieldWidget",
+        "containerId": "base",
+        "id": "name_readonly",
+        "label": "appbuilder.toolboxitem.readonlyfield.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldLabel": true,
+          "boldValue": true,
+          "colon": false,
+          "stacked": false
+        },
+        "sasProvided": true
+      }
+    },
+    "data_definition_tabs": {
+      "0": {
+        "GenericSpreadsheetWidget": {
+          "compName": "GenericSpreadsheetWidget",
+          "containerId": "data_definition_tabs",
+          "id": "GenericSpreadsheetWidget",
+          "label": "appbuilder.toolboxitem.spreadsheet.generic.title",
+          "libName": "base",
+          "parentId": "data_definition_tabs",
+          "props": {
+            "columnMetaData": "{ \"table\": {   \"columnOptions\":   {     \"areLabelsLocalized\": true   } }, \"columns\": [   {     \"options\":     {       \"id\": \"name\",       \"columnType\": \"string\",       \"width\": 200,       \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.0.title\"     }   },   {     \"options\":     {       \"id\": \"label\",       \"columnType\": \"string\",       \"width\": 200,       \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.1.title\"     }   },   {     \"options\":     {       \"id\": \"type\",       \"columnType\": \"string\",       \"width\": 200,       \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.2.title\"     }   },   {     \"options\":     {       \"id\": \"size\",       \"columnType\": \"number\",       \"width\": 100,       \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.3.title\"     }   },   {     \"options\":     {       \"id\": \"format\",       \"columnType\": \"string\",       \"width\": 100,       \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.4.title\"     }   },   {     \"options\":     {       \"id\": \"partitionFlag\",       \"columnType\": \"dropdown\",       \"width\": 120,       \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.5.title\"     },     \"cellOptions\":     {       \"cellType\": \"dropdown\",       \"choices\":       [         {           \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.true.label\",           \"value\": true         },         {           \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.false.label\",           \"value\": false         }       ]     }   },   {     \"options\":     {       \"id\": \"primaryKeyFlag\",       \"columnType\": \"dropdown\",       \"width\": 130,       \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.6.title\"     },     \"cellOptions\":     {       \"cellType\": \"dropdown\",       \"choices\":       [         {           \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.true.label\",           \"value\": true         },         {           \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.false.label\",           \"value\": false         }       ]     }   },   {     \"options\":     {       \"id\": \"filterable\",       \"columnType\": \"dropdown\",       \"width\": 120,       \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.7.title\"     },     \"cellOptions\":     {       \"cellType\": \"dropdown\",       \"choices\":       [         {           \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.true.label\",           \"value\": true         },         {           \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.false.label\",           \"value\": false         }       ]     }   },   {     \"options\":     {       \"id\": \"attributable\",       \"columnType\": \"dropdown\",       \"width\": 130,       \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.8.title\"     },     \"cellOptions\":     {       \"cellType\": \"dropdown\",       \"choices\":       [         {           \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.true.label\",           \"value\": true         },         {           \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.false.label\",           \"value\": false         }       ]     }   },   {     \"options\":     {       \"id\": \"measureFlag\",       \"columnType\": \"dropdown\",       \"width\": 130,       \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.9.title\"     },     \"cellOptions\":     {       \"cellType\": \"dropdown\",       \"choices\":       [         {           \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.true.label\",           \"value\": true         },         {           \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.false.label\",           \"value\": false         }       ]     }   },   {     \"options\":     {       \"id\": \"segmentationFlag\",       \"columnType\": \"dropdown\",       \"width\": 130,       \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.10.title\"     },     \"cellOptions\":     {       \"cellType\": \"dropdown\",       \"choices\":       [         {           \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.true.label\",           \"value\": true         },         {           \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.false.label\",           \"value\": false         }       ]     }   },   {     \"options\":     {       \"id\": \"projectionFlag\",       \"columnType\": \"dropdown\",       \"width\": 130,       \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.11.title\"     },     \"cellOptions\":     {       \"cellType\": \"dropdown\",       \"choices\":       [         {           \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.true.label\",           \"value\": true         },         {           \"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.false.label\",           \"value\": false         }       ]     }   } ]}",
+            "pagination": false,
+            "suppressToolBar": true,
+            "suppressToolBarAddAction": false,
+            "suppressToolBarDeleteAction": false,
+            "suppressToolBarRefreshAction": false,
+            "suppressToolBarSearchField": false,
+            "value": "\u003cp\u003e{\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"table\":\u003cbr\u003e\u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnOptions\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"areLabelsLocalized\": true\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"columns\":\u003cbr\u003e\u0026nbsp; \u0026nbsp;[\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"name\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"string\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"width\": 200,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.0.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"label\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"string\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"width\": 200,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.1.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"type\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"string\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"width\": 200,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.2.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"size\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"number\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"width\": 100,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.3.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"format\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"string\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"width\": 100,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.4.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"partitionFlag\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"dropdown\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"width\": 120,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.5.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellOptions\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellType\": \"dropdown\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"choices\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;[\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.true.label\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"value\": true\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.false.label\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"value\": false\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;]\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"primaryKeyFlag\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"dropdown\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"width\": 130,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.6.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellOptions\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellType\": \"dropdown\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"choices\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;[\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.true.label\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"value\": true\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.false.label\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"value\": false\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;]\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"filterable\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"dropdown\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"width\": 120,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.7.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellOptions\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellType\": \"dropdown\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"choices\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;[\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.true.label\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"value\": true\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.false.label\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"value\": false\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;]\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"attributable\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"dropdown\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"width\": 130,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.8.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellOptions\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellType\": \"dropdown\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"choices\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;[\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.true.label\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"value\": true\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.false.label\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"value\": false\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;]\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"measureFlag\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"dropdown\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"width\": 130,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.9.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellOptions\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellType\": \"dropdown\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"choices\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;[\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.true.label\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"value\": true\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.false.label\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"value\": false\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;]\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"segmentationFlag\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"dropdown\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"width\": 130,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.10.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellOptions\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellType\": \"dropdown\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"choices\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;[\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.true.label\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"value\": true\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.false.label\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"value\": false\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;]\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"projectionFlag\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"dropdown\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"width\": 130,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.11.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellOptions\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellType\": \"dropdown\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"choices\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;[\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.true.label\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"value\": true\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.false.label\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"value\": false\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;]\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp;]\u003cbr\u003e}\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        }
+      },
+      "1": {
+        "additional_comments": {
+          "compName": "Comments",
+          "containerId": "data_definition_tabs",
+          "fieldName": "additional_comments",
+          "id": "additional_comments",
+          "libName": "base",
+          "parentId": "data_definition_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_attachments": {
+          "compName": "CirrusObjectsAttachments",
+          "containerId": "data_definition_tabs",
+          "fieldName": "documentation_attachments",
+          "id": "documentation_attachments",
+          "libName": "base",
+          "parentId": "data_definition_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_links": {
+          "compName": "CirrusObjectsLinks",
+          "containerId": "data_definition_tabs",
+          "fieldName": "documentation_links",
+          "id": "documentation_links",
+          "libName": "base",
+          "parentId": "data_definition_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "2": {
+        "ChangeHistory": {
+          "compName": "ChangeHistory",
+          "containerId": "data_definition_tabs",
+          "id": "ChangeHistory",
+          "label": "appbuilder.toolboxitem.changeHistory.title",
+          "libName": "base",
+          "parentId": "data_definition_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "tabDetails": {
+        "Image": {
+          "compName": "Image",
+          "containerId": "data_definition_tabs",
+          "id": "Image",
+          "label": "appbuilder.toolboxitem.image.title",
+          "libName": "base",
+          "parentId": "data_definition_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "description": {
+          "compName": "InputTextarea",
+          "containerId": "data_definition_tabs",
+          "fieldName": "description",
+          "id": "description",
+          "libName": "base",
+          "parentId": "data_definition_tabs",
+          "props": {
+            "boldValue": true,
+            "colon": true,
+            "rows": 3
+          },
+          "sasProvided": true
+        },
+        "name": {
+          "compName": "InputText",
+          "containerId": "data_definition_tabs",
+          "events": {
+            "onChange": {
+              "name": "onNameChange"
+            }
+          },
+          "fieldName": "name",
+          "id": "name",
+          "libName": "base",
+          "parentId": "data_definition_tabs",
+          "props": {
+            "boldValue": true,
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "objectId": {
+          "compName": "InputText",
+          "containerId": "data_definition_tabs",
+          "fieldName": "objectId",
+          "id": "objectId",
+          "libName": "base",
+          "parentId": "data_definition_tabs",
+          "props": {
+            "boldLabel": false,
+            "boldValue": true,
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "supportedDataActions": {
+          "compName": "DropdownWidget",
+          "containerId": "data_definition_tabs",
+          "id": "supportedDataActions",
+          "label": "appbuilder.toolboxitem.dropdown.title",
+          "libName": "base",
+          "parentId": "data_definition_tabs",
+          "props": {
+            "align": "start",
+            "boldValue": true,
+            "colon": true,
+            "options": {
+              "APPEND": {
+                "index": 0,
+                "label": "APPEND",
+                "value": "APPEND"
+              },
+              "APPEND_DELETE": {
+                "index": 2,
+                "label": "APPEND/DELETE",
+                "value": "APPEND_DELETE"
+              },
+              "DELETE": {
+                "index": 1,
+                "label": "DELETE",
+                "value": "DELETE"
+              },
+              "NONE": {
+                "index": 3,
+                "label": "NONE",
+                "value": "NONE"
+              }
+            }
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        }
+      },
+      "tabReportMart": {
+        "martLibraryNm": {
+          "compName": "InputText",
+          "containerId": "data_definition_tabs",
+          "fieldName": "martLibraryNm",
+          "id": "martLibraryNm",
+          "libName": "base",
+          "parentId": "data_definition_tabs",
+          "props": {
+            "boldValue": true,
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "martTableNm": {
+          "compName": "InputText",
+          "containerId": "data_definition_tabs",
+          "fieldName": "martTableNm",
+          "id": "martTableNm",
+          "libName": "base",
+          "parentId": "data_definition_tabs",
+          "props": {
+            "boldValue": true,
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        }
+      }
+    },
+    "header_container": {
+      "default": {},
+      "save": {
+        "save": {
+          "compName": "Button",
+          "containerId": "header_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "header_container",
+          "props": {},
+          "sasProvided": true
+        }
+      }
+    },
+    "instance_details": {
+      "details": {}
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "RuleSet.RuleSet.schema.field.statusCd.label": "XStatus补Z",
+  "RuleSet.library.label.base.Accordion.Accordion.qFactorInfo.help": "X补Z",
+  "RuleSet.library.label.base.Accordion.qFactorAccordion.qFactorInfo.title": "XQ-Factor Information补Z",
+  "RuleSet.library.label.base.Button.save.label": "XSave补Z",
+  "RuleSet.library.label.base.GenericSpreadsheetWidget.RulesSpreadsheet.label": "XSpreadsheet补Z",
+  "RuleSet.library.label.base.HierarchySpreadsheetWidget.RulesHierarchySpreadsheet.label": "XHierarchical Spreadsheet补Z",
+  "RuleSet.library.label.base.HierarchySpreadsheetWidget.qFactorInfoSpreadsheet.label": "X补Z",
+  "RuleSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "X补Z",
+  "RuleSet.library.label.base.TabView.TabView.1.title": "XDetails补Z",
+  "RuleSet.library.label.base.TabView.TabView.2.title": "XDocumentation补Z",
+  "RuleSet.library.label.base.TabView.TabView.3.title": "XChange History补Z",
+  "RuleSet.library.label.base.TabView.rule_set_tab.1.title": "XDetails补Z",
+  "RuleSet.library.label.base.TabView.rule_set_tab.2.title": "XDocumentation补Z",
+  "RuleSet.library.label.base.TabView.rule_set_tab.3.title": "XChange History补Z",
+  "RuleSet.library.label.base.TabView.rule_set_tab.4.title": "XRules补Z",
+  "RuleSet.library.label.base.TabView.rule_set_tab.tabRelatedObjects.title": "XRelated Objects补Z",
+  "undefined": "XTab补Z"
+}

@@ -1,0 +1,13 @@
+{
+  "SampleObject.AttributionTemplate.schema.field.objectId.label": "歸因範本 ID",
+  "SampleObject.library.label.base.Accordion.attribution_template_details.details.title": "歸因範本詳細資料",
+  "SampleObject.library.label.base.Button.save.label": "儲存",
+  "SampleObject.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.1.title": "文件",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.2.title": "變更歷程記錄",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.tabDetails.title": "詳細資料",
+  "SampleObject.library.label.base.TabView.main_tabs.1.title": "文件",
+  "SampleObject.library.label.base.TabView.main_tabs.2.title": "變更歷程記錄",
+  "SampleObject.library.label.base.TabView.main_tabs.tabDetails.title": "詳細資料",
+  "undefined": "頁籤"
+}

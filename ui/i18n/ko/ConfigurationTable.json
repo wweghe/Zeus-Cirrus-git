@@ -1,0 +1,21 @@
+{
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd.label": "상태",
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd_1.label": "상태",
+  "ConfigurationTable.library.label.base.Accordion.instance_details.details.title": "구성 테이블 상세 정보",
+  "ConfigurationTable.library.label.base.Attachments.additional_attachments.label": "문서 첨부",
+  "ConfigurationTable.library.label.base.Button.save.label": "저장",
+  "ConfigurationTable.library.label.base.CirrusObjectsLinks.documentation_links.label": "문서 링크",
+  "ConfigurationTable.library.label.base.Comments.additional_comments.label": "주석",
+  "ConfigurationTable.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget_1.label": "스프레드시트",
+  "ConfigurationTable.library.label.base.InputText.name.label": "구성 테이블 이름",
+  "ConfigurationTable.library.label.base.InputText.objectId.label": "구성 테이블 ID",
+  "ConfigurationTable.library.label.base.InputTextarea.description.label": "구성 테이블 설명",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.help.label": "연결된 구성 집합 중 하나라도 프로덕션 상태인 경우, 구성 테이블도 프로덕션으로 간주됩니다.",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.label": "프로덕션",
+  "ConfigurationTable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationTable.library.label.base.RichText.RichText_1.label": "서식 있는 텍스트",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabChangeHistory.title": "변경 히스토리",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabData.title": "데이터",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDetails.title": "상세 정보",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDocumentation.title": "문서"
+}

@@ -1,0 +1,16 @@
+{
+  "Script.Script.schema.field.endsInAsyncCallFlg.option.label1.label": "是",
+  "Script.Script.schema.field.endsInAsyncCallFlg.option.label2.label": "否",
+  "Script.library.label.base.Accordion.Accordion.KRMOutputPane.title": "KRM 输出表",
+  "Script.library.label.base.Accordion.instance_details.details.title": "脚本详细信息",
+  "Script.library.label.base.Button.save.label": "保存",
+  "Script.library.label.base.GenericSpreadsheetWidget.KRMSpreadsheetWidget.label": "电子表格",
+  "Script.library.label.base.ReadonlyFieldWidget.ReadonlyFieldWidget.label": "当前不支持后期执行脚本的参数。",
+  "Script.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "Script.library.label.base.TabView.script_tabs.tab_analysis_runs.title": "分析运行",
+  "Script.library.label.base.TabView.script_tabs.tab_change_history.title": "更改历史",
+  "Script.library.label.base.TabView.script_tabs.tab_code.title": "代码",
+  "Script.library.label.base.TabView.script_tabs.tab_details.title": "详细信息",
+  "Script.library.label.base.TabView.script_tabs.tab_documentation.title": "文档",
+  "Script.library.label.base.TabView.script_tabs.tab_parameters.title": "参数"
+}

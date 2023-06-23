@@ -1,0 +1,16 @@
+{
+  "Script.Script.schema.field.endsInAsyncCallFlg.option.label1.label": "XYes补Z",
+  "Script.Script.schema.field.endsInAsyncCallFlg.option.label2.label": "XNo补Z",
+  "Script.library.label.base.Accordion.Accordion.KRMOutputPane.title": "XKRM output tables补Z",
+  "Script.library.label.base.Accordion.instance_details.details.title": "XScript Details补Z",
+  "Script.library.label.base.Button.save.label": "XSave补Z",
+  "Script.library.label.base.GenericSpreadsheetWidget.KRMSpreadsheetWidget.label": "XSpreadsheet补Z",
+  "Script.library.label.base.ReadonlyFieldWidget.ReadonlyFieldWidget.label": "X Parameters are not currently supported for post-execution scripts.补Z",
+  "Script.library.label.base.ReadonlyFieldWidget.name_readonly.label": "X 补Z",
+  "Script.library.label.base.TabView.script_tabs.tab_analysis_runs.title": "XAnalysis Runs补Z",
+  "Script.library.label.base.TabView.script_tabs.tab_change_history.title": "XChange History补Z",
+  "Script.library.label.base.TabView.script_tabs.tab_code.title": "XCode补Z",
+  "Script.library.label.base.TabView.script_tabs.tab_details.title": "XDetails补Z",
+  "Script.library.label.base.TabView.script_tabs.tab_documentation.title": "XDocumentation补Z",
+  "Script.library.label.base.TabView.script_tabs.tab_parameters.title": "XParameters补Z"
+}

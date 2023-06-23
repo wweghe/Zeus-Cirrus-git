@@ -1,0 +1,14 @@
+{
+  "ConfigurationSet.ConfigurationSet.schema.field.linkedConfigurationTables.label": "ตารางการกำหนดค่า",
+  "ConfigurationSet.library.label.base.Accordion.instance_details.details.title": "รายละเอียดชุดการกำหนดค่า",
+  "ConfigurationSet.library.label.base.Button.save.label": "บันทึก",
+  "ConfigurationSet.library.label.base.CirrusObjectsLinks.documentation_links.label": "ลิงก์เอกสาร",
+  "ConfigurationSet.library.label.base.Comments.additional_comments.label": "ข้อคิดเห็น",
+  "ConfigurationSet.library.label.base.InputText.name.label": "ชื่อชุดการกำหนดค่า",
+  "ConfigurationSet.library.label.base.InputText.objectId.label": "ID ชุดการกำหนดค่า",
+  "ConfigurationSet.library.label.base.InputTextarea.description.label": "คำอธิบายชุดการกำหนดค่า",
+  "ConfigurationSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.0.title": "รายละเอียด",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.1.title": "เอกสารประกอบ",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.2.title": "ประวัติการเปลี่ยนแปลง"
+}

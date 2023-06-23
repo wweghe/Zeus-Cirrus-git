@@ -1,0 +1,298 @@
+{
+  "apiName": "ruleSets",
+  "fields": {
+    "additional_comments": {
+      "id": "additional_comments",
+      "label": "Comments",
+      "newId": "additional_comments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Comments",
+        "libName": "base"
+      }
+    },
+    "categoryCd": {
+      "id": "categoryCd",
+      "label": "Rule set category",
+      "newId": "categoryCd",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "createdInTag": {
+      "id": "createdInTag",
+      "label": "Created in",
+      "newId": "createdInTag",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "creationTimeStamp": {
+      "id": "creationTimeStamp",
+      "label": "Date created",
+      "newId": "creationTimeStamp",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "description": {
+      "id": "description",
+      "index": 6,
+      "label": "Rule set description",
+      "newId": "description",
+      "props": {
+        "maxLength": 4000
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "documentation_attachments": {
+      "id": "documentation_attachments",
+      "index": 4,
+      "label": "Documentation Attachments",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsAttachments",
+        "libName": "base"
+      }
+    },
+    "documentation_links": {
+      "id": "documentation_links",
+      "label": "Documentation Links",
+      "newId": "documentation_links",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsLinks",
+        "libName": "base"
+      }
+    },
+    "modifiedTimeStamp": {
+      "id": "modifiedTimeStamp",
+      "label": "Date modified",
+      "newId": "modifiedTimeStamp",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "name": {
+      "id": "name",
+      "label": "Rule set name",
+      "newId": "name",
+      "props": {
+        "maxLength": 200
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "objectId": {
+      "id": "objectId",
+      "label": "Rule set ID",
+      "newId": "objectId",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "ruleData": {
+      "id": "ruleData",
+      "index": 10,
+      "label": "Rules",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "ruleMeta": {
+      "id": "ruleMeta",
+      "index": 6,
+      "label": "Rule columns meta",
+      "newId": "ruleMeta",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "sourceSystemCd": {
+      "id": "sourceSystemCd",
+      "label": "Source system",
+      "newId": "sourceSystemCd",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "ReadonlyField",
+        "libName": "base"
+      }
+    },
+    "statusCd": {
+      "id": "statusCd",
+      "index": 10,
+      "label": "Rule set status",
+      "newId": "statusCd",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "typeCd": {
+      "id": "typeCd",
+      "index": 9,
+      "label": "Rule set type",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    }
+  },
+  "id": "RuleSet",
+  "index": 17,
+  "labelPlural": "Rule Sets",
+  "labelSingular": "Rule Set",
+  "nameField": "name",
+  "relationships": {
+    "ruleSet_analysisRun": {
+      "cardinality": "manyToMany",
+      "index": 0,
+      "label": "Analysis Runs",
+      "sourceLabel": "Rule Set",
+      "sourceLabelPlural": "Rule Sets",
+      "sourceName": "RuleSet",
+      "sourceSysCode": "RCC",
+      "sourceType": "RuleSet",
+      "targetLabel": "Analysis Run",
+      "targetLabelPlural": "Analysis Runs",
+      "targetName": "AnalysisRun",
+      "targetType": "AnalysisRun",
+      "type": "lookup"
+    },
+    "ruleSet_cycle": {
+      "cardinality": "manyToMany",
+      "sourceLabel": "Rule Set",
+      "sourceLabelPlural": "Rule Sets",
+      "sourceName": "RuleSet",
+      "sourceSysCode": "RCC",
+      "sourceType": "RuleSet",
+      "targetLabel": "Cycle",
+      "targetLabelPlural": "Cycles",
+      "targetName": "Cycle",
+      "targetType": "Cycle",
+      "type": "lookup"
+    },
+    "ruleSet_dataDefinition": {
+      "cardinality": "manyToOne",
+      "index": 0,
+      "label": "Data Definitions",
+      "sourceLabel": "Rule Set",
+      "sourceLabelPlural": "Rule Sets",
+      "sourceName": "RuleSet",
+      "sourceSysCode": "RCC",
+      "sourceType": "RuleSet",
+      "targetLabel": "Data Definition",
+      "targetLabelPlural": "Data Definitions",
+      "targetName": "DataDefinition",
+      "targetType": "DataDefinition",
+      "type": "lookup"
+    }
+  },
+  "tasks": {}
+}

@@ -1,0 +1,13 @@
+{
+  "SampleObject.AttributionTemplate.schema.field.objectId.label": "ID template delle attribuzioni",
+  "SampleObject.library.label.base.Accordion.attribution_template_details.details.title": "Dettagli template delle attribuzioni",
+  "SampleObject.library.label.base.Button.save.label": "Salva",
+  "SampleObject.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.1.title": "Documentazione",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.2.title": "Cronologia delle modifiche",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.tabDetails.title": "Dettagli",
+  "SampleObject.library.label.base.TabView.main_tabs.1.title": "Documentazione",
+  "SampleObject.library.label.base.TabView.main_tabs.2.title": "Cronologia delle modifiche",
+  "SampleObject.library.label.base.TabView.main_tabs.tabDetails.title": "Dettagli",
+  "undefined": "Scheda"
+}

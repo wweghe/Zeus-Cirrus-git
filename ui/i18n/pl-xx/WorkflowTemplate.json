@@ -1,0 +1,23 @@
+{
+  "WorkflowTemplate.WorkflowTemplate.schema.field.createNewDefinition.label": "[Ćřęąţę ą ňęw wőřkflőw ţęmpląţę őř śęlęćţ ąň ęxíśţíňg őňę?']",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.initializeFlg.option.label1.label": "[Yęś']",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.initializeFlg.option.label2.label": "[Nő']",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.input_file_attachment.label": "[Wőřkflőw ţęmpląţę fílę']",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.objectType.help.label": "[Ţhę líśţ őf đřőpđőwň ćhőíćęś íś bąśęđ őň ţhę őbjęćţ řęgíśţřąţíőňś főř whíćh wőřkflőw hąś bęęň ęňąblęđ víą ţhę wőřkflőwĘňąblęđ přőpęřţy.']",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.objectType_1.help.label": "[Ţhę líśţ őf đřőpđőwň ćhőíćęś íś bąśęđ őň ţhę őbjęćţ řęgíśţřąţíőňś főř whíćh wőřkflőw hąś bęęň ęňąblęđ víą ţhę wőřkflőwĘňąblęđ přőpęřţy.']",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.message.label": "[Ţhę wőřkflőw đęfíňíţíőň műśţ ňőţ hąvę đűplíćąţę ţąśk ňąmęś. Plęąśę śęlęćţ ą wőřkflőw đęfíňíţíőň wíţh űňíqűę ţąśk ňąmęś.']",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.script.summary.label": "[Ţhę főllőwíňg śćřípţś węřę řęfęřęňćęđ íň ţhę wőřkflőw ţąśk đęţąílś bűţ đő ňőţ ęxíśţ:']",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.summary.label": "[Wőřkflőw đęfíňíţíőň íś ňőţ vąlíđ.']",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.wfDefinitionName.label": "[Wőřkflőw đęfíňíţíőň ňąmę']",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.wfDefinitionName_1.label": "[Wőřkflőw đęfíňíţíőň ňąmę']",
+  "WorkflowTemplate.library.label.base.Accordion.instance_details.details.title": "[Wőřkflőw Ţęmpląţę Đęţąílś']",
+  "WorkflowTemplate.library.label.base.Button.save.label": "[Śąvę']",
+  "WorkflowTemplate.library.label.base.ReadonlyFieldWidget.name_readonly.label": "[ ']",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.0.title": "[Ţąśkś']",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.1.title": "[Đőćűmęňţąţíőň']",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.2.title": "[Řęląţęđ Őbjęćţś']",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.3.title": "[Ćhąňgę Híśţőřy']",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.tab_details.title": "[Đęţąílś']",
+  "WorkflowTemplate.library.label.base.TabView.save_container.0.title": "[Śąvę']",
+  "WorkflowTemplate.library.label.base.WorkflowDiagram.WorkflowDiagram.label": "[Wőřkflőw Đíągřąm']"
+}

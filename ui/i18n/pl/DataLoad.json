@@ -1,0 +1,13 @@
+{
+  "DataLoad.library.label.base.Accordion.Accordion.runEtlTab.help": "",
+  "DataLoad.library.label.base.Accordion.Accordion.runEtlTab.title": "Uruchom ETL",
+  "DataLoad.library.label.base.Accordion.Accordion_1.runEtlTab.help": "",
+  "DataLoad.library.label.base.Accordion.Accordion_files_exist.runEtlTab.title": "Uruchom ETL",
+  "DataLoad.library.label.base.CirrusObjectsDataLoad.CirrusObjectsDataLoad.label": "Moduł ładujący dane",
+  "DataLoad.library.label.base.CirrusObjectsDataLoad.CirrusObjectsDataLoad_files_exist.label": "Moduł ładujący dane",
+  "DataLoad.library.label.base.CirrusObjectsDataMart.CirrusObjectsDataMart_files_exist.label": "Składnica danych raportowania",
+  "DataLoad.library.label.base.LinksListWidget.LinksListWidget.label": "Pliki modułu ładującego dane",
+  "DataLoad.library.label.base.TabView.TabView.0.title": "Ładowanie danych",
+  "DataLoad.library.label.base.TabView.TabView.1.title": "Pliki",
+  "undefined": "Menu akordeonowe"
+}

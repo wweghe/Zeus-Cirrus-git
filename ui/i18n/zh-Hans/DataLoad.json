@@ -1,0 +1,13 @@
+{
+  "DataLoad.library.label.base.Accordion.Accordion.runEtlTab.help": "",
+  "DataLoad.library.label.base.Accordion.Accordion.runEtlTab.title": "运行 ETL",
+  "DataLoad.library.label.base.Accordion.Accordion_1.runEtlTab.help": "",
+  "DataLoad.library.label.base.Accordion.Accordion_files_exist.runEtlTab.title": "运行 ETL",
+  "DataLoad.library.label.base.CirrusObjectsDataLoad.CirrusObjectsDataLoad.label": "数据加载器",
+  "DataLoad.library.label.base.CirrusObjectsDataLoad.CirrusObjectsDataLoad_files_exist.label": "数据加载器",
+  "DataLoad.library.label.base.CirrusObjectsDataMart.CirrusObjectsDataMart_files_exist.label": "数据集市报表生成器",
+  "DataLoad.library.label.base.LinksListWidget.LinksListWidget.label": "数据加载器文件",
+  "DataLoad.library.label.base.TabView.TabView.0.title": "数据加载",
+  "DataLoad.library.label.base.TabView.TabView.1.title": "文件",
+  "undefined": "折叠式面板"
+}

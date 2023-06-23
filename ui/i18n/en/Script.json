@@ -1,0 +1,16 @@
+{
+  "Script.Script.schema.field.endsInAsyncCallFlg.option.label1.label": "Yes",
+  "Script.Script.schema.field.endsInAsyncCallFlg.option.label2.label": "No",
+  "Script.library.label.base.Accordion.Accordion.KRMOutputPane.title": "KRM output tables",
+  "Script.library.label.base.Accordion.instance_details.details.title": "Script Details",
+  "Script.library.label.base.Button.save.label": "Save",
+  "Script.library.label.base.GenericSpreadsheetWidget.KRMSpreadsheetWidget.label": "Spreadsheet",
+  "Script.library.label.base.ReadonlyFieldWidget.ReadonlyFieldWidget.label": " Parameters are not currently supported for post-execution scripts.",
+  "Script.library.label.base.ReadonlyFieldWidget.name_readonly.label": " ",
+  "Script.library.label.base.TabView.script_tabs.tab_analysis_runs.title": "Analysis Runs",
+  "Script.library.label.base.TabView.script_tabs.tab_change_history.title": "Change History",
+  "Script.library.label.base.TabView.script_tabs.tab_code.title": "Code",
+  "Script.library.label.base.TabView.script_tabs.tab_details.title": "Details",
+  "Script.library.label.base.TabView.script_tabs.tab_documentation.title": "Documentation",
+  "Script.library.label.base.TabView.script_tabs.tab_parameters.title": "Parameters"
+}

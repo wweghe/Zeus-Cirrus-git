@@ -1,0 +1,21 @@
+{
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd.label": "Status",
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd_1.label": "Status",
+  "ConfigurationTable.library.label.base.Accordion.instance_details.details.title": "Informacje o tabeli konfiguracji",
+  "ConfigurationTable.library.label.base.Attachments.additional_attachments.label": "Załączniki do dokumentacji",
+  "ConfigurationTable.library.label.base.Button.save.label": "Zapisz",
+  "ConfigurationTable.library.label.base.CirrusObjectsLinks.documentation_links.label": "Łącza do dokumentacji",
+  "ConfigurationTable.library.label.base.Comments.additional_comments.label": "Komentarze",
+  "ConfigurationTable.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget_1.label": "Arkusz",
+  "ConfigurationTable.library.label.base.InputText.name.label": "Nazwa tabeli konfiguracji",
+  "ConfigurationTable.library.label.base.InputText.objectId.label": "Identyfikator tabeli konfiguracji",
+  "ConfigurationTable.library.label.base.InputTextarea.description.label": "Opis tabeli konfiguracji",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.help.label": "Jeśli którykolwiek z podłączonych zestawów konfiguracji ma status produkcyjny, tabela konfiguracji jest również uznawana za produkcyjną.",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.label": "Jest produkcyjna",
+  "ConfigurationTable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationTable.library.label.base.RichText.RichText_1.label": "Tekst RTF",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabChangeHistory.title": "Historia zmian",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabData.title": "Dane",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDetails.title": "Informacje",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDocumentation.title": "Dokumentacja"
+}

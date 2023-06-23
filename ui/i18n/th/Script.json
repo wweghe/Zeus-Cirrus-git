@@ -1,0 +1,16 @@
+{
+  "Script.Script.schema.field.endsInAsyncCallFlg.option.label1.label": "ใช่",
+  "Script.Script.schema.field.endsInAsyncCallFlg.option.label2.label": "ไม่ใช่",
+  "Script.library.label.base.Accordion.Accordion.KRMOutputPane.title": "ตารางเอาต์พุต KRM",
+  "Script.library.label.base.Accordion.instance_details.details.title": "รายละเอียดสคริปต์",
+  "Script.library.label.base.Button.save.label": "บันทึก",
+  "Script.library.label.base.GenericSpreadsheetWidget.KRMSpreadsheetWidget.label": "สเปรดชีต",
+  "Script.library.label.base.ReadonlyFieldWidget.ReadonlyFieldWidget.label": "พารามิเตอร์ไม่รองรับในปัจจุบันสำหรับสคริปต์หลังการดำเนินการ",
+  "Script.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "Script.library.label.base.TabView.script_tabs.tab_analysis_runs.title": "การรันการวิเคราะห์",
+  "Script.library.label.base.TabView.script_tabs.tab_change_history.title": "ประวัติการเปลี่ยนแปลง",
+  "Script.library.label.base.TabView.script_tabs.tab_code.title": "โค้ด",
+  "Script.library.label.base.TabView.script_tabs.tab_details.title": "รายละเอียด",
+  "Script.library.label.base.TabView.script_tabs.tab_documentation.title": "เอกสารประกอบ",
+  "Script.library.label.base.TabView.script_tabs.tab_parameters.title": "พารามิเตอร์"
+}

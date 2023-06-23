@@ -1,0 +1,13 @@
+{
+  "DataLoad.library.label.base.Accordion.Accordion.runEtlTab.help": "",
+  "DataLoad.library.label.base.Accordion.Accordion.runEtlTab.title": "執行 ETL",
+  "DataLoad.library.label.base.Accordion.Accordion_1.runEtlTab.help": "",
+  "DataLoad.library.label.base.Accordion.Accordion_files_exist.runEtlTab.title": "執行 ETL",
+  "DataLoad.library.label.base.CirrusObjectsDataLoad.CirrusObjectsDataLoad.label": "資料載入器",
+  "DataLoad.library.label.base.CirrusObjectsDataLoad.CirrusObjectsDataLoad_files_exist.label": "資料載入器",
+  "DataLoad.library.label.base.CirrusObjectsDataMart.CirrusObjectsDataMart_files_exist.label": "資料超市回報程序",
+  "DataLoad.library.label.base.LinksListWidget.LinksListWidget.label": "資料載入器檔案",
+  "DataLoad.library.label.base.TabView.TabView.0.title": "資料載入",
+  "DataLoad.library.label.base.TabView.TabView.1.title": "檔案",
+  "undefined": "摺疊式功能表"
+}

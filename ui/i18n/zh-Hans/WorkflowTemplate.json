@@ -1,0 +1,23 @@
+{
+  "WorkflowTemplate.WorkflowTemplate.schema.field.createNewDefinition.label": "是创建新的工作流模板，还是选择一个现有的？",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.initializeFlg.option.label1.label": "是",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.initializeFlg.option.label2.label": "否",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.input_file_attachment.label": "工作流模板文件",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.objectType.help.label": "该下拉选择项列表基于已通过 workflowEnabled 属性为其启用的对象注册。",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.objectType_1.help.label": "该下拉选择项列表基于已通过 workflowEnabled 属性为其启用的对象注册。",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.message.label": "工作流定义不能有重复的任务名称。请选择具有唯一任务名称的工作流定义。",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.script.summary.label": "以下脚本在工作流任务详细信息中被引用，却不存在:",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.summary.label": "工作流定义无效。",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.wfDefinitionName.label": "工作流定义名称",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.wfDefinitionName_1.label": "工作流定义名称",
+  "WorkflowTemplate.library.label.base.Accordion.instance_details.details.title": "工作流模板详细信息",
+  "WorkflowTemplate.library.label.base.Button.save.label": "保存",
+  "WorkflowTemplate.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.0.title": "任务",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.1.title": "文档",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.2.title": "相关对象",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.3.title": "更改历史",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.tab_details.title": "详细信息",
+  "WorkflowTemplate.library.label.base.TabView.save_container.0.title": "保存",
+  "WorkflowTemplate.library.label.base.WorkflowDiagram.WorkflowDiagram.label": "工作流流程图"
+}

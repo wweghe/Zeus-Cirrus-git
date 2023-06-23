@@ -1,0 +1,797 @@
+{
+  "layouts": {
+    "Accordion": {
+      "branchDetails": {
+        "git_origin_container": {
+          "h": 250,
+          "i": "git_origin_container",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "base": {
+      "main_tabs": {
+        "h": 670,
+        "i": "main_tabs",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 84
+      },
+      "name_readonly": {
+        "h": 26,
+        "i": "name_readonly",
+        "minH": 24,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 0
+      },
+      "save_container": {
+        "h": 50,
+        "i": "save_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 8,
+        "x": 4,
+        "y": 0
+      },
+      "statusCd": {
+        "h": 57,
+        "i": "statusCd",
+        "minH": 50,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 4,
+        "x": 0,
+        "y": 26
+      }
+    },
+    "git_commit_container": {
+      "SELECT_COMMIT": {
+        "gitCommit": {
+          "h": 54,
+          "i": "gitCommit",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "default": {}
+    },
+    "git_origin_container": {
+      "LOCAL": {
+        "localFolder": {
+          "h": 50,
+          "i": "localFolder",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "REMOTE": {
+        "CodeLibrary": {
+          "h": 77,
+          "i": "CodeLibrary",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 7,
+          "y": 114
+        },
+        "gitBranch": {
+          "h": 52,
+          "i": "gitBranch",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 112
+        },
+        "gitRepoName": {
+          "h": 52,
+          "i": "gitRepoName",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "gitRepoURL": {
+          "h": 54,
+          "i": "gitRepoURL",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 55
+        },
+        "git_commit_container": {
+          "h": 55,
+          "i": "git_commit_container",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 7,
+          "y": 0
+        }
+      }
+    },
+    "instance_details": {
+      "details": {}
+    },
+    "main_tabs": {
+      "1": {
+        "additional_comments": {
+          "h": 370,
+          "i": "additional_comments",
+          "minH": 236,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 4,
+          "y": 0
+        },
+        "documentation_attachments": {
+          "h": 226,
+          "i": "documentation_attachments",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 0
+        },
+        "documentation_links": {
+          "h": 226,
+          "i": "documentation_links",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 241
+        }
+      },
+      "2": {
+        "core_dependsOn_CodeLibraries": {
+          "h": 50,
+          "i": "core_dependsOn_CodeLibraries",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 8
+        },
+        "core_neededBy_CodeLibraries": {
+          "h": 50,
+          "i": "core_neededBy_CodeLibraries",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 76
+        }
+      },
+      "3": {
+        "ChangeHistory": {
+          "h": 236,
+          "i": "ChangeHistory",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tabDetails": {
+        "Accordion": {
+          "h": 290,
+          "i": "Accordion",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 271
+        },
+        "Image": {
+          "h": 52,
+          "i": "Image",
+          "minH": 1,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 577
+        },
+        "description": {
+          "h": 92,
+          "i": "description",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 117
+        },
+        "gitOrigin": {
+          "h": 52,
+          "i": "gitOrigin",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 214
+        },
+        "name": {
+          "h": 52,
+          "i": "name",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 62
+        },
+        "objectId": {
+          "h": 51,
+          "i": "objectId",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "save_container": {
+      "default": {
+        "save": {
+          "h": 26,
+          "i": "save",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 1
+        }
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "draft": {
+        "name": "onDraftLoad"
+      },
+      "edit": {
+        "name": "onEditLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "onAnyEvent"
+      },
+      "onTabClose": {
+        "name": "onTabClose"
+      }
+    },
+    "props": {
+      "description": "",
+      "icon": "base://SHARED_FOLDER",
+      "id": "CodeLibrary",
+      "label": "Code Library",
+      "tabLabel": ""
+    }
+  },
+  "structure": {
+    "Accordion": {
+      "branchDetails": {
+        "git_origin_container": {
+          "compName": "GroupableContainer",
+          "containerId": "Accordion",
+          "id": "git_origin_container",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "Accordion",
+          "props": {
+            "activeIndex": 0,
+            "childProps": {
+              "LOCAL": {
+                "name": "LOCAL",
+                "position": 1
+              },
+              "REMOTE": {
+                "name": "REMOTE",
+                "position": 0
+              }
+            },
+            "removePadding": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        }
+      }
+    },
+    "base": {
+      "main_tabs": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "main_tabs",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "1": {
+              "label": "Documentation",
+              "name": "1",
+              "position": 2
+            },
+            "2": {
+              "label": "Dependencies",
+              "name": "2",
+              "position": 1
+            },
+            "3": {
+              "label": "Change History",
+              "name": "3",
+              "position": 3
+            },
+            "tabDetails": {
+              "id": "tabDetails",
+              "label": "Details",
+              "name": "tabDetails",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "name_readonly": {
+        "compName": "ReadonlyFieldWidget",
+        "containerId": "base",
+        "id": "name_readonly",
+        "label": "appbuilder.toolboxitem.readonlyfield.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldLabel": true,
+          "boldValue": true,
+          "colon": false,
+          "stacked": false
+        },
+        "sasProvided": true
+      },
+      "save_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "save_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "statusCd": {
+        "compName": "Dropdown",
+        "containerId": "base",
+        "events": {
+          "onChange": {
+            "name": "onStatusChange"
+          }
+        },
+        "fieldName": "statusCd",
+        "id": "statusCd",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "colon": true
+        },
+        "sasProvided": true
+      }
+    },
+    "git_commit_container": {
+      "SELECT_COMMIT": {
+        "gitCommit": {
+          "compName": "GitCommitSelector",
+          "containerId": "git_commit_container",
+          "events": {
+            "onChange": {
+              "name": "onGitCommitChange"
+            }
+          },
+          "fieldName": "gitCommit",
+          "id": "gitCommit",
+          "libName": "base",
+          "parentId": "git_commit_container",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      },
+      "default": {}
+    },
+    "git_origin_container": {
+      "LOCAL": {
+        "localFolder": {
+          "compName": "InputText",
+          "containerId": "git_origin_container",
+          "fieldName": "localFolder",
+          "id": "localFolder",
+          "libName": "base",
+          "parentId": "git_origin_container",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        }
+      },
+      "REMOTE": {
+        "CodeLibrary": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "git_origin_container",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "CodeLibrary",
+          "id": "CodeLibrary",
+          "libName": "base",
+          "parentId": "git_origin_container",
+          "props": {},
+          "sasProvided": true
+        },
+        "gitBranch": {
+          "compName": "Dropdown",
+          "containerId": "git_origin_container",
+          "events": {
+            "onChange": {
+              "name": "onGitBranchChange"
+            }
+          },
+          "fieldName": "gitBranch",
+          "id": "gitBranch",
+          "libName": "base",
+          "parentId": "git_origin_container",
+          "props": {
+            "align": "start",
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "gitRepoName": {
+          "compName": "Dropdown",
+          "containerId": "git_origin_container",
+          "events": {
+            "onChange": {
+              "name": "onGitRepoNameChange"
+            }
+          },
+          "fieldName": "gitRepoName",
+          "id": "gitRepoName",
+          "libName": "base",
+          "parentId": "git_origin_container",
+          "props": {
+            "align": "start",
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "gitRepoURL": {
+          "compName": "LinkWidget",
+          "containerId": "git_origin_container",
+          "id": "gitRepoURL",
+          "label": "appbuilder.toolboxitem.link.title",
+          "libName": "base",
+          "parentId": "git_origin_container",
+          "props": {
+            "align": "start",
+            "linkText": "",
+            "linkUrl": "",
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "git_commit_container": {
+          "compName": "GroupableContainer",
+          "containerId": "git_origin_container",
+          "id": "git_commit_container",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "git_origin_container",
+          "props": {
+            "activeIndex": 0,
+            "childProps": {
+              "SELECT_COMMIT": {
+                "name": "SELECT_COMMIT",
+                "position": 1
+              },
+              "default": {
+                "name": "default",
+                "position": 0
+              }
+            },
+            "removePadding": true
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "instance_details": {
+      "details": {}
+    },
+    "main_tabs": {
+      "1": {
+        "additional_comments": {
+          "compName": "Comments",
+          "containerId": "main_tabs",
+          "fieldName": "additional_comments",
+          "id": "additional_comments",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_attachments": {
+          "compName": "CirrusObjectsAttachments",
+          "containerId": "main_tabs",
+          "fieldName": "documentation_attachments",
+          "id": "documentation_attachments",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_links": {
+          "compName": "CirrusObjectsLinks",
+          "containerId": "main_tabs",
+          "fieldName": "documentation_links",
+          "id": "documentation_links",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "2": {
+        "core_dependsOn_CodeLibraries": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            },
+            "onAddedLinkInstances": {
+              "name": "onAddedDependsOnLibraries"
+            },
+            "onRemovedLinkInstances": {
+              "name": "onRemoveDependsOnLibraries"
+            }
+          },
+          "fieldName": "core_dependsOn_CodeLibraries",
+          "id": "core_dependsOn_CodeLibraries",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "core_neededBy_CodeLibraries": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            },
+            "onAddedLinkInstances": {
+              "name": "onAddedNeededByLibraries"
+            },
+            "onRemovedLinkInstances": {
+              "name": "onRemovedNeededByLibraries"
+            }
+          },
+          "fieldName": "core_neededBy_CodeLibraries",
+          "id": "core_neededBy_CodeLibraries",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "3": {
+        "ChangeHistory": {
+          "compName": "ChangeHistory",
+          "containerId": "main_tabs",
+          "id": "ChangeHistory",
+          "label": "appbuilder.toolboxitem.changeHistory.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "tabDetails": {
+        "Accordion": {
+          "compName": "Accordion",
+          "containerId": "main_tabs",
+          "id": "Accordion",
+          "label": "appbuilder.toolboxitem.accordion.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "activeIndex": -1,
+            "childProps": {
+              "branchDetails": {
+                "label": "Branch Details",
+                "name": "branchDetails",
+                "position": 0
+              }
+            },
+            "multiple": false,
+            "showOutline": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.01"
+        },
+        "Image": {
+          "compName": "Image",
+          "containerId": "main_tabs",
+          "id": "Image",
+          "label": "appbuilder.toolboxitem.image.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "description": {
+          "compName": "InputTextarea",
+          "containerId": "main_tabs",
+          "events": {},
+          "fieldName": "description",
+          "id": "description",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "colon": true,
+            "rows": 3
+          },
+          "sasProvided": true
+        },
+        "gitOrigin": {
+          "compName": "Dropdown",
+          "containerId": "main_tabs",
+          "events": {
+            "onChange": {
+              "name": "onGitOriginChange"
+            }
+          },
+          "fieldName": "gitOrigin",
+          "id": "gitOrigin",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "align": "start"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "name": {
+          "compName": "InputText",
+          "containerId": "main_tabs",
+          "events": {
+            "onChange": {
+              "name": "onNameChange"
+            }
+          },
+          "fieldName": "name",
+          "id": "name",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "objectId": {
+          "compName": "InputText",
+          "containerId": "main_tabs",
+          "events": {
+            "onChange": {
+              "name": "setDefaultName"
+            }
+          },
+          "fieldName": "objectId",
+          "id": "objectId",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "save_container": {
+      "default": {
+        "save": {
+          "compName": "Button",
+          "containerId": "save_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "save_container",
+          "props": {},
+          "sasProvided": true
+        }
+      }
+    }
+  }
+}

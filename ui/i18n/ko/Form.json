@@ -1,0 +1,12 @@
+{
+  "Form.library.label.base.Accordion.Accordion.panel1.title": "패널 1",
+  "Form.library.label.base.Accordion.classifications_accordion.classifications.title": "분류",
+  "Form.library.label.base.Button.Button.label": "저장",
+  "Form.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "Form.library.label.base.TabView.TabView.0.title": "상세 정보",
+  "Form.library.label.base.TabView.TabView.1.title": "팀",
+  "Form.library.label.base.TabView.TabView.2.title": "관련 개체",
+  "Form.library.label.base.TabView.TabView.4.title": "문서",
+  "Form.library.label.base.TabView.TabView.5.title": "변경 히스토리",
+  "undefined": "아코디언"
+}

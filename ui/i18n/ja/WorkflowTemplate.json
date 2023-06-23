@@ -1,0 +1,23 @@
+{
+  "WorkflowTemplate.WorkflowTemplate.schema.field.createNewDefinition.label": "ワークフローテンプレートを新規作成、既存から選択?",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.initializeFlg.option.label1.label": "はい",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.initializeFlg.option.label2.label": "いいえ",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.input_file_attachment.label": "ワークフローテンプレートファイル",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.objectType.help.label": "ドロップダウンの選択肢のリストは、workflowEnabled プロパティにてワークフローが有効化されたオブジェクト登録に基づきます。",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.objectType_1.help.label": "ドロップダウンの選択肢のリストは、workflowEnabled プロパティにてワークフローが有効化されたオブジェクト登録に基づきます。",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.message.label": "ワークフロー定義では、タスク名は重複できません。重複しないタスク名を持つワークフロー定義を選択してください。",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.script.summary.label": "次のスクリプトは、ワークフロータスクの詳細で参照されていますが、存在しません:",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.validation.summary.label": "ワークフロー定義が有効ではありません。",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.wfDefinitionName.label": "ワークフロー定義名",
+  "WorkflowTemplate.WorkflowTemplate.schema.field.wfDefinitionName_1.label": "ワークフロー定義名",
+  "WorkflowTemplate.library.label.base.Accordion.instance_details.details.title": "ワークフローテンプレートの詳細",
+  "WorkflowTemplate.library.label.base.Button.save.label": "保存",
+  "WorkflowTemplate.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.0.title": "タスク",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.1.title": "ドキュメント",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.2.title": "関連オブジェクト",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.3.title": "変更履歴",
+  "WorkflowTemplate.library.label.base.TabView.main_tabs.tab_details.title": "詳細",
+  "WorkflowTemplate.library.label.base.TabView.save_container.0.title": "保存",
+  "WorkflowTemplate.library.label.base.WorkflowDiagram.WorkflowDiagram.label": "ワークフローダイアグラム"
+}
