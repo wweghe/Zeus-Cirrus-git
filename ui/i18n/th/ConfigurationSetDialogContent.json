@@ -1,0 +1,9 @@
+{
+  "ConfigurationSetDialogContent.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.help.label": "เลือกตารางการกำหนดค่าที่คุณต้องการคัดลอกและแก้ไข ตารางอื่นๆ ทั้งหมดที่ไม่ได้เลือกจะไม่มีการเปลี่ยนแปลงเมื่อชุดการกำหนดค่าใหม่ถูกบันทึก",
+  "ConfigurationSetDialogContent.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "เลือกตารางการกำหนดค่าที่จะคัดลอกและแก้ไข",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.description.label": "คำอธิบายชุดการกำหนดค่า",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.name.label": "ชื่อชุดการกำหนดค่า",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.objectId.label": "ID ชุดการกำหนดค่า",
+  "ConfigurationSetDialogContent.library.label.base.TabView.TabView.configurationTables.title": "ตารางการกำหนดค่า",
+  "ConfigurationSetDialogContent.library.label.base.TabView.TabView.details.title": "รายละเอียด"
+}

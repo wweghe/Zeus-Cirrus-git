@@ -1,0 +1,20 @@
+{
+  "CodeLibrary.CodeLibrary.schema.field.description.label": "程式碼資料館描述",
+  "CodeLibrary.CodeLibrary.schema.field.gitBranch.label": "Git 分支",
+  "CodeLibrary.CodeLibrary.schema.field.gitCommit.label": "Git 認可",
+  "CodeLibrary.CodeLibrary.schema.field.gitRepoName.label": "Git Repository 名稱",
+  "CodeLibrary.CodeLibrary.schema.field.git_commit_selector.label": "Git 認可",
+  "CodeLibrary.CodeLibrary.schema.field.name.label": "程式碼資料館名稱",
+  "CodeLibrary.CodeLibrary.schema.field.objectId.label": "程式碼資料館 ID",
+  "CodeLibrary.CodeLibrary.schema.field.statusCd.label": "程式碼資料館狀態",
+  "CodeLibrary.library.label.base.Accordion.Accordion.branchDetails.title": "分支詳細資料",
+  "CodeLibrary.library.label.base.Accordion.instance_details.details.title": "程式碼資料館詳細資料",
+  "CodeLibrary.library.label.base.Button.save.label": "儲存",
+  "CodeLibrary.library.label.base.GitCommitSelector.gitCommit.label": "Git 認可",
+  "CodeLibrary.library.label.base.LinkWidget.gitRepoURL.label": "",
+  "CodeLibrary.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "CodeLibrary.library.label.base.TabView.main_tabs.1.title": "文件",
+  "CodeLibrary.library.label.base.TabView.main_tabs.2.title": "相依性",
+  "CodeLibrary.library.label.base.TabView.main_tabs.3.title": "變更歷程記錄",
+  "CodeLibrary.library.label.base.TabView.main_tabs.tabDetails.title": "詳細資料"
+}

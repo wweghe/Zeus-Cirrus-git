@@ -1,0 +1,187 @@
+{
+  "layouts": {
+    "TabView": {
+      "configurationTables": {
+        "GenericSpreadsheetWidget": {
+          "h": 400,
+          "i": "GenericSpreadsheetWidget",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 1
+        }
+      },
+      "details": {
+        "description": {
+          "h": 55,
+          "i": "description",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 120
+        },
+        "name": {
+          "h": 55,
+          "i": "name",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 60
+        },
+        "objectId": {
+          "h": 55,
+          "i": "objectId",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "base": {
+      "TabView": {
+        "h": 433,
+        "i": "TabView",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 1
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "onPageLoad": {
+        "name": "setDialogContent"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "checkSaveButtonEnablement"
+      },
+      "onTabClose": {}
+    },
+    "props": {
+      "description": "",
+      "id": "ConfigurationSetDialogContent",
+      "label": "Configuration Set Dialog Content",
+      "tabLabel": "Configuration Set Dialog Content"
+    }
+  },
+  "structure": {
+    "TabView": {
+      "configurationTables": {
+        "GenericSpreadsheetWidget": {
+          "compName": "GenericSpreadsheetWidget",
+          "containerId": "TabView",
+          "id": "GenericSpreadsheetWidget",
+          "label": "appbuilder.toolboxitem.spreadsheet.generic.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true,
+            "pagination": true,
+            "paginationPageSize": 20,
+            "suppressRowDragIndicator": true,
+            "suppressSideBar": false,
+            "suppressToolBarAddAction": true,
+            "suppressToolBarCollapseAllAction": true,
+            "suppressToolBarDeleteAction": true,
+            "suppressToolBarExpandAllAction": true,
+            "suppressToolBarImportExportAction": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        }
+      },
+      "details": {
+        "description": {
+          "compName": "InputTextWidget",
+          "containerId": "TabView",
+          "id": "description",
+          "label": "appbuilder.toolboxitem.inputtext.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "name": {
+          "compName": "InputTextWidget",
+          "containerId": "TabView",
+          "events": {},
+          "id": "name",
+          "label": "appbuilder.toolboxitem.inputtext.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true,
+            "displayAsText": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "objectId": {
+          "compName": "InputTextWidget",
+          "containerId": "TabView",
+          "events": {},
+          "id": "objectId",
+          "label": "appbuilder.toolboxitem.inputtext.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true,
+            "displayAsText": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        }
+      }
+    },
+    "base": {
+      "TabView": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "TabView",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 1,
+          "childProps": {
+            "configurationTables": {
+              "label": "Configuration Tables",
+              "name": "configurationTables",
+              "position": 1
+            },
+            "details": {
+              "label": "Details",
+              "name": "details",
+              "position": 0
+            }
+          },
+          "verticalTabs": true
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.05"
+      }
+    }
+  }
+}

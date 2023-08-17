@@ -1,0 +1,14 @@
+{
+  "ConfigurationSet.ConfigurationSet.schema.field.linkedConfigurationTables.label": "Configuration Tables",
+  "ConfigurationSet.library.label.base.Accordion.instance_details.details.title": "Configuration Set Details",
+  "ConfigurationSet.library.label.base.Button.save.label": "Save",
+  "ConfigurationSet.library.label.base.CirrusObjectsLinks.documentation_links.label": "Documentation links",
+  "ConfigurationSet.library.label.base.Comments.additional_comments.label": "Comments",
+  "ConfigurationSet.library.label.base.InputText.name.label": "Configuration set name",
+  "ConfigurationSet.library.label.base.InputText.objectId.label": "Configuration set ID",
+  "ConfigurationSet.library.label.base.InputTextarea.description.label": "Configuration set description",
+  "ConfigurationSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": " ",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.0.title": "Details",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.1.title": "Documentation",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.2.title": "Change History"
+}

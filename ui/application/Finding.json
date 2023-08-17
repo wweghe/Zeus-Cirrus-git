@@ -1,0 +1,1582 @@
+{
+  "layouts": {
+    "GroupableContainer": {
+      "default": {
+        "description": {
+          "h": 100,
+          "i": "description",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 50
+        },
+        "name": {
+          "h": 50,
+          "i": "name",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "objectId": {
+          "h": 50,
+          "i": "objectId",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 0
+        },
+        "recommendedResolution": {
+          "h": 100,
+          "i": "recommendedResolution",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 50
+        }
+      }
+    },
+    "GroupableContainer_1": {
+      "default": {
+        "apAssessment": {
+          "h": 100,
+          "i": "apAssessment",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "apDescription": {
+          "h": 100,
+          "i": "apDescription",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 100
+        }
+      }
+    },
+    "GroupableContainer_2": {
+      "default": {
+        "Image": {
+          "h": 1,
+          "i": "Image",
+          "minH": 1,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "GroupableContainer_5": {
+      "default": {
+        "category": {
+          "h": 50,
+          "i": "category",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 50
+        },
+        "closedDttm": {
+          "h": 50,
+          "i": "closedDttm",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 6,
+          "y": 100
+        },
+        "currentDueDttm": {
+          "h": 50,
+          "i": "currentDueDttm",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 6,
+          "y": 50
+        },
+        "originalDueDttm": {
+          "h": 50,
+          "i": "originalDueDttm",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 6,
+          "y": 0
+        },
+        "severity": {
+          "h": 50,
+          "i": "severity",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "GroupableContainer_7": {
+      "layout-0": {}
+    },
+    "TabView": {
+      "changeHistory": {
+        "ChangeHistory": {
+          "h": 236,
+          "i": "ChangeHistory",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "details": {
+        "GroupableContainer": {
+          "h": 220,
+          "i": "GroupableContainer",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "GroupableContainer_1": {
+          "h": 260,
+          "i": "GroupableContainer_1",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 220
+        },
+        "GroupableContainer_5": {
+          "h": 220,
+          "i": "GroupableContainer_5",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 6,
+          "y": 0
+        }
+      },
+      "documentation": {
+        "GroupableContainer_2": {
+          "h": 50,
+          "i": "GroupableContainer_2",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 263
+        },
+        "additionalComments": {
+          "h": 334,
+          "i": "additionalComments",
+          "minH": 236,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 327
+        },
+        "additionalDoc": {
+          "h": 218,
+          "i": "additionalDoc",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 22
+        },
+        "additionalLinks": {
+          "h": 218,
+          "i": "additionalLinks",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 22
+        }
+      },
+      "relatedObjects": {},
+      "team": {
+        "createdBy": {
+          "h": 50,
+          "i": "createdBy",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 0
+        },
+        "creationTimeStamp": {
+          "h": 50,
+          "i": "creationTimeStamp",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 3,
+          "y": 0
+        },
+        "modifiedBy": {
+          "h": 50,
+          "i": "modifiedBy",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 0
+        },
+        "modifiedTimeStamp": {
+          "h": 50,
+          "i": "modifiedTimeStamp",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 9,
+          "y": 1
+        }
+      }
+    },
+    "active_task_container": {
+      "default": {},
+      "status_only_layout": {
+        "findingStatus_not_participant": {
+          "h": 52,
+          "i": "findingStatus_not_participant",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "task_layout": {
+        "active_task": {
+          "h": 24,
+          "i": "active_task",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 7,
+          "y": 0
+        },
+        "findingStatus": {
+          "h": 52,
+          "i": "findingStatus",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "base": {
+      "TabView": {
+        "h": 575,
+        "i": "TabView",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 245
+      },
+      "active_task_container": {
+        "h": 70,
+        "i": "active_task_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 50
+      },
+      "classifications_accordion": {
+        "h": 125,
+        "i": "classifications_accordion",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 120
+      },
+      "finding_name_header": {
+        "h": 50,
+        "i": "finding_name_header",
+        "minH": 48,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 5,
+        "x": 0,
+        "y": 0
+      },
+      "workflow_container": {
+        "h": 50,
+        "i": "workflow_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 7,
+        "x": 5,
+        "y": 0
+      },
+      "workflow_mode_container": {
+        "h": 50,
+        "i": "workflow_mode_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 5,
+        "x": 0,
+        "y": 824
+      }
+    },
+    "classifications_accordion": {
+      "classifications": {
+        "default": {
+          "h": 190,
+          "i": "default",
+          "minH": 186,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "workflow_container": {
+      "CLAIMED_BY_ME": {
+        "save_claimed_by_me": {
+          "h": 26,
+          "i": "save_claimed_by_me",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        },
+        "unclaim_task": {
+          "h": 26,
+          "i": "unclaim_task",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 2,
+          "y": 0
+        },
+        "workflow_transitions": {
+          "h": 26,
+          "i": "workflow_transitions",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 5,
+          "y": 0
+        }
+      },
+      "CLAIMED_BY_OTHER": {
+        "claimed_by_msg": {
+          "h": 24,
+          "i": "claimed_by_msg",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 2,
+          "y": 0
+        },
+        "save_claimed_by_other": {
+          "h": 26,
+          "i": "save_claimed_by_other",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      },
+      "COMPLETED": {
+        "workflow_completed_msg": {
+          "h": 24,
+          "i": "workflow_completed_msg",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 4,
+          "y": 0
+        }
+      },
+      "DRAFT": {
+        "save_draft": {
+          "h": 26,
+          "i": "save_draft",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        },
+        "start_workflow_draft": {
+          "h": 26,
+          "i": "start_workflow_draft",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 7,
+          "y": 0
+        }
+      },
+      "NOT_PARTICIPANT": {
+        "not_participant_msg": {
+          "h": 24,
+          "i": "not_participant_msg",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 2,
+          "y": 0
+        },
+        "save_not_participant": {
+          "h": 26,
+          "i": "save_not_participant",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      },
+      "NOT_STARTED": {
+        "save_not_started": {
+          "h": 26,
+          "i": "save_not_started",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        },
+        "start_workflow_existing": {
+          "h": 26,
+          "i": "start_workflow_existing",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 7,
+          "y": 0
+        }
+      },
+      "NO_TASKS": {
+        "no_tasks_msg": {
+          "h": 24,
+          "i": "no_tasks_msg",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 2,
+          "y": 0
+        },
+        "save_no_tasks": {
+          "h": 26,
+          "i": "save_no_tasks",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      },
+      "UNCLAIMED": {
+        "claim_task": {
+          "h": 26,
+          "i": "claim_task",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 7,
+          "y": 0
+        },
+        "save_unclaimed": {
+          "h": 26,
+          "i": "save_unclaimed",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      },
+      "default": {}
+    },
+    "workflow_mode_container": {
+      "default": {},
+      "show_workflow_mode": {
+        "workflow_mode": {
+          "h": 24,
+          "i": "workflow_mode",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 0
+        }
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "copy": {
+        "name": "onFindingCopyLoad"
+      },
+      "draft": {
+        "name": "onFindingDraftLoad"
+      },
+      "draftNewRelated": {
+        "name": "onFindingDraftNewRelatedLoad"
+      },
+      "edit": {
+        "name": "onFindingEditLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "onAnyEvent"
+      },
+      "onTabClose": {
+        "name": "onTabClose"
+      },
+      "open": {
+        "name": "on Finding Load"
+      }
+    },
+    "props": {
+      "description": "The finding page contains issues discovered during various model governance tasks.\n",
+      "icon": "base://ISSUE",
+      "id": "Finding",
+      "label": "Finding",
+      "tabLabel": ""
+    }
+  },
+  "structure": {
+    "GroupableContainer": {
+      "default": {
+        "description": {
+          "compName": "InputTextarea",
+          "containerId": "GroupableContainer",
+          "fieldName": "description",
+          "id": "description",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "colon": true,
+            "rows": 4
+          },
+          "sasProvided": true
+        },
+        "name": {
+          "compName": "InputText",
+          "containerId": "GroupableContainer",
+          "events": {
+            "onChange": {
+              "name": "updateName"
+            }
+          },
+          "fieldName": "name",
+          "id": "name",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "objectId": {
+          "compName": "InputText",
+          "containerId": "GroupableContainer",
+          "events": {
+            "onChange": {
+              "name": "setDefaultName"
+            }
+          },
+          "fieldName": "objectId",
+          "id": "objectId",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "recommendedResolution": {
+          "compName": "InputTextarea",
+          "containerId": "GroupableContainer",
+          "fieldName": "recommendedResolution",
+          "id": "recommendedResolution",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "colon": true,
+            "rows": 4
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "GroupableContainer_1": {
+      "default": {
+        "apAssessment": {
+          "compName": "InputTextarea",
+          "containerId": "GroupableContainer_1",
+          "fieldName": "apAssessment",
+          "id": "apAssessment",
+          "libName": "base",
+          "parentId": "GroupableContainer_1",
+          "props": {
+            "colon": true,
+            "rows": 4
+          },
+          "sasProvided": true
+        },
+        "apDescription": {
+          "compName": "InputTextarea",
+          "containerId": "GroupableContainer_1",
+          "fieldName": "apDescription",
+          "id": "apDescription",
+          "libName": "base",
+          "parentId": "GroupableContainer_1",
+          "props": {
+            "colon": true,
+            "rows": 4
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "GroupableContainer_2": {
+      "default": {
+        "Image": {
+          "compName": "Image",
+          "containerId": "GroupableContainer_2",
+          "id": "Image",
+          "label": "appbuilder.toolboxitem.image.title",
+          "libName": "base",
+          "parentId": "GroupableContainer_2",
+          "props": {
+            "background": "ced2d9"
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "GroupableContainer_5": {
+      "default": {
+        "category": {
+          "compName": "Dropdown",
+          "containerId": "GroupableContainer_5",
+          "events": {},
+          "fieldName": "category",
+          "id": "category",
+          "libName": "base",
+          "parentId": "GroupableContainer_5",
+          "props": {
+            "colon": true,
+            "enableClear": true
+          },
+          "sasProvided": true
+        },
+        "closedDttm": {
+          "compName": "Calendar",
+          "containerId": "GroupableContainer_5",
+          "fieldName": "closedDttm",
+          "id": "closedDttm",
+          "libName": "base",
+          "parentId": "GroupableContainer_5",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "currentDueDttm": {
+          "compName": "Calendar",
+          "containerId": "GroupableContainer_5",
+          "events": {},
+          "fieldName": "currentDueDttm",
+          "id": "currentDueDttm",
+          "libName": "base",
+          "parentId": "GroupableContainer_5",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "originalDueDttm": {
+          "compName": "Calendar",
+          "containerId": "GroupableContainer_5",
+          "events": {
+            "onChange": {
+              "name": "copyDueDate"
+            }
+          },
+          "fieldName": "originalDueDttm",
+          "id": "originalDueDttm",
+          "libName": "base",
+          "parentId": "GroupableContainer_5",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "severity": {
+          "compName": "ColorDropdown",
+          "containerId": "GroupableContainer_5",
+          "fieldName": "severity",
+          "id": "severity",
+          "libName": "base",
+          "parentId": "GroupableContainer_5",
+          "props": {
+            "colon": true,
+            "enableClear": true
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "TabView": {
+      "changeHistory": {
+        "ChangeHistory": {
+          "compName": "ChangeHistory",
+          "containerId": "TabView",
+          "id": "ChangeHistory",
+          "label": "appbuilder.toolboxitem.changeHistory.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "details": {
+        "GroupableContainer": {
+          "compName": "GroupableContainer",
+          "containerId": "TabView",
+          "id": "GroupableContainer",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "activeIndex": 0,
+            "childProps": {
+              "default": {
+                "name": "default",
+                "position": 0
+              }
+            }
+          },
+          "sasProvided": true
+        },
+        "GroupableContainer_1": {
+          "compName": "GroupableContainer",
+          "containerId": "TabView",
+          "id": "GroupableContainer_1",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "activeIndex": 0,
+            "childProps": {
+              "default": {
+                "name": "default",
+                "position": 0
+              }
+            }
+          },
+          "sasProvided": true
+        },
+        "GroupableContainer_5": {
+          "compName": "GroupableContainer",
+          "containerId": "TabView",
+          "id": "GroupableContainer_5",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "activeIndex": 0,
+            "childProps": {
+              "default": {
+                "name": "default",
+                "position": 0
+              }
+            }
+          },
+          "sasProvided": true
+        }
+      },
+      "documentation": {
+        "GroupableContainer_2": {
+          "compName": "GroupableContainer",
+          "containerId": "TabView",
+          "id": "GroupableContainer_2",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "activeIndex": 0,
+            "childProps": {
+              "default": {
+                "name": "default",
+                "position": 0
+              }
+            }
+          },
+          "sasProvided": true
+        },
+        "additionalComments": {
+          "compName": "Comments",
+          "containerId": "TabView",
+          "fieldName": "additionalComments",
+          "id": "additionalComments",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true
+        },
+        "additionalDoc": {
+          "compName": "CirrusObjectsAttachments",
+          "containerId": "TabView",
+          "fieldName": "additionalDoc",
+          "id": "additionalDoc",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true
+        },
+        "additionalLinks": {
+          "compName": "CirrusObjectsLinks",
+          "containerId": "TabView",
+          "fieldName": "additionalLinks",
+          "id": "additionalLinks",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "relatedObjects": {},
+      "team": {
+        "createdBy": {
+          "compName": "InputText",
+          "containerId": "TabView",
+          "fieldName": "createdBy",
+          "id": "createdBy",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "creationTimeStamp": {
+          "compName": "Calendar",
+          "containerId": "TabView",
+          "fieldName": "creationTimeStamp",
+          "id": "creationTimeStamp",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "modifiedBy": {
+          "compName": "InputText",
+          "containerId": "TabView",
+          "fieldName": "modifiedBy",
+          "id": "modifiedBy",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "modifiedTimeStamp": {
+          "compName": "Calendar",
+          "containerId": "TabView",
+          "fieldName": "modifiedTimeStamp",
+          "id": "modifiedTimeStamp",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "active_task_container": {
+      "default": {},
+      "status_only_layout": {
+        "findingStatus_not_participant": {
+          "compName": "Dropdown",
+          "containerId": "active_task_container",
+          "fieldName": "status",
+          "id": "findingStatus_not_participant",
+          "libName": "base",
+          "parentId": "active_task_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "displayAsText": true,
+            "enableClear": true
+          },
+          "sasProvided": true
+        }
+      },
+      "task_layout": {
+        "active_task": {
+          "compName": "WorkflowTaskLabelWidget",
+          "containerId": "active_task_container",
+          "id": "active_task",
+          "label": "appbuilder.toolboxitem.workflowtasklabel.title",
+          "libName": "base",
+          "parentId": "active_task_container",
+          "props": {
+            "align": "end",
+            "colon": true,
+            "stacked": false
+          },
+          "sasProvided": true
+        },
+        "findingStatus": {
+          "compName": "Dropdown",
+          "containerId": "active_task_container",
+          "fieldName": "status",
+          "id": "findingStatus",
+          "libName": "base",
+          "parentId": "active_task_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "displayAsText": true,
+            "enableClear": true
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "base": {
+      "TabView": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "TabView",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 2,
+          "childProps": {
+            "changeHistory": {
+              "label": "Change History",
+              "name": "changeHistory",
+              "position": 4
+            },
+            "details": {
+              "id": "details",
+              "label": "Details",
+              "name": "details",
+              "position": 0
+            },
+            "documentation": {
+              "id": "documentation",
+              "label": "Documentation",
+              "name": "documentation",
+              "position": 3
+            },
+            "relatedObjects": {
+              "id": "relatedObjects",
+              "label": "Related Objects",
+              "name": "relatedObjects",
+              "position": 2
+            },
+            "team": {
+              "id": "team",
+              "label": "Team",
+              "name": "team",
+              "position": 1
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "active_task_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "active_task_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 2,
+          "childProps": {
+            "default": {
+              "name": "default",
+              "position": 0
+            },
+            "status_only_layout": {
+              "name": "status_only_layout",
+              "position": 2
+            },
+            "task_layout": {
+              "name": "task_layout",
+              "position": 1
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "classifications_accordion": {
+        "compName": "Accordion",
+        "containerId": "base",
+        "id": "classifications_accordion",
+        "label": "appbuilder.toolboxitem.accordion.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "childProps": {
+            "classifications": {
+              "label": "Classifications",
+              "name": "classifications",
+              "position": 0
+            }
+          },
+          "showOutline": true
+        },
+        "sasProvided": true
+      },
+      "finding_name_header": {
+        "compName": "RichText",
+        "containerId": "base",
+        "id": "finding_name_header",
+        "label": "appbuilder.toolboxitem.richtext.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "value": ""
+        },
+        "sasProvided": true
+      },
+      "workflow_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "workflow_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 8,
+          "childProps": {
+            "CLAIMED_BY_ME": {
+              "name": "CLAIMED_BY_ME",
+              "position": 5
+            },
+            "CLAIMED_BY_OTHER": {
+              "name": "CLAIMED_BY_OTHER",
+              "position": 4
+            },
+            "COMPLETED": {
+              "name": "COMPLETED",
+              "position": 7
+            },
+            "DRAFT": {
+              "name": "DRAFT",
+              "position": 6
+            },
+            "NOT_PARTICIPANT": {
+              "name": "NOT_PARTICIPANT",
+              "position": 2
+            },
+            "NOT_STARTED": {
+              "name": "NOT_STARTED",
+              "position": 1
+            },
+            "NO_TASKS": {
+              "name": "NO_TASKS",
+              "position": 8
+            },
+            "UNCLAIMED": {
+              "name": "UNCLAIMED",
+              "position": 3
+            },
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "workflow_mode_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "workflow_mode_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "default": {
+              "name": "default",
+              "position": 0
+            },
+            "show_workflow_mode": {
+              "name": "show_workflow_mode",
+              "position": 1
+            }
+          }
+        },
+        "sasProvided": true
+      }
+    },
+    "classifications_accordion": {
+      "classifications": {
+        "default": {
+          "compName": "CirrusObjectsClassification",
+          "containerId": "classifications_accordion",
+          "fieldName": "default",
+          "id": "default",
+          "libName": "base",
+          "parentId": "classifications_accordion",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "workflow_container": {
+      "CLAIMED_BY_ME": {
+        "save_claimed_by_me": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "events": {
+            "click": {
+              "name": "saveFinding"
+            }
+          },
+          "id": "save_claimed_by_me",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true
+        },
+        "unclaim_task": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "events": {
+            "click": {
+              "name": "releaseTask"
+            }
+          },
+          "id": "unclaim_task",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "secondary": true,
+            "shrink": true
+          },
+          "sasProvided": true
+        },
+        "workflow_transitions": {
+          "compName": "MultiActionButton",
+          "containerId": "workflow_container",
+          "events": {
+            "onClick": {
+              "name": "onTransitionGo"
+            }
+          },
+          "id": "workflow_transitions",
+          "label": "appbuilder.toolboxitem.multibutton.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "options": {
+              "ACCEPT": {
+                "index": 1,
+                "label": "Accept",
+                "value": "ACCEPT"
+              },
+              "CLOSE": {
+                "index": 4,
+                "label": "Close",
+                "value": "CLOSE"
+              },
+              "PUBLISH": {
+                "index": 0,
+                "label": "Publish",
+                "value": "PUBLISH"
+              },
+              "REJECT": {
+                "index": 3,
+                "label": "Reject",
+                "value": "REJECT"
+              },
+              "SEND_FOR_APPROVAL": {
+                "index": 2,
+                "label": "Send for approval",
+                "value": "SEND_FOR_APPROVAL"
+              }
+            },
+            "primary": true
+          },
+          "sasProvided": true
+        }
+      },
+      "CLAIMED_BY_OTHER": {
+        "claimed_by_msg": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "workflow_container",
+          "id": "claimed_by_msg",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "colon": true,
+            "stacked": false
+          },
+          "sasProvided": true
+        },
+        "save_claimed_by_other": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "id": "save_claimed_by_other",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true
+        }
+      },
+      "COMPLETED": {
+        "workflow_completed_msg": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "workflow_container",
+          "id": "workflow_completed_msg",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end"
+          },
+          "sasProvided": true
+        }
+      },
+      "DRAFT": {
+        "save_draft": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "events": {
+            "click": {
+              "name": "saveFinding"
+            }
+          },
+          "id": "save_draft",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "start",
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true
+        },
+        "start_workflow_draft": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "events": {
+            "click": {
+              "name": "startWorkflowDraft"
+            }
+          },
+          "id": "start_workflow_draft",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "shrink": true
+          },
+          "sasProvided": true
+        }
+      },
+      "NOT_PARTICIPANT": {
+        "not_participant_msg": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "workflow_container",
+          "id": "not_participant_msg",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "colon": false
+          },
+          "sasProvided": true
+        },
+        "save_not_participant": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "id": "save_not_participant",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true
+        }
+      },
+      "NOT_STARTED": {
+        "save_not_started": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "events": {
+            "click": {
+              "name": "saveFinding"
+            }
+          },
+          "id": "save_not_started",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true
+        },
+        "start_workflow_existing": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "events": {
+            "click": {
+              "name": "startWorkflowExisting"
+            }
+          },
+          "id": "start_workflow_existing",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "shrink": true
+          },
+          "sasProvided": true
+        }
+      },
+      "NO_TASKS": {
+        "no_tasks_msg": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "workflow_container",
+          "id": "no_tasks_msg",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "colon": false
+          },
+          "sasProvided": true
+        },
+        "save_no_tasks": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "events": {
+            "click": {
+              "name": "saveFinding"
+            }
+          },
+          "id": "save_no_tasks",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true
+        }
+      },
+      "UNCLAIMED": {
+        "claim_task": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "events": {
+            "click": {
+              "name": "claimTask"
+            }
+          },
+          "id": "claim_task",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "shrink": true
+          },
+          "sasProvided": true
+        },
+        "save_unclaimed": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "id": "save_unclaimed",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true
+        }
+      },
+      "default": {}
+    },
+    "workflow_mode_container": {
+      "default": {},
+      "show_workflow_mode": {
+        "workflow_mode": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "workflow_mode_container",
+          "id": "workflow_mode",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "workflow_mode_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "stacked": false
+          },
+          "sasProvided": true
+        }
+      }
+    }
+  }
+}

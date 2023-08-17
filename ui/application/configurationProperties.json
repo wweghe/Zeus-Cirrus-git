@@ -1,0 +1,362 @@
+{
+  "AllocationSchemes.copy.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "AllocationSchemes.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "AnalysisData.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "AnalysisRun.computeContext.default": {
+    "readonly": false,
+    "type": "string",
+    "value": ""
+  },
+  "AnalysisRun.productionFlg.default.value": {
+    "readonly": false,
+    "type": "boolean",
+    "value": false
+  },
+  "AnalysisRuns.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "AnalysisRuns.pollScriptExecution.maxIterations": {
+    "readonly": false,
+    "type": "number",
+    "value": 1000
+  },
+  "AnalysisRuns.pollScriptExecution.minSleepInterval": {
+    "readonly": false,
+    "type": "number",
+    "value": 2000
+  },
+  "AttributionTemplates.attributionFactors.default": {
+    "readonly": false,
+    "type": "string",
+    "value": "[{\"attributionGroupName\":\"Expired Positions\",\"attributionGroupNo\":1,\"attributeName\":\"Expired Positions\",\"attributeDescription\":\"Expired Positions\",\"source\":\"Portfolio\",\"attributionType\":\"Derecognition\"},{\"attributionGroupName\":\"Portfolio Aging\",\"attributionGroupNo\":2,\"attributeName\":\"Portfolio Aging\",\"attributeDescription\":\"Changes due to base date\",\"source\":\"Portfolio\",\"attributionType\":\"PortfolioAging\"},{\"attributionGroupName\":\"Portfolio (All Others)\",\"attributionGroupNo\":3,\"attributeName\":\"Portfolio (All Others)\",\"attributeDescription\":\"All Other Portfolio Variables\",\"source\":\"Portfolio\",\"attributionType\":\"PortfolioSwitch\"},{\"attributionGroupName\":\"Scenario (All Others)\",\"attributionGroupNo\":4,\"attributeName\":\"Scenario (All Others)\",\"attributeDescription\":\"All Other Scenario Variables\",\"source\":\"Scenario\",\"attributionType\":\"ScenarioSwitch\"},{\"attributionGroupName\":\"Model Logic\",\"attributionGroupNo\":5,\"attributeName\":\"Model Logic\",\"attributeDescription\":\"Changes to Model Logic\",\"source\":\"Other\",\"attributionType\":\"Model\"},{\"attributionGroupName\":\"New Originations\",\"attributionGroupNo\":6,\"attributeName\":\"New Originations\",\"attributeDescription\":\"Changes Due to new originations\",\"source\":\"Portfolio\",\"attributionType\":\"Origination\"},{\"attributionGroupName\":\"Reclassification\",\"attributionGroupNo\":7,\"attributeName\":\"Reclassification\",\"attributeDescription\":\"Reclassification\",\"source\":\"Portfolio\",\"attributionType\":\"Reclassification\"},{\"attributionGroupName\":\"Other (catch-all)\",\"attributionGroupNo\":8,\"attributeName\":\"Other (catch-all)\",\"attributeDescription\":\"Other (catch-all)\",\"source\":\"Other\",\"attributionType\":\"Other\"}]"
+  },
+  "AttributionTemplates.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "BusinessEvolutionPlans.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "BusinessEvolutionPlans.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "BusinessEvolutionPlans.initType.allowedList": {
+    "readonly": false,
+    "type": "string",
+    "value": "MULTI,SINGLE"
+  },
+  "BusinessEvolutionPlans.initType.default": {
+    "readonly": false,
+    "type": "string",
+    "value": "SINGLE"
+  },
+  "CodeLibraries.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "ConfigurationSets.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "ConfigurationTables.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "Cycles.baseDttm.required": {
+    "readonly": false,
+    "type": "boolean",
+    "value": false
+  },
+  "Cycles.codeLibrary.default": {
+    "readonly": false,
+    "type": "string",
+    "value": "{\"sourceSystemCd\":\"RCC\",\"objectId\":\"release-core-2023.07\"}"
+  },
+  "Cycles.codeLibrary.required": {
+    "readonly": false,
+    "type": "boolean",
+    "value": false
+  },
+  "Cycles.computeContext.default": {
+    "readonly": false,
+    "type": "string",
+    "value": ""
+  },
+  "Cycles.configurationSet.default": {
+    "readonly": false,
+    "type": "string",
+    "value": "{\"sourceSystemCd\":\"RCC\",\"objectId\":\"Config_Set_1\"}"
+  },
+  "Cycles.configurationSet.required": {
+    "readonly": false,
+    "type": "boolean",
+    "value": false
+  },
+  "Cycles.dimensions.requiredList": {
+    "readonly": false,
+    "type": "string",
+    "value": "entity_id"
+  },
+  "Cycles.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "Cycles.initScriptName.default": {
+    "readonly": false,
+    "type": "string",
+    "value": "{\"name\":\"Core - Init\",\"sourceSystemCd\":\"RCC\",\"objectId\":\"Core-001-Init\"}"
+  },
+  "Cycles.initTaskName.default": {
+    "readonly": false,
+    "type": "string",
+    "value": "__start_workflow__"
+  },
+  "Cycles.pollScriptExecution.maxIterations": {
+    "readonly": false,
+    "type": "number",
+    "value": 1000
+  },
+  "Cycles.pollScriptExecution.minSleepInterval": {
+    "readonly": false,
+    "type": "number",
+    "value": 2000
+  },
+  "Cycles.pollWorkflow.maxIterations": {
+    "readonly": false,
+    "type": "number",
+    "value": 50
+  },
+  "Cycles.pollWorkflow.minSleepInterval": {
+    "readonly": false,
+    "type": "number",
+    "value": 500
+  },
+  "Cycles.updateWorkflowHistoryFromUI.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "Cycles.useKRM.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "Cycles.workflowTransitions.validateParameters": {
+    "readonly": false,
+    "type": "string",
+    "value": "CIRRUS_RUN_SCRIPT"
+  },
+  "Dashboard.report1.label": {
+    "readonly": false,
+    "type": "string",
+    "value": "Report 1"
+  },
+  "Dashboard.report1.uuid": {
+    "readonly": false,
+    "type": "genericSingleSelector",
+    "typeProperties": {
+      "endpoint": "reports/reports",
+      "fieldsForPageConfig": "id"
+    },
+    "value": ""
+  },
+  "Dashboard.report2.label": {
+    "readonly": false,
+    "type": "string",
+    "value": "Report 2"
+  },
+  "Dashboard.report2.uuid": {
+    "readonly": false,
+    "type": "genericSingleSelector",
+    "typeProperties": {
+      "endpoint": "reports/reports",
+      "fieldsForPageConfig": "id"
+    },
+    "value": ""
+  },
+  "Dashboard.report3.label": {
+    "readonly": false,
+    "type": "string",
+    "value": "Report 3"
+  },
+  "Dashboard.report3.uuid": {
+    "readonly": false,
+    "type": "genericSingleSelector",
+    "typeProperties": {
+      "endpoint": "reports/reports",
+      "fieldsForPageConfig": "id"
+    },
+    "value": ""
+  },
+  "Dashboard.report4.label": {
+    "readonly": false,
+    "type": "string",
+    "value": "Report 4"
+  },
+  "Dashboard.report4.uuid": {
+    "readonly": false,
+    "type": "genericSingleSelector",
+    "typeProperties": {
+      "endpoint": "reports/reports",
+      "fieldsForPageConfig": "id"
+    },
+    "value": ""
+  },
+  "Dashboard.report5.label": {
+    "readonly": false,
+    "type": "string",
+    "value": "Report 5"
+  },
+  "Dashboard.report5.uuid": {
+    "readonly": false,
+    "type": "genericSingleSelector",
+    "typeProperties": {
+      "endpoint": "reports/reports",
+      "fieldsForPageConfig": "id"
+    },
+    "value": ""
+  },
+  "DataDefinitions.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "DataMaps.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "DataProjects.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "DataProjects.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "DataSecurityRules.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "Findings.dimensions.requiredList": {
+    "readonly": false,
+    "type": "string",
+    "value": ""
+  },
+  "Findings.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "Forms.dimensions.requiredList": {
+    "readonly": false,
+    "type": "string",
+    "value": ""
+  },
+  "Forms.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "InventoryAttestations.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "KPIs.thresholds.intervals.restricted": {
+    "readonly": false,
+    "type": "boolean",
+    "value": false
+  },
+  "ModelAttestations.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "ModelCandidateAssessments.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "ModelReviews.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "Models.dimensions.requiredList": {
+    "readonly": false,
+    "type": "string",
+    "value": ""
+  },
+  "Models.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "NonModels.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "RuleSets.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "RuleSets.types.enabledList": {
+    "readOnly": false,
+    "type": "string",
+    "value": "BUSINESS_RULES,ALLOCATION_RULES"
+  },
+  "Scripts.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "Solution.adminGroupId": {
+    "readonly": false,
+    "type": "string",
+    "value": ""
+  },
+  "Solution.core.dataloader.location": {
+    "readonly": true,
+    "type": "string",
+    "value": "/Products/SAS Risk Cirrus Core/2023.07/data_loader_files"
+  },
+  "WorkflowTemplates.conversionTool.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "WorkflowTemplates.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  }
+}
