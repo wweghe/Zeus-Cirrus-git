@@ -1,0 +1,14 @@
+{
+  "ConfigurationSet.ConfigurationSet.schema.field.linkedConfigurationTables.label": "Tables de configuration",
+  "ConfigurationSet.library.label.base.Accordion.instance_details.details.title": "Détails du jeu de configuration",
+  "ConfigurationSet.library.label.base.Button.save.label": "Enregistrer",
+  "ConfigurationSet.library.label.base.CirrusObjectsLinks.documentation_links.label": "Liens vers la documentation",
+  "ConfigurationSet.library.label.base.Comments.additional_comments.label": "Commentaires",
+  "ConfigurationSet.library.label.base.InputText.name.label": "Nom du jeu de configuration",
+  "ConfigurationSet.library.label.base.InputText.objectId.label": "ID du jeu de configuration",
+  "ConfigurationSet.library.label.base.InputTextarea.description.label": "Description du jeu de configuration",
+  "ConfigurationSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.0.title": "Détails",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.1.title": "Documentation",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.2.title": "Historique des modifications"
+}

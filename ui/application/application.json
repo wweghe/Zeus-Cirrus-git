@@ -1,0 +1,356 @@
+{
+  "cirrusCoreSolution": {
+    "branch": "main",
+    "commit": "4b8990d5776e3f5619a7f869edcffcd0472403a3",
+    "shortName": "CORE"
+  },
+  "description": "Management, visualization and transformation of Risk Factors.",
+  "displayName": "SAS® Risk Factor Manager",
+  "events": {
+    "onFirstLoad": {
+      "name": "setMenuItems"
+    }
+  },
+  "helpName": "SAS® Model Risk Management Administrator's Guide",
+  "helpUrl": "https://documentation.sas.com/?softwareId=rfmmid\u0026softwareVersion=2023.08\u0026requestor=inapp\u0026locale={locale}",
+  "home": "MarketDashboard",
+  "id": "RFM",
+  "isCore": false,
+  "libraries": [],
+  "menu": {
+    "HistoricalMarketDataView": {
+      "icon": "base://HISTOGRAM",
+      "id": "HistoricalMarketDataView",
+      "index": 1,
+      "pageId": "HistoricalMarketDataView",
+      "type": "item"
+    },
+    "ImportExport": {
+      "entrypointId": "onPageLoad",
+      "icon": "base://EXPORT",
+      "id": "ImportExport",
+      "index": 2,
+      "pageId": "ImportExport",
+      "type": "item"
+    },
+    "MarketDashboard": {
+      "icon": "base://GROOVE_GOAL_SEEKING",
+      "id": "MarketDashboard",
+      "index": 0,
+      "pageId": "MarketDashboard",
+      "type": "item"
+    },
+    "ScenarioManager": {
+      "icon": "base://GROOVE_SCENARIO",
+      "id": "ScenarioManager",
+      "index": 3,
+      "pageId": "ScenarioManager",
+      "type": "item"
+    }
+  },
+  "pages": {
+    "AllocationScheme": {
+      "isTemplate": false,
+      "name": "Allocation Scheme",
+      "object": "AllocationScheme",
+      "type": "object"
+    },
+    "AllocationSchemes": {
+      "isTemplate": false,
+      "name": "Allocation Schemes",
+      "type": "application"
+    },
+    "AnalysisData": {
+      "isTemplate": false,
+      "name": "Analysis Data",
+      "object": "AnalysisData",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "AnalysisDataInventory": {
+      "isTemplate": false,
+      "name": "Analysis Data Inventory",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "AnalysisRun": {
+      "isTemplate": false,
+      "name": "Analysis Run",
+      "object": "AnalysisRun",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "AnalysisRuns": {
+      "isTemplate": false,
+      "name": "Analysis Runs",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "AttributionTemplate": {
+      "isTemplate": false,
+      "name": "Attribution Template",
+      "object": "AttributionTemplate",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "AttributionTemplates": {
+      "isTemplate": false,
+      "name": "Attribution Templates",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "BusinessEvolutionPlan": {
+      "isTemplate": false,
+      "name": "Business Evolution Plan",
+      "object": "BusinessEvolutionPlan",
+      "type": "object"
+    },
+    "BusinessEvolutionPlans": {
+      "isTemplate": false,
+      "name": "Business Evolution Plans",
+      "type": "application"
+    },
+    "CodeLibraries": {
+      "isTemplate": false,
+      "name": "Code Libraries",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "CodeLibrary": {
+      "isTemplate": false,
+      "name": "Code Library",
+      "object": "CodeLibrary",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "ConfigurationSet": {
+      "isTemplate": false,
+      "name": "Configuration Set",
+      "object": "ConfigurationSet",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "ConfigurationSetDialogContent": {
+      "isTemplate": false,
+      "name": "Configuration Set Dialog Content",
+      "type": "application"
+    },
+    "ConfigurationSets": {
+      "isTemplate": false,
+      "name": "Configuration Sets",
+      "object": "ConfigurationSet",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "ConfigurationTable": {
+      "isTemplate": false,
+      "name": "Configuration Table",
+      "object": "ConfigurationTable",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "ConfigurationTables": {
+      "isTemplate": false,
+      "name": "Configuration Tables",
+      "object": "ConfigurationTable",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "Cycle": {
+      "isTemplate": false,
+      "name": "Cycle",
+      "object": "Cycle",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "Cycles": {
+      "isTemplate": false,
+      "name": "Cycles",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "Dashboard": {
+      "isTemplate": false,
+      "name": "Dashboard",
+      "type": "application"
+    },
+    "DataDefinition": {
+      "isTemplate": false,
+      "name": "Data Definition",
+      "object": "DataDefinition",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "DataDefinitions": {
+      "isTemplate": false,
+      "name": "Data Definitions",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "DataLoad": {
+      "isTemplate": false,
+      "name": "Data Load",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "DataMap": {
+      "isTemplate": false,
+      "name": "Data Map",
+      "object": "DataMap",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "DataMaps": {
+      "isTemplate": false,
+      "name": "Data Maps",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "DataProject": {
+      "isTemplate": false,
+      "name": "Data Project",
+      "object": "DataProject",
+      "type": "object"
+    },
+    "DataProjects": {
+      "isTemplate": false,
+      "name": "Data Projects",
+      "type": "application"
+    },
+    "DataSecurityRule": {
+      "isTemplate": false,
+      "name": "Data Security Rule",
+      "object": "DataSecurityRule",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "DataSecurityRules": {
+      "isTemplate": false,
+      "name": "Data Security Rules",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "Finding": {
+      "isTemplate": false,
+      "name": "Finding",
+      "object": "Finding",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "Findings": {
+      "isTemplate": false,
+      "name": "Findings",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "Form": {
+      "isTemplate": false,
+      "name": "Form",
+      "object": "Form",
+      "type": "object"
+    },
+    "Forms": {
+      "isTemplate": false,
+      "name": "Forms",
+      "type": "application"
+    },
+    "HistoricalMarketDataView": {
+      "isTemplate": false,
+      "name": "Historical Market Data View",
+      "type": "application"
+    },
+    "Home": {
+      "name": "Home",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "ImportExport": {
+      "isTemplate": false,
+      "name": "Import and Export",
+      "type": "application"
+    },
+    "MarketDashboard": {
+      "isTemplate": false,
+      "name": "Market Dashboard",
+      "type": "application"
+    },
+    "Model": {
+      "isTemplate": false,
+      "name": "Model",
+      "object": "Model",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "Models": {
+      "isTemplate": false,
+      "name": "Models",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "ObjectManagerTemplate": {
+      "isTemplate": true,
+      "name": "Object Manager Template",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "PositionManagement": {
+      "isTemplate": false,
+      "name": "Position Management",
+      "type": "application"
+    },
+    "RuleSet": {
+      "isTemplate": false,
+      "name": "Rule Set",
+      "object": "RuleSet",
+      "type": "object"
+    },
+    "RuleSets": {
+      "isTemplate": false,
+      "name": "Rule Sets",
+      "type": "application"
+    },
+    "ScenarioManager": {
+      "isTemplate": false,
+      "name": "Scenario Manager",
+      "type": "application"
+    },
+    "Script": {
+      "isTemplate": false,
+      "name": "Script",
+      "object": "Script",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "Scripts": {
+      "isTemplate": false,
+      "name": "Scripts",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "Search": {
+      "isTemplate": false,
+      "name": "Search",
+      "sasProvided": true,
+      "type": "application",
+      "urlRx": "/^\\/Search\\/searchId\\/[^/]+/"
+    },
+    "WorkflowTemplate": {
+      "isTemplate": false,
+      "name": "Workflow Template",
+      "object": "WorkflowTemplate",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "WorkflowTemplates": {
+      "isTemplate": false,
+      "name": "Workflow Templates",
+      "sasProvided": true,
+      "type": "application"
+    }
+  },
+  "path": "/RFM",
+  "schema": "RFM",
+  "semanticVersion": "1.11.17",
+  "shortName": "RFM",
+  "version": "2023.08"
+}

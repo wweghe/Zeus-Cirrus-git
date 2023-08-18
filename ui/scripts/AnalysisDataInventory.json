@@ -1,0 +1,54 @@
+{
+  "onPageLoad": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setprop",
+        "function": "disableCreateNew",
+        "id": "7a2dd5d5-9fbc-4aa8-8192-0c324688079d",
+        "params": {
+          "disableCreate": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": true
+          }
+        },
+        "scope": "childTemplate",
+        "template": "ObjectManagerTemplate",
+        "templatePage": "ObjectManagerTemplate",
+        "widgetId": "ObjectManager"
+      },
+      {
+        "action": "setvar",
+        "id": "65e181f5-72f6-47e1-a41e-a770c287e5c1",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "AnalysisData"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setObjectType",
+        "id": "060ef889-718f-4da6-b1ef-f2408ba7a446",
+        "params": {
+          "objectType": {
+            "datatype": "text",
+            "name": "objectType",
+            "scope": "local"
+          }
+        },
+        "scope": "childTemplate",
+        "template": "ObjectManagerTemplate",
+        "templatePage": "ObjectManagerTemplate",
+        "widgetId": "ObjectManager"
+      }
+    ],
+    "sasProvided": true
+  }
+}

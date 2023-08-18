@@ -1,0 +1,687 @@
+{
+  "layouts": {
+    "Accordion": {
+      "panel1": {}
+    },
+    "Dashboard_GroupableContainer": {
+      "tiles_layout": {
+        "Dashboard_RFCurveTileWidget_Single_Tile": {
+          "h": 610,
+          "i": "Dashboard_RFCurveTileWidget_Single_Tile",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "Dashboard_RFCurveTileWidget_W1": {
+          "h": 400,
+          "i": "Dashboard_RFCurveTileWidget_W1",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 10
+        },
+        "Dashboard_RFCurveTileWidget_W2": {
+          "h": 400,
+          "i": "Dashboard_RFCurveTileWidget_W2",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 10
+        },
+        "Dashboard_RFCurveTileWidget_W3": {
+          "h": 400,
+          "i": "Dashboard_RFCurveTileWidget_W3",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 8,
+          "y": 10
+        },
+        "Dashboard_RFCurveTileWidget_W4": {
+          "h": 400,
+          "i": "Dashboard_RFCurveTileWidget_W4",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 415
+        },
+        "Dashboard_RFCurveTileWidget_W5": {
+          "h": 400,
+          "i": "Dashboard_RFCurveTileWidget_W5",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 415
+        },
+        "Dashboard_RFCurveTileWidget_W6": {
+          "h": 400,
+          "i": "Dashboard_RFCurveTileWidget_W6",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 8,
+          "y": 416
+        }
+      },
+      "zero_state": {
+        "Dashboard_RFCurveTileWidget_Single_Tile": {
+          "h": 610,
+          "i": "Dashboard_RFCurveTileWidget_Single_Tile",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "ZeroState": {
+          "h": 24,
+          "i": "ZeroState",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 450
+        },
+        "ZeroStateImage": {
+          "h": 150,
+          "i": "ZeroStateImage",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 5,
+          "y": 300
+        }
+      }
+    },
+    "ZeroStateMessage": {
+      "default": {
+        "Image": {
+          "h": 100,
+          "i": "Image",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 10,
+          "x": 0,
+          "y": 0
+        },
+        "ReadonlyFieldWidget": {
+          "h": 24,
+          "i": "ReadonlyFieldWidget",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 10,
+          "x": 0,
+          "y": 115
+        }
+      }
+    },
+    "base": {
+      "DashboardDeleteConfirmDialog": {
+        "h": 150,
+        "i": "DashboardDeleteConfirmDialog",
+        "minH": 30,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 1006
+      },
+      "Dashboard_BaseDate": {
+        "h": 52,
+        "i": "Dashboard_BaseDate",
+        "minH": 52,
+        "minW": 3,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 9,
+        "y": 78
+      },
+      "Dashboard_Configuration_CreateConfig": {
+        "h": 26,
+        "i": "Dashboard_Configuration_CreateConfig",
+        "minH": 26,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 1,
+        "x": 2,
+        "y": 34
+      },
+      "Dashboard_Configuration_DeleteConfig": {
+        "h": 26,
+        "i": "Dashboard_Configuration_DeleteConfig",
+        "minH": 26,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 1,
+        "x": 3,
+        "y": 101
+      },
+      "Dashboard_Configuration_DropdownWidget": {
+        "h": 52,
+        "i": "Dashboard_Configuration_DropdownWidget",
+        "minH": 52,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 2,
+        "x": 0,
+        "y": 75
+      },
+      "Dashboard_Configuration_SaveConfig": {
+        "h": 26,
+        "i": "Dashboard_Configuration_SaveConfig",
+        "minH": 26,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 1,
+        "x": 2,
+        "y": 101
+      },
+      "Dashboard_Configuration_SetDefaultConfig": {
+        "h": 26,
+        "i": "Dashboard_Configuration_SetDefaultConfig",
+        "minH": 26,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 1,
+        "x": 4,
+        "y": 101
+      },
+      "Dashboard_GroupableContainer": {
+        "h": 840,
+        "i": "Dashboard_GroupableContainer",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 165
+      },
+      "Dashboard_RelativeDate": {
+        "h": 52,
+        "i": "Dashboard_RelativeDate",
+        "minH": 52,
+        "minW": 3,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 6,
+        "y": 78
+      },
+      "InputTextWidget": {
+        "h": 52,
+        "i": "InputTextWidget",
+        "minH": 50,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 2,
+        "x": 0,
+        "y": 10
+      },
+      "ZeroStateMessage": {
+        "h": 200,
+        "i": "ZeroStateMessage",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 2,
+        "x": 5,
+        "y": 1350
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "onPageLoad": {
+        "name": "onPageLoadTileData"
+      }
+    },
+    "events": {
+      "onAnyEvent": {},
+      "onTabClose": {}
+    },
+    "props": {
+      "description": "",
+      "icon": "base://GROOVE_GOAL_SEEKING",
+      "id": "MarketDashboard",
+      "label": "Market Dashboard",
+      "tabLabel": "Market Dashboard"
+    }
+  },
+  "structure": {
+    "Accordion": {
+      "panel1": {}
+    },
+    "Dashboard_GroupableContainer": {
+      "tiles_layout": {
+        "Dashboard_RFCurveTileWidget_W1": {
+          "compName": "RFCurveTileWidget",
+          "containerId": "Dashboard_GroupableContainer",
+          "events": {
+            "onChange": {
+              "name": "onChangeTileData"
+            }
+          },
+          "id": "Dashboard_RFCurveTileWidget_W1",
+          "label": "appbuilder.toolboxitem.rfcurvetile.title",
+          "libName": "base",
+          "parentId": "Dashboard_GroupableContainer",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "Dashboard_RFCurveTileWidget_W2": {
+          "compName": "RFCurveTileWidget",
+          "containerId": "Dashboard_GroupableContainer",
+          "events": {
+            "onChange": {
+              "name": "onChangeTileData"
+            }
+          },
+          "id": "Dashboard_RFCurveTileWidget_W2",
+          "label": "appbuilder.toolboxitem.rfcurvetile.title",
+          "libName": "base",
+          "parentId": "Dashboard_GroupableContainer",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "Dashboard_RFCurveTileWidget_W3": {
+          "compName": "RFCurveTileWidget",
+          "containerId": "Dashboard_GroupableContainer",
+          "events": {
+            "onChange": {
+              "name": "onChangeTileData"
+            }
+          },
+          "id": "Dashboard_RFCurveTileWidget_W3",
+          "label": "appbuilder.toolboxitem.rfcurvetile.title",
+          "libName": "base",
+          "parentId": "Dashboard_GroupableContainer",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "Dashboard_RFCurveTileWidget_W4": {
+          "compName": "RFCurveTileWidget",
+          "containerId": "Dashboard_GroupableContainer",
+          "events": {
+            "onChange": {
+              "name": "onChangeTileData"
+            }
+          },
+          "id": "Dashboard_RFCurveTileWidget_W4",
+          "label": "appbuilder.toolboxitem.rfcurvetile.title",
+          "libName": "base",
+          "parentId": "Dashboard_GroupableContainer",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "Dashboard_RFCurveTileWidget_W5": {
+          "compName": "RFCurveTileWidget",
+          "containerId": "Dashboard_GroupableContainer",
+          "events": {
+            "onChange": {
+              "name": "onChangeTileData"
+            }
+          },
+          "id": "Dashboard_RFCurveTileWidget_W5",
+          "label": "appbuilder.toolboxitem.rfcurvetile.title",
+          "libName": "base",
+          "parentId": "Dashboard_GroupableContainer",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "Dashboard_RFCurveTileWidget_W6": {
+          "compName": "RFCurveTileWidget",
+          "containerId": "Dashboard_GroupableContainer",
+          "events": {
+            "onChange": {
+              "name": "onChangeTileData"
+            }
+          },
+          "id": "Dashboard_RFCurveTileWidget_W6",
+          "label": "appbuilder.toolboxitem.rfcurvetile.title",
+          "libName": "base",
+          "parentId": "Dashboard_GroupableContainer",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        }
+      },
+      "zero_state": {
+        "Dashboard_RFCurveTileWidget_Single_Tile": {
+          "compName": "RFCurveTileWidget",
+          "containerId": "Dashboard_GroupableContainer",
+          "id": "Dashboard_RFCurveTileWidget_Single_Tile",
+          "label": "appbuilder.toolboxitem.rfcurvetile.title",
+          "libName": "base",
+          "parentId": "Dashboard_GroupableContainer",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.11",
+          "versionDeprecated": "2023.08"
+        },
+        "ZeroState": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "Dashboard_GroupableContainer",
+          "id": "ZeroState",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "Dashboard_GroupableContainer",
+          "props": {
+            "align": "center",
+            "colon": false,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.08"
+        },
+        "ZeroStateImage": {
+          "compName": "Image",
+          "containerId": "Dashboard_GroupableContainer",
+          "id": "ZeroStateImage",
+          "label": "appbuilder.toolboxitem.image.title",
+          "libName": "base",
+          "parentId": "Dashboard_GroupableContainer",
+          "props": {
+            "imageUri": "base://ZeroStateReport"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.08"
+        }
+      }
+    },
+    "ZeroStateMessage": {
+      "default": {
+        "Image": {
+          "compName": "Image",
+          "containerId": "ZeroStateMessage",
+          "id": "Image",
+          "label": "appbuilder.toolboxitem.image.title",
+          "libName": "base",
+          "parentId": "ZeroStateMessage",
+          "props": {
+            "imageUri": "base://ZeroStateReport"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04",
+          "versionDeprecated": "2023.08"
+        },
+        "ReadonlyFieldWidget": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "ZeroStateMessage",
+          "id": "ReadonlyFieldWidget",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "ZeroStateMessage",
+          "props": {
+            "align": "center",
+            "boldLabel": false,
+            "boldValue": false,
+            "colon": false,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04",
+          "versionDeprecated": "2023.08"
+        }
+      }
+    },
+    "base": {
+      "DashboardDeleteConfirmDialog": {
+        "compName": "CustomMessageDialog",
+        "containerId": "base",
+        "events": {
+          "onConfirmClick": {
+            "name": "onClickDeleteConfirm"
+          }
+        },
+        "id": "DashboardDeleteConfirmDialog",
+        "label": "appbuilder.toolboxitem.customMessageDialog.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "dialogType": "warning"
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.03"
+      },
+      "Dashboard_BaseDate": {
+        "compName": "CalendarWidget",
+        "containerId": "base",
+        "events": {
+          "onChange": {
+            "name": "onChangeBaseDate"
+          }
+        },
+        "id": "Dashboard_BaseDate",
+        "label": "appbuilder.toolboxitem.calendar.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "validations": []
+        },
+        "sasProvided": true,
+        "versionAdded": "2022.11"
+      },
+      "Dashboard_Configuration_CreateConfig": {
+        "compName": "Button",
+        "containerId": "base",
+        "events": {
+          "click": {
+            "name": "onClickCreate"
+          }
+        },
+        "id": "Dashboard_Configuration_CreateConfig",
+        "label": "appbuilder.toolboxitem.button.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "shrink": false
+        },
+        "sasProvided": true,
+        "versionAdded": "2022.11"
+      },
+      "Dashboard_Configuration_DeleteConfig": {
+        "compName": "Button",
+        "containerId": "base",
+        "events": {
+          "click": {
+            "name": "onClickDelete"
+          }
+        },
+        "id": "Dashboard_Configuration_DeleteConfig",
+        "label": "appbuilder.toolboxitem.button.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "shrink": false
+        },
+        "sasProvided": true,
+        "versionAdded": "2022.11"
+      },
+      "Dashboard_Configuration_DropdownWidget": {
+        "compName": "DropdownWidget",
+        "containerId": "base",
+        "events": {
+          "onChange": {
+            "name": "onChangeSelectedDashboard"
+          }
+        },
+        "id": "Dashboard_Configuration_DropdownWidget",
+        "label": "appbuilder.toolboxitem.dropdown.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldLabel": false,
+          "colon": true
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.04"
+      },
+      "Dashboard_Configuration_SaveConfig": {
+        "compName": "Button",
+        "containerId": "base",
+        "events": {
+          "click": {
+            "name": "onClickSave"
+          }
+        },
+        "id": "Dashboard_Configuration_SaveConfig",
+        "label": "appbuilder.toolboxitem.button.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "secondary": false,
+          "shrink": false
+        },
+        "sasProvided": true,
+        "versionAdded": "2022.11"
+      },
+      "Dashboard_Configuration_SetDefaultConfig": {
+        "compName": "Button",
+        "containerId": "base",
+        "events": {
+          "click": {
+            "name": "onClickSetAsDefault"
+          }
+        },
+        "id": "Dashboard_Configuration_SetDefaultConfig",
+        "label": "appbuilder.toolboxitem.button.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "shrink": false
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.02"
+      },
+      "Dashboard_GroupableContainer": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "Dashboard_GroupableContainer",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "tiles_layout": {
+              "name": "tiles_layout",
+              "position": 0
+            },
+            "zero_state": {
+              "name": "zero_state",
+              "position": 1
+            }
+          },
+          "removePadding": false
+        },
+        "sasProvided": true,
+        "versionAdded": "2022.11"
+      },
+      "Dashboard_RelativeDate": {
+        "compName": "CalendarWidget",
+        "containerId": "base",
+        "events": {
+          "onChange": {
+            "name": "onChangeRelativeDate"
+          }
+        },
+        "id": "Dashboard_RelativeDate",
+        "label": "appbuilder.toolboxitem.calendar.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "validations": []
+        },
+        "sasProvided": true,
+        "versionAdded": "2022.11"
+      },
+      "InputTextWidget": {
+        "compName": "InputTextWidget",
+        "containerId": "base",
+        "events": {
+          "onChange": {
+            "name": "onChangeNewName"
+          }
+        },
+        "id": "InputTextWidget",
+        "label": "appbuilder.toolboxitem.inputtext.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "boldValue": false,
+          "colon": true
+        },
+        "sasProvided": true,
+        "versionAdded": "2022.11"
+      },
+      "ZeroStateMessage": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "ZeroStateMessage",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          },
+          "removePadding": false
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.04",
+        "versionDeprecated": "2023.08"
+      }
+    }
+  }
+}

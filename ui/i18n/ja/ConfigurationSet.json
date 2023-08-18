@@ -1,0 +1,14 @@
+{
+  "ConfigurationSet.ConfigurationSet.schema.field.linkedConfigurationTables.label": "構成テーブル",
+  "ConfigurationSet.library.label.base.Accordion.instance_details.details.title": "構成セットの詳細",
+  "ConfigurationSet.library.label.base.Button.save.label": "保存",
+  "ConfigurationSet.library.label.base.CirrusObjectsLinks.documentation_links.label": "ドキュメントのリンク",
+  "ConfigurationSet.library.label.base.Comments.additional_comments.label": "コメント",
+  "ConfigurationSet.library.label.base.InputText.name.label": "構成セット名",
+  "ConfigurationSet.library.label.base.InputText.objectId.label": "構成セット ID",
+  "ConfigurationSet.library.label.base.InputTextarea.description.label": "構成セットの説明",
+  "ConfigurationSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.0.title": "詳細",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.1.title": "ドキュメント",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.2.title": "変更履歴"
+}

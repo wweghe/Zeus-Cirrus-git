@@ -1,0 +1,556 @@
+{
+  "layouts": {
+    "base": {
+      "configurationset_tabs": {
+        "h": 857,
+        "i": "configurationset_tabs",
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 99
+      },
+      "header_container": {
+        "h": 50,
+        "i": "header_container",
+        "moved": false,
+        "static": false,
+        "w": 8,
+        "x": 4,
+        "y": 0
+      },
+      "name_readonly": {
+        "h": 26,
+        "i": "name_readonly",
+        "minH": 24,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 0
+      },
+      "statusCd": {
+        "h": 52,
+        "i": "statusCd",
+        "minH": 52,
+        "minW": 3,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 30
+      }
+    },
+    "configurationset_tabs": {
+      "0": {
+        "Image": {
+          "h": 23,
+          "i": "Image",
+          "minH": 1,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 368
+        },
+        "description": {
+          "h": 80,
+          "i": "description",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 112
+        },
+        "linkedConfigurationTables": {
+          "h": 190,
+          "i": "linkedConfigurationTables",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 0
+        },
+        "name": {
+          "h": 50,
+          "i": "name",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 51
+        },
+        "objectId": {
+          "h": 50,
+          "i": "objectId",
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "1": {
+        "additional_attachments": {
+          "api": {
+            "setHidden": {
+              "label": "Set hidden",
+              "params": {
+                "hidden": {
+                  "datatype": "boolean",
+                  "label": "Hidden"
+                }
+              }
+            },
+            "setReadOnly": {
+              "label": "Set read only",
+              "params": {
+                "readOnly": {
+                  "datatype": "boolean",
+                  "label": "Read-only"
+                }
+              }
+            },
+            "setRequired": {
+              "label": "Set required",
+              "params": {
+                "required": {
+                  "datatype": "boolean",
+                  "label": "Required"
+                }
+              }
+            }
+          },
+          "component": {},
+          "datatype": "Attachment array",
+          "events": {
+            "onChange": {
+              "params": {
+                "value": {}
+              }
+            }
+          },
+          "h": 286,
+          "i": "additional_attachments",
+          "icon": "base://ATTACH",
+          "layoutInfo": {
+            "h": 50,
+            "minH": 50,
+            "minW": 1,
+            "w": 2
+          },
+          "name": "Attachments",
+          "props": {
+            "defaults": {},
+            "schemaPropsComponent": {}
+          },
+          "type": "field",
+          "w": 4,
+          "x": 0,
+          "y": 16
+        },
+        "additional_comments": {
+          "api": {
+            "setHidden": {
+              "label": "Set hidden",
+              "params": {
+                "hidden": {
+                  "datatype": "boolean",
+                  "label": "Hidden"
+                }
+              }
+            },
+            "setReadOnly": {
+              "label": "Set read only",
+              "params": {
+                "readOnly": {
+                  "datatype": "boolean",
+                  "label": "Read-only"
+                }
+              }
+            },
+            "setRequired": {
+              "label": "Set required",
+              "params": {
+                "required": {
+                  "datatype": "boolean",
+                  "label": "Required"
+                }
+              }
+            }
+          },
+          "component": {},
+          "datatype": "Comment array",
+          "events": {
+            "onChange": {
+              "params": {
+                "value": {
+                  "datatype": "Comment array"
+                }
+              }
+            }
+          },
+          "h": 550,
+          "i": "additional_comments",
+          "icon": "base://COMMENT",
+          "layoutInfo": {
+            "h": 236,
+            "minH": 236,
+            "minW": 1,
+            "w": 3
+          },
+          "name": "Comments",
+          "props": {
+            "defaults": {},
+            "schemaPropsComponent": {}
+          },
+          "type": "field",
+          "w": 4,
+          "x": 4,
+          "y": 0
+        },
+        "documentation_links": {
+          "api": {
+            "setHidden": {
+              "label": "Set hidden",
+              "params": {
+                "hidden": {
+                  "datatype": "boolean",
+                  "label": "Hidden"
+                }
+              }
+            },
+            "setReadOnly": {
+              "label": "Set read only",
+              "params": {
+                "readOnly": {
+                  "datatype": "boolean",
+                  "label": "Read-only"
+                }
+              }
+            },
+            "setRequired": {
+              "label": "Set required",
+              "params": {
+                "required": {
+                  "datatype": "boolean",
+                  "label": "Required"
+                }
+              }
+            }
+          },
+          "component": {},
+          "datatype": "Link array",
+          "events": {
+            "onChange": {
+              "params": {
+                "value": {
+                  "datatype": "Link array"
+                }
+              }
+            }
+          },
+          "h": 241,
+          "i": "documentation_links",
+          "icon": "base://LINK",
+          "layoutInfo": {
+            "h": 54,
+            "minH": 54,
+            "minW": 1,
+            "w": 2
+          },
+          "name": "CirrusObjectsLinks",
+          "props": {
+            "defaults": {},
+            "schemaPropsComponent": {}
+          },
+          "type": "field",
+          "w": 4,
+          "x": 0,
+          "y": 312
+        }
+      },
+      "2": {
+        "ChangeHistory": {
+          "h": 236,
+          "i": "ChangeHistory",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "header_container": {
+      "default": {
+        "save": {
+          "h": 26,
+          "i": "save",
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      }
+    },
+    "instance_details": {
+      "details": {}
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "copy": {
+        "name": "onCopyLoad"
+      },
+      "draft": {
+        "name": "onDraftLoad"
+      },
+      "edit": {
+        "name": "onEditLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "onAnyEvent"
+      },
+      "onTabClose": {
+        "name": "onTabClose"
+      }
+    },
+    "props": {
+      "description": "",
+      "icon": "base://CONFIGURATION_SET",
+      "id": "ConfigurationSet",
+      "label": "Configuration Set"
+    }
+  },
+  "structure": {
+    "base": {
+      "configurationset_tabs": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "configurationset_tabs",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "0": {
+              "label": "Details",
+              "name": "0",
+              "position": 0
+            },
+            "1": {
+              "label": "Documentation",
+              "name": "1",
+              "position": 1
+            },
+            "2": {
+              "label": "Change History",
+              "name": "2",
+              "position": 2
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "header_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "header_container",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "name_readonly": {
+        "compName": "ReadonlyFieldWidget",
+        "containerId": "base",
+        "id": "name_readonly",
+        "label": "appbuilder.toolboxitem.readonlyfield.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldLabel": true,
+          "boldValue": true,
+          "colon": false,
+          "stacked": false
+        },
+        "sasProvided": true
+      },
+      "statusCd": {
+        "compName": "Dropdown",
+        "containerId": "base",
+        "fieldName": "statusCd",
+        "id": "statusCd",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldValue": true,
+          "colon": true
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.01"
+      }
+    },
+    "configurationset_tabs": {
+      "0": {
+        "Image": {
+          "compName": "Image",
+          "containerId": "configurationset_tabs",
+          "id": "Image",
+          "label": "appbuilder.toolboxitem.image.title",
+          "libName": "base",
+          "parentId": "configurationset_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "description": {
+          "compName": "InputTextarea",
+          "containerId": "configurationset_tabs",
+          "fieldName": "description",
+          "id": "description",
+          "libName": "base",
+          "parentId": "configurationset_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "linkedConfigurationTables": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "configurationset_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "linkedConfigurationTables",
+          "id": "linkedConfigurationTables",
+          "libName": "base",
+          "parentId": "configurationset_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.01"
+        },
+        "name": {
+          "compName": "InputText",
+          "containerId": "configurationset_tabs",
+          "events": {
+            "onChange": {
+              "name": "onNameChange"
+            }
+          },
+          "fieldName": "name",
+          "id": "name",
+          "libName": "base",
+          "parentId": "configurationset_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "objectId": {
+          "compName": "InputText",
+          "containerId": "configurationset_tabs",
+          "events": {
+            "onChange": {
+              "name": "setDefaultName"
+            }
+          },
+          "fieldName": "objectId",
+          "id": "objectId",
+          "libName": "base",
+          "parentId": "configurationset_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      },
+      "1": {
+        "additional_attachments": {
+          "compName": "Attachments",
+          "containerId": "configurationset_tabs",
+          "fieldName": "additional_attachments",
+          "id": "additional_attachments",
+          "libName": "base",
+          "parentId": "configurationset_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "additional_comments": {
+          "compName": "Comments",
+          "containerId": "configurationset_tabs",
+          "fieldName": "additional_comments",
+          "id": "additional_comments",
+          "libName": "base",
+          "parentId": "configurationset_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_links": {
+          "compName": "CirrusObjectsLinks",
+          "containerId": "configurationset_tabs",
+          "fieldName": "documentation_links",
+          "id": "documentation_links",
+          "libName": "base",
+          "parentId": "configurationset_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "2": {
+        "ChangeHistory": {
+          "compName": "ChangeHistory",
+          "containerId": "configurationset_tabs",
+          "id": "ChangeHistory",
+          "label": "appbuilder.toolboxitem.changeHistory.title",
+          "libName": "base",
+          "parentId": "configurationset_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      }
+    },
+    "header_container": {
+      "default": {
+        "save": {
+          "compName": "Button",
+          "containerId": "header_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save",
+          "libName": "base",
+          "parentId": "header_container",
+          "props": {},
+          "sasProvided": true
+        }
+      }
+    },
+    "instance_details": {
+      "details": {}
+    }
+  }
+}

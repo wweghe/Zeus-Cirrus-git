@@ -1,0 +1,486 @@
+{
+  "apiName": "findings",
+  "bulkAPI": true,
+  "defaultSortingField": "creationTimeStamp",
+  "defaultSortingType": "desc",
+  "fields": {
+    "additionalComments": {
+      "id": "additionalComments",
+      "index": 1,
+      "label": "Additional Comments",
+      "newId": "additionalComments",
+      "props": {
+        "commentEditMode": "editableByOwner"
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Comments",
+        "libName": "base"
+      }
+    },
+    "additionalDoc": {
+      "id": "additionalDoc",
+      "index": 20,
+      "label": "Supporting Documentation",
+      "newId": "additionalDoc",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsAttachments",
+        "libName": "base"
+      }
+    },
+    "additionalLinks": {
+      "id": "additionalLinks",
+      "index": 14,
+      "label": "Finding-Related Links",
+      "newId": "additionalLinks",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsLinks",
+        "libName": "base"
+      }
+    },
+    "apAssessment": {
+      "id": "apAssessment",
+      "label": "Action plan assessment",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "apDescription": {
+      "id": "apDescription",
+      "label": "Describe the action plan",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "category": {
+      "id": "category",
+      "label": "Category",
+      "props": {
+        "options": {
+          "DATA_INTEGRITY": {
+            "index": 1,
+            "label": "Data integrity",
+            "value": "DATA_INTEGRITY"
+          },
+          "MODEL_DOCUMENTATION": {
+            "index": 2,
+            "label": "Model documentation",
+            "value": "MODEL_DOCUMENTATION"
+          },
+          "MODEL_METHODOLOGY": {
+            "index": 3,
+            "label": "Model methodology",
+            "value": "MODEL_METHODOLOGY"
+          },
+          "MODEL_REVIEW": {
+            "index": 5,
+            "label": "Ongoing model review",
+            "value": "MODEL_REVIEW"
+          },
+          "MODEL_USAGE": {
+            "index": 4,
+            "label": "Model usage",
+            "value": "MODEL_USAGE"
+          },
+          "NA": {
+            "index": 0,
+            "label": "Not applicable",
+            "value": "NA"
+          },
+          "PERFORMANCE_TRACKING": {
+            "index": 6,
+            "label": "Ongoing performance tracking alert",
+            "value": "PERFORMANCE_TRACKING"
+          },
+          "PROCESS_IMPROVEMENT": {
+            "index": 7,
+            "label": "Process improvement",
+            "value": "PROCESS_IMPROVEMENT"
+          },
+          "USAGE_VALIDATION": {
+            "index": 8,
+            "label": "Usage validation",
+            "value": "USAGE_VALIDATION"
+          }
+        }
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "closedDttm": {
+      "id": "closedDttm",
+      "label": "Date resolved",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "createdBy": {
+      "id": "createdBy",
+      "label": "Creator",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "createdInTag": {
+      "id": "createdInTag",
+      "index": 3,
+      "label": "Created in",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "creationTimeStamp": {
+      "id": "creationTimeStamp",
+      "label": "Date created",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "dataType": "date",
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "currentDueDttm": {
+      "id": "currentDueDttm",
+      "label": "Revised due date",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "default": {
+      "id": "default",
+      "label": "Default classification",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsClassification",
+        "libName": "base"
+      }
+    },
+    "description": {
+      "id": "description",
+      "index": 10,
+      "label": "Finding description",
+      "newId": "description",
+      "props": {
+        "maxLength": 4000
+      },
+      "tableMeta": {
+        "dataType": "string",
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "modifiedBy": {
+      "id": "modifiedBy",
+      "label": "Last editor",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "modifiedTimeStamp": {
+      "id": "modifiedTimeStamp",
+      "label": "Date modified",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "name": {
+      "id": "name",
+      "index": 12,
+      "label": "Finding name",
+      "newId": "name",
+      "props": {
+        "maxLength": 200
+      },
+      "tableMeta": {
+        "dataType": "string",
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "objectId": {
+      "id": "objectId",
+      "index": 11,
+      "label": "Finding ID",
+      "newId": "objectId",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "dataType": "string",
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "originalDueDttm": {
+      "id": "originalDueDttm",
+      "label": "Original due date",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "recommendedResolution": {
+      "id": "recommendedResolution",
+      "label": "Recommended resolution",
+      "tableMeta": {
+        "dataType": "string",
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "severity": {
+      "id": "severity",
+      "label": "Severity tier",
+      "props": {
+        "options": {
+          "CRITICAL": {
+            "color": "#dd5757",
+            "index": 0,
+            "label": "Critical",
+            "value": "CRITICAL"
+          },
+          "HIGH": {
+            "color": "#f88325",
+            "index": 1,
+            "label": "High",
+            "value": "HIGH"
+          },
+          "LOW": {
+            "color": "#15b57b",
+            "index": 3,
+            "label": "Low",
+            "value": "LOW"
+          },
+          "MODERATE": {
+            "color": "#ffcc32",
+            "index": 2,
+            "label": "Moderate",
+            "value": "MODERATE"
+          }
+        }
+      },
+      "tableMeta": {
+        "dataType": "string",
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "ColorDropdown",
+        "libName": "base"
+      }
+    },
+    "status": {
+      "id": "status",
+      "label": "Finding status",
+      "props": {
+        "options": {
+          "CLOSED": {
+            "index": 4,
+            "label": "Closed",
+            "value": "CLOSED"
+          },
+          "DRAFT": {
+            "index": 0,
+            "label": "Draft",
+            "value": "DRAFT"
+          },
+          "OPEN": {
+            "index": 1,
+            "label": "Open",
+            "value": "OPEN"
+          },
+          "PENDING": {
+            "index": 2,
+            "label": "Pending",
+            "value": "PENDING"
+          },
+          "WAIT_FOR_APPROVAL": {
+            "index": 3,
+            "label": "Waiting for approval",
+            "value": "WAIT_FOR_APPROVAL"
+          }
+        }
+      },
+      "tableMeta": {
+        "dataType": "string",
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    }
+  },
+  "id": "Finding",
+  "index": 13,
+  "labelPlural": "Findings",
+  "labelSingular": "Finding",
+  "nameField": "name",
+  "relationships": {},
+  "sasProvided": true,
+  "searchable": true,
+  "security": {
+    "actions": {
+      "edit": false,
+      "execute": false,
+      "view": true
+    },
+    "allowSharing": true,
+    "useHierarchy": true
+  },
+  "streamAPI": true,
+  "tasks": {
+    "accept": {
+      "index": 0,
+      "label": "Accept finding",
+      "name": "accept",
+      "taskId": ""
+    },
+    "close": {
+      "index": 0,
+      "label": "Close finding",
+      "name": "close",
+      "taskId": ""
+    },
+    "create": {
+      "index": 0,
+      "label": "Create finding",
+      "name": "create",
+      "taskId": ""
+    },
+    "process": {
+      "index": 1,
+      "label": "Process finding",
+      "name": "process",
+      "taskId": ""
+    }
+  }
+}

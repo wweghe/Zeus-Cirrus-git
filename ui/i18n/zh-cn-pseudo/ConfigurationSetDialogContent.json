@@ -1,0 +1,9 @@
+{
+  "ConfigurationSetDialogContent.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.help.label": "XSelect the configuration tables you would like to copy and edit. All other tables that have not been selected will remain unchanged when the new configuration set is saved.补Z",
+  "ConfigurationSetDialogContent.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "XSelect the configuration tables to copy and edit补Z",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.description.label": "XConfiguration set description补Z",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.name.label": "XConfiguration set name补Z",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.objectId.label": "XConfiguration set ID补Z",
+  "ConfigurationSetDialogContent.library.label.base.TabView.TabView.configurationTables.title": "XConfiguration Tables补Z",
+  "ConfigurationSetDialogContent.library.label.base.TabView.TabView.details.title": "XDetails补Z"
+}

@@ -1,0 +1,20 @@
+{
+  "CodeLibrary.CodeLibrary.schema.field.description.label": "코드 라이브러리 설명",
+  "CodeLibrary.CodeLibrary.schema.field.gitBranch.label": "Git 분기",
+  "CodeLibrary.CodeLibrary.schema.field.gitCommit.label": "Git 커밋",
+  "CodeLibrary.CodeLibrary.schema.field.gitRepoName.label": "Git 레파지토리 이름",
+  "CodeLibrary.CodeLibrary.schema.field.git_commit_selector.label": "Git 커밋",
+  "CodeLibrary.CodeLibrary.schema.field.name.label": "코드 라이브러리 이름",
+  "CodeLibrary.CodeLibrary.schema.field.objectId.label": "코드 라이브러리 ID",
+  "CodeLibrary.CodeLibrary.schema.field.statusCd.label": "코드 라이브러리 상태",
+  "CodeLibrary.library.label.base.Accordion.Accordion.branchDetails.title": "분기 상세 정보",
+  "CodeLibrary.library.label.base.Accordion.instance_details.details.title": "코드 라이브러리 상세 정보",
+  "CodeLibrary.library.label.base.Button.save.label": "저장",
+  "CodeLibrary.library.label.base.GitCommitSelector.gitCommit.label": "Git 커밋",
+  "CodeLibrary.library.label.base.LinkWidget.gitRepoURL.label": "",
+  "CodeLibrary.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "CodeLibrary.library.label.base.TabView.main_tabs.1.title": "문서",
+  "CodeLibrary.library.label.base.TabView.main_tabs.2.title": "종속 관계",
+  "CodeLibrary.library.label.base.TabView.main_tabs.3.title": "변경 히스토리",
+  "CodeLibrary.library.label.base.TabView.main_tabs.tabDetails.title": "상세 정보"
+}
