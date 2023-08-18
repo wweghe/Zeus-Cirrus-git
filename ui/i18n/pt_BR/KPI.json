@@ -1,0 +1,17 @@
+{
+  "KPI.KPI.schema.field.category.label": "Categoria do indicador chave de desempenho",
+  "KPI.KPI.schema.field.threshold.color.validation.message.label": "You cannot change the default threshold interval colors.",
+  "KPI.KPI.schema.field.threshold.color.validation.summary.label": "Threshold Interval Colors",
+  "KPI.KPI.schema.field.thresholdsApplicable.help.label": "Essa opção permite definir limites para monitorar a integridade do KPI. Selecione esta opção se o indicador chave de desempenho for um único valor mensurável.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.help.label": "O aplicativo atribui a faixa de cores do limite com base no intervalo de integridade do indicador chave de desempenho selecionado.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.label": "Qual dos seguintes valores de indicador chave de desempenho representa uma saúde melhor?",
+  "KPI.library.label.base.BasicMessageStrip.BasicMessageStrip.messageStripText.label": "This KPI is linked to a monitoring plan, any subsequent changes in threshold will not affect the associated monitoring plan. Associate the KPI again with the monitoring plan to apply the latest changes.",
+  "KPI.library.label.base.Button.save_button.label": "Salvar",
+  "KPI.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "KPI.library.label.base.TabView.TabView.changeHistory.title": "Histórico de alterações",
+  "KPI.library.label.base.TabView.TabView.code.title": "Código",
+  "KPI.library.label.base.TabView.TabView.details.title": "Detalhes",
+  "KPI.library.label.base.TabView.TabView.documentation.title": "Documentação",
+  "KPI.library.label.base.TabView.TabView.relatedObjects.title": "Objetos relacionados",
+  "KPI.library.label.base.TabView.TabView.threshold.title": "Limite"
+}

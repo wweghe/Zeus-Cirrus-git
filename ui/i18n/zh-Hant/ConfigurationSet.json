@@ -1,0 +1,18 @@
+{
+  "ConfigurationSet.ConfigurationSet.schema.field.linkedConfigurationTables.label": "設定表格",
+  "ConfigurationSet.ConfigurationSet.schema.field.statusCd.label": "狀態",
+  "ConfigurationSet.library.label.base.Accordion.instance_details.details.title": "設定集詳細資料",
+  "ConfigurationSet.library.label.base.Button.save.label": "儲存",
+  "ConfigurationSet.library.label.base.CirrusObjectsLinks.documentation_links.label": "文件連結",
+  "ConfigurationSet.library.label.base.Comments.additional_comments.label": "註解",
+  "ConfigurationSet.library.label.base.InputText.name.label": "設定集名稱",
+  "ConfigurationSet.library.label.base.InputText.objectId.label": "設定集 ID",
+  "ConfigurationSet.library.label.base.InputTextarea.description.label": "設定集說明",
+  "ConfigurationSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.0.title": "詳細資料",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.1.title": "文件",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.2.title": "變更歷程記錄",
+  "ConfigurationSet.schema.field.ConfigurationTable.statusCd.validation.summary.label": "如果所有相關聯的設定表格也都處於生產，則設定集的狀態只能提升至生產。",
+  "ConfigurationSet.schema.field.ConfigurationTable.validation.summary.label": "設定集無法與相同類型的已連結設定表格一起儲存。",
+  "ConfigurationSet.schema.field.ConfigurationTable.validation.title.label": "已連結的設定表格無效"
+}

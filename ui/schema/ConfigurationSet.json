@@ -1,0 +1,211 @@
+{
+  "apiName": "configurationSets",
+  "defaultSortingField": "creationTimeStamp",
+  "defaultSortingType": "desc",
+  "fields": {
+    "additional_attachments": {
+      "id": "additional_attachments",
+      "index": 4,
+      "label": "Documentation Attachments",
+      "newId": "additional_attachments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsAttachments",
+        "libName": "base"
+      }
+    },
+    "additional_comments": {
+      "id": "additional_comments",
+      "label": "Comments",
+      "props": {
+        "commentEditMode": "editableByOwner"
+      },
+      "tableMeta": {},
+      "type": {
+        "compName": "Comments",
+        "libName": "base"
+      }
+    },
+    "creationTimeStamp": {
+      "id": "creationTimeStamp",
+      "label": "Date created",
+      "newId": "creationTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "description": {
+      "id": "description",
+      "index": 1,
+      "label": "Configuration set description",
+      "newId": "description",
+      "props": {
+        "maxLength": 4000
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "documentation_links": {
+      "id": "documentation_links",
+      "index": 5,
+      "label": "Documentation Links",
+      "newId": "documentation_links",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsLinks",
+        "libName": "base"
+      }
+    },
+    "modifiedTimeStamp": {
+      "id": "modifiedTimeStamp",
+      "label": "Date modified",
+      "newId": "modifiedTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "name": {
+      "id": "name",
+      "index": 3,
+      "label": "Configuration set name",
+      "newId": "name",
+      "props": {
+        "maxLength": 200
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "objectId": {
+      "id": "objectId",
+      "index": 2,
+      "label": "Configuration set ID",
+      "newId": "objectId",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "statusCd": {
+      "id": "statusCd",
+      "index": 8,
+      "label": "Status",
+      "newId": "statusCd",
+      "props": {
+        "emptyValue": "Empty"
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": true,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    }
+  },
+  "id": "ConfigurationSet",
+  "index": 6,
+  "labelPlural": "Configuration Sets",
+  "labelSingular": "Configuration Set",
+  "nameField": "name",
+  "relationships": {
+    "analysisRun_configurationSet": {
+      "cardinality": "manyToOne",
+      "index": 1,
+      "label": "Configuration Sets",
+      "sourceLabel": "Analysis Run",
+      "sourceLabelPlural": "Analysis Runs",
+      "sourceName": "linkedAnalysisRuns",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisRun",
+      "targetLabel": "Configuration Set",
+      "targetLabelPlural": "Configuration Sets",
+      "targetName": "linkedConfigurationSets",
+      "targetType": "ConfigurationSet",
+      "type": "lookup"
+    },
+    "configurationSet_configurationTable": {
+      "cardinality": "manyToMany",
+      "index": 0,
+      "label": "Configuration Sets",
+      "sourceLabel": "Configuration Set",
+      "sourceLabelPlural": "Configuration Sets",
+      "sourceName": "linkedConfigurationSets",
+      "sourceSysCode": "RCC",
+      "sourceType": "ConfigurationSet",
+      "targetLabel": "Configuration Table",
+      "targetLabelPlural": "Configuration Tables",
+      "targetName": "linkedConfigurationTables",
+      "targetType": "ConfigurationTable",
+      "type": "lookup"
+    },
+    "cycle_configurationSet": {
+      "cardinality": "manyToOne",
+      "index": 1,
+      "label": "Configuration Sets",
+      "sourceLabel": "Cycle",
+      "sourceLabelPlural": "Cycles",
+      "sourceName": "linkedCycles",
+      "sourceSysCode": "RCC",
+      "sourceType": "Cycle",
+      "targetLabel": "Configuration Set",
+      "targetLabelPlural": "Configuration Sets",
+      "targetName": "linkedConfigurationSets",
+      "targetType": "ConfigurationSet",
+      "type": "lookup"
+    }
+  },
+  "sasProvided": true,
+  "tasks": {}
+}

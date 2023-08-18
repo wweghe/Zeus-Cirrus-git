@@ -1,0 +1,881 @@
+{
+  "layouts": {
+    "Accordion": {
+      "KRMOutputPane": {
+        "KRMSpreadsheetWidget": {
+          "h": 300,
+          "i": "KRMSpreadsheetWidget",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "CodeEditorContainer": {
+      "default": {
+        "codeEditor": {
+          "h": 729,
+          "i": "codeEditor",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 20
+        }
+      },
+      "krmDefault": {
+        "Accordion": {
+          "h": 353,
+          "i": "Accordion",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 11
+        },
+        "codeEditor_1": {
+          "h": 729,
+          "i": "codeEditor_1",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 402
+        }
+      }
+    },
+    "base": {
+      "header_container": {
+        "h": 50,
+        "i": "header_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 8,
+        "x": 4,
+        "y": 0
+      },
+      "name_readonly": {
+        "h": 26,
+        "i": "name_readonly",
+        "minH": 24,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 0
+      },
+      "script_tabs": {
+        "h": 857,
+        "i": "script_tabs",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 95
+      },
+      "statusCd": {
+        "h": 52,
+        "i": "statusCd",
+        "minH": 50,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 30
+      }
+    },
+    "header_container": {
+      "default": {
+        "save": {
+          "h": 26,
+          "i": "save",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      }
+    },
+    "instance_details": {
+      "details": {}
+    },
+    "parameters_tab_container": {
+      "default": {},
+      "parameterBuilder": {
+        "parameters": {
+          "h": 710,
+          "i": "parameters",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "parametersNotSupported": {
+        "ReadonlyFieldWidget": {
+          "h": 36,
+          "i": "ReadonlyFieldWidget",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 18
+        }
+      }
+    },
+    "script_tabs": {
+      "tab_analysis_runs": {
+        "AnalysisRun": {
+          "h": 450,
+          "i": "AnalysisRun",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tab_change_history": {
+        "ChangeHistory": {
+          "h": 236,
+          "i": "ChangeHistory",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tab_code": {
+        "CodeEditorContainer": {
+          "h": 756,
+          "i": "CodeEditorContainer",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 74
+        },
+        "codeEditor": {
+          "h": 729,
+          "i": "codeEditor",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 20
+        },
+        "engineCd": {
+          "h": 52,
+          "i": "engineCd",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 13
+        }
+      },
+      "tab_details": {
+        "Image": {
+          "h": 23,
+          "i": "Image",
+          "minH": 1,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 374
+        },
+        "codeEditor": {
+          "h": 729,
+          "i": "codeEditor",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 20
+        },
+        "description": {
+          "h": 80,
+          "i": "description",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 112
+        },
+        "endsInAsyncCallFlg": {
+          "h": 50,
+          "i": "endsInAsyncCallFlg",
+          "minH": 24,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 6,
+          "y": 112
+        },
+        "name": {
+          "h": 50,
+          "i": "name",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 52
+        },
+        "objectId": {
+          "h": 50,
+          "i": "objectId",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "subtypeCd": {
+          "h": 52,
+          "i": "subtypeCd",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 6,
+          "y": 52
+        },
+        "typeCd": {
+          "h": 52,
+          "i": "typeCd",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 6,
+          "y": 0
+        }
+      },
+      "tab_documentation": {
+        "additional_comments": {
+          "h": 550,
+          "i": "additional_comments",
+          "minH": 236,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 0
+        },
+        "documentation_attachments": {
+          "h": 286,
+          "i": "documentation_attachments",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 16
+        },
+        "documentation_links": {
+          "h": 241,
+          "i": "documentation_links",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 312
+        }
+      },
+      "tab_parameters": {
+        "codeEditor": {
+          "h": 729,
+          "i": "codeEditor",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 20
+        },
+        "parameters_tab_container": {
+          "h": 743,
+          "i": "parameters_tab_container",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "copy": {
+        "name": "onCopyLoad"
+      },
+      "draft": {
+        "name": "onDraftLoad"
+      },
+      "edit": {
+        "name": "onEditLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "onAnyEvent"
+      },
+      "onTabClose": {
+        "name": "onTabClose"
+      }
+    },
+    "props": {
+      "description": "",
+      "icon": "base://SAS_NOTEBOOK",
+      "id": "Script",
+      "label": "Script",
+      "tabLabel": ""
+    }
+  },
+  "structure": {
+    "Accordion": {
+      "KRMOutputPane": {
+        "KRMSpreadsheetWidget": {
+          "compName": "GenericSpreadsheetWidget",
+          "containerId": "Accordion",
+          "events": {
+            "onAdd": {
+              "name": "addKRMOutputTable"
+            },
+            "onChange": {
+              "name": "changeKRMOutputTable"
+            }
+          },
+          "id": "KRMSpreadsheetWidget",
+          "label": "appbuilder.toolboxitem.spreadsheet.generic.title",
+          "libName": "base",
+          "parentId": "Accordion",
+          "props": {
+            "suppressSideBar": true,
+            "suppressToolBarRefreshAction": true,
+            "suppressToolBarSearchField": true,
+            "uniqueRowIdProperty": "id"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        }
+      }
+    },
+    "CodeEditorContainer": {
+      "default": {
+        "codeEditor": {
+          "compName": "CodeEditor",
+          "containerId": "CodeEditorContainer",
+          "fieldName": "codeEditor",
+          "id": "codeEditor",
+          "label": "appbuilder.toolboxitem.codeEditor.title",
+          "libName": "base",
+          "parentId": "CodeEditorContainer",
+          "props": {
+            "pythonChecked": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        }
+      },
+      "krmDefault": {
+        "Accordion": {
+          "compName": "Accordion",
+          "containerId": "CodeEditorContainer",
+          "id": "Accordion",
+          "label": "appbuilder.toolboxitem.accordion.title",
+          "libName": "base",
+          "parentId": "CodeEditorContainer",
+          "props": {
+            "childProps": {
+              "KRMOutputPane": {
+                "label": "KRM output tables",
+                "name": "KRMOutputPane",
+                "position": 0
+              }
+            }
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "codeEditor_1": {
+          "compName": "CodeEditor",
+          "containerId": "CodeEditorContainer",
+          "fieldName": "codeEditor",
+          "id": "codeEditor_1",
+          "label": "appbuilder.toolboxitem.codeEditor.title",
+          "libName": "base",
+          "parentId": "CodeEditorContainer",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        }
+      }
+    },
+    "base": {
+      "header_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "header_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "name_readonly": {
+        "compName": "ReadonlyFieldWidget",
+        "containerId": "base",
+        "id": "name_readonly",
+        "label": "appbuilder.toolboxitem.readonlyfield.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldLabel": true,
+          "boldValue": true,
+          "colon": false,
+          "stacked": false
+        },
+        "sasProvided": true
+      },
+      "script_tabs": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "script_tabs",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 2,
+          "childProps": {
+            "tab_analysis_runs": {
+              "id": "tab_analysis_runs",
+              "label": "Analysis Runs",
+              "name": "tab_analysis_runs",
+              "position": 3
+            },
+            "tab_change_history": {
+              "label": "Change History",
+              "name": "tab_change_history",
+              "position": 5
+            },
+            "tab_code": {
+              "label": "Code",
+              "name": "tab_code",
+              "position": 1
+            },
+            "tab_details": {
+              "id": "tab_details",
+              "label": "Details",
+              "name": "tab_details",
+              "position": 0
+            },
+            "tab_documentation": {
+              "label": "Documentation",
+              "name": "tab_documentation",
+              "position": 4
+            },
+            "tab_parameters": {
+              "id": "tab_parameters",
+              "label": "Parameters",
+              "name": "tab_parameters",
+              "position": 2
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "statusCd": {
+        "compName": "Dropdown",
+        "containerId": "base",
+        "fieldName": "statusCd",
+        "id": "statusCd",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "colon": true
+        },
+        "sasProvided": true
+      }
+    },
+    "header_container": {
+      "default": {
+        "save": {
+          "compName": "Button",
+          "containerId": "header_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "header_container",
+          "props": {},
+          "sasProvided": true
+        }
+      }
+    },
+    "instance_details": {
+      "details": {}
+    },
+    "parameters_tab_container": {
+      "default": {},
+      "parameterBuilder": {
+        "parameters": {
+          "compName": "EmbeddedBuilder",
+          "containerId": "parameters_tab_container",
+          "fieldName": "parameters",
+          "id": "parameters",
+          "label": "Embedded Builder",
+          "libName": "base",
+          "parentId": "parameters_tab_container",
+          "props": {
+            "builderConfig": "ParameterBuilder"
+          },
+          "sasProvided": true
+        }
+      },
+      "parametersNotSupported": {
+        "ReadonlyFieldWidget": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "parameters_tab_container",
+          "id": "ReadonlyFieldWidget",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "parameters_tab_container",
+          "props": {
+            "align": "center",
+            "colon": false,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        }
+      }
+    },
+    "script_tabs": {
+      "tab_analysis_runs": {
+        "AnalysisRun": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "script_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "AnalysisRun",
+          "id": "AnalysisRun",
+          "libName": "base",
+          "parentId": "script_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "tab_change_history": {
+        "ChangeHistory": {
+          "compName": "ChangeHistory",
+          "containerId": "script_tabs",
+          "id": "ChangeHistory",
+          "label": "appbuilder.toolboxitem.changeHistory.title",
+          "libName": "base",
+          "parentId": "script_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "tab_code": {
+        "CodeEditorContainer": {
+          "compName": "GroupableContainer",
+          "containerId": "script_tabs",
+          "id": "CodeEditorContainer",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "script_tabs",
+          "props": {
+            "activeIndex": 1,
+            "childProps": {
+              "default": {
+                "name": "default",
+                "position": 0
+              },
+              "krmDefault": {
+                "name": "krmDefault",
+                "position": 1
+              }
+            }
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "codeEditor": {
+          "compName": "CodeEditor",
+          "containerId": "script_tabs",
+          "fieldName": "codeEditor",
+          "id": "codeEditor",
+          "label": "appbuilder.toolboxitem.codeEditor.title",
+          "libName": "base",
+          "parentId": "script_tabs",
+          "props": {
+            "pythonChecked": false
+          },
+          "sasProvided": true,
+          "versionDeprecated": "2023.02"
+        },
+        "engineCd": {
+          "compName": "Dropdown",
+          "containerId": "script_tabs",
+          "events": {},
+          "fieldName": "engineCd",
+          "id": "engineCd",
+          "libName": "base",
+          "parentId": "script_tabs",
+          "props": {
+            "colon": true,
+            "enableClear": true,
+            "stacked": false
+          },
+          "sasProvided": true
+        }
+      },
+      "tab_details": {
+        "Image": {
+          "compName": "Image",
+          "containerId": "script_tabs",
+          "id": "Image",
+          "label": "appbuilder.toolboxitem.image.title",
+          "libName": "base",
+          "parentId": "script_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "description": {
+          "compName": "InputTextarea",
+          "containerId": "script_tabs",
+          "events": {},
+          "fieldName": "description",
+          "id": "description",
+          "libName": "base",
+          "parentId": "script_tabs",
+          "props": {
+            "colon": true,
+            "rows": 3
+          },
+          "sasProvided": true
+        },
+        "endsInAsyncCallFlg": {
+          "compName": "RadioButtonField",
+          "containerId": "script_tabs",
+          "fieldName": "endsInAsyncCallFlg",
+          "id": "endsInAsyncCallFlg",
+          "libName": "base",
+          "parentId": "script_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        },
+        "name": {
+          "compName": "InputText",
+          "containerId": "script_tabs",
+          "events": {
+            "onChange": {
+              "name": "onNameChange"
+            }
+          },
+          "fieldName": "name",
+          "id": "name",
+          "libName": "base",
+          "parentId": "script_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "objectId": {
+          "compName": "InputText",
+          "containerId": "script_tabs",
+          "events": {
+            "onChange": {
+              "name": "setDefaultName"
+            }
+          },
+          "fieldName": "objectId",
+          "id": "objectId",
+          "libName": "base",
+          "parentId": "script_tabs",
+          "props": {
+            "colon": true,
+            "hideLabel": false
+          },
+          "sasProvided": true
+        },
+        "subtypeCd": {
+          "compName": "Dropdown",
+          "containerId": "script_tabs",
+          "events": {
+            "onChange": {
+              "name": "onScriptSubTypeChange"
+            }
+          },
+          "fieldName": "subtypeCd",
+          "id": "subtypeCd",
+          "libName": "base",
+          "parentId": "script_tabs",
+          "props": {
+            "align": "start",
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        },
+        "typeCd": {
+          "compName": "Dropdown",
+          "containerId": "script_tabs",
+          "events": {
+            "onChange": {
+              "name": "onScriptTypeChange"
+            }
+          },
+          "fieldName": "typeCd",
+          "id": "typeCd",
+          "libName": "base",
+          "parentId": "script_tabs",
+          "props": {
+            "align": "start",
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        }
+      },
+      "tab_documentation": {
+        "additional_comments": {
+          "compName": "Comments",
+          "containerId": "script_tabs",
+          "fieldName": "additional_comments",
+          "id": "additional_comments",
+          "libName": "base",
+          "parentId": "script_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_attachments": {
+          "compName": "CirrusObjectsAttachments",
+          "containerId": "script_tabs",
+          "fieldName": "documentation_attachments",
+          "id": "documentation_attachments",
+          "libName": "base",
+          "parentId": "script_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_links": {
+          "compName": "CirrusObjectsLinks",
+          "containerId": "script_tabs",
+          "fieldName": "documentation_links",
+          "id": "documentation_links",
+          "libName": "base",
+          "parentId": "script_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "tab_parameters": {
+        "parameters_tab_container": {
+          "compName": "GroupableContainer",
+          "containerId": "script_tabs",
+          "id": "parameters_tab_container",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "script_tabs",
+          "props": {
+            "activeIndex": 1,
+            "childProps": {
+              "default": {
+                "name": "default",
+                "position": 0
+              },
+              "parameterBuilder": {
+                "name": "parameterBuilder",
+                "position": 1
+              },
+              "parametersNotSupported": {
+                "name": "parametersNotSupported",
+                "position": 2
+              }
+            }
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        }
+      }
+    }
+  }
+}

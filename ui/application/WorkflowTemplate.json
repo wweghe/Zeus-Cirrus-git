@@ -1,0 +1,905 @@
+{
+  "layouts": {
+    "base": {
+      "WorkflowDiagram": {
+        "h": 200,
+        "i": "WorkflowDiagram",
+        "minH": 100,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 59
+      },
+      "main_tabs": {
+        "h": 626,
+        "i": "main_tabs",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 260
+      },
+      "name_readonly": {
+        "h": 26,
+        "i": "name_readonly",
+        "minH": 24,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 0
+      },
+      "save_container": {
+        "h": 50,
+        "i": "save_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 8,
+        "x": 4,
+        "y": 0
+      }
+    },
+    "create_new_definition_container": {
+      "default": {},
+      "display_create_new_radio_button": {
+        "createNewDefinition": {
+          "h": 74,
+          "i": "createNewDefinition",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "instance_details": {
+      "details": {}
+    },
+    "main_tabs": {
+      "0": {
+        "initializeFlg": {
+          "h": 50,
+          "i": "initializeFlg",
+          "minH": 24,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 9,
+          "x": 0,
+          "y": 0
+        },
+        "wfTaskDetails": {
+          "h": 400,
+          "i": "wfTaskDetails",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 9,
+          "x": 0,
+          "y": 67
+        }
+      },
+      "1": {
+        "additional_comments": {
+          "h": 550,
+          "i": "additional_comments",
+          "minH": 236,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 0
+        },
+        "documentation_attachments": {
+          "h": 286,
+          "i": "documentation_attachments",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 0
+        },
+        "documentation_links": {
+          "h": 241,
+          "i": "documentation_links",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 287
+        }
+      },
+      "2": {
+        "Script": {
+          "h": 135,
+          "i": "Script",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 148
+        },
+        "cycle": {
+          "h": 135,
+          "i": "cycle",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "3": {
+        "ChangeHistory": {
+          "h": 236,
+          "i": "ChangeHistory",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tab_details": {
+        "Image": {
+          "h": 52,
+          "i": "Image",
+          "minH": 1,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 465
+        },
+        "Image_2": {
+          "h": 52,
+          "i": "Image_2",
+          "minH": 1,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 358
+        },
+        "create_new_definition_container": {
+          "h": 65,
+          "i": "create_new_definition_container",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 156
+        },
+        "description": {
+          "h": 80,
+          "i": "description",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 1
+        },
+        "name": {
+          "h": 50,
+          "i": "name",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 58
+        },
+        "objectId": {
+          "h": 51,
+          "i": "objectId",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 1
+        },
+        "wf_definition_container": {
+          "h": 198,
+          "i": "wf_definition_container",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 117
+        }
+      }
+    },
+    "save_container": {
+      "default": {
+        "save": {
+          "h": 26,
+          "i": "save",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      }
+    },
+    "wf_definition_container": {
+      "CREATE_NEW": {
+        "Image_3": {
+          "h": 24,
+          "i": "Image_3",
+          "minH": 1,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 52
+        },
+        "input_file_attachment": {
+          "h": 50,
+          "i": "input_file_attachment",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 5,
+          "y": 0
+        },
+        "objectType": {
+          "h": 52,
+          "i": "objectType",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 0
+        },
+        "wfDefinitionName": {
+          "h": 52,
+          "i": "wfDefinitionName",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 76
+        },
+        "wfDefinitionRevision": {
+          "h": 50,
+          "i": "wfDefinitionRevision",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 6,
+          "y": 76
+        }
+      },
+      "SELECT_EXISTING": {
+        "Image_1": {
+          "h": 24,
+          "i": "Image_1",
+          "minH": 1,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 52
+        },
+        "objectType_1": {
+          "h": 52,
+          "i": "objectType_1",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 0
+        },
+        "wfDefinitionName_1": {
+          "h": 52,
+          "i": "wfDefinitionName_1",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 76
+        },
+        "wfDefinitionRevision_1": {
+          "h": 50,
+          "i": "wfDefinitionRevision_1",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 6,
+          "y": 76
+        }
+      },
+      "default": {}
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "draft": {
+        "name": "onDraftLoad"
+      },
+      "edit": {
+        "name": "onEditLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "onAnyEvent"
+      },
+      "onTabClose": {
+        "name": "onTabClose"
+      }
+    },
+    "props": {
+      "description": "",
+      "icon": "base://DECISIONS",
+      "id": "WorkflowTemplate",
+      "label": "Workflow Template",
+      "tabLabel": ""
+    }
+  },
+  "structure": {
+    "base": {
+      "WorkflowDiagram": {
+        "compName": "WorkflowDiagram",
+        "containerId": "base",
+        "id": "WorkflowDiagram",
+        "label": "appbuilder.toolboxitem.workflowDiagram.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "useHorizontalAlign": true
+        },
+        "sasProvided": true
+      },
+      "main_tabs": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "main_tabs",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 2,
+          "childProps": {
+            "0": {
+              "label": "Tasks",
+              "name": "0",
+              "position": 1
+            },
+            "1": {
+              "label": "Documentation",
+              "name": "1",
+              "position": 3
+            },
+            "2": {
+              "id": "2",
+              "label": "Related Objects",
+              "name": "2",
+              "position": 2
+            },
+            "3": {
+              "id": "3",
+              "label": "Change History",
+              "name": "3",
+              "position": 4
+            },
+            "tab_details": {
+              "id": "tab_details",
+              "label": "Details",
+              "name": "tab_details",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "name_readonly": {
+        "compName": "ReadonlyFieldWidget",
+        "containerId": "base",
+        "id": "name_readonly",
+        "label": "appbuilder.toolboxitem.readonlyfield.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldLabel": true,
+          "boldValue": true,
+          "colon": false,
+          "stacked": false
+        },
+        "sasProvided": true
+      },
+      "save_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "save_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      }
+    },
+    "create_new_definition_container": {
+      "default": {},
+      "display_create_new_radio_button": {
+        "createNewDefinition": {
+          "compName": "RadioButtonField",
+          "containerId": "create_new_definition_container",
+          "events": {
+            "onChange": {
+              "name": "onCreateNewDefinitionChange"
+            }
+          },
+          "fieldName": "createNewDefinition",
+          "id": "createNewDefinition",
+          "libName": "base",
+          "parentId": "create_new_definition_container",
+          "props": {
+            "label1": "Create new",
+            "label2": "Select existing"
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "instance_details": {
+      "details": {}
+    },
+    "main_tabs": {
+      "0": {
+        "initializeFlg": {
+          "compName": "RadioButtonField",
+          "containerId": "main_tabs",
+          "events": {
+            "onChange": {
+              "name": "onInitializeFlgChange"
+            }
+          },
+          "fieldName": "initializeFlg",
+          "id": "initializeFlg",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "label1": "Yes",
+            "label2": "No",
+            "options": {
+              "label1": {
+                "label": "Yes",
+                "value": "label1"
+              },
+              "label2": {
+                "label": "No",
+                "value": "label2"
+              }
+            }
+          },
+          "sasProvided": true
+        },
+        "wfTaskDetails": {
+          "compName": "TaskDetails",
+          "containerId": "main_tabs",
+          "fieldName": "wfTaskDetails",
+          "id": "wfTaskDetails",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "colon": true,
+            "fieldIn": "objectId",
+            "linkTypeId": "wfTemplate_script",
+            "targetType": "Script"
+          },
+          "sasProvided": true
+        }
+      },
+      "1": {
+        "additional_comments": {
+          "compName": "Comments",
+          "containerId": "main_tabs",
+          "fieldName": "additional_comments",
+          "id": "additional_comments",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_attachments": {
+          "compName": "CirrusObjectsAttachments",
+          "containerId": "main_tabs",
+          "fieldName": "documentation_attachments",
+          "id": "documentation_attachments",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_links": {
+          "compName": "CirrusObjectsLinks",
+          "containerId": "main_tabs",
+          "fieldName": "documentation_links",
+          "id": "documentation_links",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "2": {
+        "Script": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "Script",
+          "id": "Script",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "cycle": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "cycle",
+          "id": "cycle",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "3": {
+        "ChangeHistory": {
+          "compName": "ChangeHistory",
+          "containerId": "main_tabs",
+          "id": "ChangeHistory",
+          "label": "appbuilder.toolboxitem.changeHistory.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "tab_details": {
+        "Image": {
+          "compName": "Image",
+          "containerId": "main_tabs",
+          "id": "Image",
+          "label": "appbuilder.toolboxitem.image.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "Image_2": {
+          "compName": "Image",
+          "containerId": "main_tabs",
+          "id": "Image_2",
+          "label": "appbuilder.toolboxitem.image.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "create_new_definition_container": {
+          "compName": "GroupableContainer",
+          "containerId": "main_tabs",
+          "id": "create_new_definition_container",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "activeIndex": 0,
+            "childProps": {
+              "default": {
+                "name": "default",
+                "position": 0
+              },
+              "display_create_new_radio_button": {
+                "name": "display_create_new_radio_button",
+                "position": 1
+              }
+            }
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.01"
+        },
+        "description": {
+          "compName": "InputTextarea",
+          "containerId": "main_tabs",
+          "fieldName": "description",
+          "id": "description",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "colon": true,
+            "rows": 3
+          },
+          "sasProvided": true
+        },
+        "name": {
+          "compName": "InputText",
+          "containerId": "main_tabs",
+          "events": {
+            "onChange": {
+              "name": "onNameChange"
+            }
+          },
+          "fieldName": "name",
+          "id": "name",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "objectId": {
+          "compName": "InputText",
+          "containerId": "main_tabs",
+          "events": {
+            "onChange": {
+              "name": "setDefaultName"
+            }
+          },
+          "fieldName": "objectId",
+          "id": "objectId",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "wf_definition_container": {
+          "compName": "GroupableContainer",
+          "containerId": "main_tabs",
+          "id": "wf_definition_container",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "activeIndex": 1,
+            "childProps": {
+              "CREATE_NEW": {
+                "name": "CREATE_NEW",
+                "position": 1
+              },
+              "SELECT_EXISTING": {
+                "name": "SELECT_EXISTING",
+                "position": 2
+              },
+              "default": {
+                "name": "default",
+                "position": 0
+              }
+            },
+            "removePadding": true
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "save_container": {
+      "default": {
+        "save": {
+          "compName": "Button",
+          "containerId": "save_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "save_container",
+          "props": {},
+          "sasProvided": true
+        }
+      }
+    },
+    "wf_definition_container": {
+      "CREATE_NEW": {
+        "Image_3": {
+          "compName": "Image",
+          "containerId": "wf_definition_container",
+          "id": "Image_3",
+          "label": "appbuilder.toolboxitem.image.title",
+          "libName": "base",
+          "parentId": "wf_definition_container",
+          "props": {},
+          "sasProvided": true
+        },
+        "input_file_attachment": {
+          "compName": "CirrusObjectsAttachments",
+          "containerId": "wf_definition_container",
+          "events": {
+            "onChange": {
+              "name": "onInputFileChange"
+            }
+          },
+          "fieldName": "input_file_attachment",
+          "id": "input_file_attachment",
+          "libName": "base",
+          "parentId": "wf_definition_container",
+          "props": {
+            "single": true
+          },
+          "sasProvided": true
+        },
+        "objectType": {
+          "compName": "Dropdown",
+          "containerId": "wf_definition_container",
+          "events": {
+            "onChange": {
+              "name": "onObjectTypeChange"
+            }
+          },
+          "fieldName": "objectType",
+          "id": "objectType",
+          "libName": "base",
+          "parentId": "wf_definition_container",
+          "props": {
+            "align": "start",
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "wfDefinitionName": {
+          "compName": "WorkflowDefinitionSelector",
+          "containerId": "wf_definition_container",
+          "fieldName": "wfDefinitionName",
+          "id": "wfDefinitionName",
+          "libName": "base",
+          "parentId": "wf_definition_container",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "wfDefinitionRevision": {
+          "compName": "InputNumberComponent",
+          "containerId": "wf_definition_container",
+          "fieldName": "wfDefinitionRevision",
+          "id": "wfDefinitionRevision",
+          "libName": "base",
+          "parentId": "wf_definition_container",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      },
+      "SELECT_EXISTING": {
+        "Image_1": {
+          "compName": "Image",
+          "containerId": "wf_definition_container",
+          "id": "Image_1",
+          "label": "appbuilder.toolboxitem.image.title",
+          "libName": "base",
+          "parentId": "wf_definition_container",
+          "props": {},
+          "sasProvided": true
+        },
+        "objectType_1": {
+          "compName": "Dropdown",
+          "containerId": "wf_definition_container",
+          "events": {
+            "onChange": {
+              "name": "onObjectTypeChange"
+            }
+          },
+          "fieldName": "objectType",
+          "id": "objectType_1",
+          "libName": "base",
+          "parentId": "wf_definition_container",
+          "props": {
+            "align": "start",
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "wfDefinitionName_1": {
+          "compName": "WorkflowDefinitionSelector",
+          "containerId": "wf_definition_container",
+          "events": {
+            "onChange": {
+              "name": "onWfDefinitionChange"
+            }
+          },
+          "fieldName": "wfDefinitionName",
+          "id": "wfDefinitionName_1",
+          "libName": "base",
+          "parentId": "wf_definition_container",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "wfDefinitionRevision_1": {
+          "compName": "InputNumberComponent",
+          "containerId": "wf_definition_container",
+          "fieldName": "wfDefinitionRevision",
+          "id": "wfDefinitionRevision_1",
+          "libName": "base",
+          "parentId": "wf_definition_container",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      },
+      "default": {}
+    }
+  }
+}

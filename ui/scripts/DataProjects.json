@@ -1,0 +1,448 @@
+{
+  "onPageLoad": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "8204d9a8-eaca-439b-815b-5b59c53acc41",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "DataProject"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setObjectType",
+        "id": "e213488a-49ea-4b62-b67a-ed7b37903845",
+        "params": {
+          "objectType": {
+            "datatype": "text",
+            "name": "objectType",
+            "scope": "local"
+          }
+        },
+        "scope": "childTemplate",
+        "template": "ObjectManagerTemplate",
+        "templatePage": "ObjectManagerTemplate",
+        "widgetId": "ObjectManager"
+      },
+      {
+        "action": "execfunc",
+        "function": "setObjectManagerToolbarButtons",
+        "id": "bc92b049-b797-4677-972d-b2c3722d5fe7",
+        "isCommented": false,
+        "library": "$interactions$",
+        "params": {}
+      }
+    ],
+    "sasProvided": true
+  },
+  "setObjectManagerToolbarButtons": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "d1623c0f-77a3-4f90-9812-a745d5171af3",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getObjectType",
+          "library": "WidgetObjectManager",
+          "params": {
+            "widgetID": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "ObjectManager"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "26b7ac2f-068c-43e4-a685-278bcfec3280",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getObjectCapabilities",
+          "library": "CirrusLibCirrusObject",
+          "params": {
+            "objectType": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            }
+          },
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "capabilities",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "d3699869-b214-4494-98ce-141b81e9bc56",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "contains",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "text array",
+              "name": "capabilities",
+              "scope": "local"
+            },
+            "value": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "create"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "canCreate",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "44fdaf9d-6a3a-4d24-b580-a2117db41937",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "not",
+          "library": "CirrusLibBoolean",
+          "params": {
+            "bool": {
+              "datatype": "boolean",
+              "name": "canCreate",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "cannotCreate",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "disableCreateNew",
+        "id": "e9b8a324-79b1-4f19-bc31-8b108e46857b",
+        "isCommented": false,
+        "params": {
+          "disableCreate": {
+            "datatype": "boolean",
+            "name": "cannotCreate",
+            "scope": "local"
+          }
+        },
+        "widgetId": "ObjectManager"
+      },
+      {
+        "action": "setvar",
+        "id": "2d36bc51-94d1-4ec0-9788-705cfc8f3248",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getObjectCapabilities",
+          "library": "CirrusLibCirrusObject",
+          "params": {
+            "includeScope": {
+              "datatype": "boolean",
+              "scope": "fixed",
+              "value": true
+            },
+            "objectType": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            }
+          },
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "scopedCapabilities",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "a26a74cf-9e7d-488b-933c-c5738e32c8a0",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "filterObjects",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "text array",
+              "name": "scopedCapabilities",
+              "scope": "local"
+            },
+            "operator": {
+              "datatype": "enum",
+              "scope": "fixed",
+              "value": "eq"
+            },
+            "propertyName": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "capability"
+            },
+            "referenceValue": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "delete"
+            }
+          },
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "scopedDeleteCapability",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "037f6b4c-4cbd-42b9-ab08-6881d424292a",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "filterObjects",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "text array",
+              "name": "scopedDeleteCapability",
+              "scope": "local"
+            },
+            "operator": {
+              "datatype": "enum",
+              "scope": "fixed",
+              "value": "eq"
+            },
+            "propertyName": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "everywhere"
+            },
+            "referenceValue": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": true
+            }
+          },
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "deleteEverywhereCapability",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "98c7ebad-4801-40ae-bc94-df8dc03104a9",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "hasAnyItems",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "text array",
+              "name": "deleteEverywhereCapability",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "canDeleteEverywhere",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "userCanAlwaysDelete",
+        "id": "3145c094-dc09-44e2-8fef-21ca498931d7",
+        "params": {
+          "canDeleteEverywhere": {
+            "datatype": "boolean",
+            "name": "canDeleteEverywhere",
+            "scope": "local"
+          }
+        },
+        "scope": "childTemplate",
+        "template": "ObjectManagerTemplate",
+        "templatePage": "ObjectManagerTemplate",
+        "widgetId": "ObjectManager"
+      },
+      {
+        "action": "setvar",
+        "id": "0ac26c38-930a-4b27-b26f-782c7f44f736",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getRestPath",
+          "library": "CirrusLibPageData",
+          "params": {
+            "objectType": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectRestPath",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "86ef79da-25fe-4839-a7b9-bbc373a6e09c",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "concat",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "objectRestPath",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": ".copy.enabled"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "copyPropertyName",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "4cd4bd87-bbe4-47e6-8505-167aff351b3d",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getAppConfigProperty",
+          "library": "CirrusLibConfigProperties",
+          "params": {
+            "propertyName": {
+              "datatype": "text",
+              "name": "copyPropertyName",
+              "scope": "local"
+            }
+          },
+          "returnType": "\u003cOutgoing\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e",
+          "name": "enableCopy",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "1b5890bc-94ed-4570-a5e0-0c8c0535d9d6",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "datatype": "text",
+          "function": "coalesce",
+          "library": "CirrusLibGeneral",
+          "params": {
+            "arg1": {
+              "datatype": "\u003cOutgoing\u003e",
+              "name": "enableCopy",
+              "scope": "local"
+            },
+            "arg2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": false
+            }
+          },
+          "returnType": "\u003cOutgoing\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e",
+          "name": "enableCopy",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "6a47af67-26f5-44f3-957f-73beeacddc0e",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "not",
+          "library": "CirrusLibBoolean",
+          "params": {
+            "bool": {
+              "name": "enableCopy",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "hideCopy",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "hideCopyButton",
+        "id": "61f389fa-937d-4585-a0a8-4866c415f9d6",
+        "params": {
+          "hideCopy": {
+            "datatype": "boolean",
+            "name": "hideCopy",
+            "scope": "local"
+          }
+        },
+        "scope": "childTemplate",
+        "template": "ObjectManagerTemplate",
+        "templatePage": "ObjectManagerTemplate",
+        "widgetId": "ObjectManager"
+      }
+    ],
+    "sasProvided": true
+  }
+}

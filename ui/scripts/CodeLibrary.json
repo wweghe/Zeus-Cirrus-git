@@ -1,0 +1,4326 @@
+{
+  "checkCycleStatuses": {
+    "inputs": [
+      {
+        "datatype": "text array",
+        "name": "input_cycleStatuses"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "4d248256-22df-4826-89b1-8579029f7bd0",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "createNewStringArray",
+          "library": "CirrusLibArray",
+          "params": {},
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "cycles",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "c4860473-667c-457d-8f68-b7c28c3d5a57",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getObjectsByKey",
+          "library": "CirrusLibCirrusObject",
+          "params": {
+            "fields": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "statusCd,sourceSystemCd"
+            },
+            "keys": {
+              "datatype": "text array",
+              "name": "input_cycleStatuses",
+              "scope": "local"
+            },
+            "schemaName": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "Cycle"
+            }
+          },
+          "returnType": "\u003cOutgoing\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e",
+          "name": "cycles",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "cf3f7d85-093b-43a3-b3a4-10c03c11df88",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "get",
+          "library": "CirrusLibObject",
+          "params": {
+            "name": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "items"
+            },
+            "object": {
+              "datatype": "\u003cany\u003e",
+              "name": "cycles",
+              "scope": "local"
+            }
+          },
+          "returnType": "\u003cany\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cany\u003e",
+          "name": "items",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "77a71720-a68a-44dd-a44d-77340627b9c5",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getValuesFromObjectArray",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "name": "items",
+              "scope": "local"
+            },
+            "propertyName": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "customFields"
+            }
+          },
+          "returnType": "\u003cIncoming\u003e array"
+        },
+        "variable": {
+          "datatype": "\u003cIncoming\u003e array",
+          "name": "customFields",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "7dfb1522-4bcf-4fb5-b861-4740557b8911",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getValuesFromObjectArray",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "name": "customFields",
+              "scope": "local"
+            },
+            "propertyName": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "statusCd"
+            }
+          },
+          "returnType": "\u003cIncoming\u003e array"
+        },
+        "variable": {
+          "datatype": "\u003cIncoming\u003e array",
+          "name": "statuses",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "103b8ca3-0f38-493b-bc0b-15069b9f5a0d",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "map",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "name": "statuses",
+              "scope": "local"
+            },
+            "callback": {
+              "function": "strEquals",
+              "library": "CirrusLibString",
+              "params": {
+                "string1": {
+                  "label": "Current value",
+                  "name": "loop_currentValue",
+                  "scope": "local"
+                },
+                "string2": {
+                  "datatype": "text",
+                  "scope": "fixed",
+                  "value": "CREATED"
+                }
+              },
+              "returnType": "boolean"
+            }
+          },
+          "returnType": "boolean array"
+        },
+        "variable": {
+          "datatype": "boolean array",
+          "name": "cycleNotStarted",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "3fb94e5c-4322-4f05-b606-2b4cd6851a5e",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "contains",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "boolean array",
+              "name": "cycleNotStarted",
+              "scope": "local"
+            },
+            "value": {
+              "datatype": "boolean",
+              "scope": "fixed",
+              "value": false
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "cycleStarted",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "returnvar",
+        "id": "6ccfedac-ad17-45eb-992a-b429b2d6b107",
+        "isCommented": false,
+        "variable": {
+          "datatype": "boolean",
+          "name": "cycleStarted",
+          "scope": "local"
+        }
+      }
+    ],
+    "resolveEachStep": false,
+    "sasProvided": true
+  },
+  "getEditLinkForObjectInstance": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_objectType"
+      },
+      {
+        "datatype": "text",
+        "name": "input_key"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "893d69f3-d916-4f89-8089-df7d936a336d",
+        "type": "calculated",
+        "value": {
+          "function": "getEditLocation",
+          "library": "CirrusLibNav",
+          "params": {
+            "key": {
+              "datatype": "text",
+              "name": "input_key",
+              "scope": "local"
+            },
+            "objectType": {
+              "datatype": "text",
+              "name": "input_objectType",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "navLink",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "returnvar",
+        "id": "7a5df323-aa71-4d3e-a0ad-b9ec0a2706b6",
+        "variable": {
+          "datatype": "text",
+          "name": "navLink",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "getLocalisedObjectType": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "c158705d-1ec2-481c-9843-107378c77899",
+        "type": "calculated",
+        "value": {
+          "function": "getCurrentObjectType",
+          "library": "CirrusLibPageData",
+          "params": {},
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "62fcbecb-9720-401e-9946-07839d8c9748",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": ".schema.name.singular.title"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "i18nSuffix",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "2b40aa37-a2dd-455a-a2cf-4149940b342b",
+        "type": "calculated",
+        "value": {
+          "function": "concat",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "name": "i18nSuffix",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectTypePropString",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "8a9fdf4a-a69d-4f67-9f43-8e65d76443ef",
+        "type": "calculated",
+        "value": {
+          "function": "getMessageProperty",
+          "library": "CirrusLibLocalization",
+          "params": {
+            "messageKey": {
+              "datatype": "text",
+              "name": "objectTypePropString",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "localisedObjectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "returnvar",
+        "id": "155eb938-6b3e-40a9-816c-bb1ffbbca0ce",
+        "variable": {
+          "datatype": "text",
+          "name": "localisedObjectType",
+          "scope": "local"
+        }
+      }
+    ],
+    "resolveEachStep": false,
+    "sasProvided": true
+  },
+  "onAddedDependsOnLibraries": {
+    "inputs": [
+      {
+        "datatype": "text array",
+        "name": "input_addedNow"
+      },
+      {
+        "datatype": "text array",
+        "name": "input_addedEarlier"
+      },
+      {
+        "datatype": "text array",
+        "name": "input_removed"
+      }
+    ],
+    "logic": [
+      {
+        "action": "execfunc",
+        "function": "setFilterNeededBy",
+        "id": "343eb0a5-aaa5-4b87-96eb-936027be1a7b",
+        "library": "$interactions$",
+        "params": {}
+      }
+    ],
+    "sasProvided": true
+  },
+  "onAddedNeededByLibraries": {
+    "inputs": [
+      {
+        "datatype": "text array",
+        "name": "input_addedNow"
+      },
+      {
+        "datatype": "text array",
+        "name": "input_addedEarlier"
+      },
+      {
+        "datatype": "text array",
+        "name": "input_removed"
+      }
+    ],
+    "logic": [
+      {
+        "action": "execfunc",
+        "function": "setFilterDependsOn",
+        "id": "da8aa862-7571-4e1a-be6e-b86eb3bf53bd",
+        "library": "$interactions$",
+        "params": {}
+      }
+    ],
+    "sasProvided": true
+  },
+  "onAnyEvent": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "0adc72e1-d9aa-4f12-94a9-df7560c3d157",
+        "type": "calculated",
+        "value": {
+          "function": "getDiffJSONPatch",
+          "library": "CirrusLibPageData",
+          "params": {},
+          "returnType": "Patch array"
+        },
+        "variable": {
+          "datatype": "Patch array",
+          "name": "patch",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "1c70007f-c7fb-4a24-9861-5f3da109edd5",
+        "type": "calculated",
+        "value": {
+          "function": "isObjectPageDirty",
+          "library": "CirrusLibCirrusObject",
+          "params": {
+            "patch": {
+              "datatype": "Patch array",
+              "name": "patch",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isPageDirty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "5e7227c2-2bd1-443a-9a68-fbaf07951ae4",
+        "type": "calculated",
+        "value": {
+          "function": "not",
+          "library": "CirrusLibBoolean",
+          "params": {
+            "bool": {
+              "datatype": "boolean",
+              "name": "isPageDirty",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isNotDirty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setReadOnly",
+        "id": "f3f7c40d-c5a6-4e21-896a-df15bf5662cd",
+        "params": {
+          "readOnly": {
+            "datatype": "boolean",
+            "name": "isNotDirty",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "save"
+      },
+      {
+        "action": "execfunc",
+        "function": "setTabDirty",
+        "id": "989f93d8-d3c0-4878-a5d8-50b3b0739494",
+        "library": "CirrusLibPageData",
+        "params": {
+          "isDirty": {
+            "datatype": "boolean",
+            "name": "isPageDirty",
+            "scope": "local"
+          }
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onDraftLoad": {
+    "inputs": [
+      {
+        "datatype": "numeric",
+        "name": "input_id"
+      }
+    ],
+    "logic": [
+      {
+        "action": "execfunc",
+        "function": "loadDraftObject",
+        "id": "3158cf41-0939-4e51-8863-23e90e01c681",
+        "library": "CirrusLibCirrusObject",
+        "params": {},
+        "returnType": "All Data"
+      },
+      {
+        "action": "execfunc",
+        "function": "setReadOnlyFields",
+        "id": "7f5ed8e9-569c-4002-a82d-fecca971bcb9",
+        "library": "$interactions$",
+        "params": {}
+      },
+      {
+        "action": "execfunc",
+        "function": "setRequiredFields",
+        "id": "d71fa498-f923-47e6-9368-1a9d94cc4b49",
+        "library": "$interactions$",
+        "params": {}
+      },
+      {
+        "action": "setvar",
+        "id": "d4d7910d-d0b7-45bd-8280-56dba0d8fae5",
+        "type": "fixed",
+        "value": {
+          "datatype": "numeric",
+          "dataval": 0
+        },
+        "variable": {
+          "datatype": "numeric",
+          "name": "zero",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setActiveTabIndex",
+        "id": "63da3414-8126-4dc4-88f3-6573b8ce3426",
+        "params": {
+          "activeIndex": {
+            "datatype": "numeric",
+            "name": "zero",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "instance_details"
+      },
+      {
+        "action": "setvar",
+        "id": "13ff49fb-c70f-413d-9165-f066064aea01",
+        "type": "calculated",
+        "value": {
+          "function": "getSolutionRepoNames",
+          "library": "CirrusLibCirrusCoreCodeLibrary",
+          "params": {},
+          "returnType": "object"
+        },
+        "variable": {
+          "datatype": "object",
+          "name": "solutionRepoInfo",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "080c39d7-28dd-457d-a0f5-58e4093ca250",
+        "type": "calculated",
+        "value": {
+          "function": "get",
+          "library": "CirrusLibObject",
+          "params": {
+            "name": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "repoNames"
+            },
+            "object": {
+              "datatype": "object",
+              "name": "solutionRepoInfo",
+              "scope": "local"
+            }
+          }
+        },
+        "variable": {
+          "name": "solutionRepoNames",
+          "scope": "global"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "7e60a494-deae-4cd8-8c65-5365b4b2209d",
+        "type": "calculated",
+        "value": {
+          "function": "get",
+          "library": "CirrusLibObject",
+          "params": {
+            "name": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "repoUrls"
+            },
+            "object": {
+              "datatype": "object",
+              "name": "solutionRepoInfo",
+              "scope": "local"
+            }
+          }
+        },
+        "variable": {
+          "name": "solutionRepoUrls",
+          "scope": "global"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "filterValues",
+        "id": "afcab904-cacb-4fcb-bb57-98992ddf2b7d",
+        "params": {
+          "filteredValues": {
+            "datatype": "text array",
+            "name": "solutionRepoNames",
+            "scope": "global"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "gitRepoName"
+      },
+      {
+        "action": "setvar",
+        "id": "5cf619f1-bb9b-4317-a09e-d6183f326bf0",
+        "type": "calculated",
+        "value": {
+          "function": "get",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "text array",
+              "name": "solutionRepoNames",
+              "scope": "global"
+            },
+            "index": {
+              "datatype": "numeric",
+              "scope": "fixed",
+              "value": 0
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "gitRepoName",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "gitRepoName",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "1f22a90a-8b3d-4c0f-870b-479ae062bb99",
+        "type": "calculated",
+        "value": {
+          "function": "get",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "name": "solutionRepoUrls",
+              "scope": "global"
+            },
+            "index": {
+              "datatype": "numeric",
+              "scope": "fixed",
+              "value": 0
+            }
+          }
+        },
+        "variable": {
+          "name": "gitRepoURL",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "gitRepoURL",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setLinkText",
+        "id": "ae416719-7f5d-4e81-9325-d89c68e661f0",
+        "params": {
+          "linkText": {
+            "datatype": "text",
+            "name": "gitRepoURL",
+            "objectType": "CodeLibrary",
+            "scope": "field",
+            "set-field": "gitRepoURL",
+            "target": "$self$"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "gitRepoURL"
+      },
+      {
+        "action": "setprop",
+        "function": "setLinkUrl",
+        "id": "12982318-4fbb-4599-a474-7a091593a67c",
+        "params": {
+          "linkUrl": {
+            "datatype": "text",
+            "name": "gitRepoURL",
+            "objectType": "CodeLibrary",
+            "scope": "field",
+            "set-field": "gitRepoURL",
+            "target": "$self$"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "gitRepoURL"
+      },
+      {
+        "action": "setvar",
+        "id": "c6582417-8b18-46fb-932e-fa2cc121d990",
+        "type": "calculated",
+        "value": {
+          "function": "getRepoBranches",
+          "library": "CirrusLibCirrusCoreCodeLibrary",
+          "params": {
+            "repoName": {
+              "datatype": "text",
+              "name": "gitRepoName",
+              "objectType": "CodeLibrary",
+              "scope": "field",
+              "set-field": "gitRepoName",
+              "target": "$self$"
+            }
+          },
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "branchNames",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "filterValues",
+        "id": "4cc49ac5-c111-4174-b80f-429e9c0f73d3",
+        "params": {
+          "filteredValues": {
+            "datatype": "text array",
+            "name": "branchNames",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "gitBranch"
+      },
+      {
+        "action": "setvar",
+        "id": "bff92412-1fb3-4e7d-8d60-07144b933a5e",
+        "type": "calculated",
+        "value": {
+          "function": "get",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "text array",
+              "name": "branchNames",
+              "scope": "local"
+            },
+            "index": {
+              "datatype": "numeric",
+              "scope": "fixed",
+              "value": 0
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "gitBranch",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "gitBranch",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "3e830504-20c9-43b0-94fc-87f81448c4a7",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "latest"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "gitCommit",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "gitCommit",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "6ddf6460-ec21-484d-9f2c-f012000299e5",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "SELECT_COMMIT"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "layoutName",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setActiveLayoutName",
+        "id": "c086bf5a-4dd4-458a-a4ec-e4516f37feb3",
+        "params": {
+          "activeTab": {
+            "datatype": "text",
+            "name": "layoutName",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "git_commit_container"
+      },
+      {
+        "action": "execfunc",
+        "function": "setScreenReadOnly",
+        "id": "db01ae82-d3c8-4db0-b796-eb5efe2a44d5",
+        "library": "$interactions$",
+        "params": {}
+      },
+      {
+        "action": "setvar",
+        "id": "486153cd-8154-49c1-848f-a5bf68950efa",
+        "type": "calculated",
+        "value": {
+          "function": "getLocalisedObjectType",
+          "library": "$interactions$",
+          "params": {},
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setActiveLayoutName",
+        "id": "67b90d21-93f5-4ef9-8fa5-06b3754d4f58",
+        "isCommented": false,
+        "params": {
+          "activeTab": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "REMOTE"
+          }
+        },
+        "widgetId": "git_origin_container"
+      },
+      {
+        "action": "setvar",
+        "id": "face0ceb-09e3-4a52-b488-fb9c682e16fc",
+        "type": "calculated",
+        "value": {
+          "function": "concat",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": ": "
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "name_str",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "81579889-773d-4251-9d16-207cfb19bd5e",
+        "type": "variable",
+        "value": {
+          "datatype": "text",
+          "name": "name_str",
+          "scope": "local"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "name_readonly",
+          "scope": "data",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setActiveTabName",
+        "id": "04edc876-bcab-44ba-84c2-d3bd433e06f4",
+        "isCommented": false,
+        "params": {
+          "activeTabName": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "branchDetails"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "Accordion"
+      },
+      {
+        "action": "setvar",
+        "id": "d361320a-84ef-4042-8f51-f9dba1b418f1",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "REMOTE"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "gitOrigin",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "gitOrigin",
+          "target": "$self$"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onEditLoad": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_key"
+      }
+    ],
+    "logic": [
+      {
+        "action": "execfunc",
+        "function": "loadExistingObject",
+        "id": "05cadbde-e099-413e-9faa-7c600f023c9c",
+        "library": "CirrusLibCirrusObject",
+        "params": {
+          "key": {
+            "datatype": "text",
+            "name": "input_key",
+            "scope": "local"
+          }
+        },
+        "returnType": "All Data"
+      },
+      {
+        "action": "execfunc",
+        "function": "setReadOnlyFields",
+        "id": "3e2ba429-24c1-41dd-bdc0-e11396f9ce56",
+        "library": "$interactions$",
+        "params": {}
+      },
+      {
+        "action": "execfunc",
+        "function": "setRequiredFields",
+        "id": "2504576d-72b8-408d-b66d-47bbb04d2c9d",
+        "library": "$interactions$",
+        "params": {}
+      },
+      {
+        "action": "setvar",
+        "id": "c468ae91-2ae3-4267-b8ae-d5b2e3cc1d9f",
+        "type": "fixed",
+        "value": {
+          "datatype": "boolean",
+          "dataval": true
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "true",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "e8258850-e956-4f29-abb6-d698e03b2ee9",
+        "type": "fixed",
+        "value": {
+          "datatype": "numeric",
+          "dataval": 0
+        },
+        "variable": {
+          "datatype": "numeric",
+          "name": "zero",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setActiveTabIndex",
+        "id": "4abfdea2-7ce4-46ed-8a7a-01be4f7175fe",
+        "params": {
+          "activeIndex": {
+            "datatype": "numeric",
+            "name": "zero",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "instance_details"
+      },
+      {
+        "action": "setprop",
+        "function": "setReadOnly",
+        "id": "a1d2dbc2-5db6-4fba-9f80-818bdd504029",
+        "params": {
+          "readOnly": {
+            "datatype": "boolean",
+            "name": "true",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "objectId"
+      },
+      {
+        "action": "setvar",
+        "id": "07fd0aa3-40cd-49cd-8d95-5a0001135f7f",
+        "type": "calculated",
+        "value": {
+          "function": "getSolutionRepoNames",
+          "library": "CirrusLibCirrusCoreCodeLibrary",
+          "params": {},
+          "returnType": "object"
+        },
+        "variable": {
+          "datatype": "object",
+          "name": "solutionRepoInfo",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "1e9b511b-62d4-432e-94ae-8d8ec67b1821",
+        "type": "calculated",
+        "value": {
+          "function": "get",
+          "library": "CirrusLibObject",
+          "params": {
+            "name": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "repoNames"
+            },
+            "object": {
+              "datatype": "object",
+              "name": "solutionRepoInfo",
+              "scope": "local"
+            }
+          }
+        },
+        "variable": {
+          "name": "solutionRepoNames",
+          "scope": "global"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "20e2172d-d13c-40dc-83ed-183ff8823ea8",
+        "type": "calculated",
+        "value": {
+          "function": "get",
+          "library": "CirrusLibObject",
+          "params": {
+            "name": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "repoUrls"
+            },
+            "object": {
+              "datatype": "object",
+              "name": "solutionRepoInfo",
+              "scope": "local"
+            }
+          }
+        },
+        "variable": {
+          "name": "solutionRepoUrls",
+          "scope": "global"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "filterValues",
+        "id": "c5b2b64a-5764-4a22-b1e2-5f9742b6295f",
+        "params": {
+          "filteredValues": {
+            "datatype": "text array",
+            "name": "solutionRepoNames",
+            "scope": "global"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "gitRepoName"
+      },
+      {
+        "action": "setprop",
+        "function": "setLinkText",
+        "id": "821bbf55-a0bd-4363-83be-180a7656f141",
+        "params": {
+          "linkText": {
+            "datatype": "text",
+            "name": "gitRepoURL",
+            "objectType": "CodeLibrary",
+            "scope": "field",
+            "set-field": "gitRepoURL",
+            "target": "$self$"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "gitRepoURL"
+      },
+      {
+        "action": "setprop",
+        "function": "setLinkUrl",
+        "id": "357ba2c9-dd4c-44ad-a0ae-b32e2797529c",
+        "params": {
+          "linkUrl": {
+            "datatype": "text",
+            "name": "gitRepoURL",
+            "objectType": "CodeLibrary",
+            "scope": "field",
+            "set-field": "gitRepoURL",
+            "target": "$self$"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "gitRepoURL"
+      },
+      {
+        "action": "setvar",
+        "id": "ec9f3eba-3547-4373-8912-d63318c62e0f",
+        "type": "calculated",
+        "value": {
+          "function": "getRepoBranches",
+          "library": "CirrusLibCirrusCoreCodeLibrary",
+          "params": {
+            "repoName": {
+              "datatype": "text",
+              "name": "gitRepoName",
+              "objectType": "CodeLibrary",
+              "scope": "field",
+              "set-field": "gitRepoName",
+              "target": "$self$"
+            }
+          },
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "branchNames",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "filterValues",
+        "id": "7ce9929c-cb24-4d0d-9779-f61be0c022fe",
+        "params": {
+          "filteredValues": {
+            "datatype": "text array",
+            "name": "branchNames",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "gitBranch"
+      },
+      {
+        "action": "setvar",
+        "id": "33235028-0d1c-47a7-8447-3c0cc02c8518",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "SELECT_COMMIT"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "layoutName",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setActiveLayoutName",
+        "id": "6cb29b0a-45e2-429b-a791-4a5d8c120a63",
+        "params": {
+          "activeTab": {
+            "datatype": "text",
+            "name": "layoutName",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "git_commit_container"
+      },
+      {
+        "action": "setvar",
+        "id": "346019e5-e94f-449a-ab65-c85f48780182",
+        "isCommented": false,
+        "type": "variable",
+        "value": {
+          "datatype": "text",
+          "name": "gitOrigin",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "gitOrigin",
+          "target": "$self$"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "originType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setActiveLayoutName",
+        "id": "c3a9c028-0b1e-4d41-ab5b-0722ee268893",
+        "isCommented": false,
+        "params": {
+          "activeTab": {
+            "datatype": "text",
+            "name": "originType",
+            "scope": "local"
+          }
+        },
+        "widgetId": "git_origin_container"
+      },
+      {
+        "action": "setvar",
+        "id": "cbe0316d-ba27-454c-a115-e78789d7886d",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "strEquals",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "originType",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "LOCAL"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isLocal",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "e1049a5a-f03e-439b-813d-e14397fcdf02",
+        "includeElse": false,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isLocal",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setRequired",
+        "id": "2ee2359a-c2c9-449d-a16a-3c02e56d0619",
+        "isCommented": false,
+        "params": {
+          "required": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": true
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "localFolder"
+      },
+      {
+        "action": "setprop",
+        "function": "setReadOnly",
+        "id": "836dcc20-64d1-42a8-8ead-4c2cebf655d6",
+        "isCommented": true,
+        "params": {
+          "readOnly": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": true
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "statusCd"
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "b5ba5703-9418-493b-b92e-205d70e5e31a",
+        "includeElse": false,
+        "isCommented": false,
+        "main": "e1049a5a-f03e-439b-813d-e14397fcdf02",
+        "test": {
+          "datatype": "boolean",
+          "name": "isLocal",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "setFilterDependsOn",
+        "id": "6410388a-084e-4996-aadb-491174d1f973",
+        "library": "$interactions$",
+        "params": {}
+      },
+      {
+        "action": "execfunc",
+        "function": "setFilterNeededBy",
+        "id": "d3cac9b5-36a1-4440-a87f-49380a2a0742",
+        "library": "$interactions$",
+        "params": {}
+      },
+      {
+        "action": "execfunc",
+        "function": "setScreenReadOnly",
+        "id": "73fef486-46a5-4c3b-a5f0-ec5e599f7117",
+        "library": "$interactions$",
+        "params": {}
+      },
+      {
+        "action": "execfunc",
+        "function": "onNameChange",
+        "id": "4280b436-102b-4357-ae6b-e1411d7e5b1a",
+        "library": "$interactions$",
+        "params": {
+          "input_value": {
+            "datatype": "text",
+            "name": "name",
+            "objectType": "CodeLibrary",
+            "scope": "field",
+            "set-field": "name",
+            "target": "$self$"
+          }
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setActiveTabName",
+        "id": "a8f738ae-39b9-49aa-8f53-064b7539c147",
+        "isCommented": false,
+        "params": {
+          "activeTabName": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "branchDetails"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "Accordion"
+      }
+    ],
+    "sasProvided": true
+  },
+  "onGitBranchChange": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_value"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "d4147c1f-69ab-48e3-a160-baf8f6deab0c",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "latest"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "gitCommit",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "gitCommit",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setValue",
+        "id": "56d37f24-1221-4459-a41f-efc7148d719c",
+        "params": {
+          "overrideValue": {
+            "datatype": "text",
+            "name": "gitCommit",
+            "objectType": "CodeLibrary",
+            "scope": "field",
+            "set-field": "gitCommit",
+            "target": "$self$"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "gitCommit"
+      }
+    ],
+    "sasProvided": true
+  },
+  "onGitCommitChange": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_value"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "b85a7579-401b-4c08-80b2-770585c8f20a",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": ""
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "empty_string",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setValue",
+        "id": "5c3a74d4-ab71-4fa3-b813-7bf6fe80b028",
+        "params": {
+          "overrideValue": {
+            "datatype": "text",
+            "name": "empty_string",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "gitCommit"
+      }
+    ],
+    "sasProvided": true
+  },
+  "onGitOriginChange": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_value"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "15936454-231d-407e-a359-ab7815752e20",
+        "isCommented": false,
+        "type": "variable",
+        "value": {
+          "datatype": "text",
+          "name": "gitOrigin",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "gitOrigin",
+          "target": "$self$"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "originType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setActiveLayoutName",
+        "id": "477c577e-9ea2-4082-87e6-543ef0550765",
+        "isCommented": false,
+        "params": {
+          "activeTab": {
+            "datatype": "text",
+            "name": "gitOrigin",
+            "objectType": "CodeLibrary",
+            "scope": "field",
+            "set-field": "gitOrigin",
+            "target": "$self$"
+          }
+        },
+        "widgetId": "git_origin_container"
+      },
+      {
+        "action": "setvar",
+        "id": "8dc09d74-1a07-4c6e-9948-3247a1059f72",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "strEquals",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "originType",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "LOCAL"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isLocal",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "6999637c-4fd2-43b0-a548-26aba508c66a",
+        "includeElse": true,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isLocal",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setRequired",
+        "id": "45bf5e25-39ff-4760-82a2-41533d3caa51",
+        "isCommented": false,
+        "params": {
+          "required": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": true
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "localFolder"
+      },
+      {
+        "action": "setvar",
+        "id": "d528dd74-1421-40c1-961a-2531b13a9257",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "DEV"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "statusCd",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "statusCd",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setReadOnly",
+        "id": "61552f1c-b082-4d24-9a4b-76000698738f",
+        "isCommented": false,
+        "params": {
+          "readOnly": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": true
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "statusCd"
+      },
+      {
+        "action": "ifelse",
+        "id": "b6929d2f-bac8-4da5-bd75-a43bdf2eb071",
+        "includeElse": true,
+        "isCommented": false,
+        "iselse": true,
+        "main": "6999637c-4fd2-43b0-a548-26aba508c66a",
+        "test": {
+          "datatype": "boolean",
+          "name": "isLocal",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setRequired",
+        "id": "e4efc002-8c06-4eac-b1c1-3625705c7bdd",
+        "isCommented": false,
+        "params": {
+          "required": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": false
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "localFolder"
+      },
+      {
+        "action": "setprop",
+        "function": "setReadOnly",
+        "id": "de4e5b35-4abf-4640-8e04-92726f2c089f",
+        "isCommented": false,
+        "params": {
+          "readOnly": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": false
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "statusCd"
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "9dda4c7d-4e53-478f-8424-9dd3f3b8da97",
+        "includeElse": true,
+        "isCommented": false,
+        "main": "6999637c-4fd2-43b0-a548-26aba508c66a",
+        "test": {
+          "datatype": "boolean",
+          "name": "isLocal",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onGitRepoNameChange": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_value"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "6021ec3d-d6ac-4e4a-a36d-56026fc88e25",
+        "type": "calculated",
+        "value": {
+          "function": "indexOf",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "text array",
+              "name": "solutionRepoNames",
+              "scope": "global"
+            },
+            "value": {
+              "datatype": "text",
+              "name": "gitRepoName",
+              "objectType": "CodeLibrary",
+              "scope": "field",
+              "set-field": "gitRepoName",
+              "target": "$self$"
+            }
+          },
+          "returnType": "numeric"
+        },
+        "variable": {
+          "datatype": "numeric",
+          "name": "repoNameIndex",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "150a8965-4b52-4682-988c-7342e21c19fe",
+        "type": "calculated",
+        "value": {
+          "function": "get",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "text array",
+              "name": "solutionRepoUrls",
+              "scope": "global"
+            },
+            "index": {
+              "datatype": "numeric",
+              "name": "repoNameIndex",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "gitRepoURL",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "gitRepoURL",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setLinkText",
+        "id": "2a6b0e6d-7dc2-4f2b-9bdc-e53698bd3997",
+        "params": {
+          "linkText": {
+            "datatype": "text",
+            "name": "gitRepoURL",
+            "objectType": "CodeLibrary",
+            "scope": "field",
+            "set-field": "gitRepoURL",
+            "target": "$self$"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "gitRepoURL"
+      },
+      {
+        "action": "setprop",
+        "function": "setLinkUrl",
+        "id": "7cd4e584-e069-48c2-a6bb-c89ba2e7d458",
+        "params": {
+          "linkUrl": {
+            "datatype": "text",
+            "name": "gitRepoURL",
+            "objectType": "CodeLibrary",
+            "scope": "field",
+            "set-field": "gitRepoURL",
+            "target": "$self$"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "gitRepoURL"
+      },
+      {
+        "action": "setvar",
+        "id": "e1927983-8aa1-4613-ba35-9861ed7c1bf2",
+        "type": "calculated",
+        "value": {
+          "function": "getRepoBranches",
+          "library": "CirrusLibCirrusCoreCodeLibrary",
+          "params": {
+            "repoName": {
+              "datatype": "text",
+              "name": "gitRepoName",
+              "objectType": "CodeLibrary",
+              "scope": "field",
+              "set-field": "gitRepoName",
+              "target": "$self$"
+            }
+          },
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "branchNames",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "filterValues",
+        "id": "e806340a-5893-4a9e-9584-d7e8871bd623",
+        "params": {
+          "filteredValues": {
+            "datatype": "text array",
+            "name": "branchNames",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "gitBranch"
+      },
+      {
+        "action": "setvar",
+        "id": "e0fb977e-125b-46cd-848e-ca82f75f81b7",
+        "type": "calculated",
+        "value": {
+          "function": "get",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "text array",
+              "name": "branchNames",
+              "scope": "local"
+            },
+            "index": {
+              "datatype": "numeric",
+              "scope": "fixed",
+              "value": 0
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "gitBranch",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "gitBranch",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "2d88c7d8-c934-462c-a90a-4871f5b3b05a",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "latest"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "gitCommit",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "gitCommit",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setValue",
+        "id": "bf0901d8-0995-425b-91ae-2135ff07fe5d",
+        "params": {
+          "overrideValue": {
+            "datatype": "text",
+            "name": "gitCommit",
+            "objectType": "CodeLibrary",
+            "scope": "field",
+            "set-field": "gitCommit",
+            "target": "$self$"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "gitCommit"
+      }
+    ],
+    "sasProvided": true
+  },
+  "onNameChange": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_value"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "2b48a0c9-df35-4c6b-bb5f-6242ed470f4d",
+        "type": "calculated",
+        "value": {
+          "function": "getLocalisedObjectType",
+          "library": "$interactions$",
+          "params": {},
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "17fd1784-2848-4fd0-beaa-512794e63e8a",
+        "type": "calculated",
+        "value": {
+          "function": "concat",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": ": "
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "name_str",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "766fc5c4-ae4f-43bd-a9c2-b1edd5d8ee37",
+        "type": "calculated",
+        "value": {
+          "function": "concat",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "name_str",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "name": "input_value",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "name_readonly",
+          "scope": "data",
+          "target": "$self$"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onRemoveDependsOnLibraries": {
+    "inputs": [
+      {
+        "datatype": "text array",
+        "name": "input_added"
+      },
+      {
+        "datatype": "text array",
+        "name": "input_removedNow"
+      },
+      {
+        "datatype": "text array",
+        "name": "input_removedEarlier"
+      }
+    ],
+    "logic": [
+      {
+        "action": "execfunc",
+        "function": "setFilterNeededBy",
+        "id": "c1834040-597f-44d0-8620-306bc62cb4c7",
+        "library": "$interactions$",
+        "params": {}
+      }
+    ],
+    "sasProvided": true
+  },
+  "onRemovedNeededByLibraries": {
+    "inputs": [
+      {
+        "datatype": "text array",
+        "name": "input_added"
+      },
+      {
+        "datatype": "text array",
+        "name": "input_removedNow"
+      },
+      {
+        "datatype": "text array",
+        "name": "input_removedEarlier"
+      }
+    ],
+    "logic": [
+      {
+        "action": "execfunc",
+        "function": "setFilterDependsOn",
+        "id": "0bd15589-d3de-4c90-89b4-afbfc1e459ef",
+        "library": "$interactions$",
+        "params": {}
+      }
+    ],
+    "sasProvided": true
+  },
+  "onSave": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "execfunc",
+        "function": "clearPopups",
+        "id": "3748a343-f37a-40cd-8e39-5984eaca4964",
+        "library": "CirrusLibPage",
+        "params": {}
+      },
+      {
+        "action": "execfunc",
+        "function": "showLoadingOverlay",
+        "id": "a2fd1542-a943-4e8a-a072-1ff59ec4773d",
+        "library": "CirrusLibPage",
+        "params": {}
+      },
+      {
+        "action": "setvar",
+        "id": "450df4b9-3937-4f27-a500-c8121591bbe4",
+        "type": "calculated",
+        "value": {
+          "function": "isEmpty",
+          "library": "CirrusLibString",
+          "params": {
+            "string": {
+              "datatype": "text",
+              "name": "gitCommit",
+              "objectType": "CodeLibrary",
+              "scope": "field",
+              "set-field": "gitCommit",
+              "target": "$self$"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isGitCommitEmpty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "730e2ef9-1bfd-44cd-8e46-b15e33c60efe",
+        "test": {
+          "datatype": "boolean",
+          "name": "isGitCommitEmpty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "1105ad18-9417-4a83-9059-6cf273c686c9",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "latest"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "gitCommit",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "gitCommit",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "9d797fe1-f2a0-4e43-ad97-94052f505167",
+        "main": "730e2ef9-1bfd-44cd-8e46-b15e33c60efe",
+        "test": {
+          "datatype": "boolean",
+          "name": "isGitCommitEmpty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "e2b36fc0-11f6-4148-acc6-d7737b4662fb",
+        "type": "calculated",
+        "value": {
+          "function": "isProdUpdateNeeded",
+          "library": "CirrusLibCirrusCoreCodeLibrary",
+          "params": {},
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isProdStatusUpdateNeeded",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "b89741f0-ddf2-48b5-8273-6e24003644a3",
+        "includeElse": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isProdStatusUpdateNeeded",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "48db4219-88ae-420f-bb07-0859ca3a3629",
+        "type": "calculated",
+        "value": {
+          "function": "setRepoToCommit",
+          "library": "CirrusLibCirrusCoreCodeLibrary",
+          "params": {
+            "branchName": {
+              "datatype": "text",
+              "name": "gitBranch",
+              "objectType": "CodeLibrary",
+              "scope": "field",
+              "set-field": "gitBranch",
+              "target": "$self$"
+            },
+            "commitId": {
+              "datatype": "text",
+              "name": "gitCommit",
+              "objectType": "CodeLibrary",
+              "scope": "field",
+              "set-field": "gitCommit",
+              "target": "$self$"
+            },
+            "objectId": {
+              "datatype": "text",
+              "name": "objectId",
+              "objectType": "CodeLibrary",
+              "scope": "field",
+              "set-field": "objectId",
+              "target": "$self$"
+            },
+            "repoName": {
+              "datatype": "text",
+              "name": "gitRepoName",
+              "objectType": "CodeLibrary",
+              "scope": "field",
+              "set-field": "gitRepoName",
+              "target": "$self$"
+            },
+            "sourceSystemCd": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "RCC"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "gitCommit",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "gitCommit",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setValue",
+        "id": "75668700-ce1e-4eaa-89ba-91d51a7470c9",
+        "params": {
+          "overrideValue": {
+            "datatype": "text",
+            "name": "gitCommit",
+            "objectType": "CodeLibrary",
+            "scope": "field",
+            "set-field": "gitCommit",
+            "target": "$self$"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "gitCommit"
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "1ff01ad4-2cae-48cb-9ec5-3c22318ac2a3",
+        "includeElse": false,
+        "main": "b89741f0-ddf2-48b5-8273-6e24003644a3",
+        "test": {
+          "datatype": "boolean",
+          "name": "isProdStatusUpdateNeeded",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "3e1b06cf-f5b7-40f3-9404-1dba93451775",
+        "type": "calculated",
+        "value": {
+          "function": "getAllData",
+          "library": "CirrusLibPageData",
+          "params": {},
+          "returnType": "All Data"
+        },
+        "variable": {
+          "datatype": "All Data",
+          "name": "data",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "25a812c6-1ecf-4568-8eb8-40971f79010f",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "CodeLibrary"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "63b71551-5558-4cf5-ae49-9ba8b5cf3ccb",
+        "type": "calculated",
+        "value": {
+          "function": "isDraftObject",
+          "library": "CirrusLibCirrusObject",
+          "params": {},
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isDraft",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "79f7dfb0-cf27-4b24-82d0-31093327c6eb",
+        "type": "calculated",
+        "value": {
+          "function": "validateFields",
+          "library": "CirrusLibPageData",
+          "params": {},
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "areRequiredFieldsEmpty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "77ee1938-8f93-4499-957a-ade0ab658d7f",
+        "includeElse": true,
+        "test": {
+          "datatype": "boolean",
+          "name": "areRequiredFieldsEmpty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "79d211b4-4e5f-49e1-9a4d-66318f1b2619",
+        "includeElse": true,
+        "iselse": true,
+        "main": "77ee1938-8f93-4499-957a-ade0ab658d7f",
+        "test": {
+          "datatype": "boolean",
+          "name": "areRequiredFieldsEmpty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Clear out the remote/local fields depending on the git origin.  We do this in the onSave interaction instead of on git origin change so if a user accidentally switches to local and then wants to switch back to remote right away, they don't lose their changes.",
+        "id": "179a75e6-9337-43ca-9da3-d7825a11f8d7",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "8bdb27ab-ed0b-4a95-a7ea-543ca95ef468",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "strEquals",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "gitOrigin",
+              "objectType": "CodeLibrary",
+              "scope": "field",
+              "set-field": "gitOrigin",
+              "target": "$self$"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "REMOTE"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isGitOriginRemote",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "log",
+        "id": "a5095428-57a8-4244-af3d-571fbdd0a178",
+        "isCommented": false,
+        "library": "CirrusLibDebugging",
+        "params": {
+          "prefix": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "isGitOriginRemote: "
+          },
+          "variable": {
+            "datatype": "boolean",
+            "name": "isGitOriginRemote",
+            "scope": "local"
+          }
+        },
+        "returnType": "boolean"
+      },
+      {
+        "action": "ifelse",
+        "id": "af39e2b5-17f5-49a8-9c89-538f851cff1e",
+        "includeElse": true,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isGitOriginRemote",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "fc70f44c-d932-4214-a54f-041b62a3660e",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": ""
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "localFolder",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "localFolder",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "1a799be2-a05b-49f8-adc1-30911aa914b9",
+        "includeElse": true,
+        "isCommented": false,
+        "iselse": true,
+        "main": "af39e2b5-17f5-49a8-9c89-538f851cff1e",
+        "test": {
+          "datatype": "boolean",
+          "name": "isGitOriginRemote",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "9fae3381-5bc6-42b6-82ef-e29a1d0385e2",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": ""
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "gitRepoName",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "gitRepoName",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "21aa1862-f28f-4eda-aade-6792249f7b20",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": ""
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "gitBranch",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "gitBranch",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "a516220f-7870-4a1b-99e7-996392c325e0",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": ""
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "gitCommit",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "gitCommit",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "b83cc041-e085-418a-a428-c6ead9dc9190",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": ""
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "gitRepoURL",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "gitRepoURL",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "04f97748-102d-41cf-b2b7-2c609dd80cc8",
+        "includeElse": true,
+        "isCommented": false,
+        "main": "af39e2b5-17f5-49a8-9c89-538f851cff1e",
+        "test": {
+          "datatype": "boolean",
+          "name": "isGitOriginRemote",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "dispatch",
+        "id": "16abc673-c573-4dc7-830a-6b6f149415eb",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "700c5ed2-d491-4087-b129-5ae70c9c15b3",
+        "type": "calculated",
+        "value": {
+          "function": "getAllData",
+          "library": "CirrusLibPageData",
+          "params": {},
+          "returnType": "All Data"
+        },
+        "variable": {
+          "datatype": "All Data",
+          "name": "data",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Continue with saving",
+        "id": "4a3a2048-ebf5-4246-87a6-b11f8d6a249a",
+        "isCommented": false
+      },
+      {
+        "action": "ifelse",
+        "id": "69520823-69f5-4aa7-bbf7-a54415a82bf7",
+        "includeElse": true,
+        "test": {
+          "datatype": "boolean",
+          "name": "isDraft",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "4646d144-610b-4141-91fa-df3edb606038",
+        "type": "fixed",
+        "value": {
+          "datatype": "boolean",
+          "dataval": true
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "true",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setReadOnly",
+        "id": "7f167f1b-e495-4f4d-9fef-dbfe8298a823",
+        "params": {
+          "readOnly": {
+            "datatype": "boolean",
+            "name": "true",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "objectId"
+      },
+      {
+        "action": "setvar",
+        "id": "31858a68-b7d2-4b16-ac3b-c408564c5189",
+        "type": "calculated",
+        "value": {
+          "function": "saveDraft",
+          "library": "CirrusLibCirrusObject",
+          "params": {
+            "data": {
+              "datatype": "All Data",
+              "name": "data",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "newKey",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "8a6f5f5c-ff3b-47f9-915d-cc89b6807331",
+        "type": "calculated",
+        "value": {
+          "function": "toString",
+          "library": "CirrusLibString",
+          "params": {
+            "value": {
+              "datatype": "text",
+              "name": "newKey",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "toStringNewKey",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "a5fa2d3c-3505-45d0-be9b-bc97386c6d4d",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "false"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "falseString",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "ce5898f2-ecc3-44c8-a16d-7b27403d8d12",
+        "type": "calculated",
+        "value": {
+          "function": "strEquals",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "toStringNewKey",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "name": "falseString",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isKeyFalse",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "face0ab4-3500-4333-a804-d3e6baaa10ba",
+        "includeElse": true,
+        "test": {
+          "datatype": "boolean",
+          "name": "isKeyFalse",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "40e3a226-c7be-4b76-9bd9-bb96c30fc8d2",
+        "includeElse": true,
+        "iselse": true,
+        "main": "face0ab4-3500-4333-a804-d3e6baaa10ba",
+        "test": {
+          "datatype": "boolean",
+          "name": "isKeyFalse",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "0fbbe199-f0da-4099-aca9-6f82731308ed",
+        "type": "calculated",
+        "value": {
+          "function": "getEditLocation",
+          "library": "CirrusLibNav",
+          "params": {
+            "key": {
+              "datatype": "text",
+              "name": "newKey",
+              "scope": "local"
+            },
+            "objectType": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "newLocation",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "a183a299-8718-456b-9ccf-3f7f487c0611",
+        "type": "fixed",
+        "value": {
+          "datatype": "boolean",
+          "dataval": true
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "replaceInBrowser",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "navigate",
+        "id": "31b56e22-9610-45a8-88af-ea9b7c26b46c",
+        "library": "CirrusLibNav",
+        "params": {
+          "location": {
+            "datatype": "text",
+            "name": "newLocation",
+            "scope": "local"
+          },
+          "replace": {
+            "datatype": "boolean",
+            "name": "replaceInBrowser",
+            "scope": "local"
+          }
+        },
+        "returnType": "text"
+      },
+      {
+        "action": "execfunc",
+        "function": "showSuccess",
+        "id": "fefab896-acdc-42dc-9951-79fc9f0cb0ea",
+        "library": "CirrusLibPage",
+        "params": {}
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "21953617-0370-40cc-b0d1-125e24f4185b",
+        "includeElse": true,
+        "main": "face0ab4-3500-4333-a804-d3e6baaa10ba",
+        "test": {
+          "datatype": "boolean",
+          "name": "isKeyFalse",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "f0ac73ed-78d1-4e0f-9aa1-a35e066ea863",
+        "includeElse": true,
+        "iselse": true,
+        "main": "69520823-69f5-4aa7-bbf7-a54415a82bf7",
+        "test": {
+          "datatype": "boolean",
+          "name": "isDraft",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "fc5a36bd-28cc-44ec-a690-5bc29ac35276",
+        "type": "calculated",
+        "value": {
+          "function": "saveObject",
+          "library": "CirrusLibCirrusObject",
+          "params": {
+            "data": {
+              "datatype": "All Data",
+              "name": "data",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "saveSuccessful",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "fc2dfb58-f836-45a8-a385-7fe3756de2d5",
+        "test": {
+          "datatype": "boolean",
+          "name": "saveSuccessful",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "834f1fa2-d2ad-4706-a0e3-a643bc64433f",
+        "type": "calculated",
+        "value": {
+          "function": "getCurrentObjectKey",
+          "library": "CirrusLibPageData",
+          "params": {},
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "instanceKey",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "onEditLoad",
+        "id": "0261ae36-77fe-484e-bdd3-8bd4c26569bc",
+        "library": "$interactions$",
+        "params": {
+          "input_key": {
+            "datatype": "text",
+            "name": "instanceKey",
+            "scope": "local"
+          }
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "showSuccess",
+        "id": "6b2c4c56-a05a-4a97-97ce-25cec9e8efa5",
+        "library": "CirrusLibPage",
+        "params": {}
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "0a91648d-8542-401f-8e28-4065ed9b1c1d",
+        "main": "fc2dfb58-f836-45a8-a385-7fe3756de2d5",
+        "test": {
+          "datatype": "boolean",
+          "name": "saveSuccessful",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "bfae34cb-ee92-4945-ae56-2432def6ab19",
+        "includeElse": true,
+        "main": "69520823-69f5-4aa7-bbf7-a54415a82bf7",
+        "test": {
+          "datatype": "boolean",
+          "name": "isDraft",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "6fa22f4c-0505-40bb-ba89-1deb1e105b22",
+        "includeElse": true,
+        "main": "77ee1938-8f93-4499-957a-ade0ab658d7f",
+        "test": {
+          "datatype": "boolean",
+          "name": "areRequiredFieldsEmpty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "hideLoadingOverlay",
+        "id": "1ae963a9-f24b-438c-953b-8934da91ce67",
+        "library": "CirrusLibPage",
+        "params": {}
+      }
+    ],
+    "sasProvided": true
+  },
+  "onStatusChange": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_value"
+      }
+    ],
+    "logic": [
+      {
+        "action": "execfunc",
+        "function": "setScreenReadOnly",
+        "id": "75ad0c8e-d1a8-490d-b083-91053d953d91",
+        "isCommented": false,
+        "library": "$interactions$",
+        "params": {}
+      }
+    ],
+    "sasProvided": true
+  },
+  "onTabClose": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "901e6e0d-4a79-4378-adac-e3af6bf91cbd",
+        "type": "calculated",
+        "value": {
+          "function": "getDiffJSONPatch",
+          "library": "CirrusLibPageData",
+          "params": {},
+          "returnType": "Patch array"
+        },
+        "variable": {
+          "datatype": "Patch array",
+          "name": "patch",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "fc561f68-9999-4d13-9f5b-cadb413898d1",
+        "type": "calculated",
+        "value": {
+          "function": "isObjectPageDirty",
+          "library": "CirrusLibCirrusObject",
+          "params": {
+            "patch": {
+              "datatype": "Patch array",
+              "name": "patch",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isDirty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "48306e4c-148d-4483-8f3f-cc79400e5e6b",
+        "includeElse": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isDirty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "b1681ee5-b7e4-4231-9049-92878f6a4154",
+        "type": "calculated",
+        "value": {
+          "datatype": "boolean",
+          "function": "promptForConfirmNavigation",
+          "library": "CirrusLibPage",
+          "params": {},
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "closeAnyway",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "returnvar",
+        "id": "35093d02-0d03-41e2-8112-495a52930539",
+        "variable": {
+          "datatype": "boolean",
+          "name": "closeAnyway",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "e5720658-b0f7-46b7-96f0-6a72e846723c",
+        "includeElse": false,
+        "main": "48306e4c-148d-4483-8f3f-cc79400e5e6b",
+        "test": {
+          "datatype": "boolean",
+          "name": "isDirty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "18ee5fad-cce7-4efc-8cc6-707afb8981b5",
+        "type": "calculated",
+        "value": {
+          "function": "not",
+          "library": "CirrusLibBoolean",
+          "params": {
+            "bool": {
+              "datatype": "boolean",
+              "name": "isDirty",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "canClose",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "returnvar",
+        "id": "7125c687-17a3-4f28-aefa-7f5ca3b56534",
+        "variable": {
+          "datatype": "boolean",
+          "name": "canClose",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "setDefaultName": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_value"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "14f21d6d-5824-40bf-8534-b8e556e8e9a4",
+        "shouldSkip": false,
+        "type": "calculated",
+        "value": {
+          "function": "toBoolean",
+          "library": "CirrusLibBoolean",
+          "params": {
+            "value": {
+              "datatype": "text",
+              "name": "name",
+              "objectType": "CodeLibrary",
+              "scope": "field",
+              "set-field": "name",
+              "target": "$self$"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isNameSet",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "cac3aea0-69cb-4097-b9d8-45c6902fff03",
+        "shouldSkip": false,
+        "type": "calculated",
+        "value": {
+          "datatype": "boolean",
+          "function": "not",
+          "library": "CirrusLibBoolean",
+          "params": {
+            "bool": {
+              "datatype": "boolean",
+              "name": "isNameSet",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isNameSet",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "8d125796-ef25-41ef-a04b-1988feb07f8b",
+        "shouldSkip": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isNameSet",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "e04658cd-e5ab-4c02-8747-8a4f377e9dff",
+        "shouldSkip": false,
+        "type": "calculated",
+        "value": {
+          "function": "getLocalisedObjectType",
+          "library": "$interactions$",
+          "params": {},
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "177d63db-cdae-4a58-8e4b-32b04dcabd49",
+        "shouldSkip": false,
+        "type": "calculated",
+        "value": {
+          "function": "concat",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": ":"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "name_str",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "4a0fe272-8ba7-4d52-a778-c948df0bc8ba",
+        "shouldSkip": false,
+        "type": "calculated",
+        "value": {
+          "function": "concat",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "name_str",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "name": "input_value",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "name_readonly",
+          "scope": "data",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "f3544409-1907-46d9-903a-cca629b133c1",
+        "shouldSkip": false,
+        "type": "variable",
+        "value": {
+          "datatype": "text",
+          "name": "input_value",
+          "scope": "local"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "name",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "name",
+          "target": "$self$"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "051438e4-c8eb-4d8d-8a07-16c8fdb91a87",
+        "main": "8d125796-ef25-41ef-a04b-1988feb07f8b",
+        "shouldSkip": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isNameSet",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "setFilterDependsOn": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "a2e8c874-6e49-48fe-9b15-c4d0a6c14a0f",
+        "type": "calculated",
+        "value": {
+          "function": "getCurrentObjectKey",
+          "library": "CirrusLibPageData",
+          "params": {},
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectKey",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "c32144e9-fbfa-47ff-a26f-f326a0a27c96",
+        "type": "calculated",
+        "value": {
+          "function": "getLinkedObjectKeysFromField",
+          "library": "CirrusLibCirrusObjectLinkInstance",
+          "params": {
+            "fieldName": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "core_neededBy_CodeLibraries"
+            },
+            "side": {
+              "datatype": "numeric",
+              "scope": "fixed",
+              "value": 2
+            }
+          },
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "neededByObjectKeys",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "push",
+        "id": "213e2648-06f8-411f-9fe3-cb846960b710",
+        "library": "CirrusLibArray",
+        "params": {
+          "array": {
+            "datatype": "text array",
+            "name": "neededByObjectKeys",
+            "scope": "local"
+          },
+          "value": {
+            "datatype": "text",
+            "name": "objectKey",
+            "scope": "local"
+          }
+        },
+        "returnType": "numeric"
+      },
+      {
+        "action": "setvar",
+        "id": "1a7fb395-fcc7-4646-9685-7b5fb84f4b4d",
+        "type": "calculated",
+        "value": {
+          "function": "join",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "text array",
+              "name": "neededByObjectKeys",
+              "scope": "local"
+            },
+            "separator": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "\",\""
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "neededByObjectKeysStr",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "50a0d18e-b286-4545-bd98-39e117afc023",
+        "type": "calculated",
+        "value": {
+          "function": "addVarToMap",
+          "library": "CirrusLibStringTemplate",
+          "params": {
+            "varMap": {
+              "datatype": "text",
+              "name": "localVars",
+              "scope": "local"
+            },
+            "varName1": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "neededByObjectKeysStr"
+            },
+            "varValue1": {
+              "datatype": "text",
+              "name": "neededByObjectKeysStr",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "localVars",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "3b9b8cf5-a70a-4aa7-8981-3073c4b7498f",
+        "type": "calculated",
+        "value": {
+          "function": "resolveTemplate",
+          "library": "CirrusLibStringTemplate",
+          "params": {
+            "stringTemplate": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "not(in(key,\"${local:neededByObjectKeysStr}\"))"
+            },
+            "varMap": {
+              "datatype": "text",
+              "name": "localVars",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "filter",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setFilter",
+        "id": "a6055c97-34ac-42d7-a9bd-027c75409eac",
+        "params": {
+          "filter": {
+            "datatype": "text",
+            "name": "filter",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "core_dependsOn_CodeLibraries"
+      }
+    ],
+    "sasProvided": true
+  },
+  "setFilterNeededBy": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "a2e8c874-6e49-48fe-9b15-c4d0a6c14a0f",
+        "type": "calculated",
+        "value": {
+          "function": "getCurrentObjectKey",
+          "library": "CirrusLibPageData",
+          "params": {},
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectKey",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "c32144e9-fbfa-47ff-a26f-f326a0a27c96",
+        "type": "calculated",
+        "value": {
+          "function": "getLinkedObjectKeysFromField",
+          "library": "CirrusLibCirrusObjectLinkInstance",
+          "params": {
+            "fieldName": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "core_dependsOn_CodeLibraries"
+            },
+            "side": {
+              "datatype": "numeric",
+              "scope": "fixed",
+              "value": 1
+            }
+          },
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "dependsOnObjectKeys",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "push",
+        "id": "213e2648-06f8-411f-9fe3-cb846960b710",
+        "library": "CirrusLibArray",
+        "params": {
+          "array": {
+            "datatype": "text array",
+            "name": "dependsOnObjectKeys",
+            "scope": "local"
+          },
+          "value": {
+            "datatype": "text",
+            "name": "objectKey",
+            "scope": "local"
+          }
+        },
+        "returnType": "numeric"
+      },
+      {
+        "action": "setvar",
+        "id": "1a7fb395-fcc7-4646-9685-7b5fb84f4b4d",
+        "type": "calculated",
+        "value": {
+          "function": "join",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "text array",
+              "name": "dependsOnObjectKeys",
+              "scope": "local"
+            },
+            "separator": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "\",\""
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "dependsOnObjectKeysStr",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "50a0d18e-b286-4545-bd98-39e117afc023",
+        "type": "calculated",
+        "value": {
+          "function": "addVarToMap",
+          "library": "CirrusLibStringTemplate",
+          "params": {
+            "varName1": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "dependsOnObjectKeysStr"
+            },
+            "varValue1": {
+              "datatype": "text",
+              "name": "dependsOnObjectKeysStr",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "localVars",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "3b9b8cf5-a70a-4aa7-8981-3073c4b7498f",
+        "type": "calculated",
+        "value": {
+          "function": "resolveTemplate",
+          "library": "CirrusLibStringTemplate",
+          "params": {
+            "stringTemplate": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "not(in(key,\"${local:dependsOnObjectKeysStr}\"))"
+            },
+            "varMap": {
+              "datatype": "text",
+              "name": "localVars",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "filter",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setFilter",
+        "id": "a6055c97-34ac-42d7-a9bd-027c75409eac",
+        "params": {
+          "filter": {
+            "datatype": "text",
+            "name": "filter",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "core_neededBy_CodeLibraries"
+      }
+    ],
+    "sasProvided": true
+  },
+  "setReadOnlyFields": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "0eab02de-be8c-43b6-bf8c-2cb2958ecfbd",
+        "type": "fixed",
+        "value": {
+          "datatype": "boolean",
+          "dataval": true
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "true",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "setRequiredFields": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "2169210a-3858-4e91-9813-0e3a31ee708b",
+        "type": "fixed",
+        "value": {
+          "datatype": "boolean",
+          "dataval": true
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isRequiredAlways",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setRequired",
+        "id": "5f10c63f-00ef-4929-bc15-fbf6f983e360",
+        "params": {
+          "required": {
+            "datatype": "boolean",
+            "name": "isRequiredAlways",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "objectId"
+      },
+      {
+        "action": "setprop",
+        "function": "setRequired",
+        "id": "d8dc074a-e880-4cc2-9a74-06a0e1e3bd6d",
+        "params": {
+          "required": {
+            "datatype": "boolean",
+            "name": "isRequiredAlways",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "name"
+      },
+      {
+        "action": "setprop",
+        "function": "setRequired",
+        "id": "b7f0550a-9c0f-43f1-b307-ecbc0ffb9248",
+        "params": {
+          "required": {
+            "datatype": "boolean",
+            "name": "isRequiredAlways",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "statusCd"
+      },
+      {
+        "action": "setprop",
+        "function": "setRequired",
+        "id": "72411c67-8a47-4eab-bb56-e1b6916563c1",
+        "params": {
+          "required": {
+            "datatype": "boolean",
+            "name": "isRequiredAlways",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "gitRepoName"
+      },
+      {
+        "action": "setprop",
+        "function": "setRequired",
+        "id": "0b1447e3-98d9-4c28-8bfb-07f88558ec21",
+        "params": {
+          "required": {
+            "datatype": "boolean",
+            "name": "isRequiredAlways",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "gitBranch"
+      }
+    ],
+    "sasProvided": true
+  },
+  "setScreenReadOnly": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "bdbaddc5-b9c4-4282-b9d5-64f947b10e8d",
+        "type": "variable",
+        "value": {
+          "datatype": "text",
+          "name": "statusCd",
+          "objectType": "CodeLibrary",
+          "scope": "field",
+          "set-field": "statusCd",
+          "target": "$self$"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "statusVal",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "458631c9-8a63-4033-9ec9-511706ef1f90",
+        "type": "calculated",
+        "value": {
+          "function": "strEquals",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "statusVal",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "PROD"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isProduction",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "log",
+        "id": "97d294e4-3fb2-4b7c-8d10-b5b59b1a3409",
+        "isCommented": false,
+        "library": "CirrusLibDebugging",
+        "params": {
+          "prefix": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "isProduction: "
+          },
+          "variable": {
+            "datatype": "boolean",
+            "name": "isProduction",
+            "scope": "local"
+          }
+        },
+        "returnType": "boolean"
+      },
+      {
+        "action": "ifelse",
+        "id": "ec8eebc7-45c6-481a-b32c-0dc04d2660eb",
+        "includeElse": true,
+        "test": {
+          "datatype": "boolean",
+          "name": "isProduction",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setReadOnly",
+        "id": "4c527a5b-67c6-45e5-8dec-e15f31207bc8",
+        "isCommented": false,
+        "params": {
+          "readOnly": {
+            "datatype": "boolean",
+            "name": "isProduction",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "main_tabs"
+      },
+      {
+        "action": "setprop",
+        "function": "setReadOnly",
+        "id": "1f04e0eb-1fb9-4d7a-8154-740488d6845a",
+        "isCommented": false,
+        "params": {
+          "readOnly": {
+            "datatype": "boolean",
+            "name": "isProduction",
+            "scope": "local"
+          }
+        },
+        "widgetId": "git_origin_container"
+      },
+      {
+        "action": "setvar",
+        "id": "0a7b0fb3-b1f6-4556-a6f1-ef4419f6a0d5",
+        "type": "calculated",
+        "value": {
+          "function": "getLinkTypeObjectsKeys",
+          "library": "CirrusLibCirrusObjectLinkInstance",
+          "params": {
+            "linkTypeId": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "cycle_codeLibrary"
+            },
+            "side": {
+              "datatype": "numeric",
+              "scope": "fixed",
+              "value": 1
+            }
+          },
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "linkedCycles",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "f5ca22bc-f4ec-41bf-b8d0-9e4265c27a3f",
+        "type": "calculated",
+        "value": {
+          "function": "hasAnyItems",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "text array",
+              "name": "linkedCycles",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "linkedToAtLeastOneCycle",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "a5932f12-22f5-49f1-8034-5b6103608ae9",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getLinkTypeObjectsKeys",
+          "library": "CirrusLibCirrusObjectLinkInstance",
+          "params": {
+            "linkTypeId": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "analysisRun_codeLibrary"
+            },
+            "side": {
+              "datatype": "numeric",
+              "scope": "fixed",
+              "value": 1
+            }
+          },
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "linkedAnalysisRuns",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "29cfe203-5678-480f-9c95-4a9ef1a55ff2",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "hasAnyItems",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "text array",
+              "name": "linkedAnalysisRuns",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "linkedToAtLeastOneAnalysisRun",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "5cf43c24-299b-4b6e-bbb1-16cca2753623",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "and",
+          "library": "CirrusLibBoolean",
+          "params": {
+            "bool1": {
+              "datatype": "boolean",
+              "name": "linkedToAtLeastOneCycle",
+              "scope": "local"
+            },
+            "bool2": {
+              "datatype": "boolean",
+              "name": "linkedToAtLeastOneAnalysisRun",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "linkedToCycleAndAR",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "log",
+        "id": "b61a1595-c2bd-4159-a1c8-dbc45f060f80",
+        "isCommented": false,
+        "library": "CirrusLibDebugging",
+        "params": {
+          "prefix": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "linkedToCycleAndAR"
+          },
+          "variable": {
+            "datatype": "boolean",
+            "name": "linkedToCycleAndAR",
+            "scope": "local"
+          }
+        },
+        "returnType": "boolean"
+      },
+      {
+        "action": "setvar",
+        "id": "7026f2de-e6f4-4e5d-9f43-6ea62eee9c18",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "and",
+          "library": "CirrusLibBoolean",
+          "params": {
+            "bool1": {
+              "datatype": "boolean",
+              "name": "isProduction",
+              "scope": "local"
+            },
+            "bool2": {
+              "datatype": "boolean",
+              "name": "linkedToCycleAndAR",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isLinkedToCycleARandProduction",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "032db765-7d36-4546-bf8c-481867522f43",
+        "test": {
+          "datatype": "boolean",
+          "name": "linkedToCycleAndAR",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "c89792a5-e1a5-4142-b072-47e77b0c04af",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "checkCycleStatuses",
+          "library": "$interactions$",
+          "params": {
+            "input_cycleStatuses": {
+              "datatype": "text array",
+              "name": "linkedCycles",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "cycleStarted",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "log",
+        "id": "60190359-570f-479a-8ac1-87103dc8c86c",
+        "isCommented": false,
+        "library": "CirrusLibDebugging",
+        "params": {
+          "prefix": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "Cycle Started: "
+          },
+          "variable": {
+            "datatype": "boolean",
+            "name": "cycleStarted",
+            "scope": "local"
+          }
+        },
+        "returnType": "boolean"
+      },
+      {
+        "action": "ifelse",
+        "id": "03c11931-a238-4393-b124-74ab94d032c6",
+        "includeElse": false,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "cycleStarted",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setReadOnly",
+        "id": "1b0644db-3c04-49c7-9310-a5213d856cb8",
+        "isCommented": false,
+        "params": {
+          "readOnly": {
+            "datatype": "boolean",
+            "name": "cycleStarted",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "statusCd"
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "57407723-3ffa-4174-8f51-fa91b2adb704",
+        "includeElse": false,
+        "isCommented": false,
+        "main": "03c11931-a238-4393-b124-74ab94d032c6",
+        "test": {
+          "datatype": "boolean",
+          "name": "cycleStarted",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "6af63b00-1983-4b06-87ef-efcca95b16d9",
+        "main": "032db765-7d36-4546-bf8c-481867522f43",
+        "test": {
+          "datatype": "boolean",
+          "name": "linkedToCycleAndAR",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "16eb3b35-f1d9-4119-a5c5-0dbc507d47a5",
+        "includeElse": true,
+        "iselse": true,
+        "main": "ec8eebc7-45c6-481a-b32c-0dc04d2660eb",
+        "test": {
+          "datatype": "boolean",
+          "name": "isProduction",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setReadOnly",
+        "id": "23bd42f3-da99-406c-92b0-572a39db97cc",
+        "isCommented": false,
+        "params": {
+          "readOnly": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": false
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "main_tabs"
+      },
+      {
+        "action": "setprop",
+        "function": "setReadOnly",
+        "id": "1c34e20c-7406-456f-a6d1-a02019134757",
+        "isCommented": false,
+        "params": {
+          "readOnly": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": false
+          }
+        },
+        "widgetId": "git_origin_container"
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "2fa2e9e9-e5bb-4272-97a6-ac8987479a82",
+        "includeElse": true,
+        "main": "ec8eebc7-45c6-481a-b32c-0dc04d2660eb",
+        "test": {
+          "datatype": "boolean",
+          "name": "isProduction",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "c9a5b481-7efb-4cf1-9b9e-744f13647708",
+        "type": "calculated",
+        "value": {
+          "function": "getObjectCapabilities",
+          "library": "CirrusLibCirrusObject",
+          "params": {
+            "objectType": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "CodeLibrary"
+            }
+          },
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "userCapabilities",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "f4b91948-0eea-4ee5-aec0-17a9b45099da",
+        "type": "calculated",
+        "value": {
+          "function": "contains",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "text array",
+              "name": "userCapabilities",
+              "scope": "local"
+            },
+            "value": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "create"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "userCanCreate",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "e002e793-a07f-498e-a31c-d7014aa40b64",
+        "type": "calculated",
+        "value": {
+          "function": "not",
+          "library": "CirrusLibBoolean",
+          "params": {
+            "bool": {
+              "datatype": "boolean",
+              "name": "userCanCreate",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "userCannotCreate",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "1e6926a2-574b-477f-8194-6f1e848f300d",
+        "type": "calculated",
+        "value": {
+          "function": "contains",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "text array",
+              "name": "userCapabilities",
+              "scope": "local"
+            },
+            "value": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "update"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "userCanUpdate",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "096dee61-0935-4bda-b38e-515abf26a9f1",
+        "type": "calculated",
+        "value": {
+          "function": "not",
+          "library": "CirrusLibBoolean",
+          "params": {
+            "bool": {
+              "datatype": "boolean",
+              "name": "userCanUpdate",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "userCannotUpdate",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "f4227119-a8fd-4581-becf-345972b252e9",
+        "type": "calculated",
+        "value": {
+          "function": "isDraftObject",
+          "library": "CirrusLibCirrusObject",
+          "params": {},
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isDraft",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "f680f7f2-da24-46cb-abb5-03f06c40f1a5",
+        "includeElse": true,
+        "test": {
+          "datatype": "boolean",
+          "name": "isDraft",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setReadOnly",
+        "id": "2d875e1e-0fc1-45a0-b081-115bc64fa090",
+        "params": {
+          "readOnly": {
+            "datatype": "boolean",
+            "name": "userCannotCreate",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "instance_details"
+      },
+      {
+        "action": "setprop",
+        "function": "setReadOnly",
+        "id": "b0b33ca5-25fc-4e95-9106-b4b9f8080673",
+        "params": {
+          "readOnly": {
+            "datatype": "boolean",
+            "name": "userCannotCreate",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "main_tabs"
+      },
+      {
+        "action": "ifelse",
+        "id": "f84f6c01-3f48-4bc7-9c0d-db2f8332ee48",
+        "includeElse": true,
+        "iselse": true,
+        "main": "f680f7f2-da24-46cb-abb5-03f06c40f1a5",
+        "test": {
+          "datatype": "boolean",
+          "name": "isDraft",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "8c1da0e0-ba84-4f57-ba2f-320e0e11f669",
+        "test": {
+          "datatype": "boolean",
+          "name": "userCannotUpdate",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setReadOnly",
+        "id": "b32fa9ea-dab5-4914-88cc-f93bb27629b2",
+        "params": {
+          "readOnly": {
+            "datatype": "boolean",
+            "name": "userCannotUpdate",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "statusCd"
+      },
+      {
+        "action": "setprop",
+        "function": "setReadOnly",
+        "id": "9c869a4d-b413-47b1-8bee-02d7f81bd26d",
+        "params": {
+          "readOnly": {
+            "datatype": "boolean",
+            "name": "userCannotUpdate",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "main_tabs"
+      },
+      {
+        "action": "setprop",
+        "function": "setReadOnly",
+        "id": "6f43b96d-09cd-4540-a8ab-5aa9aba41d6a",
+        "params": {
+          "readOnly": {
+            "datatype": "boolean",
+            "name": "userCannotUpdate",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "instance_details"
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "55fe3de3-09d2-4c62-b3bc-7b32d2ab7ab8",
+        "main": "8c1da0e0-ba84-4f57-ba2f-320e0e11f669",
+        "test": {
+          "datatype": "boolean",
+          "name": "userCannotUpdate",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "0dc2dc38-7662-4950-aadb-b15ec271f154",
+        "includeElse": true,
+        "main": "f680f7f2-da24-46cb-abb5-03f06c40f1a5",
+        "test": {
+          "datatype": "boolean",
+          "name": "isDraft",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  }
+}

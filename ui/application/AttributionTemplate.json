@@ -1,0 +1,806 @@
+{
+  "layouts": {
+    "Accordion": {
+      "classifications": {
+        "default": {
+          "h": 210,
+          "i": "default",
+          "minH": 186,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "attribution_template_details": {
+      "details": {}
+    },
+    "attribution_template_tabs": {
+      "tabChangeHistory": {
+        "ChangeHistory": {
+          "h": 236,
+          "i": "ChangeHistory",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tabDetails": {
+        "Image": {
+          "h": 52,
+          "i": "Image",
+          "minH": 1,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 369
+        },
+        "core_DataDefinition_input": {
+          "h": 51,
+          "i": "core_DataDefinition_input",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 199
+        },
+        "core_DataDefinition_output": {
+          "h": 50,
+          "i": "core_DataDefinition_output",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 319
+        },
+        "description": {
+          "h": 89,
+          "i": "description",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 105
+        },
+        "name": {
+          "h": 50,
+          "i": "name",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 52
+        },
+        "objectId": {
+          "h": 50,
+          "i": "objectId",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        },
+        "outputVars": {
+          "h": 281,
+          "i": "outputVars",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 384
+        },
+        "riskScenarioSet": {
+          "h": 50,
+          "i": "riskScenarioSet",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 258
+        },
+        "transferFromLabel": {
+          "h": 50,
+          "i": "transferFromLabel",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 198
+        },
+        "transferToLabel": {
+          "h": 54,
+          "i": "transferToLabel",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 257
+        }
+      },
+      "tabDocumentation": {
+        "additional_comments": {
+          "h": 550,
+          "i": "additional_comments",
+          "minH": 236,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 0
+        },
+        "documentation_attachments": {
+          "h": 286,
+          "i": "documentation_attachments",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 16
+        },
+        "documentation_links": {
+          "h": 241,
+          "i": "documentation_links",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 312
+        }
+      },
+      "tabFactors": {
+        "Image": {
+          "h": 52,
+          "i": "Image",
+          "minH": 1,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 369
+        },
+        "factorsSpreadsheet": {
+          "h": 373,
+          "i": "factorsSpreadsheet",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 24
+        },
+        "labelAttributionFactors": {
+          "h": 24,
+          "i": "labelAttributionFactors",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tabRelatedObjects": {
+        "AnalysisRun": {
+          "h": 78,
+          "i": "AnalysisRun",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "Cycle": {
+          "h": 96,
+          "i": "Cycle",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 78
+        },
+        "Image": {
+          "h": 52,
+          "i": "Image",
+          "minH": 1,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 369
+        }
+      }
+    },
+    "base": {
+      "Accordion": {
+        "h": 209,
+        "i": "Accordion",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 64
+      },
+      "attribution_template_tabs": {
+        "h": 626,
+        "i": "attribution_template_tabs",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 342
+      },
+      "header_container": {
+        "h": 50,
+        "i": "header_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 8,
+        "x": 4,
+        "y": 0
+      },
+      "name_readonly": {
+        "h": 26,
+        "i": "name_readonly",
+        "minH": 24,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 0
+      },
+      "statusCd": {
+        "h": 52,
+        "i": "statusCd",
+        "minH": 52,
+        "minW": 3,
+        "moved": false,
+        "static": false,
+        "w": 4,
+        "x": 0,
+        "y": 280
+      }
+    },
+    "header_container": {
+      "default": {
+        "save": {
+          "h": 26,
+          "i": "save",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "copy": {
+        "name": "onCopyLoad"
+      },
+      "draft": {
+        "name": "onDraftLoad"
+      },
+      "edit": {
+        "name": "onEditLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "onAnyEvent"
+      },
+      "onTabClose": {
+        "name": "onTabClose"
+      }
+    },
+    "props": {
+      "description": "",
+      "icon": "base://DASHBOARD_PERSONAL",
+      "id": "AttributionTemplate",
+      "label": "AttributionTemplate",
+      "tabLabel": ""
+    }
+  },
+  "structure": {
+    "Accordion": {
+      "classifications": {
+        "default": {
+          "compName": "CirrusObjectsClassification",
+          "containerId": "Accordion",
+          "fieldName": "default",
+          "id": "default",
+          "libName": "base",
+          "parentId": "Accordion",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        }
+      }
+    },
+    "attribution_template_details": {
+      "details": {}
+    },
+    "attribution_template_tabs": {
+      "tabChangeHistory": {
+        "ChangeHistory": {
+          "compName": "ChangeHistory",
+          "containerId": "attribution_template_tabs",
+          "id": "ChangeHistory",
+          "label": "appbuilder.toolboxitem.changeHistory.title",
+          "libName": "base",
+          "parentId": "attribution_template_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "tabDetails": {
+        "Image": {
+          "compName": "Image",
+          "containerId": "attribution_template_tabs",
+          "id": "Image",
+          "label": "appbuilder.toolboxitem.image.title",
+          "libName": "base",
+          "parentId": "attribution_template_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionDeprecated": "2023.02"
+        },
+        "core_DataDefinition_input": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "attribution_template_tabs",
+          "fieldName": "core_DataDefinition_input",
+          "id": "core_DataDefinition_input",
+          "libName": "base",
+          "parentId": "attribution_template_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "core_DataDefinition_output": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "attribution_template_tabs",
+          "events": {
+            "onAddedLinkInstances": {
+              "name": "onOutputDataDefinitionAdded"
+            },
+            "onRemovedLinkInstances": {
+              "name": "onOutputDataDefintionRemoved"
+            }
+          },
+          "fieldName": "core_DataDefinition_output",
+          "id": "core_DataDefinition_output",
+          "libName": "base",
+          "parentId": "attribution_template_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "description": {
+          "compName": "InputTextarea",
+          "containerId": "attribution_template_tabs",
+          "fieldName": "description",
+          "id": "description",
+          "libName": "base",
+          "parentId": "attribution_template_tabs",
+          "props": {
+            "colon": true,
+            "rows": 3
+          },
+          "sasProvided": true
+        },
+        "name": {
+          "compName": "InputText",
+          "containerId": "attribution_template_tabs",
+          "events": {
+            "onChange": {
+              "name": "onNameChange"
+            }
+          },
+          "fieldName": "name",
+          "id": "name",
+          "libName": "base",
+          "parentId": "attribution_template_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "objectId": {
+          "compName": "InputText",
+          "containerId": "attribution_template_tabs",
+          "events": {
+            "onChange": {
+              "name": "setDefaultName"
+            }
+          },
+          "fieldName": "objectId",
+          "id": "objectId",
+          "libName": "base",
+          "parentId": "attribution_template_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "outputVars": {
+          "compName": "DualSelectorField",
+          "containerId": "attribution_template_tabs",
+          "fieldName": "outputVars",
+          "id": "outputVars",
+          "label": "appbuilder.toolboxitem.dualSelector.title",
+          "libName": "base",
+          "parentId": "attribution_template_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "riskScenarioSet": {
+          "compName": "GenericObjectSelector",
+          "containerId": "attribution_template_tabs",
+          "fieldName": "riskScenarioSet",
+          "id": "riskScenarioSet",
+          "label": "appbuilder.toolboxitem.genericobjectselector.title",
+          "libName": "base",
+          "parentId": "attribution_template_tabs",
+          "props": {
+            "availableColumns": [
+              {
+                "dataType": "string",
+                "isSortable": true,
+                "key": "name",
+                "label": "Name"
+              },
+              {
+                "dataType": "string",
+                "isSortable": true,
+                "key": "description",
+                "label": "Description"
+              },
+              {
+                "dataType": "string",
+                "isSortable": true,
+                "key": "asOfDate",
+                "label": "As of date"
+              },
+              {
+                "dataType": "string",
+                "isSortable": true,
+                "key": "modifiedBy",
+                "label": "Modified by"
+              },
+              {
+                "dataType": "string",
+                "isSortable": true,
+                "key": "modifiedTimeStamp",
+                "label": "Last Modified"
+              }
+            ],
+            "availableColumnsEditorValue": "[{\"key\":\"name\",\"dataType\":\"string\",\"isSortable\":true},{\"key\":\"description\",\"dataType\":\"string\",\"isSortable\":true},\n{\"key\":\"asOfDate\",\"dataType\":\"string\",\"isSortable\":true},\n{\"key\":\"modifiedBy\",\"dataType\":\"string\",\"isSortable\":true},{\"key\":\"modifiedTimeStamp\",\"dataType\":\"string\",\"isSortable\":true}]",
+            "baseUri": "/riskScenarios/scenarioSets",
+            "colon": true,
+            "defaultColumns": [
+              "name",
+              "description",
+              "asOfDate",
+              "modifiedBy",
+              "modifiedTimeStamp"
+            ],
+            "defaultColumnsEditorValue": "name, description, asOfDate, modifiedBy, modifiedTimeStamp",
+            "fetchRecordLimit": 50,
+            "objectType": "riskScenarioSet",
+            "valueColumns": [
+              "id"
+            ],
+            "valueColumnsEditorValue": "id"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "transferFromLabel": {
+          "compName": "InputText",
+          "containerId": "attribution_template_tabs",
+          "fieldName": "transferFromLabel",
+          "id": "transferFromLabel",
+          "libName": "base",
+          "parentId": "attribution_template_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "transferToLabel": {
+          "compName": "InputText",
+          "containerId": "attribution_template_tabs",
+          "fieldName": "transferToLabel",
+          "id": "transferToLabel",
+          "libName": "base",
+          "parentId": "attribution_template_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        }
+      },
+      "tabDocumentation": {
+        "additional_comments": {
+          "compName": "Comments",
+          "containerId": "attribution_template_tabs",
+          "fieldName": "additional_comments",
+          "id": "additional_comments",
+          "libName": "base",
+          "parentId": "attribution_template_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_attachments": {
+          "compName": "CirrusObjectsAttachments",
+          "containerId": "attribution_template_tabs",
+          "fieldName": "documentation_attachments",
+          "id": "documentation_attachments",
+          "libName": "base",
+          "parentId": "attribution_template_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_links": {
+          "compName": "CirrusObjectsLinks",
+          "containerId": "attribution_template_tabs",
+          "fieldName": "documentation_links",
+          "id": "documentation_links",
+          "libName": "base",
+          "parentId": "attribution_template_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "tabFactors": {
+        "factorsSpreadsheet": {
+          "compName": "GenericSpreadsheetWidget",
+          "containerId": "attribution_template_tabs",
+          "events": {
+            "onChange": {
+              "name": "onFactorsChange"
+            }
+          },
+          "id": "factorsSpreadsheet",
+          "label": "appbuilder.toolboxitem.spreadsheet.generic.title",
+          "libName": "base",
+          "parentId": "attribution_template_tabs",
+          "props": {
+            "columnMetaData": "{\"table\": { \"columnOptions\": {  \"areLabelsLocalized\": true }},\"columns\": [ {  \"options\": {   \"id\": \"attributionGroupName\",   \"visible\": false,   \"label\": \"AttributionTemplate.library.label.base.factorsSpreadsheet.attributionGroupName.title\"  } }, {  \"options\": {   \"id\": \"attributionGroupNo\",   \"visible\": false,   \"label\": \"AttributionTemplate.library.label.base.factorsSpreadsheet.attributionGroupNo.title\"  } }, {  \"options\": {   \"id\": \"attributeName\",   \"label\": \"AttributionTemplate.library.label.base.factorsSpreadsheet.attributeName.title\"  } }, {  \"options\": {   \"id\": \"attributeDescription\",   \"label\": \"AttributionTemplate.library.label.base.factorsSpreadsheet.attributeDescription.title\"  } }, {  \"options\": {   \"id\": \"source\",   \"visible\": false,   \"label\": \"AttributionTemplate.library.label.base.factorsSpreadsheet.source.title\"  } }, {  \"options\": {   \"id\": \"attributionType\",   \"label\": \"AttributionTemplate.library.label.base.factorsSpreadsheet.attributionType.title\"  } }]}",
+            "pagination": false,
+            "suppressSideBar": true,
+            "suppressToolBar": true,
+            "value": "\u003cp\u003e{\u003cbr\u003e\u0026nbsp;\"table\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"columnOptions\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp;\"areLabelsLocalized\": true\u003cbr\u003e\u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\"columns\": [\u003cbr\u003e\u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"attributionGroupName\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"visible\": false,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"AttributionTemplate.library.label.base.factorsSpreadsheet.attributionGroupName.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"attributionGroupNo\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"visible\": false,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"AttributionTemplate.library.label.base.factorsSpreadsheet.attributionGroupNo.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"attributeName\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"AttributionTemplate.library.label.base.factorsSpreadsheet.attributeName.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"attributeDescription\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"AttributionTemplate.library.label.base.factorsSpreadsheet.attributeDescription.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"source\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"visible\": false,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"AttributionTemplate.library.label.base.factorsSpreadsheet.source.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"attributionType\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"AttributionTemplate.library.label.base.factorsSpreadsheet.attributionType.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp;]\u003cbr\u003e}\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "labelAttributionFactors": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "attribution_template_tabs",
+          "id": "labelAttributionFactors",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "attribution_template_tabs",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        }
+      },
+      "tabRelatedObjects": {
+        "AnalysisRun": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "attribution_template_tabs",
+          "fieldName": "AnalysisRun",
+          "id": "AnalysisRun",
+          "libName": "base",
+          "parentId": "attribution_template_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "Cycle": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "attribution_template_tabs",
+          "fieldName": "Cycle",
+          "id": "Cycle",
+          "libName": "base",
+          "parentId": "attribution_template_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        }
+      }
+    },
+    "base": {
+      "Accordion": {
+        "compName": "Accordion",
+        "containerId": "base",
+        "id": "Accordion",
+        "label": "appbuilder.toolboxitem.accordion.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "childProps": {
+            "classifications": {
+              "label": "Classifications",
+              "name": "classifications",
+              "position": 0
+            }
+          },
+          "showOutline": true
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.02"
+      },
+      "attribution_template_tabs": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "attribution_template_tabs",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "tabChangeHistory": {
+              "label": "Change History",
+              "name": "tabChangeHistory",
+              "position": 4
+            },
+            "tabDetails": {
+              "id": "tabDetails",
+              "label": "Details",
+              "name": "tabDetails",
+              "position": 0
+            },
+            "tabDocumentation": {
+              "label": "Documentation",
+              "name": "tabDocumentation",
+              "position": 3
+            },
+            "tabFactors": {
+              "label": "Factors",
+              "name": "tabFactors",
+              "position": 1
+            },
+            "tabRelatedObjects": {
+              "id": "tabRelatedObjects",
+              "label": "Related Objects",
+              "name": "tabRelatedObjects",
+              "position": 2
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "header_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "header_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "name_readonly": {
+        "compName": "ReadonlyFieldWidget",
+        "containerId": "base",
+        "id": "name_readonly",
+        "label": "appbuilder.toolboxitem.readonlyfield.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldLabel": true,
+          "boldValue": true,
+          "colon": false
+        },
+        "sasProvided": true
+      },
+      "statusCd": {
+        "compName": "Dropdown",
+        "containerId": "base",
+        "fieldName": "statusCd",
+        "id": "statusCd",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "colon": true
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.04"
+      }
+    },
+    "header_container": {
+      "default": {
+        "save": {
+          "compName": "Button",
+          "containerId": "header_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "header_container",
+          "props": {},
+          "sasProvided": true
+        }
+      }
+    }
+  }
+}

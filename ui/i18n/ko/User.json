@@ -1,0 +1,7 @@
+{
+  "User.schema.field.email.label": "전자 우편",
+  "User.schema.field.key.label": "키",
+  "User.schema.field.name.label": "이름",
+  "User.schema.field.status.label": "상태",
+  "User.schema.field.userId.label": "사용자 ID"
+}
