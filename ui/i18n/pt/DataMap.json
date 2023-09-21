@@ -1,0 +1,17 @@
+{
+  "DataMap.DataMap.schema.field.mapType.label": "Tipo de Mapa",
+  "DataMap.DataMap.schema.field.objectId.label": "ID do mapa de dados",
+  "DataMap.library.label.base.Accordion.cycle_details.0.title": "Detalhes do Mapa de Dados",
+  "DataMap.library.label.base.Accordion.instance_details.details.title": "Detalhes do Mapa de Dados",
+  "DataMap.library.label.base.Button.save.label": "Guardar",
+  "DataMap.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "Folha de cálculo",
+  "DataMap.library.label.base.ReadonlyFieldWidget.cycle_name_readonly.label": "",
+  "DataMap.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "DataMap.library.label.base.RichText.RichText.label": "Texto Formatado",
+  "DataMap.library.label.base.TabView.cycle_tabs.0.title": "Mapeamento",
+  "DataMap.library.label.base.TabView.cycle_tabs.1.title": "Documentação",
+  "DataMap.library.label.base.TabView.data_map_tabs.0.title": "Atributos do Mapa de Dados",
+  "DataMap.library.label.base.TabView.data_map_tabs.1.title": "Documentação",
+  "DataMap.library.label.base.TabView.data_map_tabs.2.title": "Histórico de Alterações",
+  "DataMap.library.label.base.TabView.data_map_tabs.tabDetails.title": "Detalhes"
+}

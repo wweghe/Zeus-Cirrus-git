@@ -1,0 +1,17 @@
+{
+  "KPI.KPI.schema.field.category.label": "KPI 类别",
+  "KPI.KPI.schema.field.threshold.color.validation.message.label": "您不能更改默认的阈值区间颜色。",
+  "KPI.KPI.schema.field.threshold.color.validation.summary.label": "阈值区间颜色",
+  "KPI.KPI.schema.field.thresholdsApplicable.help.label": "该选项允许您为监控 KPI 状况设置阈值。若 KPI 是单一可测值，则选择该选项。",
+  "KPI.KPI.schema.field.thresholdsBetterBound.help.label": "该应用程序基于选定的 KPI 状况范围分配阈值的色带。",
+  "KPI.KPI.schema.field.thresholdsBetterBound.label": "以下哪个 KPI 值表示状况更好？",
+  "KPI.library.label.base.BasicMessageStrip.BasicMessageStrip.messageStripText.label": "该 KPI 已链接至监控计划，阈值的任何后续更改都不会影响关联的监控计划。再次将 KPI 与监控计划关联以应用最新更改。",
+  "KPI.library.label.base.Button.save_button.label": "保存",
+  "KPI.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "KPI.library.label.base.TabView.TabView.changeHistory.title": "更改历史",
+  "KPI.library.label.base.TabView.TabView.code.title": "代码",
+  "KPI.library.label.base.TabView.TabView.details.title": "详细信息",
+  "KPI.library.label.base.TabView.TabView.documentation.title": "文档",
+  "KPI.library.label.base.TabView.TabView.relatedObjects.title": "相关对象",
+  "KPI.library.label.base.TabView.TabView.threshold.title": "阈值"
+}

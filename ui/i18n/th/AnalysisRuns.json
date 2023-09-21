@@ -1,0 +1,4 @@
+{
+  "AnalysisRuns.library.label.base.Template.ObjectManagerTemplate.label": "หน้าเทมเพลต",
+  "AnalysisRuns.script.validation.summary.label": "คุณไม่สามารถบันทึการรันการวิเคราะห์ในระบบการผลิตได้ถ้ามีการอ้างอิงที่สคริปต์ที่ไม่ใช่สำหรับระบบการผลิต"
+}

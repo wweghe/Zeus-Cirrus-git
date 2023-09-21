@@ -1,0 +1,4 @@
+{
+  "AnalysisRuns.library.label.base.Template.ObjectManagerTemplate.label": "範本頁面",
+  "AnalysisRuns.script.validation.summary.label": "若生產分析執行參考非生產指令碼，則您無法儲存生產分析執行。"
+}

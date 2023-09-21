@@ -1,0 +1,4 @@
+{
+  "AnalysisRuns.library.label.base.Template.ObjectManagerTemplate.label": "テンプレートページ",
+  "AnalysisRuns.script.validation.summary.label": "本稼働ではないスクリプトを参照している本稼働分析の実行は保存できません。"
+}

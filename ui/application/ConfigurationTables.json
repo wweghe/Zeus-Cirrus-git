@@ -1,0 +1,49 @@
+{
+  "layouts": {
+    "base": {
+      "ObjectManagerTemplate": {
+        "h": 754,
+        "i": "ObjectManagerTemplate",
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "onPageLoad": {
+        "name": "onPageLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {},
+      "onTabClose": {}
+    },
+    "props": {
+      "description": "",
+      "icon": "base://GROOVE_CONFIGURATION_TABLE",
+      "id": "ConfigurationTables",
+      "label": "Configuration Tables",
+      "tabLabel": "Configuration Tables"
+    }
+  },
+  "structure": {
+    "base": {
+      "ObjectManagerTemplate": {
+        "compName": "Template",
+        "containerId": "base",
+        "id": "ObjectManagerTemplate",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "combineObjects": true,
+          "pageId": "ObjectManagerTemplate"
+        },
+        "sasProvided": true
+      }
+    }
+  }
+}

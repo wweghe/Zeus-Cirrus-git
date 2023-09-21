@@ -1,0 +1,17 @@
+{
+  "KPI.KPI.schema.field.category.label": "Categoría de indicador clave de desempeño",
+  "KPI.KPI.schema.field.threshold.color.validation.message.label": "You cannot change the default threshold interval colors.",
+  "KPI.KPI.schema.field.threshold.color.validation.summary.label": "Threshold Interval Colors",
+  "KPI.KPI.schema.field.thresholdsApplicable.help.label": "Esta opción permite establecer los umbrales para supervisar el estado del indicador clave de desempeño. Seleccionar esta opción si el indicador clave de rendimiento es un único valor medible.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.help.label": "La aplicación asigna la banda de colores del umbral según el rango de estado del indicador clave de desempeño seleccionado.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.label": "¿Cuál de los siguientes valores de indicador clave de desempeño representa un mejor estado?",
+  "KPI.library.label.base.BasicMessageStrip.BasicMessageStrip.messageStripText.label": "This KPI is linked to a monitoring plan, any subsequent changes in threshold will not affect the associated monitoring plan. Associate the KPI again with the monitoring plan to apply the latest changes.",
+  "KPI.library.label.base.Button.save_button.label": "Guardar",
+  "KPI.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "KPI.library.label.base.TabView.TabView.changeHistory.title": "Historial de cambios",
+  "KPI.library.label.base.TabView.TabView.code.title": "Código",
+  "KPI.library.label.base.TabView.TabView.details.title": "Detalles",
+  "KPI.library.label.base.TabView.TabView.documentation.title": "Documentación",
+  "KPI.library.label.base.TabView.TabView.relatedObjects.title": "Objetos relacionados",
+  "KPI.library.label.base.TabView.TabView.threshold.title": "Umbral"
+}

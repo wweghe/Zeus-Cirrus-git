@@ -1,0 +1,1775 @@
+{
+  "layouts": {
+    "Accordion": {
+      "classifications": {
+        "default": {
+          "h": 215,
+          "i": "default",
+          "minH": 186,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "TabView": {
+      "tab1": {}
+    },
+    "base": {
+      "WorkflowDiagram": {
+        "h": 150,
+        "i": "WorkflowDiagram",
+        "minH": 100,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 106
+      },
+      "main_tabs": {
+        "h": 725,
+        "i": "main_tabs",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 256
+      },
+      "name_readonly": {
+        "h": 44,
+        "i": "name_readonly",
+        "minH": 24,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 1
+      },
+      "parallel_task_container": {
+        "h": 50,
+        "i": "parallel_task_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 8,
+        "x": 4,
+        "y": 55
+      },
+      "statusCd": {
+        "h": 52,
+        "i": "statusCd",
+        "minH": 52,
+        "minW": 3,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 45
+      },
+      "workflow_container": {
+        "h": 50,
+        "i": "workflow_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 8,
+        "x": 4,
+        "y": 3
+      }
+    },
+    "baseDateContainer": {
+      "baseDt": {
+        "baseDt": {
+          "h": 52,
+          "i": "baseDt",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "baseDttm": {
+        "baseDttm_1": {
+          "h": 52,
+          "i": "baseDttm_1",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "default": {}
+    },
+    "instance_details": {
+      "details": {}
+    },
+    "main_tabs": {
+      "tabAnalysisRuns": {
+        "AnalysisRun": {
+          "h": 452,
+          "i": "AnalysisRun",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 3
+        },
+        "linked_AnalysisRuns": {
+          "h": 320,
+          "i": "linked_AnalysisRuns",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tabChangeHistory": {
+        "ChangeHistory": {
+          "h": 675,
+          "i": "ChangeHistory",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tabDebug": {
+        "LinkWorkflowDebugging": {
+          "h": 55,
+          "i": "LinkWorkflowDebugging",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 12
+        }
+      },
+      "tabDetails": {
+        "Accordion": {
+          "h": 267,
+          "i": "Accordion",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "CodeLibrary": {
+          "h": 50,
+          "i": "CodeLibrary",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 542
+        },
+        "baseDateContainer": {
+          "h": 52,
+          "i": "baseDateContainer",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 325
+        },
+        "core_dependentLibrary": {
+          "h": 60,
+          "i": "core_dependentLibrary",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 592
+        },
+        "description": {
+          "h": 78,
+          "i": "description",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 371
+        },
+        "initiatorUserNmReadOnly": {
+          "h": 44,
+          "i": "initiatorUserNmReadOnly",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 451
+        },
+        "linkedConfigurationSets": {
+          "h": 59,
+          "i": "linkedConfigurationSets",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 483
+        },
+        "linked_AnalysisRuns": {
+          "h": 320,
+          "i": "linked_AnalysisRuns",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "h": 52,
+          "i": "name",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 317
+        },
+        "objectId": {
+          "h": 50,
+          "i": "objectId",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 267
+        },
+        "productSet": {
+          "h": 52,
+          "i": "productSet",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 430
+        },
+        "reportingCurrency": {
+          "h": 52,
+          "i": "reportingCurrency",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 378
+        },
+        "runTypeCd": {
+          "h": 52,
+          "i": "runTypeCd",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 272
+        },
+        "workflowTemplate": {
+          "h": 68,
+          "i": "workflowTemplate",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 496
+        }
+      },
+      "tabDocumentation": {
+        "additional_comments": {
+          "h": 550,
+          "i": "additional_comments",
+          "minH": 236,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 0
+        },
+        "documentation_attachments": {
+          "h": 286,
+          "i": "documentation_attachments",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 0
+        },
+        "documentation_links": {
+          "h": 241,
+          "i": "documentation_links",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 287
+        }
+      },
+      "tabExecutionLogs": {
+        "executionLog": {
+          "h": 510,
+          "i": "executionLog",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 18
+        },
+        "linked_AnalysisRuns": {
+          "h": 320,
+          "i": "linked_AnalysisRuns",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tabParameters": {
+        "ParametersPage": {
+          "h": 148,
+          "i": "ParametersPage",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tabReports": {
+        "attachmentDownload": {
+          "h": 26,
+          "i": "attachmentDownload",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 108
+        },
+        "linked_AnalysisRuns": {
+          "h": 320,
+          "i": "linked_AnalysisRuns",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "report_attachments": {
+          "h": 100,
+          "i": "report_attachments",
+          "minH": 100,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "tabReviews": {
+        "LinksListWidget": {
+          "h": 523,
+          "i": "LinksListWidget",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "parallel_task_container": {
+      "PARALLEL": {
+        "parallel_task": {
+          "h": 24,
+          "i": "parallel_task",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 6
+        },
+        "parallel_task_claimed_by": {
+          "h": 24,
+          "i": "parallel_task_claimed_by",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 9,
+          "y": 5
+        }
+      },
+      "default": {}
+    },
+    "workflow_container": {
+      "CLAIMED_BY_ME": {
+        "active_task_claimed": {
+          "h": 24,
+          "i": "active_task_claimed",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 0
+        },
+        "save_claimed_by_me": {
+          "h": 26,
+          "i": "save_claimed_by_me",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        },
+        "unclaim_task": {
+          "h": 26,
+          "i": "unclaim_task",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 4,
+          "y": 0
+        },
+        "workflow_transitions": {
+          "h": 26,
+          "i": "workflow_transitions",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 6,
+          "y": 1
+        }
+      },
+      "CLAIMED_BY_OTHER": {
+        "active_task_other_user": {
+          "h": 24,
+          "i": "active_task_other_user",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 0
+        },
+        "claimed_by_other_user": {
+          "h": 26,
+          "i": "claimed_by_other_user",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 5,
+          "y": 0
+        },
+        "save_claimed_by_other": {
+          "h": 26,
+          "i": "save_claimed_by_other",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      },
+      "COMPLETED": {
+        "workflow_complete_msg": {
+          "h": 26,
+          "i": "workflow_complete_msg",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 6,
+          "y": 0
+        }
+      },
+      "DRAFT": {
+        "save_draft": {
+          "h": 26,
+          "i": "save_draft",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        },
+        "start_workflow_draft": {
+          "h": 26,
+          "i": "start_workflow_draft",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 7,
+          "y": 0
+        }
+      },
+      "IN_PROGRESS": {
+        "execution_in_progress_msg": {
+          "h": 27,
+          "i": "execution_in_progress_msg",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 5,
+          "y": 0
+        }
+      },
+      "NOT_STARTED": {
+        "save_not_started": {
+          "h": 26,
+          "i": "save_not_started",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        },
+        "start_workflow": {
+          "h": 26,
+          "i": "start_workflow",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 7,
+          "y": 2
+        }
+      },
+      "NO_TASKS": {
+        "no_tasks_msg": {
+          "h": 26,
+          "i": "no_tasks_msg",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 2,
+          "y": 0
+        },
+        "save_not_participant": {
+          "h": 26,
+          "i": "save_not_participant",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      },
+      "UNCLAIMED": {
+        "active_task_label_unclaimed": {
+          "h": 27,
+          "i": "active_task_label_unclaimed",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 1,
+          "y": 2
+        },
+        "claim_task": {
+          "h": 26,
+          "i": "claim_task",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 7,
+          "y": 2
+        },
+        "save_unclaimed": {
+          "h": 26,
+          "i": "save_unclaimed",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 9,
+          "y": 0
+        },
+        "unclaimed_task_dropdown": {
+          "h": 52,
+          "i": "unclaimed_task_dropdown",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 3,
+          "y": 2
+        }
+      },
+      "default": {}
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "copy": {
+        "name": "onCopyLoad"
+      },
+      "draft": {
+        "name": "onDraftLoad"
+      },
+      "edit": {
+        "name": "onEditLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "onAnyEvent"
+      },
+      "onTabClose": {
+        "name": "onTabClose"
+      }
+    },
+    "props": {
+      "description": "",
+      "icon": "base://TASK",
+      "id": "Cycle",
+      "label": "Cycle",
+      "tabLabel": ""
+    }
+  },
+  "structure": {
+    "Accordion": {
+      "classifications": {
+        "default": {
+          "compName": "CirrusObjectsClassification",
+          "containerId": "Accordion",
+          "fieldName": "default",
+          "id": "default",
+          "libName": "base",
+          "parentId": "Accordion",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "TabView": {
+      "tab1": {}
+    },
+    "base": {
+      "WorkflowDiagram": {
+        "compName": "WorkflowDiagram",
+        "containerId": "base",
+        "id": "WorkflowDiagram",
+        "label": "appbuilder.toolboxitem.workflowDiagram.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "colon": true,
+          "useHorizontalAlign": true
+        },
+        "sasProvided": true
+      },
+      "main_tabs": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "main_tabs",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 4,
+          "childProps": {
+            "tabAnalysisRuns": {
+              "label": "Analysis Runs",
+              "name": "tabAnalysisRuns",
+              "position": 3
+            },
+            "tabChangeHistory": {
+              "label": "Change History",
+              "name": "tabChangeHistory",
+              "position": 6
+            },
+            "tabDebug": {
+              "label": "Debug",
+              "name": "tabDebug",
+              "position": 7
+            },
+            "tabDetails": {
+              "id": "tabDetails",
+              "label": "Details",
+              "name": "tabDetails",
+              "position": 0
+            },
+            "tabDocumentation": {
+              "label": "Documentation",
+              "name": "tabDocumentation",
+              "position": 5
+            },
+            "tabExecutionLogs": {
+              "id": "tabExecutionLogs",
+              "label": "Execution Logs",
+              "name": "tabExecutionLogs",
+              "position": 4
+            },
+            "tabParameters": {
+              "id": "tabParameters",
+              "label": "Parameters",
+              "name": "tabParameters",
+              "position": 1
+            },
+            "tabReports": {
+              "label": "Reports",
+              "name": "tabReports",
+              "position": 8
+            },
+            "tabReviews": {
+              "label": "Reviews",
+              "name": "tabReviews",
+              "position": 2
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "name_readonly": {
+        "compName": "ReadonlyFieldWidget",
+        "containerId": "base",
+        "id": "name_readonly",
+        "label": "",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldLabel": true,
+          "boldValue": true,
+          "colon": false,
+          "stacked": false
+        },
+        "sasProvided": true
+      },
+      "parallel_task_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "parallel_task_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 1,
+          "childProps": {
+            "PARALLEL": {
+              "name": "PARALLEL",
+              "position": 1
+            },
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "statusCd": {
+        "compName": "Dropdown",
+        "containerId": "base",
+        "fieldName": "statusCd",
+        "id": "statusCd",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldValue": true,
+          "colon": true,
+          "displayAsText": true
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.01"
+      },
+      "workflow_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "workflow_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 1,
+          "childProps": {
+            "CLAIMED_BY_ME": {
+              "name": "CLAIMED_BY_ME",
+              "position": 5
+            },
+            "CLAIMED_BY_OTHER": {
+              "name": "CLAIMED_BY_OTHER",
+              "position": 4
+            },
+            "COMPLETED": {
+              "name": "COMPLETED",
+              "position": 7
+            },
+            "DRAFT": {
+              "name": "DRAFT",
+              "position": 6
+            },
+            "IN_PROGRESS": {
+              "name": "IN_PROGRESS",
+              "position": 8
+            },
+            "NOT_STARTED": {
+              "name": "NOT_STARTED",
+              "position": 1
+            },
+            "NO_TASKS": {
+              "name": "NO_TASKS",
+              "position": 2
+            },
+            "UNCLAIMED": {
+              "name": "UNCLAIMED",
+              "position": 3
+            },
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      }
+    },
+    "baseDateContainer": {
+      "baseDt": {
+        "baseDt": {
+          "compName": "Calendar",
+          "containerId": "baseDateContainer",
+          "fieldName": "baseDt",
+          "id": "baseDt",
+          "libName": "base",
+          "parentId": "baseDateContainer",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.01"
+        }
+      },
+      "baseDttm": {
+        "baseDttm_1": {
+          "compName": "Calendar",
+          "containerId": "baseDateContainer",
+          "fieldName": "baseDttm",
+          "id": "baseDttm_1",
+          "libName": "base",
+          "parentId": "baseDateContainer",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      },
+      "default": {}
+    },
+    "instance_details": {
+      "details": {}
+    },
+    "main_tabs": {
+      "tabAnalysisRuns": {
+        "AnalysisRun": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "AnalysisRun",
+          "id": "AnalysisRun",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "linked_AnalysisRuns": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "fieldName": "AnalysisRun",
+          "id": "linked_AnalysisRuns",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.02",
+          "versionDeprecated": "2023.04"
+        }
+      },
+      "tabChangeHistory": {
+        "ChangeHistory": {
+          "compName": "ChangeHistory",
+          "containerId": "main_tabs",
+          "id": "ChangeHistory",
+          "label": "appbuilder.toolboxitem.changeHistory.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "tabDebug": {
+        "LinkWorkflowDebugging": {
+          "compName": "LinkWidget",
+          "containerId": "main_tabs",
+          "id": "LinkWorkflowDebugging",
+          "label": "appbuilder.toolboxitem.link.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "align": "start",
+            "linkText": "Open Workflow Instance",
+            "stacked": false
+          },
+          "sasProvided": true
+        }
+      },
+      "tabDetails": {
+        "Accordion": {
+          "compName": "Accordion",
+          "containerId": "main_tabs",
+          "id": "Accordion",
+          "label": "appbuilder.toolboxitem.accordion.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "activeIndex": 0,
+            "childProps": {
+              "classifications": {
+                "label": "Classifications",
+                "name": "classifications",
+                "position": 0
+              }
+            },
+            "showOutline": true
+          },
+          "sasProvided": true
+        },
+        "CodeLibrary": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            },
+            "onAddedLinkInstances": {
+              "name": "onLibraryAdded"
+            },
+            "onRemovedLinkInstances": {
+              "name": "onLibraryRemoved"
+            }
+          },
+          "fieldName": "CodeLibrary",
+          "id": "CodeLibrary",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "baseDateContainer": {
+          "compName": "GroupableContainer",
+          "containerId": "main_tabs",
+          "id": "baseDateContainer",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "activeIndex": 0,
+            "childProps": {
+              "baseDt": {
+                "name": "baseDt",
+                "position": 1
+              },
+              "baseDttm": {
+                "name": "baseDttm",
+                "position": 2
+              },
+              "default": {
+                "name": "default",
+                "position": 0
+              }
+            },
+            "removePadding": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.01"
+        },
+        "core_dependentLibrary": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "core_dependentLibrary",
+          "id": "core_dependentLibrary",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "description": {
+          "compName": "InputTextarea",
+          "containerId": "main_tabs",
+          "events": {},
+          "fieldName": "description",
+          "id": "description",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "colon": true,
+            "rows": 3
+          },
+          "sasProvided": true
+        },
+        "initiatorUserNmReadOnly": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "main_tabs",
+          "id": "initiatorUserNmReadOnly",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "linkedConfigurationSets": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "linkedConfigurationSets",
+          "id": "linkedConfigurationSets",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "name": {
+          "compName": "InputText",
+          "containerId": "main_tabs",
+          "events": {
+            "onChange": {
+              "name": "onNameChange"
+            }
+          },
+          "fieldName": "name",
+          "id": "name",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "objectId": {
+          "compName": "InputText",
+          "containerId": "main_tabs",
+          "events": {
+            "onChange": {
+              "name": "seDefaultName"
+            }
+          },
+          "fieldName": "objectId",
+          "id": "objectId",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "productSet": {
+          "compName": "Dropdown",
+          "containerId": "main_tabs",
+          "fieldName": "productSet",
+          "id": "productSet",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "align": "start",
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.06"
+        },
+        "reportingCurrency": {
+          "compName": "Dropdown",
+          "containerId": "main_tabs",
+          "fieldName": "reportingCurrency",
+          "id": "reportingCurrency",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "align": "start",
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.06"
+        },
+        "runTypeCd": {
+          "compName": "Dropdown",
+          "containerId": "main_tabs",
+          "events": {
+            "onChange": {
+              "name": "onRunTypeChange"
+            }
+          },
+          "fieldName": "runTypeCd",
+          "id": "runTypeCd",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "align": "start",
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        },
+        "workflowTemplate": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            },
+            "onAddedLinkInstances": {
+              "name": "onWorkflowTemplateAdded"
+            },
+            "onRemovedLinkInstances": {
+              "name": "onWorkflowTemplateRemoved"
+            }
+          },
+          "fieldName": "workflowTemplate",
+          "id": "workflowTemplate",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "tabDocumentation": {
+        "additional_comments": {
+          "compName": "Comments",
+          "containerId": "main_tabs",
+          "fieldName": "additional_comments",
+          "id": "additional_comments",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_attachments": {
+          "compName": "CirrusObjectsAttachments",
+          "containerId": "main_tabs",
+          "fieldName": "documentation_attachments",
+          "id": "documentation_attachments",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_links": {
+          "compName": "CirrusObjectsLinks",
+          "containerId": "main_tabs",
+          "fieldName": "documentation_links",
+          "id": "documentation_links",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "tabExecutionLogs": {
+        "executionLog": {
+          "compName": "GenericSpreadsheetWidget",
+          "containerId": "main_tabs",
+          "id": "executionLog",
+          "label": "appbuilder.toolboxitem.spreadsheet.generic.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "columnMetaData": "{\n \"table\": {\n  \"options\": {\n   \"selectionMode\": \"Single\"\n  },\n  \"columnOptions\": {\n   \"areLabelsLocalized\": true,\n   \"visible\": true,\n   \"defaultVisible\": true,\n   \"autoResizable\": true,\n   \"readonly\": false,\n   \"width\": \"150px\"\n  },\n  \"cellOptions\": {\n   \"readonly\": false,\n   \"cellType\": \"string\"\n  }\n },\n \"columns\": [\n  {\n   \"options\": {\n    \"id\": \"userTaskName\",\n    \"label\": \"User Task Name\",\n    \"columnType\": \"string\"\n   }\n  },\n  {\n   \"options\": {\n    \"id\": \"analysisRunName\",\n    \"label\": \"Analysis Run\",\n    \"columnType\": \"string\"\n   }\n  },\n  {\n   \"options\": {\n    \"id\": \"sasCode\",\n    \"label\": \"SAS Code\",\n    \"columnType\": \"string\"\n   },\n   \"cellOptions\": {\n    \"cellType\": \"hyperlink\",\n    \"readonly\": false\n   }\n  },\n  {\n   \"options\": {\n    \"id\": \"executionLog\",\n    \"label\": \"Execution Log\",\n    \"columnType\": \"string\"\n   },\n   \"cellOptions\": {\n    \"cellType\": \"hyperlink\",\n    \"readonly\": false\n   }\n  }\n ]\n}",
+            "value": "\u003cp\u003e{\n \u0026nbsp;\"table\": {\n \u0026nbsp; \u0026nbsp;\"options\": {\n \u0026nbsp; \u0026nbsp; \u0026nbsp;\"selectionMode\": \"Single\"\n \u0026nbsp; \u0026nbsp;},\n \u0026nbsp; \u0026nbsp;\"columnOptions\": {\n \u0026nbsp; \u0026nbsp; \u0026nbsp;\"areLabelsLocalized\": true,\n \u0026nbsp; \u0026nbsp; \u0026nbsp;\"visible\": true,\n \u0026nbsp; \u0026nbsp; \u0026nbsp;\"defaultVisible\": true,\n \u0026nbsp; \u0026nbsp; \u0026nbsp;\"autoResizable\": true,\n \u0026nbsp; \u0026nbsp; \u0026nbsp;\"readonly\": false,\n \u0026nbsp; \u0026nbsp; \u0026nbsp;\"width\": \"150px\"\n \u0026nbsp; \u0026nbsp;},\n \u0026nbsp; \u0026nbsp;\"cellOptions\": {\n \u0026nbsp; \u0026nbsp; \u0026nbsp;\"readonly\": false,\n \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellType\": \"string\"\n \u0026nbsp; \u0026nbsp;}\n \u0026nbsp;},\n \u0026nbsp;\"columns\": [\n \u0026nbsp; \u0026nbsp;{\n \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\": {\n \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"userTaskName\",\n \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"User Task Name\",\n \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"string\"\n \u0026nbsp; \u0026nbsp; \u0026nbsp;}\n \u0026nbsp; \u0026nbsp;},\n \u0026nbsp; \u0026nbsp;{\n \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\": {\n \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"analysisRunName\",\n \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"Analysis Run\",\n \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"string\"\n \u0026nbsp; \u0026nbsp; \u0026nbsp;}\n \u0026nbsp; \u0026nbsp;},\n \u0026nbsp; \u0026nbsp;{\n \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\": {\n \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"sasCode\",\n \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"SAS Code\",\n \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"string\"\n \u0026nbsp; \u0026nbsp; \u0026nbsp;},\n \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellOptions\": {\n \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellType\": \"hyperlink\",\n \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"readonly\": false\n \u0026nbsp; \u0026nbsp; \u0026nbsp;}\n \u0026nbsp; \u0026nbsp;},\n \u0026nbsp; \u0026nbsp;{\n \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\": {\n \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"executionLog\",\n \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"Execution Log\",\n \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"string\"\n \u0026nbsp; \u0026nbsp; \u0026nbsp;},\n \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellOptions\": {\n \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellType\": \"hyperlink\",\n \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"readonly\": false\n \u0026nbsp; \u0026nbsp; \u0026nbsp;}\n \u0026nbsp; \u0026nbsp;}\n \u0026nbsp;]\n}\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        }
+      },
+      "tabParameters": {
+        "ParametersPage": {
+          "compName": "EmbeddedBuilderPage",
+          "containerId": "main_tabs",
+          "events": {},
+          "id": "ParametersPage",
+          "label": "EmbeddedBuilderPage",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "tabReports": {
+        "attachmentDownload": {
+          "compName": "Button",
+          "containerId": "main_tabs",
+          "events": {
+            "click": {
+              "name": "downloadAttachments"
+            }
+          },
+          "id": "attachmentDownload",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.06"
+        },
+        "report_attachments": {
+          "compName": "CirrusObjectsAttachments",
+          "containerId": "main_tabs",
+          "fieldName": "report_attachments",
+          "id": "report_attachments",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.06"
+        }
+      },
+      "tabReviews": {
+        "LinksListWidget": {
+          "compName": "LinksListWidget",
+          "containerId": "main_tabs",
+          "id": "LinksListWidget",
+          "label": "appbuilder.toolboxitem.linkslist.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "align": "start",
+            "boldLabel": false,
+            "boldValue": false,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "parallel_task_container": {
+      "PARALLEL": {
+        "parallel_task": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "parallel_task_container",
+          "id": "parallel_task",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "parallel_task_container",
+          "props": {
+            "align": "end",
+            "colon": true,
+            "stacked": false
+          },
+          "sasProvided": true
+        },
+        "parallel_task_claimed_by": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "parallel_task_container",
+          "id": "parallel_task_claimed_by",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "parallel_task_container",
+          "props": {
+            "align": "end",
+            "colon": true,
+            "stacked": false
+          },
+          "sasProvided": true
+        }
+      },
+      "default": {}
+    },
+    "workflow_container": {
+      "CLAIMED_BY_ME": {
+        "active_task_claimed": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "workflow_container",
+          "id": "active_task_claimed",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "colon": true,
+            "stacked": false
+          },
+          "sasProvided": true
+        },
+        "save_claimed_by_me": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save_claimed_by_me",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "secondary": true
+          },
+          "sasProvided": true
+        },
+        "unclaim_task": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "events": {
+            "click": {
+              "name": "onReleaseTask"
+            }
+          },
+          "id": "unclaim_task",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "secondary": true,
+            "shrink": true
+          },
+          "sasProvided": true
+        },
+        "workflow_transitions": {
+          "compName": "MultiActionButton",
+          "containerId": "workflow_container",
+          "events": {
+            "onChange": {
+              "name": "onTransitionChange"
+            },
+            "onClick": {
+              "name": "onTransitionGo"
+            }
+          },
+          "id": "workflow_transitions",
+          "label": "appbuilder.toolboxitem.multibutton.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "options": {
+              "ADJUST": {
+                "index": 5,
+                "label": "Adjust",
+                "value": "ADJUST"
+              },
+              "APPROVE": {
+                "index": 4,
+                "label": "Approve",
+                "value": "APPROVE"
+              },
+              "CIRRUS_RUN_SCRIPT": {
+                "index": 0,
+                "label": "Execute Script",
+                "value": "CIRRUS_RUN_SCRIPT"
+              },
+              "REJECT": {
+                "index": 3,
+                "label": "Reject",
+                "value": "REJECT"
+              },
+              "RETURN_TO_MODULE_RUN": {
+                "index": 6,
+                "label": "Return To Module Run",
+                "value": "RETURN_TO_MODULE_RUN"
+              },
+              "SIGNOFF": {
+                "index": 9,
+                "label": "Sign-Off",
+                "value": "SIGNOFF"
+              },
+              "SKIP": {
+                "index": 1,
+                "label": "Skip",
+                "value": "SKIP"
+              },
+              "SUBMIT": {
+                "index": 8,
+                "label": "Submit",
+                "value": "SUBMIT"
+              },
+              "SUBMIT_FOR_APPROVAL": {
+                "index": 7,
+                "label": "Submit For Approval",
+                "value": "SUBMIT_FOR_APPROVAL"
+              },
+              "TERMINATE_WORKFLOW": {
+                "index": 2,
+                "label": "Workflow Complete",
+                "value": "TERMINATE_WORKFLOW"
+              }
+            },
+            "primary": true
+          },
+          "sasProvided": true
+        }
+      },
+      "CLAIMED_BY_OTHER": {
+        "active_task_other_user": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "workflow_container",
+          "id": "active_task_other_user",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "claimed_by_other_user": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "workflow_container",
+          "id": "claimed_by_other_user",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "colon": true,
+            "stacked": false
+          },
+          "sasProvided": true
+        },
+        "save_claimed_by_other": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "id": "save_claimed_by_other",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "secondary": true
+          },
+          "sasProvided": true
+        }
+      },
+      "COMPLETED": {
+        "workflow_complete_msg": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "workflow_container",
+          "id": "workflow_complete_msg",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "stacked": true
+          },
+          "sasProvided": true
+        }
+      },
+      "DRAFT": {
+        "save_draft": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save_draft",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "secondary": true
+          },
+          "sasProvided": true
+        },
+        "start_workflow_draft": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "events": {
+            "click": {
+              "name": "onStartWorkflowDraft"
+            }
+          },
+          "id": "start_workflow_draft",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "shrink": true
+          },
+          "sasProvided": true
+        }
+      },
+      "IN_PROGRESS": {
+        "execution_in_progress_msg": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "workflow_container",
+          "id": "execution_in_progress_msg",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "boldValue": false,
+            "stacked": true
+          },
+          "sasProvided": true
+        }
+      },
+      "NOT_STARTED": {
+        "save_not_started": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save_not_started",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "secondary": true
+          },
+          "sasProvided": true
+        },
+        "start_workflow": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "events": {
+            "click": {
+              "name": "onStartWorkflow"
+            }
+          },
+          "id": "start_workflow",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end"
+          },
+          "sasProvided": true
+        }
+      },
+      "NO_TASKS": {
+        "no_tasks_msg": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "workflow_container",
+          "id": "no_tasks_msg",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "stacked": false
+          },
+          "sasProvided": true
+        },
+        "save_not_participant": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save_not_participant",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "secondary": true
+          },
+          "sasProvided": true
+        }
+      },
+      "UNCLAIMED": {
+        "active_task_label_unclaimed": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "workflow_container",
+          "id": "active_task_label_unclaimed",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true
+        },
+        "claim_task": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "events": {
+            "click": {
+              "name": "onClaimTask"
+            }
+          },
+          "id": "claim_task",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "end",
+            "shrink": true
+          },
+          "sasProvided": true
+        },
+        "save_unclaimed": {
+          "compName": "Button",
+          "containerId": "workflow_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save_unclaimed",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "secondary": true
+          },
+          "sasProvided": true
+        },
+        "unclaimed_task_dropdown": {
+          "compName": "DropdownWidget",
+          "containerId": "workflow_container",
+          "events": {
+            "onChange": {
+              "name": "onClaimTaskSelectionChanged"
+            }
+          },
+          "id": "unclaimed_task_dropdown",
+          "label": "appbuilder.toolboxitem.dropdown.title",
+          "libName": "base",
+          "parentId": "workflow_container",
+          "props": {
+            "align": "start"
+          },
+          "sasProvided": true
+        }
+      },
+      "default": {}
+    }
+  }
+}

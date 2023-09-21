@@ -1,0 +1,23 @@
+{
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd.label": "Estado",
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd_1.label": "Estado",
+  "ConfigurationTable.library.label.base.Accordion.instance_details.details.title": "Detalhes da Tabela de Configuração",
+  "ConfigurationTable.library.label.base.Attachments.additional_attachments.label": "Anexos de documentação",
+  "ConfigurationTable.library.label.base.Button.save.label": "Guardar",
+  "ConfigurationTable.library.label.base.CirrusObjectsLinks.documentation_links.label": "Ligações de documentação",
+  "ConfigurationTable.library.label.base.Comments.additional_comments.label": "Comentários",
+  "ConfigurationTable.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget_1.label": "Folha de cálculo",
+  "ConfigurationTable.library.label.base.InputText.name.label": "Nome da tabela de configuração",
+  "ConfigurationTable.library.label.base.InputText.objectId.label": "ID da tabela de configuração",
+  "ConfigurationTable.library.label.base.InputTextarea.description.label": "Descrição da tabela de configuração",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.help.label": "Se algum dos conjuntos de configuração associados estiver no estado de produção, a tabela de configuração também é considerada como produção.",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.label": "É Produção",
+  "ConfigurationTable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationTable.library.label.base.RichText.RichText_1.label": "Texto Formatado",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabChangeHistory.title": "Histórico de Alterações",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabData.title": "Dados",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDetails.title": "Detalhes",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDocumentation.title": "Documentação",
+  "ConfigurationTable.schema.field.ConfigurationSet.validation.summary.label": "One or more of the linked configuration sets is already associated with a configuration table of type: ",
+  "ConfigurationTable.schema.field.ConfigurationSet.validation.title.label": "Linked configuration sets are invalid"
+}

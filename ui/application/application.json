@@ -1,0 +1,611 @@
+{
+  "cirrusCoreSolution": {
+    "branch": "main",
+    "commit": "c383b4b08806542e67ef59abe03fbb2daa7a0296",
+    "shortName": "CORE"
+  },
+  "description": "This is SAS® Risk Modeling - Manage Risk Modeling",
+  "displayName": "SAS® Risk Modeling",
+  "enableCustomization": false,
+  "events": {
+    "onFirstLoad": {
+      "name": "onFirstLoad"
+    }
+  },
+  "helpName": "SAS Risk Cirrus Help Center",
+  "helpUrl": "https://documentation.sas.com/?softwareId=riskmodeling\u0026softwareVersion=2023.09\u0026requestor=inapp\u0026locale={locale}\u0026softwareContextId=SASRiskModeling",
+  "home": "Home",
+  "id": "RM",
+  "isCore": false,
+  "libraries": [],
+  "menu": {
+    "AnalysisGroup": {
+      "id": "AnalysisGroup",
+      "index": 8,
+      "sasProvided": true,
+      "type": "group"
+    },
+    "ConfigurationGroup": {
+      "id": "ConfigurationGroup",
+      "index": 11,
+      "sasProvided": true,
+      "type": "group"
+    },
+    "Dashboard": {
+      "icon": "base://GROOVE_DASHBOARD",
+      "id": "Dashboard",
+      "index": 2,
+      "pageId": "Dashboard",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "DataLoad": {
+      "icon": "base://GROOVE_SOURCE_DATABASE",
+      "id": "DataLoad",
+      "index": 30,
+      "pageId": "DataLoad",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "DataPreparationGroup": {
+      "id": "DataPreparationGroup",
+      "index": 4,
+      "sasProvided": true,
+      "type": "group"
+    },
+    "Home": {
+      "icon": "base://GROOVE_HOME",
+      "id": "Home",
+      "index": 0,
+      "pageId": "Home",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "IssuesGroup": {
+      "id": "IssuesGroup",
+      "index": 6,
+      "sasProvided": true,
+      "type": "group"
+    },
+    "MonitoringPlans": {
+      "id": "MonitoringPlans",
+      "index": 26,
+      "sasProvided": true,
+      "type": "group"
+    },
+    "PositionManagement": {
+      "icon": "base://GROOVE_USER_ROLE",
+      "id": "PositionManagement",
+      "index": 31,
+      "pageId": "PositionManagement",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "Search": {
+      "icon": "base://GROOVE_ANALYSIS",
+      "id": "Search",
+      "index": 1,
+      "pageId": "Search",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "SettingsGroup": {
+      "id": "SettingsGroup",
+      "index": 29,
+      "sasProvided": true,
+      "type": "group"
+    },
+    "allocationSchemes": {
+      "icon": "base://GROOVE_ALLOCATION_RULE",
+      "id": "allocationSchemes",
+      "index": 12,
+      "pageId": "AllocationSchemes",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "analysisData": {
+      "icon": "base://GROOVE_REPOSITORY",
+      "id": "analysisData",
+      "index": 9,
+      "pageId": "AnalysisDataInventory",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "analysisRuns": {
+      "icon": "base://GROOVE_FORECAST_PROJECT",
+      "id": "analysisRuns",
+      "index": 10,
+      "pageId": "AnalysisRuns",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "attributionTemplates": {
+      "icon": "base://GROOVE_DASHBOARD_PERSONAL",
+      "id": "attributionTemplates",
+      "index": 13,
+      "pageId": "AttributionTemplates",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "businessEvolutionPlans": {
+      "icon": "base://GROOVE_EVOLUTION_SCENARIO",
+      "id": "businessEvolutionPlans",
+      "index": 14,
+      "pageId": "BusinessEvolutionPlans",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "codeLibraries": {
+      "icon": "base://GROOVE_SHARED_FOLDER",
+      "id": "codeLibraries",
+      "index": 15,
+      "pageId": "CodeLibraries",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "configurationSets": {
+      "icon": "base://GROOVE_CONFIGURATION_SET",
+      "id": "configurationSets",
+      "index": 16,
+      "pageId": "ConfigurationSets",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "configurationTables": {
+      "icon": "base://GROOVE_CONFIGURATION_TABLE",
+      "id": "configurationTables",
+      "index": 17,
+      "pageId": "ConfigurationTables",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "cycles": {
+      "icon": "base://GROOVE_TASK",
+      "id": "cycles",
+      "index": 3,
+      "pageId": "Cycles",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "dataDefinitions": {
+      "icon": "base://GROOVE_SAS_FOLDERS",
+      "id": "dataDefinitions",
+      "index": 18,
+      "pageId": "DataDefinitions",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "dataMaps": {
+      "icon": "base://GROOVE_MAPPED_VALUES",
+      "id": "dataMaps",
+      "index": 19,
+      "pageId": "DataMaps",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "dataProjects": {
+      "icon": "base://DATABASE_SCHEMA_OBJ",
+      "id": "dataProjects",
+      "index": 5,
+      "pageId": "DataProjects",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "dataSecurityRules": {
+      "icon": "base://GROOVE_SECURED_TABLE",
+      "id": "dataSecurityRules",
+      "index": 20,
+      "pageId": "DataSecurityRules",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "findings": {
+      "icon": "base://GROOVE_ISSUE",
+      "id": "findings",
+      "index": 7,
+      "pageId": "Findings",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "forms": {
+      "icon": "base://GROOVE_FORM",
+      "id": "forms",
+      "index": 32,
+      "pageId": "Forms",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "kpis": {
+      "icon": "base://GAUGE_DASHBOARD_COMPONENT",
+      "id": "kpis",
+      "index": 27,
+      "pageId": "KPIs",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "modelDevelopmentGroup": {
+      "id": "modelDevelopmentGroup",
+      "index": 19,
+      "type": "group"
+    },
+    "models": {
+      "icon": "base://GROOVE_MODELS",
+      "id": "models",
+      "index": 20,
+      "pageId": "Models",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "monitoringPlans": {
+      "icon": "base://GROOVE_EVIDENCE_COLLECTIONS",
+      "id": "monitoringPlans",
+      "index": 28,
+      "pageId": "MonitoringPlans",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "ruleSets": {
+      "entrypointId": "onPageLoad",
+      "icon": "base://ALLOCATION_RULE",
+      "id": "ruleSets",
+      "index": 17,
+      "pageId": "RuleSets",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "scripts": {
+      "icon": "base://GROOVE_SAS_NOTEBOOK",
+      "id": "scripts",
+      "index": 18,
+      "pageId": "Scripts",
+      "sasProvided": true,
+      "type": "item"
+    },
+    "workflowTemplates": {
+      "icon": "base://GROOVE_DECISIONS",
+      "id": "workflowTemplates",
+      "index": 21,
+      "pageId": "WorkflowTemplates",
+      "sasProvided": true,
+      "type": "item"
+    }
+  },
+  "pages": {
+    "AllocationScheme": {
+      "isTemplate": false,
+      "name": "Allocation Scheme",
+      "object": "AllocationScheme",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "AllocationSchemes": {
+      "isTemplate": false,
+      "name": "Allocation Schemes",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "AnalysisData": {
+      "isTemplate": false,
+      "name": "Analysis Data",
+      "object": "AnalysisData",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "AnalysisDataInventory": {
+      "isTemplate": false,
+      "name": "Analysis Data Inventory",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "AnalysisRun": {
+      "isTemplate": false,
+      "name": "Analysis Run",
+      "object": "AnalysisRun",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "AnalysisRuns": {
+      "isTemplate": false,
+      "name": "Analysis Runs",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "AttributionTemplate": {
+      "isTemplate": false,
+      "name": "Attribution Template",
+      "object": "AttributionTemplate",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "AttributionTemplates": {
+      "isTemplate": false,
+      "name": "Attribution Templates",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "BusinessEvolutionPlan": {
+      "isTemplate": false,
+      "name": "Business Evolution Plan",
+      "object": "BusinessEvolutionPlan",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "BusinessEvolutionPlans": {
+      "isTemplate": false,
+      "name": "Business Evolution Plans",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "CodeLibraries": {
+      "isTemplate": false,
+      "name": "Code Libraries",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "CodeLibrary": {
+      "isTemplate": false,
+      "name": "Code Library",
+      "object": "CodeLibrary",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "ConfigurationSet": {
+      "isTemplate": false,
+      "name": "Configuration Set",
+      "object": "ConfigurationSet",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "ConfigurationSetDialogContent": {
+      "isTemplate": false,
+      "name": "Configuration Set Dialog Content",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "ConfigurationSets": {
+      "isTemplate": false,
+      "name": "Configuration Sets",
+      "object": "ConfigurationSet",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "ConfigurationTable": {
+      "isTemplate": false,
+      "name": "Configuration Table",
+      "object": "ConfigurationTable",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "ConfigurationTables": {
+      "isTemplate": false,
+      "name": "Configuration Tables",
+      "object": "ConfigurationTable",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "Cycle": {
+      "isTemplate": false,
+      "name": "Cycle",
+      "object": "Cycle",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "Cycles": {
+      "isTemplate": false,
+      "name": "Cycles",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "Dashboard": {
+      "isTemplate": false,
+      "name": "Dashboard",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "DataDefinition": {
+      "isTemplate": false,
+      "name": "Data Definition",
+      "object": "DataDefinition",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "DataDefinitions": {
+      "isTemplate": false,
+      "name": "Data Definitions",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "DataLoad": {
+      "isTemplate": false,
+      "name": "Data Load",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "DataMap": {
+      "isTemplate": false,
+      "name": "Data Map",
+      "object": "DataMap",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "DataMaps": {
+      "isTemplate": false,
+      "name": "Data Maps",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "DataProject": {
+      "isTemplate": false,
+      "name": "Data Project",
+      "object": "DataProject",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "DataProjects": {
+      "isTemplate": false,
+      "name": "Data Projects",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "DataSecurityRule": {
+      "isTemplate": false,
+      "name": "Data Security Rule",
+      "object": "DataSecurityRule",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "DataSecurityRules": {
+      "isTemplate": false,
+      "name": "Data Security Rules",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "Finding": {
+      "isTemplate": false,
+      "name": "Finding",
+      "object": "Finding",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "Findings": {
+      "isTemplate": false,
+      "name": "Findings",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "Form": {
+      "isTemplate": false,
+      "name": "Form",
+      "object": "Form",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "Forms": {
+      "isTemplate": false,
+      "name": "Forms",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "Home": {
+      "name": "Home",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "KPI": {
+      "isTemplate": false,
+      "name": "KPI",
+      "object": "KPI",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "KPIs": {
+      "isTemplate": false,
+      "name": "KPIs",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "Model": {
+      "isTemplate": false,
+      "name": "Model",
+      "object": "Model",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "Models": {
+      "isTemplate": false,
+      "name": "Models",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "MonitoringPlan": {
+      "isTemplate": false,
+      "name": "Monitoring Plan",
+      "object": "MonitoringPlan",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "MonitoringPlans": {
+      "isTemplate": false,
+      "name": "Monitoring Plans",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "ObjectManagerTemplate": {
+      "isTemplate": true,
+      "name": "Object Manager Template",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "PositionManagement": {
+      "isTemplate": false,
+      "name": "Position Management",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "RuleSet": {
+      "isTemplate": false,
+      "name": "Rule Set",
+      "object": "RuleSet",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "RuleSets": {
+      "isTemplate": false,
+      "name": "Rule Sets",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "SampleObject": {
+      "isTemplate": false,
+      "name": "Sample Object (No Workflow)",
+      "object": "SampleObject",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "SampleObjects": {
+      "isTemplate": false,
+      "name": "Sample Objects",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "Script": {
+      "isTemplate": false,
+      "name": "Script",
+      "object": "Script",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "Scripts": {
+      "isTemplate": false,
+      "name": "Scripts",
+      "sasProvided": true,
+      "type": "application"
+    },
+    "Search": {
+      "isTemplate": false,
+      "name": "Search",
+      "sasProvided": true,
+      "type": "application",
+      "urlRx": "/^\\/Search\\/searchId\\/[^/]+/"
+    },
+    "WorkflowTemplate": {
+      "isTemplate": false,
+      "name": "Workflow Template",
+      "object": "WorkflowTemplate",
+      "sasProvided": true,
+      "type": "object"
+    },
+    "WorkflowTemplates": {
+      "isTemplate": false,
+      "name": "Workflow Templates",
+      "sasProvided": true,
+      "type": "application"
+    }
+  },
+  "path": "/RM",
+  "schema": "RM",
+  "semanticVersion": "1.14.31",
+  "shortName": "RM",
+  "verb": "Risk Modeling",
+  "version": "2023.09"
+}

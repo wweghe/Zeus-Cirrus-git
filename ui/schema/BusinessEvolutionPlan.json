@@ -1,0 +1,402 @@
+{
+  "apiName": "businessEvolutionPlans",
+  "defaultSortingField": "creationTimeStamp",
+  "defaultSortingType": "desc",
+  "fields": {
+    "additional_comments": {
+      "id": "additional_comments",
+      "label": "Comments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Comments",
+        "libName": "base"
+      }
+    },
+    "bepData": {
+      "id": "bepData",
+      "index": 0,
+      "label": "Business evolution plan data",
+      "newId": "bepData",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isHideColumn": true,
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "ReadonlyField",
+        "libName": "base"
+      }
+    },
+    "createdInTag": {
+      "id": "createdInTag",
+      "index": 4,
+      "label": "Created in",
+      "newId": "createdInTag",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "creationTimeStamp": {
+      "id": "creationTimeStamp",
+      "index": 6,
+      "label": "Date created",
+      "newId": "creationTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "description": {
+      "id": "description",
+      "index": 0,
+      "label": "Business evolution plan description",
+      "newId": "description",
+      "props": {
+        "maxLength": 4000
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "documentation_attachments": {
+      "id": "documentation_attachments",
+      "label": "Documentation Attachments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsAttachments",
+        "libName": "base"
+      }
+    },
+    "documentation_links": {
+      "id": "documentation_links",
+      "label": "Documentation Links",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsLinks",
+        "libName": "base"
+      }
+    },
+    "growthParam": {
+      "id": "growthParam",
+      "label": "Growth Parameter",
+      "newId": "growthParam",
+      "props": {
+        "pullFromCirrusObjects": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CheckboxGroup",
+        "libName": "base"
+      }
+    },
+    "growthType": {
+      "id": "growthType",
+      "label": "Growth Type",
+      "newId": "growthType",
+      "props": {
+        "pullFromCirrusObjects": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CheckboxGroup",
+        "libName": "base"
+      }
+    },
+    "initType": {
+      "id": "initType",
+      "index": 12,
+      "label": "Method of initialization",
+      "namedList": "bep_init_types",
+      "newId": "initType",
+      "props": {
+        "namedList": "bep_init_types",
+        "pullFromCirrusObjects": false
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "intervalCount": {
+      "id": "intervalCount",
+      "index": 10,
+      "label": "Interval count",
+      "props": {
+        "decimals": 0
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputNumberComponent",
+        "libName": "base"
+      }
+    },
+    "intervalType": {
+      "id": "intervalType",
+      "index": 10,
+      "label": "Interval",
+      "newId": "intervalType",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "modifiedTimeStamp": {
+      "id": "modifiedTimeStamp",
+      "label": "Date modified",
+      "newId": "modifiedTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "name": {
+      "id": "name",
+      "index": 2,
+      "label": "Business evolution plan name",
+      "newId": "name",
+      "props": {
+        "maxLength": 200
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "objectId": {
+      "id": "objectId",
+      "index": 1,
+      "label": "Business evolution plan ID",
+      "newId": "objectId",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "dataType": "string",
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "planningCurrency": {
+      "id": "planningCurrency",
+      "label": "Planning currency",
+      "newId": "planningCurrency",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "summaryOperator": {
+      "id": "summaryOperator",
+      "label": "Summary Operator",
+      "newId": "summaryOperator",
+      "props": {
+        "pullFromCirrusObjects": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CheckboxGroup",
+        "libName": "base"
+      }
+    },
+    "targetDefinition": {
+      "id": "targetDefinition",
+      "label": "Target Definition",
+      "newId": "targetDefinition",
+      "props": {
+        "pullFromCirrusObjects": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CheckboxGroup",
+        "libName": "base"
+      }
+    },
+    "targetType": {
+      "id": "targetType",
+      "label": "Target Type",
+      "newId": "targetType",
+      "props": {
+        "pullFromCirrusObjects": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CheckboxGroup",
+        "libName": "base"
+      }
+    },
+    "targetVars": {
+      "id": "targetVars",
+      "index": 19,
+      "label": "Target variables",
+      "newId": "targetVars",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "DualSelectorField",
+        "libName": "base"
+      }
+    }
+  },
+  "id": "BusinessEvolutionPlan",
+  "index": 4,
+  "labelPlural": "Business Evolution Plans",
+  "labelSingular": "Business Evolution Plan",
+  "nameField": "name",
+  "objectService": "riskCirrusObjects",
+  "relationships": {
+    "allocationScheme_bep": {
+      "cardinality": "manyToOne",
+      "index": 0,
+      "label": "Allocation Schemes",
+      "sourceLabel": "Allocation scheme",
+      "sourceLabelPlural": "Allocation schemes",
+      "sourceName": "AllocationScheme",
+      "sourceSysCode": "RCC",
+      "sourceType": "AllocationScheme",
+      "targetLabel": "Business evolution plan",
+      "targetLabelPlural": "Business evolution plans",
+      "targetName": "BusinessEvolutionPlan",
+      "targetType": "BusinessEvolutionPlan",
+      "type": "lookup"
+    },
+    "businessEvolutionPlan_hierarchyData": {
+      "cardinality": "manyToOne",
+      "index": 1,
+      "label": "Hierarchy Data",
+      "sourceLabel": "Business evolution plan",
+      "sourceLabelPlural": "Business evolution plans",
+      "sourceName": "linked_BEPs_hierarchy",
+      "sourceSysCode": "RCC",
+      "sourceType": "BusinessEvolutionPlan",
+      "targetLabel": "Hierarchy data",
+      "targetLabelPlural": "Hierarchy data",
+      "targetName": "linked_hierarchyData",
+      "targetType": "AnalysisData",
+      "type": "lookup"
+    },
+    "businessEvolutionPlan_planningData": {
+      "cardinality": "manyToOne",
+      "index": 2,
+      "label": "Planning Data",
+      "sourceLabel": "Business evolution plan",
+      "sourceLabelPlural": "Business evolution plans",
+      "sourceName": "linked_BEPs_planning",
+      "sourceSysCode": "RCC",
+      "sourceType": "BusinessEvolutionPlan",
+      "targetLabel": "Planning data",
+      "targetLabelPlural": "Planning data",
+      "targetName": "linked_planData",
+      "targetType": "AnalysisData",
+      "type": "lookup"
+    }
+  },
+  "sasProvided": true,
+  "tasks": {}
+}

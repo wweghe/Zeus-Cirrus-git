@@ -1,0 +1,1464 @@
+{
+  "layouts": {
+    "Accordion": {
+      "classifications": {
+        "default": {
+          "h": 211,
+          "i": "default",
+          "minH": 186,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "AccordionAdvanced": {
+      "advancedSettings": {
+        "CodeLibrary": {
+          "h": 84,
+          "i": "CodeLibrary",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 165
+        },
+        "PostExecScripts": {
+          "h": 84,
+          "i": "PostExecScripts",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 349
+        },
+        "User": {
+          "h": 59,
+          "i": "User",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "linkedConfigurationSets": {
+          "h": 50,
+          "i": "linkedConfigurationSets",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 115
+        },
+        "userTaskName": {
+          "h": 50,
+          "i": "userTaskName",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 65
+        }
+      }
+    },
+    "BaseDateContainer": {
+      "baseDt": {
+        "baseDt": {
+          "h": 52,
+          "i": "baseDt",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "baseDttm": {
+        "baseDttm": {
+          "h": 52,
+          "i": "baseDttm",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "default": {}
+    },
+    "base": {
+      "main_tabs": {
+        "h": 725,
+        "i": "main_tabs",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 78
+      },
+      "name_readonly": {
+        "h": 25,
+        "i": "name_readonly",
+        "minH": 24,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 0
+      },
+      "save_container": {
+        "h": 50,
+        "i": "save_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 8,
+        "x": 4,
+        "y": 0
+      },
+      "statusCd": {
+        "h": 52,
+        "i": "statusCd",
+        "minH": 52,
+        "minW": 3,
+        "moved": false,
+        "static": false,
+        "w": 4,
+        "x": 0,
+        "y": 25
+      }
+    },
+    "instance_details": {
+      "details": {}
+    },
+    "main_tabs": {
+      "0": {
+        "AnalysisData": {
+          "h": 180,
+          "i": "AnalysisData",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 324
+        },
+        "ParametersPage": {
+          "h": 63,
+          "i": "ParametersPage",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 11,
+          "x": 0,
+          "y": 41
+        },
+        "readonlyParametersHeader": {
+          "h": 24,
+          "i": "readonlyParametersHeader",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 16
+        }
+      },
+      "1": {
+        "additional_comments": {
+          "h": 550,
+          "i": "additional_comments",
+          "minH": 236,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 0
+        },
+        "documentation_attachments": {
+          "h": 286,
+          "i": "documentation_attachments",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 0
+        },
+        "documentation_links": {
+          "h": 241,
+          "i": "documentation_links",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 287
+        }
+      },
+      "2": {
+        "AnalysisData": {
+          "h": 180,
+          "i": "AnalysisData",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 324
+        },
+        "DataDefinition": {
+          "h": 180,
+          "i": "DataDefinition",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 275
+        },
+        "NestedScripts": {
+          "h": 180,
+          "i": "NestedScripts",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 275
+        },
+        "linked_analysisDataParams": {
+          "h": 180,
+          "i": "linked_analysisDataParams",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 74
+        },
+        "linked_outputAnalysisData": {
+          "h": 180,
+          "i": "linked_outputAnalysisData",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 74
+        },
+        "productionFlg": {
+          "h": 60,
+          "i": "productionFlg",
+          "minH": 24,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 123
+        },
+        "related_inputs_label": {
+          "h": 24,
+          "i": "related_inputs_label",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 23
+        },
+        "related_outputs_label": {
+          "h": 24,
+          "i": "related_outputs_label",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 23
+        }
+      },
+      "3": {
+        "AnalysisData": {
+          "h": 180,
+          "i": "AnalysisData",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 324
+        },
+        "GenericSpreadsheetWidget": {
+          "h": 300,
+          "i": "GenericSpreadsheetWidget",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 48
+        },
+        "Image": {
+          "h": 52,
+          "i": "Image",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 786
+        },
+        "RichText": {
+          "h": 48,
+          "i": "RichText",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 0,
+          "y": 0
+        },
+        "execution_logs": {
+          "h": 286,
+          "i": "execution_logs",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 8,
+          "y": 11
+        },
+        "productionFlg": {
+          "h": 60,
+          "i": "productionFlg",
+          "minH": 24,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 123
+        },
+        "resolved_script": {
+          "h": 218,
+          "i": "resolved_script",
+          "minH": 100,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 8,
+          "y": 306
+        }
+      },
+      "4": {
+        "ChangeHistory": {
+          "h": 675,
+          "i": "ChangeHistory",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "5": {
+        "Accordion": {
+          "h": 251,
+          "i": "Accordion",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "AccordionAdvanced": {
+          "h": 497,
+          "i": "AccordionAdvanced",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 303
+        },
+        "AnalysisData": {
+          "h": 180,
+          "i": "AnalysisData",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 324
+        },
+        "BaseDateContainer": {
+          "h": 56,
+          "i": "BaseDateContainer",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 530
+        },
+        "Cycle": {
+          "h": 50,
+          "i": "Cycle",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 430
+        },
+        "Image": {
+          "h": 52,
+          "i": "Image",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 786
+        },
+        "Script": {
+          "h": 50,
+          "i": "Script",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 480
+        },
+        "StateWidget": {
+          "h": 52,
+          "i": "StateWidget",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 6,
+          "y": 251
+        },
+        "core_dependentLibrary": {
+          "h": 82,
+          "i": "core_dependentLibrary",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 801
+        },
+        "description": {
+          "h": 72,
+          "i": "description",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 357
+        },
+        "name": {
+          "h": 50,
+          "i": "name",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 303
+        },
+        "objectId": {
+          "h": 52,
+          "i": "objectId",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 251
+        },
+        "productionFlg": {
+          "h": 60,
+          "i": "productionFlg",
+          "minH": 24,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 123
+        }
+      },
+      "6": {
+        "AnalysisData": {
+          "h": 180,
+          "i": "AnalysisData",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 6,
+          "y": 324
+        },
+        "attachmentDownload": {
+          "h": 26,
+          "i": "attachmentDownload",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 112
+        },
+        "report_attachments": {
+          "h": 100,
+          "i": "report_attachments",
+          "minH": 100,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 8,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "save_container": {
+      "RUNNING": {
+        "cancel": {
+          "h": 26,
+          "i": "cancel",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      },
+      "SAVE": {
+        "execute": {
+          "h": 26,
+          "i": "execute",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 8,
+          "y": 0
+        },
+        "save": {
+          "h": 26,
+          "i": "save",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        },
+        "validate": {
+          "h": 26,
+          "i": "validate",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 6,
+          "y": 0
+        }
+      },
+      "default": {}
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "copy": {
+        "name": "onCopyLoad"
+      },
+      "draft": {
+        "name": "onDraftLoad"
+      },
+      "edit": {
+        "name": "onEditLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "onAnyEvent"
+      },
+      "onTabClose": {
+        "name": "onTabClose"
+      }
+    },
+    "props": {
+      "description": "Analysis run",
+      "icon": "base://FORECAST_PROJECT",
+      "id": "AnalysisRun",
+      "label": "Analysis Run",
+      "tabLabel": ""
+    }
+  },
+  "structure": {
+    "Accordion": {
+      "classifications": {
+        "default": {
+          "compName": "CirrusObjectsClassification",
+          "containerId": "Accordion",
+          "fieldName": "default",
+          "id": "default",
+          "libName": "base",
+          "parentId": "Accordion",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "AccordionAdvanced": {
+      "advancedSettings": {
+        "CodeLibrary": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "AccordionAdvanced",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            },
+            "onAddedLinkInstances": {
+              "name": "onLibrarySelect"
+            },
+            "onRemovedLinkInstances": {
+              "name": "onLibraryRemove"
+            }
+          },
+          "fieldName": "CodeLibrary",
+          "id": "CodeLibrary",
+          "libName": "base",
+          "parentId": "AccordionAdvanced",
+          "props": {},
+          "sasProvided": true
+        },
+        "PostExecScripts": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "AccordionAdvanced",
+          "fieldName": "PostExecScripts",
+          "id": "PostExecScripts",
+          "libName": "base",
+          "parentId": "AccordionAdvanced",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        },
+        "User": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "AccordionAdvanced",
+          "fieldName": "User",
+          "id": "User",
+          "libName": "base",
+          "parentId": "AccordionAdvanced",
+          "props": {},
+          "sasProvided": true
+        },
+        "linkedConfigurationSets": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "AccordionAdvanced",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "linkedConfigurationSets",
+          "id": "linkedConfigurationSets",
+          "libName": "base",
+          "parentId": "AccordionAdvanced",
+          "props": {},
+          "sasProvided": true
+        },
+        "userTaskName": {
+          "compName": "InputText",
+          "containerId": "AccordionAdvanced",
+          "fieldName": "userTaskName",
+          "id": "userTaskName",
+          "libName": "base",
+          "parentId": "AccordionAdvanced",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "BaseDateContainer": {
+      "baseDt": {
+        "baseDt": {
+          "compName": "Calendar",
+          "containerId": "BaseDateContainer",
+          "fieldName": "baseDt",
+          "id": "baseDt",
+          "libName": "base",
+          "parentId": "BaseDateContainer",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.01"
+        }
+      },
+      "baseDttm": {
+        "baseDttm": {
+          "compName": "Calendar",
+          "containerId": "BaseDateContainer",
+          "fieldName": "baseDttm",
+          "id": "baseDttm",
+          "libName": "base",
+          "parentId": "BaseDateContainer",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      },
+      "default": {}
+    },
+    "base": {
+      "main_tabs": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "main_tabs",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 2,
+          "childProps": {
+            "0": {
+              "label": "Parameters",
+              "name": "0",
+              "position": 1
+            },
+            "1": {
+              "label": "Documentation",
+              "name": "1",
+              "position": 4
+            },
+            "2": {
+              "id": "2",
+              "label": "Related Objects",
+              "name": "2",
+              "position": 3
+            },
+            "3": {
+              "id": "3",
+              "label": "Results",
+              "name": "3",
+              "position": 2
+            },
+            "4": {
+              "label": "Change History",
+              "name": "4",
+              "position": 5
+            },
+            "5": {
+              "id": "5",
+              "label": "Details",
+              "name": "5",
+              "position": 0
+            },
+            "6": {
+              "label": "Reports",
+              "name": "6",
+              "position": 6
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "name_readonly": {
+        "compName": "ReadonlyFieldWidget",
+        "containerId": "base",
+        "id": "name_readonly",
+        "label": "appbuilder.toolboxitem.readonlyfield.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldLabel": true,
+          "boldValue": true,
+          "colon": false,
+          "stacked": false
+        },
+        "sasProvided": true
+      },
+      "save_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "save_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 2,
+          "childProps": {
+            "RUNNING": {
+              "name": "RUNNING",
+              "position": 2
+            },
+            "SAVE": {
+              "name": "SAVE",
+              "position": 1
+            },
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "statusCd": {
+        "compName": "Dropdown",
+        "containerId": "base",
+        "fieldName": "statusCd",
+        "id": "statusCd",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldLabel": false,
+          "boldValue": true,
+          "colon": true,
+          "displayAsText": true,
+          "labelBold": false,
+          "valueBold": true
+        },
+        "sasProvided": true
+      }
+    },
+    "instance_details": {
+      "details": {}
+    },
+    "main_tabs": {
+      "0": {
+        "ParametersPage": {
+          "compName": "EmbeddedBuilderPage",
+          "containerId": "main_tabs",
+          "id": "ParametersPage",
+          "label": "appbuilder.toolboxitem.embeddedBuilderPage.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "readonlyParametersHeader": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "main_tabs",
+          "id": "readonlyParametersHeader",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "align": "start",
+            "boldValue": false,
+            "colon": false,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        }
+      },
+      "1": {
+        "additional_comments": {
+          "compName": "Comments",
+          "containerId": "main_tabs",
+          "fieldName": "additional_comments",
+          "id": "additional_comments",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "documentation_attachments": {
+          "compName": "CirrusObjectsAttachments",
+          "containerId": "main_tabs",
+          "fieldName": "documentation_attachments",
+          "id": "documentation_attachments",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "single": false
+          },
+          "sasProvided": true
+        },
+        "documentation_links": {
+          "compName": "CirrusObjectsLinks",
+          "containerId": "main_tabs",
+          "fieldName": "documentation_links",
+          "id": "documentation_links",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "2": {
+        "AnalysisData": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "AnalysisData",
+          "id": "AnalysisData",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionDeprecated": "2023.02"
+        },
+        "DataDefinition": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "DataDefinition",
+          "id": "DataDefinition",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "NestedScripts": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "fieldName": "NestedScripts",
+          "id": "NestedScripts",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.09"
+        },
+        "linked_analysisDataParams": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "fieldName": "linked_analysisDataParams",
+          "id": "linked_analysisDataParams",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "linked_outputAnalysisData": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "fieldName": "linked_outputAnalysisData",
+          "id": "linked_outputAnalysisData",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "related_inputs_label": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "main_tabs",
+          "id": "related_inputs_label",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "boldValue": false,
+            "colon": true,
+            "stacked": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "related_outputs_label": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "main_tabs",
+          "id": "related_outputs_label",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        }
+      },
+      "3": {
+        "GenericSpreadsheetWidget": {
+          "compName": "GenericSpreadsheetWidget",
+          "containerId": "main_tabs",
+          "id": "GenericSpreadsheetWidget",
+          "label": "appbuilder.toolboxitem.spreadsheet.generic.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "columnMetaData": "{ \"table\": {   \"columnOptions\":   {     \"areLabelsLocalized\": true, \"readonly\": true, \"sizeColumnsToFit\":true   } }, \"columns\": [   {     \"options\":     {       \"id\": \"originalExpr\",       \"label\": \"AnalysisRun.library.label.base.GenericSpreadsheetWidget.results_columns.0.title\"     }   },   {     \"options\":     {       \"id\": \"value\",       \"label\": \"AnalysisRun.library.label.base.GenericSpreadsheetWidget.results_columns.1.title\"     }   },   {     \"options\":     {       \"id\": \"evalError\",       \"label\": \"AnalysisRun.library.label.base.GenericSpreadsheetWidget.results_columns.2.title\"     }   },   {     \"options\":     {       \"id\": \"script\",       \"label\": \"AnalysisRun.library.label.base.GenericSpreadsheetWidget.results_columns.3.title\",       \"defaultVisible\": false,       \"columnType\": \"objectSelector\"     },     \"cellOptions\":     {       \"columnType\": \"objectSelector\",       \"objectType\": \"Script\"     }   } ]}",
+            "suppressRowDragIndicator": true,
+            "suppressSideBar": false,
+            "suppressToolBar": true,
+            "value": "\u003cp\u003e{\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"table\":\u003cbr\u003e\u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnOptions\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"areLabelsLocalized\": true, \"readonly\": true, \"sizeColumnsToFit\":true\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp;\"columns\":\u003cbr\u003e\u0026nbsp; \u0026nbsp;[\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"originalExpr\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"AnalysisRun.library.label.base.GenericSpreadsheetWidget.results_columns.0.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"value\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"AnalysisRun.library.label.base.GenericSpreadsheetWidget.results_columns.1.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"evalError\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"AnalysisRun.library.label.base.GenericSpreadsheetWidget.results_columns.2.title\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"options\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"id\": \"script\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"label\": \"AnalysisRun.library.label.base.GenericSpreadsheetWidget.results_columns.3.title\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"defaultVisible\": false,\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"objectSelector\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;},\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"cellOptions\":\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;{\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"columnType\": \"objectSelector\",\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;\"objectType\": \"Script\"\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp; \u0026nbsp; \u0026nbsp;}\u003cbr\u003e\u0026nbsp; \u0026nbsp;]\u003cbr\u003e}\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.01"
+        },
+        "RichText": {
+          "compName": "RichText",
+          "containerId": "main_tabs",
+          "id": "RichText",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "value": "\u003cp\u003eResolved Parameters\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.01"
+        },
+        "execution_logs": {
+          "compName": "CirrusObjectsLinks",
+          "containerId": "main_tabs",
+          "fieldName": "execution_logs",
+          "id": "execution_logs",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "resolved_script": {
+          "compName": "CirrusObjectsAttachments",
+          "containerId": "main_tabs",
+          "fieldName": "resolved_script",
+          "id": "resolved_script",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.12"
+        }
+      },
+      "4": {
+        "ChangeHistory": {
+          "compName": "ChangeHistory",
+          "containerId": "main_tabs",
+          "id": "ChangeHistory",
+          "label": "appbuilder.toolboxitem.changeHistory.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "5": {
+        "Accordion": {
+          "compName": "Accordion",
+          "containerId": "main_tabs",
+          "id": "Accordion",
+          "label": "appbuilder.toolboxitem.accordion.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "childProps": {
+              "classifications": {
+                "label": "Classifications",
+                "name": "classifications",
+                "position": 0
+              }
+            },
+            "showOutline": true
+          },
+          "sasProvided": true
+        },
+        "AccordionAdvanced": {
+          "compName": "Accordion",
+          "containerId": "main_tabs",
+          "id": "AccordionAdvanced",
+          "label": "appbuilder.toolboxitem.accordion.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "childProps": {
+              "advancedSettings": {
+                "help": "",
+                "label": "Advanced Settings",
+                "name": "advancedSettings",
+                "position": 0
+              }
+            }
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "BaseDateContainer": {
+          "compName": "GroupableContainer",
+          "containerId": "main_tabs",
+          "id": "BaseDateContainer",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "activeIndex": 0,
+            "childProps": {
+              "baseDt": {
+                "name": "baseDt",
+                "position": 1
+              },
+              "baseDttm": {
+                "name": "baseDttm",
+                "position": 2
+              },
+              "default": {
+                "name": "default",
+                "position": 0
+              }
+            },
+            "removePadding": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.01"
+        },
+        "Cycle": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            },
+            "onAddedLinkInstances": {
+              "name": "onCycleSelect"
+            },
+            "onRemovedLinkInstances": {
+              "name": "onCycleRemove"
+            }
+          },
+          "fieldName": "Cycle",
+          "id": "Cycle",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "Image": {
+          "compName": "Image",
+          "containerId": "main_tabs",
+          "id": "Image",
+          "label": "appbuilder.toolboxitem.image.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionDeprecated": "2023.09"
+        },
+        "Script": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            },
+            "onAddedLinkInstances": {
+              "name": "onScriptSelect"
+            },
+            "onRemovedLinkInstances": {
+              "name": "onScriptRemove"
+            }
+          },
+          "fieldName": "Script",
+          "id": "Script",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "StateWidget": {
+          "compName": "DropdownWidget",
+          "containerId": "main_tabs",
+          "id": "StateWidget",
+          "label": "appbuilder.toolboxitem.dropdown.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "displayAsText": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.08"
+        },
+        "core_dependentLibrary": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "main_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "core_dependentLibrary",
+          "id": "core_dependentLibrary",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "description": {
+          "compName": "InputTextarea",
+          "containerId": "main_tabs",
+          "fieldName": "description",
+          "id": "description",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "colon": true,
+            "rows": 3
+          },
+          "sasProvided": true
+        },
+        "name": {
+          "compName": "InputText",
+          "containerId": "main_tabs",
+          "events": {
+            "onChange": {
+              "name": "onNameChange"
+            }
+          },
+          "fieldName": "name",
+          "id": "name",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "objectId": {
+          "compName": "InputText",
+          "containerId": "main_tabs",
+          "events": {
+            "onChange": {
+              "name": "setDefaultName"
+            }
+          },
+          "fieldName": "objectId",
+          "id": "objectId",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "productionFlg": {
+          "compName": "RadioButtonField",
+          "containerId": "main_tabs",
+          "events": {
+            "onChange": {
+              "name": "onChangeProductionRun"
+            }
+          },
+          "fieldName": "productionFlg",
+          "id": "productionFlg",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionDeprecated": "2023.07"
+        }
+      },
+      "6": {
+        "attachmentDownload": {
+          "compName": "Button",
+          "containerId": "main_tabs",
+          "events": {
+            "click": {
+              "name": "downloadAttachments"
+            }
+          },
+          "id": "attachmentDownload",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.06"
+        },
+        "report_attachments": {
+          "compName": "CirrusObjectsAttachments",
+          "containerId": "main_tabs",
+          "fieldName": "report_attachments",
+          "id": "report_attachments",
+          "libName": "base",
+          "parentId": "main_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.06"
+        }
+      }
+    },
+    "save_container": {
+      "RUNNING": {
+        "cancel": {
+          "compName": "Button",
+          "containerId": "save_container",
+          "events": {
+            "click": {
+              "name": "onCancel"
+            }
+          },
+          "id": "cancel",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "save_container",
+          "props": {
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true
+        }
+      },
+      "SAVE": {
+        "execute": {
+          "compName": "Button",
+          "containerId": "save_container",
+          "events": {
+            "click": {
+              "name": "onExecute"
+            }
+          },
+          "id": "execute",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "save_container",
+          "props": {
+            "secondary": false,
+            "shrink": false
+          },
+          "sasProvided": true
+        },
+        "save": {
+          "compName": "Button",
+          "containerId": "save_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "save_container",
+          "props": {
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true
+        },
+        "validate": {
+          "compName": "Button",
+          "containerId": "save_container",
+          "events": {
+            "click": {
+              "name": "onValidate"
+            }
+          },
+          "id": "validate",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "save_container",
+          "props": {
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true
+        }
+      },
+      "default": {}
+    }
+  }
+}

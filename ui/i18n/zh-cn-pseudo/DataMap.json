@@ -1,0 +1,17 @@
+{
+  "DataMap.DataMap.schema.field.mapType.label": "XMap type补Z",
+  "DataMap.DataMap.schema.field.objectId.label": "XData map ID补Z",
+  "DataMap.library.label.base.Accordion.cycle_details.0.title": "XData Map Details补Z",
+  "DataMap.library.label.base.Accordion.instance_details.details.title": "XData Map Details补Z",
+  "DataMap.library.label.base.Button.save.label": "XSave补Z",
+  "DataMap.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "XMapping Details补Z",
+  "DataMap.library.label.base.ReadonlyFieldWidget.cycle_name_readonly.label": "X补Z",
+  "DataMap.library.label.base.ReadonlyFieldWidget.name_readonly.label": "X 补Z",
+  "DataMap.library.label.base.RichText.RichText.label": "XRich Text补Z",
+  "DataMap.library.label.base.TabView.cycle_tabs.0.title": "XMapping补Z",
+  "DataMap.library.label.base.TabView.cycle_tabs.1.title": "XDocumentation补Z",
+  "DataMap.library.label.base.TabView.data_map_tabs.0.title": "XData Map Attributes补Z",
+  "DataMap.library.label.base.TabView.data_map_tabs.1.title": "XDocumentation补Z",
+  "DataMap.library.label.base.TabView.data_map_tabs.2.title": "XChange History补Z",
+  "DataMap.library.label.base.TabView.data_map_tabs.tabDetails.title": "XDetails补Z"
+}
