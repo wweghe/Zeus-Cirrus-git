@@ -1,0 +1,10 @@
+{
+  "ImportExport.library.label.base.Button.exportButton.label": "TODO: translate Export",
+  "ImportExport.library.label.base.Button.importButton.label": "TODO: translate Import",
+  "ImportExport.library.label.base.Button.validateButton.label": "TODO: translate Validate",
+  "ImportExport.library.label.base.GenericSpreadsheetWidget.reportTable.label": "TODO: translate Spreadsheet",
+  "ImportExport.library.label.base.GenericSpreadsheetWidget.reportTableShort.label": "TODO: translate Spreadsheet",
+  "ImportExport.library.label.base.RichText.RichText.label": "TODO: translate Rich Text",
+  "ImportExport.library.label.base.TabView.TabView.exportRiskFactors.title": "TODO: translate Export Risk factors",
+  "ImportExport.library.label.base.TabView.TabView.importRiskFactors.title": "TODO: translate Import Risk factors"
+}

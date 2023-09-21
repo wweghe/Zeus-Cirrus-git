@@ -1,0 +1,20 @@
+{
+  "CodeLibrary.CodeLibrary.schema.field.description.label": "コードライブラリの説明",
+  "CodeLibrary.CodeLibrary.schema.field.gitBranch.label": "Git ブランチ",
+  "CodeLibrary.CodeLibrary.schema.field.gitCommit.label": "Git コミット",
+  "CodeLibrary.CodeLibrary.schema.field.gitRepoName.label": "Git リポジトリ名",
+  "CodeLibrary.CodeLibrary.schema.field.git_commit_selector.label": "Git コミット",
+  "CodeLibrary.CodeLibrary.schema.field.name.label": "コードライブラリ名",
+  "CodeLibrary.CodeLibrary.schema.field.objectId.label": "コードライブラリ ID",
+  "CodeLibrary.CodeLibrary.schema.field.statusCd.label": "コードライブラリの状態",
+  "CodeLibrary.library.label.base.Accordion.Accordion.branchDetails.title": "ブランチの詳細",
+  "CodeLibrary.library.label.base.Accordion.instance_details.details.title": "コードライブラリの詳細",
+  "CodeLibrary.library.label.base.Button.save.label": "保存",
+  "CodeLibrary.library.label.base.GitCommitSelector.gitCommit.label": "Git コミット",
+  "CodeLibrary.library.label.base.LinkWidget.gitRepoURL.label": "",
+  "CodeLibrary.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "CodeLibrary.library.label.base.TabView.main_tabs.1.title": "ドキュメント",
+  "CodeLibrary.library.label.base.TabView.main_tabs.2.title": "依存関係",
+  "CodeLibrary.library.label.base.TabView.main_tabs.3.title": "変更履歴",
+  "CodeLibrary.library.label.base.TabView.main_tabs.tabDetails.title": "詳細"
+}

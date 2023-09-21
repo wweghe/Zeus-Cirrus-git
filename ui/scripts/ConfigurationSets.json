@@ -1,0 +1,55 @@
+{
+  "onPageLoad": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "f404b025-6a1c-45b6-8926-2094538ad081",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "ConfigurationSet"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setObjectType",
+        "id": "a5cc864a-6c15-4c3c-9c38-98c098690b94",
+        "params": {
+          "objectType": {
+            "datatype": "text",
+            "name": "objectType",
+            "scope": "local"
+          }
+        },
+        "scope": "childTemplate",
+        "template": "ObjectManagerTemplate",
+        "templatePage": "ObjectManagerTemplate",
+        "widgetId": "ObjectManager"
+      },
+      {
+        "action": "setprop",
+        "comment": "Override the object capabilities-based logic for determining whether the copy button should be enabled.",
+        "function": "disableCopyButton",
+        "id": "0d9585c2-2b26-448b-9455-3367414ad88e",
+        "params": {
+          "disableCopy": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": false
+          }
+        },
+        "scope": "childTemplate",
+        "template": "ObjectManagerTemplate",
+        "templatePage": "ObjectManagerTemplate",
+        "widgetId": "ObjectManager"
+      }
+    ],
+    "sasProvided": false
+  }
+}
