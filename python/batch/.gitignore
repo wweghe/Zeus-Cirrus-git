@@ -1,0 +1,12 @@
+__pycache__
+batch/__pycache__
+common/__pycache__
+domain/__pycache__
+repositories/__pycache__
+services/__pycache__
+tests/__pycache__
+
+*.log
+~*.xlsx
+sample/*_results_*.xlsx
+sample/*.log
