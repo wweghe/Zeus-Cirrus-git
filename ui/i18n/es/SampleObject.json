@@ -1,0 +1,13 @@
+{
+  "SampleObject.AttributionTemplate.schema.field.objectId.label": "ID de la plantilla de atribución",
+  "SampleObject.library.label.base.Accordion.attribution_template_details.details.title": "Detalles de la plantilla de atribución",
+  "SampleObject.library.label.base.Button.save.label": "Guardar",
+  "SampleObject.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.1.title": "Documentación",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.2.title": "Historial de cambios",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.tabDetails.title": "Detalles",
+  "SampleObject.library.label.base.TabView.main_tabs.1.title": "Documentación",
+  "SampleObject.library.label.base.TabView.main_tabs.2.title": "Historial de cambios",
+  "SampleObject.library.label.base.TabView.main_tabs.tabDetails.title": "Detalles",
+  "undefined": "Pestaña"
+}

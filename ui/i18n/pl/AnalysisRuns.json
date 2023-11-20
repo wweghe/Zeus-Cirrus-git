@@ -1,0 +1,4 @@
+{
+  "AnalysisRuns.library.label.base.Template.ObjectManagerTemplate.label": "Strona szablonów",
+  "AnalysisRuns.script.validation.summary.label": "Nie można zapisać wykonania analizy, jeśli odwołuje się do skryptów nieprodukcyjnych."
+}

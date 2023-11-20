@@ -1,0 +1,18 @@
+{
+  "KPI.KPI.schema.field.category.label": "Categoria de KPI",
+  "KPI.KPI.schema.field.threshold.color.validation.message.label": "Não é possível alterar as cores do intervalo de limiar predefinido.",
+  "KPI.KPI.schema.field.threshold.color.validation.summary.label": "Cores do intervalo de limiar",
+  "KPI.KPI.schema.field.thresholdsApplicable.help.label": "Esta opção permite definir limiares para monitorizar o desempenho do KPI. Selecione esta opção se o KPI for um valor mensurável único.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.help.label": "A aplicação atribui a banda de cores do limiar com base no intervalo de desempenho do KPI selecionado.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.label": "Qual dos seguintes valores de KPI representa um melhor desempenho?",
+  "KPI.library.label.base.BasicMessageStrip.BasicMessageStrip.messageStripText.label": "Este KPI está associado a um plano de monitorização; quaisquer alterações subsequentes no limiar não afetarão o plano de monitorização associado. Volte a associar o KPI ao plano de monitorização para aplicar as alterações mais recentes.",
+  "KPI.library.label.base.Button.save_button.label": "Guardar",
+  "KPI.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "KPI.library.label.base.TabView.TabView.changeHistory.title": "Histórico de Alterações",
+  "KPI.library.label.base.TabView.TabView.code.title": "Código",
+  "KPI.library.label.base.TabView.TabView.details.title": "Detalhes",
+  "KPI.library.label.base.TabView.TabView.documentation.title": "Documentação",
+  "KPI.library.label.base.TabView.TabView.relatedObjects.title": "Objetos Relacionados",
+  "KPI.library.label.base.TabView.TabView.tab_parameters.title": "Parâmetros",
+  "KPI.library.label.base.TabView.TabView.threshold.title": "Limiar"
+}

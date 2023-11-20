@@ -1,0 +1,9 @@
+{
+  "ConfigurationSetDialogContent.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.help.label": "コピーして編集する構成テーブルを選択します。選択されていない他のすべてのテーブルは、新しい構成セットが保存されるときも変更されません。",
+  "ConfigurationSetDialogContent.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "コピーして編集する構成テーブルの選択",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.description.label": "構成セットの説明",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.name.label": "構成セット名",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.objectId.label": "構成セット ID",
+  "ConfigurationSetDialogContent.library.label.base.TabView.TabView.configurationTables.title": "構成テーブル",
+  "ConfigurationSetDialogContent.library.label.base.TabView.TabView.details.title": "詳細"
+}

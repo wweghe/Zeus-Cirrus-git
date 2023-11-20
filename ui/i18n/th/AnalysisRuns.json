@@ -1,0 +1,4 @@
+{
+  "AnalysisRuns.library.label.base.Template.ObjectManagerTemplate.label": "หน้าเทมเพลต",
+  "AnalysisRuns.script.validation.summary.label": "You cannot save a production analysis run if it references non-production scripts."
+}

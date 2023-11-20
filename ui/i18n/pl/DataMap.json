@@ -1,0 +1,17 @@
+{
+  "DataMap.DataMap.schema.field.mapType.label": "Typ mapy",
+  "DataMap.DataMap.schema.field.objectId.label": "Identyfikator mapy danych",
+  "DataMap.library.label.base.Accordion.cycle_details.0.title": "Informacje o mapie danych",
+  "DataMap.library.label.base.Accordion.instance_details.details.title": "Informacje o mapie danych",
+  "DataMap.library.label.base.Button.save.label": "Zapisz",
+  "DataMap.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "Informacje o odwzorowaniu",
+  "DataMap.library.label.base.ReadonlyFieldWidget.cycle_name_readonly.label": "",
+  "DataMap.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "DataMap.library.label.base.RichText.RichText.label": "Tekst RTF",
+  "DataMap.library.label.base.TabView.cycle_tabs.0.title": "Odwzorowanie",
+  "DataMap.library.label.base.TabView.cycle_tabs.1.title": "Dokumentacja",
+  "DataMap.library.label.base.TabView.data_map_tabs.0.title": "Atrybuty mapy danych",
+  "DataMap.library.label.base.TabView.data_map_tabs.1.title": "Dokumentacja",
+  "DataMap.library.label.base.TabView.data_map_tabs.2.title": "Historia zmian",
+  "DataMap.library.label.base.TabView.data_map_tabs.tabDetails.title": "Informacje"
+}

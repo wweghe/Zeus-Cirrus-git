@@ -1,0 +1,9 @@
+{
+  "ConfigurationSetDialogContent.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.help.label": "Sélectionnez les tables de configuration que vous souhaitez copier et modifier. Toutes les autres tables qui n’ont pas été sélectionnées resteront inchangées lors de l’enregistrement du nouveau jeu de configurations.",
+  "ConfigurationSetDialogContent.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "Sélectionnez les tables de configuration à copier et à modifier",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.description.label": "Description du jeu de configuration",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.name.label": "Nom du jeu de configuration",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.objectId.label": "ID du jeu de configuration",
+  "ConfigurationSetDialogContent.library.label.base.TabView.TabView.configurationTables.title": "Tables de configuration",
+  "ConfigurationSetDialogContent.library.label.base.TabView.TabView.details.title": "Détails"
+}

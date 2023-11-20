@@ -1,0 +1,120 @@
+{
+  "layouts": {
+    "base": {
+      "CustomContentDialog": {
+        "h": 100,
+        "i": "CustomContentDialog",
+        "minH": 30,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 2,
+        "x": 0,
+        "y": 730
+      },
+      "ObjectManager": {
+        "h": 730,
+        "i": "ObjectManager",
+        "minH": 30,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "onPageLoad": {
+        "params": {}
+      }
+    },
+    "events": {
+      "onTabClose": {}
+    },
+    "props": {
+      "description": "",
+      "icon": "",
+      "id": "ObjectManagerTemplate",
+      "label": "Object Manager Template"
+    }
+  },
+  "structure": {
+    "base": {
+      "CustomContentDialog": {
+        "compName": "CustomContentDialog",
+        "containerId": "base",
+        "events": {
+          "onConfirmClick": {
+            "name": "runConfirmLogic"
+          },
+          "onDenyClick": {
+            "name": "runDenyLogic"
+          },
+          "onTriggerParent": {
+            "name": "runTriggerParentLogic"
+          }
+        },
+        "id": "CustomContentDialog",
+        "label": "appbuilder.toolboxitem.customcontentdialog.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "enableOnPageLoad": true,
+          "options": {
+            "confirmLabel": {
+              "index": 1,
+              "label": "Save",
+              "value": [
+                "confirmLabel"
+              ]
+            }
+          },
+          "sizeToContent": false,
+          "startingSize": true,
+          "startingSizeHeight": "65",
+          "startingSizeWidth": "80"
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.05"
+      },
+      "ObjectManager": {
+        "compName": "ObjectManager",
+        "containerId": "base",
+        "events": {
+          "onCopy": {
+            "name": "onCopy"
+          },
+          "onCreate": {
+            "name": "onCreate"
+          },
+          "onDelete": {
+            "name": "onDelete"
+          },
+          "onEdit": {
+            "name": "onEdit"
+          },
+          "onExport": {
+            "name": "onExport"
+          },
+          "onFetch": {
+            "name": "onFetch"
+          },
+          "onSave": {
+            "name": "onSave"
+          }
+        },
+        "id": "ObjectManager",
+        "label": "appbuilder.toolboxitem.objectmanager.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "fetchRecordLimit": 100
+        },
+        "sasProvided": true
+      }
+    }
+  }
+}

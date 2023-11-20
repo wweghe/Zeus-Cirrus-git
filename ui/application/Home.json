@@ -1,0 +1,106 @@
+{
+  "layouts": {
+    "base": {
+      "ClaimTasksTable": {
+        "h": 240,
+        "i": "ClaimTasksTable",
+        "minH": 30,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      },
+      "PotentialTasksTable": {
+        "h": 600,
+        "i": "PotentialTasksTable",
+        "minH": 30,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 304
+      },
+      "RiskModelingConfigLinkWidget": {
+        "h": 54,
+        "i": "RiskModelingConfigLinkWidget",
+        "minH": 54,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 7,
+        "x": 5,
+        "y": 963
+      }
+    }
+  },
+  "page": {
+    "events": {},
+    "props": {
+      "description": "The Home Page",
+      "icon": "base://HOME",
+      "id": "Home",
+      "label": "Home Page",
+      "tabLabel": "Home"
+    }
+  },
+  "structure": {
+    "base": {
+      "ClaimTasksTable": {
+        "compName": "ClaimTasksTable",
+        "containerId": "base",
+        "events": {
+          "onSelectTask": {
+            "name": "onSelectTask"
+          },
+          "refreshTable": {
+            "name": "onReleaseTask"
+          }
+        },
+        "id": "ClaimTasksTable",
+        "label": "appbuilder.toolboxitem.claimTasksTable.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {},
+        "sasProvided": true
+      },
+      "PotentialTasksTable": {
+        "compName": "PotentialTasksTable",
+        "containerId": "base",
+        "events": {
+          "onSelectTask": {
+            "name": "onSelectTask"
+          },
+          "refreshTable": {
+            "name": "onClaimTask"
+          }
+        },
+        "id": "PotentialTasksTable",
+        "label": "appbuilder.toolboxitem.potentialTasksTable.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {},
+        "sasProvided": true
+      },
+      "RiskModelingConfigLinkWidget": {
+        "compName": "LinkWidget",
+        "containerId": "base",
+        "id": "RiskModelingConfigLinkWidget",
+        "label": "appbuilder.toolboxitem.link.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "end",
+          "colon": false,
+          "linkText": "Navigate to Data Configuration workspaces",
+          "linkUrl": "/SASRiskModeling/?appSwitcherMessage={%22type%22:%22AppSwitcher.AppShow%22,%22data%22:{%22targetPublicType%22:%22riskDataProject%22,%22targetWorkspace%22:%22sourceTables%22}}",
+          "stacked": false
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.05"
+      }
+    }
+  }
+}

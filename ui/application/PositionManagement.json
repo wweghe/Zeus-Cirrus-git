@@ -1,0 +1,48 @@
+{
+  "layouts": {
+    "base": {
+      "PositionsManager": {
+        "h": 723,
+        "i": "PositionsManager",
+        "minH": 30,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 18
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "onPageLoad": {
+        "params": {}
+      }
+    },
+    "events": {
+      "onAnyEvent": {},
+      "onTabClose": {}
+    },
+    "props": {
+      "description": "",
+      "id": "PositionManagement",
+      "label": "Position Management",
+      "tabLabel": "Position Management"
+    }
+  },
+  "structure": {
+    "base": {
+      "PositionsManager": {
+        "compName": "PositionsManager",
+        "containerId": "base",
+        "id": "PositionsManager",
+        "label": "appbuilder.toolboxitem.positionsManager.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {},
+        "sasProvided": true
+      }
+    }
+  }
+}

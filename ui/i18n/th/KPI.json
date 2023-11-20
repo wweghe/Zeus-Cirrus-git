@@ -1,0 +1,17 @@
+{
+  "KPI.KPI.schema.field.category.label": "หมวดหมู่ KPI",
+  "KPI.KPI.schema.field.threshold.color.validation.message.label": "คุณไม่สามารถเปลี่ยนสีของช่วงค่าเกณฑ์เริ่มต้นได้",
+  "KPI.KPI.schema.field.threshold.color.validation.summary.label": "สีของช่วงค่าเกณฑ์",
+  "KPI.KPI.schema.field.thresholdsApplicable.help.label": "ตัวเลือกนี้อนุญาตให้คุณตั้งค่าเกณฑ์สำหรับการตรวจสอบสถานภาพของ KPI เลือกตัวเลือกนี้ถ้า KPI เป็นค่าที่วัดได้เชิงเดียว",
+  "KPI.KPI.schema.field.thresholdsBetterBound.help.label": "แอปพลิเคชันจะกำหนดแถบสีของค่าเกณฑ์อิงตามช่วงสถานภาพของ KPI ที่เลือก",
+  "KPI.KPI.schema.field.thresholdsBetterBound.label": "รายการใดต่อไปนี้เป็นค่า KPI ที่แทนถึงสถานภาพที่ดีกว่า",
+  "KPI.library.label.base.BasicMessageStrip.BasicMessageStrip.messageStripText.label": "KPI นี้เชื่อมโยงกับแผนการตรวจสอบ การเปลี่ยนแปลงภายหลังใดๆ ในค่าเกณฑ์จะไม่มีผลต่อแผนการตรวจสอบที่เชื่อมโยง เชื่อมโยง KPI อีกครั้งกับแผนการตรวจสอบเพื่อใช้งานการเปลี่ยนแปงล่าสุด",
+  "KPI.library.label.base.Button.save_button.label": "บันทึก",
+  "KPI.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "KPI.library.label.base.TabView.TabView.changeHistory.title": "ประวัติการเปลี่ยนแปลง",
+  "KPI.library.label.base.TabView.TabView.code.title": "โค้ด",
+  "KPI.library.label.base.TabView.TabView.details.title": "รายละเอียด",
+  "KPI.library.label.base.TabView.TabView.documentation.title": "เอกสารประกอบ",
+  "KPI.library.label.base.TabView.TabView.relatedObjects.title": "ออบเจ็กต์ที่เกี่ยวข้อง",
+  "KPI.library.label.base.TabView.TabView.threshold.title": "ขีดจำกัด"
+}

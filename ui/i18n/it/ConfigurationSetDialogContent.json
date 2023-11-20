@@ -1,0 +1,9 @@
+{
+  "ConfigurationSetDialogContent.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.help.label": "Selezionare le tabelle di configurazione da copiare e modificare. Tutte le altre tabelle che non sono state selezionate rimarranno invariate quando il nuovo set di configurazione verrà salvato.",
+  "ConfigurationSetDialogContent.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "Selezionare le tabelle di configurazione da copiare e modificare",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.description.label": "Descrizione del set di configurazione",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.name.label": "Nome del set di configurazione",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.objectId.label": "ID set di configurazione",
+  "ConfigurationSetDialogContent.library.label.base.TabView.TabView.configurationTables.title": "Tabelle di configurazione",
+  "ConfigurationSetDialogContent.library.label.base.TabView.TabView.details.title": "Dettagli"
+}

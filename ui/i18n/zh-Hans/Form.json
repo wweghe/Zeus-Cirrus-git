@@ -1,0 +1,12 @@
+{
+  "Form.library.label.base.Accordion.Accordion.panel1.title": "面板 1",
+  "Form.library.label.base.Accordion.classifications_accordion.classifications.title": "分类",
+  "Form.library.label.base.Button.Button.label": "保存",
+  "Form.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "Form.library.label.base.TabView.TabView.0.title": "详细信息",
+  "Form.library.label.base.TabView.TabView.1.title": "团队",
+  "Form.library.label.base.TabView.TabView.2.title": "相关对象",
+  "Form.library.label.base.TabView.TabView.4.title": "文档",
+  "Form.library.label.base.TabView.TabView.5.title": "更改历史",
+  "undefined": "折叠式面板"
+}

@@ -1,0 +1,18 @@
+{
+  "ConfigurationSet.ConfigurationSet.schema.field.linkedConfigurationTables.label": "구성 테이블",
+  "ConfigurationSet.ConfigurationSet.schema.field.statusCd.label": "상태",
+  "ConfigurationSet.library.label.base.Accordion.instance_details.details.title": "구성 집합 상세 정보",
+  "ConfigurationSet.library.label.base.Button.save.label": "저장",
+  "ConfigurationSet.library.label.base.CirrusObjectsLinks.documentation_links.label": "문서 링크",
+  "ConfigurationSet.library.label.base.Comments.additional_comments.label": "주석",
+  "ConfigurationSet.library.label.base.InputText.name.label": "구성 집합 이름",
+  "ConfigurationSet.library.label.base.InputText.objectId.label": "구성 집합 ID",
+  "ConfigurationSet.library.label.base.InputTextarea.description.label": "구성 집합 설명",
+  "ConfigurationSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.0.title": "상세 정보",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.1.title": "문서",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.2.title": "변경 히스토리",
+  "ConfigurationSet.schema.field.ConfigurationTable.statusCd.validation.summary.label": "구성 집합의 상태는 연관된 구성 테이블도 모두 프로덕션 상태인 경우에만 프로덕션으로 프로모션할 수 있습니다.",
+  "ConfigurationSet.schema.field.ConfigurationTable.validation.summary.label": "구성 집합은 동일한 유형의 연결된 구성 테이블과 함께 저장할 수 없습니다.",
+  "ConfigurationSet.schema.field.ConfigurationTable.validation.title.label": "연결된 구성 테이블이 올바르지 않음"
+}

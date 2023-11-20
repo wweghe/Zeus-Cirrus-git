@@ -1,0 +1,7 @@
+{
+  "User.schema.field.email.label": "E-mail",
+  "User.schema.field.key.label": "Chiave",
+  "User.schema.field.name.label": "Nome",
+  "User.schema.field.status.label": "Stato",
+  "User.schema.field.userId.label": "ID utente"
+}
