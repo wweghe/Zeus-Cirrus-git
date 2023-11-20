@@ -1,0 +1,1183 @@
+{
+  "layouts": {
+    "GroupableContainer": {
+      "properties": {
+        "BaseClass": {
+          "h": 24,
+          "i": "BaseClass",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 8,
+          "y": 200
+        },
+        "Category": {
+          "h": 24,
+          "i": "Category",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 150
+        },
+        "CreatedBy": {
+          "h": 24,
+          "i": "CreatedBy",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 200
+        },
+        "Currency": {
+          "h": 24,
+          "i": "Currency",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 8,
+          "y": 50
+        },
+        "DateCreated": {
+          "h": 24,
+          "i": "DateCreated",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 200
+        },
+        "DateModified": {
+          "h": 24,
+          "i": "DateModified",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 250
+        },
+        "DayCount": {
+          "h": 24,
+          "i": "DayCount",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 8,
+          "y": 250
+        },
+        "Description": {
+          "h": 24,
+          "i": "Description",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 100
+        },
+        "Extrapolation": {
+          "h": 24,
+          "i": "Extrapolation",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 300
+        },
+        "ID": {
+          "h": 24,
+          "i": "ID",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 50
+        },
+        "Interpolation": {
+          "h": 24,
+          "i": "Interpolation",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 300
+        },
+        "Label": {
+          "h": 24,
+          "i": "Label",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 0
+        },
+        "Name": {
+          "h": 24,
+          "i": "Name",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 0
+        },
+        "PropertiesRichText": {
+          "h": 48,
+          "i": "PropertiesRichText",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 0
+        },
+        "Purpose": {
+          "h": 24,
+          "i": "Purpose",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 50
+        },
+        "Source": {
+          "h": 24,
+          "i": "Source",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 100
+        },
+        "SplineType": {
+          "h": 24,
+          "i": "SplineType",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 8,
+          "y": 100
+        },
+        "SpreadType": {
+          "h": 24,
+          "i": "SpreadType",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 8,
+          "y": 150
+        },
+        "Type": {
+          "h": 24,
+          "i": "Type",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 8,
+          "y": 0
+        },
+        "ValueType": {
+          "h": 24,
+          "i": "ValueType",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 250
+        },
+        "nMembers": {
+          "h": 24,
+          "i": "nMembers",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 150
+        }
+      },
+      "zeroState": {
+        "Image": {
+          "h": 90,
+          "i": "Image",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 200
+        },
+        "PropertiesRichText": {
+          "h": 48,
+          "i": "PropertiesRichText",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 0
+        },
+        "ReadonlyFieldWidget_5": {
+          "h": 24,
+          "i": "ReadonlyFieldWidget_5",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 3,
+          "y": 290
+        }
+      }
+    },
+    "GroupableContainer_1": {
+      "default": {
+        "Button": {
+          "h": 26,
+          "i": "Button",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 0,
+          "y": 0
+        },
+        "Button_1": {
+          "h": 26,
+          "i": "Button_1",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 1,
+          "y": 0
+        },
+        "Delete_button": {
+          "h": 26,
+          "i": "Delete_button",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 10,
+          "y": 0
+        },
+        "Refresh_button": {
+          "h": 26,
+          "i": "Refresh_button",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 11,
+          "y": 0
+        }
+      }
+    },
+    "TabView": {
+      "Definitions": {
+        "Button_1": {
+          "h": 26,
+          "i": "Button_1",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 1,
+          "y": 0
+        },
+        "ClearFilterButton": {
+          "h": 26,
+          "i": "ClearFilterButton",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 3,
+          "y": 98
+        },
+        "GenericTree": {
+          "h": 630,
+          "i": "GenericTree",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 190
+        },
+        "GroupableContainer": {
+          "h": 590,
+          "i": "GroupableContainer",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 5,
+          "y": 190
+        },
+        "GroupableContainer_1": {
+          "h": 50,
+          "i": "GroupableContainer_1",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 2,
+          "y": 140
+        },
+        "InputTextWidget": {
+          "h": 50,
+          "i": "InputTextWidget",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 0,
+          "y": 115
+        },
+        "PageDescription": {
+          "h": 25,
+          "i": "PageDescription",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 15
+        },
+        "RichText": {
+          "h": 48,
+          "i": "RichText",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 0,
+          "y": 50
+        },
+        "RichText_1": {
+          "h": 48,
+          "i": "RichText_1",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 5,
+          "y": 50
+        },
+        "SearchButton": {
+          "h": 26,
+          "i": "SearchButton",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 9,
+          "y": 31
+        }
+      }
+    },
+    "base": {
+      "CustomContentDialog": {
+        "h": 100,
+        "i": "CustomContentDialog",
+        "minH": 30,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 2,
+        "x": 0,
+        "y": 801
+      },
+      "DeleteNodeDialog": {
+        "h": 150,
+        "i": "DeleteNodeDialog",
+        "minH": 30,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 801
+      },
+      "TabView": {
+        "h": 800,
+        "i": "TabView",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "onPageLoad": {
+        "name": "onPageLoadFeedTree"
+      }
+    },
+    "events": {
+      "onAnyEvent": {},
+      "onTabClose": {}
+    },
+    "props": {
+      "description": "",
+      "icon": "base://GROOVE_CONFIGURATION",
+      "id": "Configuration",
+      "label": "Configuration",
+      "tabLabel": "Configuration"
+    }
+  },
+  "structure": {
+    "GroupableContainer": {
+      "properties": {
+        "BaseClass": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "BaseClass",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "Category": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "Category",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "CreatedBy": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "CreatedBy",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "Currency": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "Currency",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "DateCreated": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "DateCreated",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "DateModified": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "DateModified",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "DayCount": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "DayCount",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.11"
+        },
+        "Description": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "Description",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "Extrapolation": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "Extrapolation",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "ID": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "ID",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "Interpolation": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "Interpolation",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "Label": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "Label",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "Name": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "Name",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "PropertiesRichText": {
+          "compName": "RichText",
+          "containerId": "GroupableContainer",
+          "id": "PropertiesRichText",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "value": "\u003ch4\u003e\u003cstrong\u003eProperties\u003c/strong\u003e\u003c/h4\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05",
+          "versionDeprecated": "2023.07"
+        },
+        "Purpose": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "Purpose",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "Source": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "Source",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "SplineType": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "SplineType",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "SpreadType": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "SpreadType",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "Type": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "Type",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.06"
+        },
+        "ValueType": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "ValueType",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "nMembers": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "nMembers",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        }
+      },
+      "zeroState": {
+        "Image": {
+          "compName": "Image",
+          "containerId": "GroupableContainer",
+          "id": "Image",
+          "label": "appbuilder.toolboxitem.image.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "imageUri": "base://ZeroStateHierarchy"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "ReadonlyFieldWidget_5": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "GroupableContainer",
+          "id": "ReadonlyFieldWidget_5",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "GroupableContainer",
+          "props": {
+            "align": "center",
+            "colon": false,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        }
+      }
+    },
+    "GroupableContainer_1": {
+      "default": {
+        "Button": {
+          "compName": "Button",
+          "containerId": "GroupableContainer_1",
+          "events": {
+            "click": {
+              "name": "onClickSearch"
+            }
+          },
+          "id": "Button",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "GroupableContainer_1",
+          "props": {
+            "iconOnly": true,
+            "iconSelected": "base://BANNER_SEARCH"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        },
+        "Button_1": {
+          "compName": "Button",
+          "containerId": "GroupableContainer_1",
+          "id": "Button_1",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "GroupableContainer_1",
+          "props": {
+            "iconOnly": true,
+            "iconSelected": "base://CLOSE"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        },
+        "Delete_button": {
+          "compName": "Button",
+          "containerId": "GroupableContainer_1",
+          "events": {
+            "click": {
+              "name": "onClickDelete"
+            }
+          },
+          "id": "Delete_button",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "GroupableContainer_1",
+          "props": {
+            "iconOnly": true,
+            "iconSelected": "base://DELETE"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        },
+        "Refresh_button": {
+          "compName": "Button",
+          "containerId": "GroupableContainer_1",
+          "events": {
+            "click": {
+              "name": "onClickRefresh"
+            }
+          },
+          "id": "Refresh_button",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "GroupableContainer_1",
+          "props": {
+            "iconOnly": true,
+            "iconSelected": "base://REFRESH"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        }
+      }
+    },
+    "TabView": {
+      "Definitions": {
+        "Button_1": {
+          "compName": "Button",
+          "containerId": "TabView",
+          "events": {
+            "click": {
+              "name": "onClickClearFilter"
+            }
+          },
+          "id": "Button_1",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "align": "center",
+            "iconOnly": true,
+            "iconSelected": "base://SEARCH",
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05",
+          "versionDeprecated": "2023.07"
+        },
+        "ClearFilterButton": {
+          "compName": "Button",
+          "containerId": "TabView",
+          "events": {
+            "click": {
+              "name": "onClickClearFilter"
+            }
+          },
+          "id": "ClearFilterButton",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "align": "start",
+            "secondary": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05",
+          "versionDeprecated": "2023.07"
+        },
+        "GenericTree": {
+          "compName": "GenericTree",
+          "containerId": "TabView",
+          "events": {
+            "getChildrenForNode": {
+              "name": "onExpandNodeGetChildren"
+            },
+            "triggerOnNodeSelected": {
+              "name": "onSelectNode"
+            }
+          },
+          "id": "GenericTree",
+          "label": "appbuilder.toolboxitem.GenericTree.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "disableLabel": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "GroupableContainer": {
+          "compName": "GroupableContainer",
+          "containerId": "TabView",
+          "id": "GroupableContainer",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "activeIndex": 1,
+            "childProps": {
+              "properties": {
+                "name": "properties",
+                "position": 0
+              },
+              "zeroState": {
+                "name": "zeroState",
+                "position": 1
+              }
+            },
+            "removePadding": true,
+            "showOutline": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "GroupableContainer_1": {
+          "compName": "GroupableContainer",
+          "containerId": "TabView",
+          "id": "GroupableContainer_1",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "activeIndex": 0,
+            "childProps": {
+              "default": {
+                "name": "default",
+                "position": 0
+              }
+            },
+            "removePadding": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        },
+        "InputTextWidget": {
+          "compName": "InputTextWidget",
+          "containerId": "TabView",
+          "events": {
+            "onChange": {
+              "name": "onChangeInputFilter"
+            }
+          },
+          "id": "InputTextWidget",
+          "label": "appbuilder.toolboxitem.inputtext.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": false,
+            "hideLabel": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "PageDescription": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "TabView",
+          "id": "PageDescription",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "boldValue": false,
+            "colon": false,
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "RichText": {
+          "compName": "RichText",
+          "containerId": "TabView",
+          "id": "RichText",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "value": "\u003ch4\u003e\u003cstrong\u003eRisk Sources\u003c/strong\u003e\u003c/h4\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        },
+        "RichText_1": {
+          "compName": "RichText",
+          "containerId": "TabView",
+          "id": "RichText_1",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "value": "\u003ch4\u003e\u003cstrong\u003eProperties\u003c/strong\u003e\u003c/h4\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        },
+        "SearchButton": {
+          "compName": "Button",
+          "containerId": "TabView",
+          "events": {
+            "click": {
+              "name": "onClickSearch"
+            }
+          },
+          "id": "SearchButton",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "align": "end"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.06",
+          "versionDeprecated": "2023.07"
+        }
+      }
+    },
+    "base": {
+      "CustomContentDialog": {
+        "compName": "CustomContentDialog",
+        "containerId": "base",
+        "id": "CustomContentDialog",
+        "label": "appbuilder.toolboxitem.customcontentdialog.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "enableOnPageLoad": true,
+          "selectedPage": "MultipleDeleteConfirmation",
+          "sizeToContent": true
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.07",
+        "versionDeprecated": "2023.11"
+      },
+      "DeleteNodeDialog": {
+        "compName": "CustomMessageDialog",
+        "containerId": "base",
+        "events": {
+          "onConfirmClick": {
+            "name": "onClickDeleteConfirm"
+          }
+        },
+        "id": "DeleteNodeDialog",
+        "label": "appbuilder.toolboxitem.customMessageDialog.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "dialogType": "warning"
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.07"
+      },
+      "TabView": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "TabView",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "childProps": {
+            "Definitions": {
+              "label": "Definitions",
+              "name": "Definitions",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.05"
+      }
+    }
+  }
+}

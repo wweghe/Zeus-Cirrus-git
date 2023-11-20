@@ -1,0 +1,58 @@
+{
+  "layouts": {
+    "base": {
+      "DualSelector": {
+        "h": 300,
+        "i": "DualSelector",
+        "minH": 50,
+        "minW": 3,
+        "moved": false,
+        "static": false,
+        "w": 9,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "onPageLoad": {
+        "name": "onPageLoadGetDataFromConfiguration"
+      }
+    },
+    "events": {
+      "onAnyEvent": {},
+      "onTabClose": {}
+    },
+    "props": {
+      "description": "",
+      "icon": "base://CHECKMARK",
+      "id": "MultipleDeleteConfirmation",
+      "label": "Multiple Delete Confirmation",
+      "tabLabel": "Multiple Delete Confirmation"
+    }
+  },
+  "structure": {
+    "base": {
+      "DualSelector": {
+        "compName": "DualSelector",
+        "containerId": "base",
+        "events": {
+          "onChange": {
+            "name": "onChangeSelected"
+          }
+        },
+        "id": "DualSelector",
+        "label": "appbuilder.toolboxitem.dualSelector.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "colon": true,
+          "options": []
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.07"
+      }
+    }
+  }
+}

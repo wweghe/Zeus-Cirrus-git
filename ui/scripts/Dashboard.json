@@ -1,0 +1,979 @@
+{
+  "generateDashboard": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "addComment",
+        "commentStep": "Add additional numbers to the string below to increase the number of reports",
+        "id": "61f47417-051d-46d8-b220-af4ff324d709",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "041449ed-cdb3-4a47-82a3-257becda5646",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "split",
+          "library": "CirrusLibString",
+          "params": {
+            "separator": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": ","
+            },
+            "string": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "1,2,3,4,5"
+            }
+          },
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "availableReports ",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "dbebd071-d0eb-4406-b841-9c277bca13bf",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "createEmptyObject",
+          "library": "CirrusLibObject",
+          "params": {},
+          "returnType": "object"
+        },
+        "variable": {
+          "datatype": "object",
+          "name": "tabLabels",
+          "scope": "global"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "47c8ef59-ac8e-497a-97b1-9f7334704685",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "createNewStringArray",
+          "library": "CirrusLibArray",
+          "params": {},
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "hideTabs",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Loop over each report number and load that report with its tab label",
+        "id": "66b0127f-30eb-49ae-a1da-52856c5e3518",
+        "isCommented": false
+      },
+      {
+        "action": "execfunc",
+        "function": "forEach",
+        "id": "c5ab0ff8-769c-4213-9ade-11b2ef90e8c4",
+        "isCommented": false,
+        "library": "CirrusLibArray",
+        "params": {
+          "array": {
+            "datatype": "text array",
+            "name": "availableReports ",
+            "scope": "local"
+          },
+          "callback": {
+            "function": "loadReport",
+            "library": "$interactions$",
+            "params": {
+              "input_hideArray": {
+                "datatype": "text array",
+                "name": "hideTabs",
+                "scope": "local"
+              },
+              "input_reportNumber": {
+                "datatype": "text",
+                "label": "Current value",
+                "name": "loop_currentValue",
+                "scope": "local"
+              }
+            }
+          }
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setHiddenTabsById",
+        "id": "fa3bd1c4-1c79-4262-ab19-962b0f216a6a",
+        "isCommented": false,
+        "params": {
+          "hiddenTabIds": {
+            "datatype": "text array",
+            "name": "hideTabs",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "TabView"
+      },
+      {
+        "action": "setprop",
+        "function": "setTabOverrides",
+        "id": "c30e3cde-e081-4f78-bb3b-14b5f6f520cd",
+        "isCommented": false,
+        "params": {
+          "tabOverrides": {
+            "datatype": "object",
+            "name": "tabLabels",
+            "scope": "global"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "TabView"
+      }
+    ],
+    "resolveEachStep": false,
+    "sasProvided": true
+  },
+  "loadReport": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_reportNumber"
+      },
+      {
+        "datatype": "text array",
+        "name": "input_hideArray"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "cc5968f9-aead-4e55-a789-18be7d6d5f20",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "concat",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "report"
+            },
+            "string2": {
+              "datatype": "text",
+              "name": "input_reportNumber",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "report",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "043fbaef-34c5-4fff-80c6-742a5e0b912f",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "concat",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "Dashboard.report"
+            },
+            "string2": {
+              "datatype": "text",
+              "name": "input_reportNumber",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "dashboardReportPrefix",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "194e366b-3f05-4e31-a164-092f5d7532a7",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "concat",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "dashboardReportPrefix",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": ".uuid"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "reportUUIDKey",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "6b3242cb-01b9-4759-9477-30fd83ca341b",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "concat",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "dashboardReportPrefix",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": ".label"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "reportLabelKey",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "2588b7e1-c82c-4680-9159-00ac64e1abca",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getAppConfigProperty",
+          "library": "CirrusLibConfigProperties",
+          "params": {
+            "propertyName": {
+              "datatype": "text",
+              "name": "reportUUIDKey",
+              "scope": "local"
+            }
+          },
+          "returnType": "\u003cOutgoing\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e",
+          "name": "reportUUIDProp",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "5a327449-ff3d-47eb-b50d-3e4b1fd5d791",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getAppConfigProperty",
+          "library": "CirrusLibConfigProperties",
+          "params": {
+            "propertyName": {
+              "datatype": "text",
+              "name": "reportLabelKey",
+              "scope": "local"
+            }
+          },
+          "returnType": "\u003cOutgoing\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e",
+          "name": "reportLabel",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "dbaca3de-185c-4256-a06b-54fddc275067",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "datatype": "text",
+          "function": "get",
+          "library": "CirrusLibObject",
+          "params": {
+            "name": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "id"
+            },
+            "object": {
+              "name": "reportUUIDProp",
+              "scope": "local"
+            }
+          },
+          "returnType": "\u003cany\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cany\u003e",
+          "name": "reportUUID",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "fbebf262-1a85-4cce-af88-f29e6df8dec8",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "isNullOrUndefined",
+          "library": "CirrusLibGeneral",
+          "params": {
+            "value": {
+              "datatype": "text",
+              "name": "reportUUID",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isReportUUIDNull",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "f71592e8-93c4-4b0d-8870-695d6d39e2d6",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "not",
+          "library": "CirrusLibBoolean",
+          "params": {
+            "bool": {
+              "datatype": "boolean",
+              "name": "isReportUUIDNull",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isNotReportUUIDNull",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "959b5f0a-cc6a-4ba2-833e-30caac67b1de",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "isNotEmpty",
+          "library": "CirrusLibString",
+          "params": {
+            "string": {
+              "datatype": "text",
+              "name": "reportUUID",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isUUIDSet",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "2b2144f3-cf4f-4ed9-8814-0139fde771a0",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "and",
+          "library": "CirrusLibBoolean",
+          "params": {
+            "bool1": {
+              "datatype": "boolean",
+              "name": "isNotReportUUIDNull",
+              "scope": "local"
+            },
+            "bool2": {
+              "datatype": "boolean",
+              "name": "isUUIDSet",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isReportUUIDFound",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "1007392a-f948-4df1-9f0b-09a6b86fc426",
+        "includeElse": true,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isReportUUIDFound",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "setReport",
+        "id": "0d6dcd86-9c71-4863-a4a4-4ead35bc2f4d",
+        "isCommented": false,
+        "library": "$interactions$",
+        "params": {
+          "input_report": {
+            "datatype": "text",
+            "name": "report",
+            "scope": "local"
+          },
+          "input_reportUUID": {
+            "datatype": "text",
+            "name": "reportUUID",
+            "scope": "local"
+          }
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "8ba05102-83b2-44d3-ba57-27e1aaad9d28",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "createEmptyObject",
+          "library": "CirrusLibObject",
+          "params": {},
+          "returnType": "object"
+        },
+        "variable": {
+          "datatype": "object",
+          "name": "tab",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "set",
+        "id": "12a0e23e-dea4-49c2-a265-ec639738414a",
+        "isCommented": false,
+        "library": "CirrusLibObject",
+        "params": {
+          "name": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "label"
+          },
+          "object": {
+            "datatype": "object",
+            "name": "tab",
+            "scope": "local"
+          },
+          "value": {
+            "name": "reportLabel",
+            "scope": "local"
+          }
+        },
+        "returnType": "object"
+      },
+      {
+        "action": "execfunc",
+        "function": "set",
+        "id": "6cdc4d7a-bbee-4da4-9f89-acf19d569c08",
+        "isCommented": false,
+        "library": "CirrusLibObject",
+        "params": {
+          "name": {
+            "datatype": "text",
+            "name": "report",
+            "scope": "local"
+          },
+          "object": {
+            "datatype": "object",
+            "name": "tabLabels",
+            "scope": "global"
+          },
+          "value": {
+            "datatype": "object",
+            "name": "tab",
+            "scope": "local"
+          }
+        },
+        "returnType": "object"
+      },
+      {
+        "action": "ifelse",
+        "id": "85f50563-f18c-4cab-bef7-f5773aaab7cb",
+        "includeElse": true,
+        "iselse": true,
+        "main": "1007392a-f948-4df1-9f0b-09a6b86fc426",
+        "test": {
+          "datatype": "boolean",
+          "name": "isReportUUIDFound",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "push",
+        "id": "1c80e7dd-c86d-4ca4-a95a-4e9c15f34214",
+        "isCommented": false,
+        "library": "CirrusLibArray",
+        "params": {
+          "array": {
+            "datatype": "text array",
+            "name": "input_hideArray",
+            "scope": "local"
+          },
+          "value": {
+            "datatype": "text",
+            "name": "report",
+            "scope": "local"
+          }
+        },
+        "returnType": "numeric"
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "d14906e6-e0f8-450b-a613-72f8ec53668f",
+        "includeElse": true,
+        "isCommented": false,
+        "main": "1007392a-f948-4df1-9f0b-09a6b86fc426",
+        "test": {
+          "datatype": "boolean",
+          "name": "isReportUUIDFound",
+          "scope": "local"
+        }
+      }
+    ],
+    "resolveEachStep": false,
+    "sasProvided": true
+  },
+  "onPageLoad": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "execfunc",
+        "function": "showLoadingOverlay",
+        "id": "692059e7-789b-4538-af36-00f5e2334e84",
+        "isCommented": false,
+        "library": "CirrusLibPage",
+        "params": {}
+      },
+      {
+        "action": "execfunc",
+        "function": "generateDashboard",
+        "id": "0a321293-fd19-406c-b45e-0193467b0b38",
+        "isCommented": false,
+        "library": "$interactions$",
+        "params": {}
+      },
+      {
+        "action": "execfunc",
+        "function": "hideLoadingOverlay",
+        "id": "b1e7c5be-db98-4736-8bb2-fff00ca05bc4",
+        "isCommented": false,
+        "library": "CirrusLibPage",
+        "params": {}
+      }
+    ],
+    "sasProvided": true
+  },
+  "setReport": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_report"
+      },
+      {
+        "datatype": "text",
+        "name": "input_reportUUID"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "8ff0f3d9-ff87-4afb-ae9f-9d746adce1f1",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "strEquals",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "input_report",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "report1"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isReport1",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "3eed35c6-3b39-4990-8dd2-1ed1e46b079d",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "strEquals",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "input_report",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "report2"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isReport2",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "ee71b0e0-9c1c-4a50-b261-0b7512040dc2",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "strEquals",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "input_report",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "report3"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isReport3",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "cae7cdaa-29e8-40ad-aaf3-bb85f728af7f",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "strEquals",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "input_report",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "report4"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isReport4",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "b916c7c4-c9d6-42c4-a6e9-84b5676b1a8f",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "strEquals",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "input_report",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "report5"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isReport5",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "eb4e61b4-3a3f-403a-96e8-d39ac69e8ba4",
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isReport1",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setReport",
+        "id": "d3532aff-d7d5-4f12-8a31-f4d8f6a51fbb",
+        "isCommented": false,
+        "params": {
+          "reportType": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "report"
+          },
+          "reportUUID": {
+            "datatype": "text",
+            "name": "input_reportUUID",
+            "scope": "local"
+          }
+        },
+        "widgetId": "report1"
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "7e05815a-0ab8-4801-9b82-53b4c4e22255",
+        "isCommented": false,
+        "main": "eb4e61b4-3a3f-403a-96e8-d39ac69e8ba4",
+        "test": {
+          "datatype": "boolean",
+          "name": "isReport1",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "b81befad-d8b9-4e28-a218-d026d43704b4",
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isReport2",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setReport",
+        "id": "a51712d8-4a51-413b-8807-067116e8acb9",
+        "isCommented": false,
+        "params": {
+          "reportType": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "report"
+          },
+          "reportUUID": {
+            "datatype": "text",
+            "name": "input_reportUUID",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "report2"
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "98698f95-9412-4e1a-a4b0-c0db54c503a4",
+        "isCommented": false,
+        "main": "b81befad-d8b9-4e28-a218-d026d43704b4",
+        "test": {
+          "datatype": "boolean",
+          "name": "isReport2",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "47928939-3747-44f5-b60a-294698b8eb14",
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isReport3",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setReport",
+        "id": "119285bb-7365-4574-947f-cffbd3df3680",
+        "isCommented": false,
+        "params": {
+          "reportType": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "report"
+          },
+          "reportUUID": {
+            "datatype": "text",
+            "name": "input_reportUUID",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "report3"
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "96e5e28f-8e9b-46fa-9df9-33488d69208d",
+        "isCommented": false,
+        "main": "47928939-3747-44f5-b60a-294698b8eb14",
+        "test": {
+          "datatype": "boolean",
+          "name": "isReport3",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "d8823b49-f233-4f8f-bea6-b6ecf1156ae4",
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isReport4",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setReport",
+        "id": "ad2eb151-9191-46bf-95e9-479a3be5e7b5",
+        "isCommented": false,
+        "params": {
+          "reportType": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "report"
+          },
+          "reportUUID": {
+            "datatype": "text",
+            "name": "input_reportUUID",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "report4"
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "bde6a15a-c3de-44ca-a169-3dcf3cbaf00b",
+        "isCommented": false,
+        "main": "d8823b49-f233-4f8f-bea6-b6ecf1156ae4",
+        "test": {
+          "datatype": "boolean",
+          "name": "isReport4",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "471c3385-332a-45a8-9bd2-df25250e85fc",
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isReport5",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setReport",
+        "id": "d5372171-6310-4f07-acba-2d51c33378b3",
+        "isCommented": false,
+        "params": {
+          "reportType": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "report"
+          },
+          "reportUUID": {
+            "datatype": "text",
+            "name": "input_reportUUID",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "report5"
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "8da1e1e9-ceb5-46d2-8ae6-f123dd5bc81b",
+        "isCommented": false,
+        "main": "471c3385-332a-45a8-9bd2-df25250e85fc",
+        "test": {
+          "datatype": "boolean",
+          "name": "isReport5",
+          "scope": "local"
+        }
+      }
+    ],
+    "resolveEachStep": false,
+    "sasProvided": true
+  }
+}

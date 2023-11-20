@@ -1,0 +1,20 @@
+{
+  "DataDefinition.DataDefinition.schema.field.objectId.label": "ID de definição de dados",
+  "DataDefinition.library.label.base.Accordion.instance_details.details.title": "Detalhes da Definição de Dados",
+  "DataDefinition.library.label.base.Button.save.label": "Guardar",
+  "DataDefinition.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "Spreadsheet",
+  "DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.10.title": "Segmentação",
+  "DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.11.title": "Projeção",
+  "DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.5.title": "Partição",
+  "DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.6.title": "Chave primária",
+  "DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.7.title": "Filtrável",
+  "DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.8.title": "Atribuível",
+  "DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.9.title": "Mensurável",
+  "DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.false.label": "N",
+  "DataDefinition.library.label.base.GenericSpreadsheetWidget.data_attributes_columns.options.true.label": "Y",
+  "DataDefinition.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "DataDefinition.library.label.base.TabView.data_definition_tabs.0.title": "Atributos de Dados",
+  "DataDefinition.library.label.base.TabView.data_definition_tabs.1.title": "Documentação",
+  "DataDefinition.library.label.base.TabView.data_definition_tabs.2.title": "Histórico de Alterações",
+  "DataDefinition.library.label.base.TabView.data_definition_tabs.tabDetails.title": "Detalhes"
+}

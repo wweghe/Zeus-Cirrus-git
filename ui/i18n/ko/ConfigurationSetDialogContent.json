@@ -1,0 +1,9 @@
+{
+  "ConfigurationSetDialogContent.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.help.label": "복사 및 편집할 구성 테이블을 선택하십시오. 선택되지 않은 다른 모든 테이블은 새로운 구성 집합이 저장될 때 변경되지 않은 상태로 유지됩니다.",
+  "ConfigurationSetDialogContent.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "복사 및 편집할 구성 테이블 선택",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.description.label": "구성 집합 설명",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.name.label": "구성 집합 이름",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.objectId.label": "구성 집합 ID",
+  "ConfigurationSetDialogContent.library.label.base.TabView.TabView.configurationTables.title": "구성 테이블",
+  "ConfigurationSetDialogContent.library.label.base.TabView.TabView.details.title": "상세 정보"
+}

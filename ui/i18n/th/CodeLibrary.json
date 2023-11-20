@@ -1,0 +1,20 @@
+{
+  "CodeLibrary.CodeLibrary.schema.field.description.label": "คำอธิบายไลบรารีรหัส",
+  "CodeLibrary.CodeLibrary.schema.field.gitBranch.label": "สาขา Git",
+  "CodeLibrary.CodeLibrary.schema.field.gitCommit.label": "การยืนยัน Git",
+  "CodeLibrary.CodeLibrary.schema.field.gitRepoName.label": "ชื่อที่เก็บ Git",
+  "CodeLibrary.CodeLibrary.schema.field.git_commit_selector.label": "การยืนยัน Git",
+  "CodeLibrary.CodeLibrary.schema.field.name.label": "ชื่อไลบรารีรหัส",
+  "CodeLibrary.CodeLibrary.schema.field.objectId.label": "ID ไลบรารีรหัส",
+  "CodeLibrary.CodeLibrary.schema.field.statusCd.label": "สถานะไลบรารีรหัส",
+  "CodeLibrary.library.label.base.Accordion.Accordion.branchDetails.title": "รายละเอียดสาขา",
+  "CodeLibrary.library.label.base.Accordion.instance_details.details.title": "รายละเอียดไลบรารีรหัส",
+  "CodeLibrary.library.label.base.Button.save.label": "บันทึก",
+  "CodeLibrary.library.label.base.GitCommitSelector.gitCommit.label": "การยืนยัน Git",
+  "CodeLibrary.library.label.base.LinkWidget.gitRepoURL.label": "",
+  "CodeLibrary.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "CodeLibrary.library.label.base.TabView.main_tabs.1.title": "เอกสารประกอบ",
+  "CodeLibrary.library.label.base.TabView.main_tabs.2.title": "ความขึ้นต่อกัน",
+  "CodeLibrary.library.label.base.TabView.main_tabs.3.title": "ประวัติการเปลี่ยนแปลง",
+  "CodeLibrary.library.label.base.TabView.main_tabs.tabDetails.title": "รายละเอียด"
+}

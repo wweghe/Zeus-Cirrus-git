@@ -1,0 +1,20 @@
+{
+  "CodeLibrary.CodeLibrary.schema.field.description.label": "XCode library description补Z",
+  "CodeLibrary.CodeLibrary.schema.field.gitBranch.label": "XGit branch补Z",
+  "CodeLibrary.CodeLibrary.schema.field.gitCommit.label": "XGit commit补Z",
+  "CodeLibrary.CodeLibrary.schema.field.gitRepoName.label": "XGit repository name补Z",
+  "CodeLibrary.CodeLibrary.schema.field.git_commit_selector.label": "XGit Commit补Z",
+  "CodeLibrary.CodeLibrary.schema.field.name.label": "XCode library name补Z",
+  "CodeLibrary.CodeLibrary.schema.field.objectId.label": "XCode library ID补Z",
+  "CodeLibrary.CodeLibrary.schema.field.statusCd.label": "XCode library status补Z",
+  "CodeLibrary.library.label.base.Accordion.Accordion.branchDetails.title": "XBranch Details补Z",
+  "CodeLibrary.library.label.base.Accordion.instance_details.details.title": "XCode Library Details补Z",
+  "CodeLibrary.library.label.base.Button.save.label": "XSave补Z",
+  "CodeLibrary.library.label.base.GitCommitSelector.gitCommit.label": "XGit Commit补Z",
+  "CodeLibrary.library.label.base.LinkWidget.gitRepoURL.label": "X补Z",
+  "CodeLibrary.library.label.base.ReadonlyFieldWidget.name_readonly.label": "X 补Z",
+  "CodeLibrary.library.label.base.TabView.main_tabs.1.title": "XDocumentation补Z",
+  "CodeLibrary.library.label.base.TabView.main_tabs.2.title": "XDependencies补Z",
+  "CodeLibrary.library.label.base.TabView.main_tabs.3.title": "XChange History补Z",
+  "CodeLibrary.library.label.base.TabView.main_tabs.tabDetails.title": "XDetails补Z"
+}

@@ -1,0 +1,50 @@
+{
+  "layouts": {
+    "base": {
+      "HistoricalMarketDataViewer": {
+        "h": 734,
+        "i": "HistoricalMarketDataViewer",
+        "minH": 100,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 28
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "onPageLoad": {
+        "name": "onPageLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {},
+      "onTabClose": {}
+    },
+    "props": {
+      "description": "",
+      "icon": "base://HISTOGRAM",
+      "id": "HistoricalMarketDataView",
+      "label": "Historical Market Data View",
+      "tabLabel": "Historical Market Data View"
+    }
+  },
+  "structure": {
+    "base": {
+      "HistoricalMarketDataViewer": {
+        "compName": "HistoricalMarketDataViewer",
+        "containerId": "base",
+        "id": "HistoricalMarketDataViewer",
+        "label": "appbuilder.toolboxitem.historicalmarketdataviewer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {},
+        "sasProvided": true,
+        "versionAdded": "2022.11"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "onPageLoad": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "db352043-5a2e-4100-9ab1-16a63f7c8209",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "RuleSet"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setObjectType",
+        "id": "1a0de2fa-b787-46be-982a-295a8e62f2d4",
+        "params": {
+          "objectType": {
+            "datatype": "text",
+            "name": "objectType",
+            "scope": "local"
+          }
+        },
+        "scope": "childTemplate",
+        "template": "ObjectManagerTemplate",
+        "templatePage": "ObjectManagerTemplate",
+        "widgetId": "ObjectManager"
+      }
+    ],
+    "sasProvided": true
+  }
+}

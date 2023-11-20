@@ -1,0 +1,14 @@
+{
+  "ConfigurationSet.ConfigurationSet.schema.field.linkedConfigurationTables.label": "配置表",
+  "ConfigurationSet.library.label.base.Accordion.instance_details.details.title": "配置集详细信息",
+  "ConfigurationSet.library.label.base.Button.save.label": "保存",
+  "ConfigurationSet.library.label.base.CirrusObjectsLinks.documentation_links.label": "文档链接",
+  "ConfigurationSet.library.label.base.Comments.additional_comments.label": "评论",
+  "ConfigurationSet.library.label.base.InputText.name.label": "配置集名称",
+  "ConfigurationSet.library.label.base.InputText.objectId.label": "配置集 ID",
+  "ConfigurationSet.library.label.base.InputTextarea.description.label": "配置集说明",
+  "ConfigurationSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.0.title": "详细信息",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.1.title": "文档",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.2.title": "更改历史"
+}
