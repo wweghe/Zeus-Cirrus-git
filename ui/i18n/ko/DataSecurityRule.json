@@ -1,0 +1,12 @@
+{
+  "DataSecurityRule.DataSecurityRule.schema.field.objectId.label": "데이터 보안 규칙 ID",
+  "DataSecurityRule.DataSecurityRule.schema.field.securityRules.label": "보안 규칙",
+  "DataSecurityRule.library.label.base.Accordion.classification_accordion.classifications.title": "분류",
+  "DataSecurityRule.library.label.base.Accordion.instance_details.details.title": "데이터 보안 규칙 상세 정보",
+  "DataSecurityRule.library.label.base.Button.save.label": "저장",
+  "DataSecurityRule.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "DataSecurityRule.library.label.base.TabView.TabView.0.title": "보안 규칙",
+  "DataSecurityRule.library.label.base.TabView.TabView.1.title": "문서",
+  "DataSecurityRule.library.label.base.TabView.TabView.2.title": "변경 히스토리",
+  "DataSecurityRule.library.label.base.TabView.TabView.tab_details.title": "상세 정보"
+}

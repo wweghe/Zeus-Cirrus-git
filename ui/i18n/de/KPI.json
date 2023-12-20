@@ -1,0 +1,18 @@
+{
+  "KPI.KPI.schema.field.category.label": "KPI-Kategorie",
+  "KPI.KPI.schema.field.threshold.color.validation.message.label": "Sie können die Farben für das Standardschwellenwertintervall nicht ändern+++Standard-Was?.",
+  "KPI.KPI.schema.field.threshold.color.validation.summary.label": "Schwellenwertintervall-Farben",
+  "KPI.KPI.schema.field.thresholdsApplicable.help.label": "Mit dieser Option können Sie Schwellenwerte für die Überwachung des KPI-Zustands festlegen. Wählen Sie diese Option, wenn der KPI ein einzelner messbarer Wert ist.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.help.label": "Die Anwendung weist das Farbband des Schwellenwerts basierend auf dem ausgewählten KPI-Zustandsbereich zu.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.label": "Welcher der folgenden KPI-Werte gibt einen besseren Zustand an?",
+  "KPI.library.label.base.BasicMessageStrip.BasicMessageStrip.messageStripText.label": "Dieser KPI ist mit einem Monitoring-Plan verknüpft. Nachfolgende Änderungen des Schwellenwerts haben keine Auswirkungen auf den zugehörigen Monitoring-Plan. Verknüpfen Sie den KPI erneut mit dem Monitoring-Plan, um die neuesten Änderungen zu übernehmen.",
+  "KPI.library.label.base.Button.save_button.label": "Speichern",
+  "KPI.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "KPI.library.label.base.TabView.TabView.changeHistory.title": "Änderungshistorie",
+  "KPI.library.label.base.TabView.TabView.code.title": "Code",
+  "KPI.library.label.base.TabView.TabView.details.title": "Details",
+  "KPI.library.label.base.TabView.TabView.documentation.title": "Dokumentation",
+  "KPI.library.label.base.TabView.TabView.relatedObjects.title": "Zugehörige Objekte",
+  "KPI.library.label.base.TabView.TabView.tab_parameters.title": "Parameter",
+  "KPI.library.label.base.TabView.TabView.threshold.title": "Schwellenwert"
+}

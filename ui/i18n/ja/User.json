@@ -1,0 +1,7 @@
+{
+  "User.schema.field.email.label": "メール",
+  "User.schema.field.key.label": "キー",
+  "User.schema.field.name.label": "名前",
+  "User.schema.field.status.label": "状態",
+  "User.schema.field.userId.label": "ユーザー ID"
+}

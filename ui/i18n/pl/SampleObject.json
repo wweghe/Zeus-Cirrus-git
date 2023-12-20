@@ -1,0 +1,13 @@
+{
+  "SampleObject.AttributionTemplate.schema.field.objectId.label": "Identyfikator szablonu atrybucji",
+  "SampleObject.library.label.base.Accordion.attribution_template_details.details.title": "Informacje o szablonie atrybucji",
+  "SampleObject.library.label.base.Button.save.label": "Zapisz",
+  "SampleObject.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.1.title": "Dokumentacja",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.2.title": "Historia zmian",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.tabDetails.title": "Informacje",
+  "SampleObject.library.label.base.TabView.main_tabs.1.title": "Dokumentacja",
+  "SampleObject.library.label.base.TabView.main_tabs.2.title": "Historia zmian",
+  "SampleObject.library.label.base.TabView.main_tabs.tabDetails.title": "Informacje",
+  "undefined": "Karta"
+}

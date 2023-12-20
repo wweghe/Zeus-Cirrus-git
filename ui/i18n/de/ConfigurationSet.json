@@ -1,0 +1,18 @@
+{
+  "ConfigurationSet.ConfigurationSet.schema.field.linkedConfigurationTables.label": "Konfigurationstabellen",
+  "ConfigurationSet.ConfigurationSet.schema.field.statusCd.label": "Status",
+  "ConfigurationSet.library.label.base.Accordion.instance_details.details.title": "Konfigurationssatzdetails",
+  "ConfigurationSet.library.label.base.Button.save.label": "Speichern",
+  "ConfigurationSet.library.label.base.CirrusObjectsLinks.documentation_links.label": "Dokumentations-Links",
+  "ConfigurationSet.library.label.base.Comments.additional_comments.label": "Kommentare",
+  "ConfigurationSet.library.label.base.InputText.name.label": "Konfiguration-Set Name",
+  "ConfigurationSet.library.label.base.InputText.objectId.label": "Konfiguration-Set ID",
+  "ConfigurationSet.library.label.base.InputTextarea.description.label": "Konfiguration-Set Beschreibung",
+  "ConfigurationSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.0.title": "Details",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.1.title": "Dokumentation",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.2.title": "Änderungshistorie",
+  "ConfigurationSet.schema.field.ConfigurationTable.statusCd.validation.summary.label": "Der Status eines Konfiguration-Sets kann nur dann in den Produktionsmodus hochgestuft werden, wenn sich auch alle zugehörigen Konfigurationstabellen in Produktion befinden.",
+  "ConfigurationSet.schema.field.ConfigurationTable.validation.summary.label": "Ein Konfiguration-Set kann nicht mit verknüpften Konfigurationstabellen desselben Typs gespeichert werden.",
+  "ConfigurationSet.schema.field.ConfigurationTable.validation.title.label": "Verknüpfte Konfigurationstabellen sind ungültig"
+}

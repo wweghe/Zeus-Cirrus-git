@@ -1,0 +1,716 @@
+{
+  "AllocationSchemes.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "AllocationSchemes.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "AllocationSchemes.types.enabledList": {
+    "readOnly": true,
+    "type": "string",
+    "value": "MODEL,WEIGHT"
+  },
+  "AnalysisData.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "AnalysisData.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "AnalysisRuns.codeLibrary.default": {
+    "readonly": true,
+    "type": "string",
+    "value": "{\"sourceSystemCd\":\"RCC\",\"objectId\":\"release-core-2023.12\"}"
+  },
+  "AnalysisRuns.computeContext.default": {
+    "readonly": true,
+    "type": "string",
+    "value": ""
+  },
+  "AnalysisRuns.configurationSet.default": {
+    "readonly": true,
+    "type": "string",
+    "value": ""
+  },
+  "AnalysisRuns.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "AnalysisRuns.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "AnalysisRuns.executeWithoutCycle.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "AnalysisRuns.pollScriptExecution.maxIterations": {
+    "readonly": false,
+    "type": "number",
+    "value": 1000
+  },
+  "AnalysisRuns.pollScriptExecution.minSleepInterval": {
+    "readonly": false,
+    "type": "number",
+    "value": 2000
+  },
+  "AnalysisRuns.productionFlg.default.value": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "AttributionTemplates.attributionFactors.default": {
+    "readonly": true,
+    "type": "string",
+    "value": "[{\"key\":\"Derecognition\",\"attributionGroupNo\":1,\"attributionGroupKey\":\"Derecognition\",\"name\":\"Expired Positions\",\"description\":\"Expired positions\",\"source\":\"Portfolio\",\"type\":\"Derecognition\",\"category\":\"Default\"},{\"key\":\"PortfolioAging\",\"attributionGroupNo\":2,\"attributionGroupKey\":\"PortfolioAging\",\"name\":\"Portfolio Aging\",\"description\":\"Changes due to base date\",\"source\":\"Portfolio\",\"type\":\"PortfolioAging\",\"category\":\"Default\",\"restrictions\":{\"before\":[\"PortfolioAttribute\",\"ScenarioRiskFactor\"]}},{\"key\":\"PortfolioSwitch\",\"attributionGroupNo\":5,\"attributionGroupKey\":\"PortfolioSwitch\",\"name\":\"Portfolio (All Others)\",\"description\":\"All other portfolio variables\",\"source\":\"Portfolio\",\"type\":\"PortfolioSwitch\",\"category\":\"Default\",\"restrictions\":{\"after\":[\"PortfolioAttribute\"],\"denyGrouping\":[\"Model\"]}},{\"key\":\"ScenarioSwitch\",\"attributionGroupNo\":6,\"attributionGroupKey\":\"ScenarioSwitch\",\"name\":\"Scenario (All Others)\",\"description\":\"All other scenario variables\",\"source\":\"Scenario\",\"type\":\"ScenarioSwitch\",\"category\":\"Default\",\"restrictions\":{\"after\":[\"ScenarioRiskFactor\"]}},{\"key\":\"Model\",\"attributionGroupNo\":7,\"attributionGroupKey\":\"Model\",\"name\":\"Model Logic\",\"description\":\"Changes to model logic\",\"source\":\"Other\",\"type\":\"Model\",\"category\":\"Default\",\"restrictions\":{\"denyGrouping\":[\"PortfolioAttribute\",\"PortfolioSwitch\"]}},{\"key\":\"Origination\",\"attributionGroupNo\":8,\"attributionGroupKey\":\"Origination\",\"name\":\"New Originations\",\"description\":\"Changes due to new originations\",\"source\":\"Portfolio\",\"type\":\"Origination\",\"category\":\"Default\"},{\"key\":\"Other\",\"attributionGroupNo\":9,\"attributionGroupKey\":\"Other\",\"name\":\"Other (catch-all)\",\"description\":\"Changes due to all other factors\",\"source\":\"Portfolio\",\"type\":\"Other\",\"category\":\"Other\"}]"
+  },
+  "AttributionTemplates.classifications.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "AttributionTemplates.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "AttributionTemplates.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "Batch.codeLibrary.default": {
+    "readonly": false,
+    "type": "string",
+    "value": "{\"sourceSystemCd\":\"RCC\",\"objectId\":\"release-core-2023.12\"}"
+  },
+  "Batch.job.cancelation.timeout": {
+    "readonly": false,
+    "type": "string",
+    "value": "10"
+  },
+  "Batch.job.timeout": {
+    "readonly": false,
+    "type": "string",
+    "value": "10"
+  },
+  "Batch.job.wait.sleep": {
+    "readonly": false,
+    "type": "string",
+    "value": "30"
+  },
+  "Batch.storage.job.log.location": {
+    "readonly": false,
+    "type": "string",
+    "value": "/Products/SAS Risk Cirrus Core"
+  },
+  "BusinessEvolutionPlans.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "BusinessEvolutionPlans.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "BusinessEvolutionPlans.export.template.location": {
+    "readonly": false,
+    "type": "string",
+    "value": "/Products/SAS Risk Cirrus Core/2023.12/sample/templates"
+  },
+  "BusinessEvolutionPlans.export.template.sheetName": {
+    "readonly": false,
+    "type": "string",
+    "value": "template"
+  },
+  "BusinessEvolutionPlans.initType.allowedList": {
+    "readonly": true,
+    "type": "string",
+    "value": "MULTI,SINGLE"
+  },
+  "BusinessEvolutionPlans.initType.default": {
+    "readonly": true,
+    "type": "string",
+    "value": "SINGLE"
+  },
+  "BusinessEvolutionPlans.targetVars.expressionMultipliers": {
+    "readonly": true,
+    "type": "string",
+    "value": "[]"
+  },
+  "ChangeRequests.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "ChangeRequests.dimensions.requiredList": {
+    "readonly": true,
+    "type": "string",
+    "value": ""
+  },
+  "ChangeRequests.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "CodeLibraries.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "CodeLibraries.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "ConfigurationSets.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "ConfigurationSets.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "ConfigurationTables.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "ConfigurationTables.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "Cycles.baseDttm.required": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "Cycles.codeLibrary.default": {
+    "readonly": true,
+    "type": "string",
+    "value": "{\"sourceSystemCd\":\"RCC\",\"objectId\":\"release-core-2023.12\"}"
+  },
+  "Cycles.codeLibrary.required": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "Cycles.computeContext.default": {
+    "readonly": true,
+    "type": "string",
+    "value": ""
+  },
+  "Cycles.configurationSet.default": {
+    "readonly": true,
+    "type": "string",
+    "value": ""
+  },
+  "Cycles.configurationSet.required": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "Cycles.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "Cycles.dimensions.requiredList": {
+    "readonly": true,
+    "type": "string",
+    "value": ""
+  },
+  "Cycles.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "Cycles.entityRole.enabled": {
+    "type": "boolean",
+    "value": false
+  },
+  "Cycles.initScriptName.default": {
+    "readonly": true,
+    "type": "string",
+    "value": ""
+  },
+  "Cycles.initTaskName.default": {
+    "readonly": true,
+    "type": "string",
+    "value": "__start_workflow__"
+  },
+  "Cycles.pollScriptExecution.maxIterations": {
+    "readonly": false,
+    "type": "number",
+    "value": 1000
+  },
+  "Cycles.pollScriptExecution.minSleepInterval": {
+    "readonly": false,
+    "type": "number",
+    "value": 2000
+  },
+  "Cycles.pollWorkflow.maxIterations": {
+    "readonly": false,
+    "type": "number",
+    "value": 50
+  },
+  "Cycles.pollWorkflow.minSleepInterval": {
+    "readonly": false,
+    "type": "number",
+    "value": 500
+  },
+  "Cycles.state.default": {
+    "readonly": false,
+    "type": "string",
+    "value": "TEST"
+  },
+  "Cycles.state.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "Cycles.updateWorkflowHistoryFromUI.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "Cycles.useKRM.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "Cycles.workflowTemplate.default": {
+    "readonly": false,
+    "type": "string",
+    "value": ""
+  },
+  "Cycles.workflowTransitions.skipTaskValue": {
+    "readonly": true,
+    "type": "string",
+    "value": "SKIP"
+  },
+  "Cycles.workflowTransitions.validateParameters": {
+    "readonly": true,
+    "type": "string",
+    "value": "CIRRUS_RUN_SCRIPT"
+  },
+  "Dashboard.report1.label": {
+    "readonly": true,
+    "type": "string",
+    "value": "Model Health"
+  },
+  "Dashboard.report1.uuid": {
+    "readonly": true,
+    "type": "genericSingleSelector",
+    "typeProperties": {
+      "endpoint": "reports/reports",
+      "fieldsForPageConfig": "id"
+    },
+    "value": "{\"id\":\"1aea21f7-0343-437a-8fc7-956bb5c7fd81\"}"
+  },
+  "Dashboard.report10.label": {
+    "readonly": false,
+    "type": "string",
+    "value": "Report 10"
+  },
+  "Dashboard.report10.uuid": {
+    "readonly": false,
+    "type": "genericSingleSelector",
+    "typeProperties": {
+      "endpoint": "reports/reports",
+      "fieldsForPageConfig": "id"
+    },
+    "value": ""
+  },
+  "Dashboard.report2.label": {
+    "readonly": true,
+    "type": "string",
+    "value": "Input-Data Monitoring"
+  },
+  "Dashboard.report2.uuid": {
+    "readonly": true,
+    "type": "genericSingleSelector",
+    "typeProperties": {
+      "endpoint": "reports/reports",
+      "fieldsForPageConfig": "id"
+    },
+    "value": "{\"id\":\"4e86e3d1-9db0-40d1-9a19-935e877ab87b\"}"
+  },
+  "Dashboard.report3.label": {
+    "readonly": true,
+    "type": "string",
+    "value": "Report 3"
+  },
+  "Dashboard.report3.uuid": {
+    "readonly": true,
+    "type": "genericSingleSelector",
+    "typeProperties": {
+      "endpoint": "reports/reports",
+      "fieldsForPageConfig": "id"
+    },
+    "value": ""
+  },
+  "Dashboard.report4.label": {
+    "readonly": true,
+    "type": "string",
+    "value": "Report 4"
+  },
+  "Dashboard.report4.uuid": {
+    "readonly": true,
+    "type": "genericSingleSelector",
+    "typeProperties": {
+      "endpoint": "reports/reports",
+      "fieldsForPageConfig": "id"
+    },
+    "value": ""
+  },
+  "Dashboard.report5.label": {
+    "readonly": false,
+    "type": "string",
+    "value": "Report 5"
+  },
+  "Dashboard.report5.uuid": {
+    "readonly": false,
+    "type": "genericSingleSelector",
+    "typeProperties": {
+      "endpoint": "reports/reports",
+      "fieldsForPageConfig": "id"
+    },
+    "value": ""
+  },
+  "Dashboard.report6.label": {
+    "readonly": false,
+    "type": "string",
+    "value": "Report 6"
+  },
+  "Dashboard.report6.uuid": {
+    "readonly": false,
+    "type": "genericSingleSelector",
+    "typeProperties": {
+      "endpoint": "reports/reports",
+      "fieldsForPageConfig": "id"
+    },
+    "value": ""
+  },
+  "Dashboard.report7.label": {
+    "readonly": false,
+    "type": "string",
+    "value": "Report 7"
+  },
+  "Dashboard.report7.uuid": {
+    "readonly": false,
+    "type": "genericSingleSelector",
+    "typeProperties": {
+      "endpoint": "reports/reports",
+      "fieldsForPageConfig": "id"
+    },
+    "value": ""
+  },
+  "Dashboard.report8.label": {
+    "readonly": false,
+    "type": "string",
+    "value": "Report 8"
+  },
+  "Dashboard.report8.uuid": {
+    "readonly": false,
+    "type": "genericSingleSelector",
+    "typeProperties": {
+      "endpoint": "reports/reports",
+      "fieldsForPageConfig": "id"
+    },
+    "value": ""
+  },
+  "Dashboard.report9.label": {
+    "readonly": false,
+    "type": "string",
+    "value": "Report 9"
+  },
+  "Dashboard.report9.uuid": {
+    "readonly": false,
+    "type": "genericSingleSelector",
+    "typeProperties": {
+      "endpoint": "reports/reports",
+      "fieldsForPageConfig": "id"
+    },
+    "value": ""
+  },
+  "DataDefinitions.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "DataDefinitions.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "DataMaps.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "DataMaps.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "DataProjects.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "DataProjects.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "DataSecurityRules.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "DataSecurityRules.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "Findings.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "Findings.customFields.doNotCopyList": {
+    "readonly": true,
+    "type": "string",
+    "value": ""
+  },
+  "Findings.dimensions.requiredList": {
+    "readonly": true,
+    "type": "string",
+    "value": ""
+  },
+  "Findings.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "Findings.linkedFields.doNotCopyList": {
+    "readonly": true,
+    "type": "string",
+    "value": ""
+  },
+  "Forms.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "Forms.dimensions.requiredList": {
+    "readonly": true,
+    "type": "string",
+    "value": ""
+  },
+  "Forms.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "InventoryAttestations.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "InventoryAttestations.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "KPIs.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "KPIs.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "KPIs.thresholds.intervals.restricted": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "ModelAttestations.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "ModelAttestations.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "ModelCandidateAssessments.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "ModelCandidateAssessments.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "ModelReviews.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "ModelReviews.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "Models.copy.enabled": {
+    "readonly": false,
+    "type": "boolean",
+    "value": true
+  },
+  "Models.dimensions.requiredList": {
+    "readonly": true,
+    "type": "string",
+    "value": ""
+  },
+  "Models.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "Models.workflowTemplate.default": {
+    "readonly": true,
+    "type": "string",
+    "value": ""
+  },
+  "MonitoringPlans.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "MonitoringPlans.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "NonModels.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "NonModels.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "RuleSets.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "RuleSets.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "RuleSets.types.enabledList": {
+    "readOnly": true,
+    "type": "string",
+    "value": "BUSINESS_RULES,ALLOCATION_RULES"
+  },
+  "RunETL.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "Scripts.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "Scripts.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "Scripts.subtypes.excludeList": {
+    "readonly": false,
+    "type": "string",
+    "value": "KRM,BEPOVERLAY"
+  },
+  "Solution.adminGroupId": {
+    "readonly": false,
+    "type": "string",
+    "value": ""
+  },
+  "Solution.core.dataloader.location": {
+    "readonly": true,
+    "type": "string",
+    "value": "/Products/SAS Risk Cirrus Core/2023.12/data_loader_files"
+  },
+  "Solution.pages.adminOnlyList": {
+    "readonly": true,
+    "type": "string",
+    "value": "DataLoad,PositionManagement"
+  },
+  "Solution.pages.alwaysVisibleList": {
+    "readonly": true,
+    "type": "string",
+    "value": "Home,Search,Dashboard"
+  },
+  "Solution.rm.dataloader.location": {
+    "readonly": true,
+    "type": "string",
+    "value": "/Products/SAS Risk Modeling/2023.12/data_loader_files"
+  },
+  "Solution.rpmEnabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "Solution.useBaseDttm.default": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "WorkflowTemplates.conversionTool.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "WorkflowTemplates.copy.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": false
+  },
+  "WorkflowTemplates.enabled": {
+    "readonly": true,
+    "type": "boolean",
+    "value": true
+  },
+  "WorkflowTemplates.objectType.default": {
+    "readonly": false,
+    "type": "string",
+    "value": "Cycle"
+  }
+}

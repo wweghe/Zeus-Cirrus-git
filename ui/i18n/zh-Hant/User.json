@@ -1,0 +1,7 @@
+{
+  "User.schema.field.email.label": "電子郵件",
+  "User.schema.field.key.label": "索引鍵",
+  "User.schema.field.name.label": "名稱",
+  "User.schema.field.status.label": "狀態",
+  "User.schema.field.userId.label": "使用者 ID"
+}

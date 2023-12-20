@@ -1,0 +1,17 @@
+{
+  "DataMap.DataMap.schema.field.mapType.label": "Tipo de mapeo",
+  "DataMap.DataMap.schema.field.objectId.label": "ID de mapeo de datos",
+  "DataMap.library.label.base.Accordion.cycle_details.0.title": "Detalles del mapeo de datos",
+  "DataMap.library.label.base.Accordion.instance_details.details.title": "Detalles del mapeo de datos",
+  "DataMap.library.label.base.Button.save.label": "Guardar",
+  "DataMap.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "Detalles del mapeo",
+  "DataMap.library.label.base.ReadonlyFieldWidget.cycle_name_readonly.label": "",
+  "DataMap.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "DataMap.library.label.base.RichText.RichText.label": "Texto enriquecido",
+  "DataMap.library.label.base.TabView.cycle_tabs.0.title": "Asignación",
+  "DataMap.library.label.base.TabView.cycle_tabs.1.title": "Documentación",
+  "DataMap.library.label.base.TabView.data_map_tabs.0.title": "Atributos del mapeo de datos",
+  "DataMap.library.label.base.TabView.data_map_tabs.1.title": "Documentación",
+  "DataMap.library.label.base.TabView.data_map_tabs.2.title": "Historial de cambios",
+  "DataMap.library.label.base.TabView.data_map_tabs.tabDetails.title": "Detalles"
+}

@@ -1,0 +1,4 @@
+{
+  "AnalysisRuns.library.label.base.Template.ObjectManagerTemplate.label": "模板页面",
+  "AnalysisRuns.script.validation.summary.label": "若生产分析运行引用非生产脚本，则您无法保存它。"
+}

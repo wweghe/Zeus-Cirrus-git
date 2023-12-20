@@ -1,0 +1,18 @@
+{
+  "ConfigurationSet.ConfigurationSet.schema.field.linkedConfigurationTables.label": "構成テーブル",
+  "ConfigurationSet.ConfigurationSet.schema.field.statusCd.label": "状態",
+  "ConfigurationSet.library.label.base.Accordion.instance_details.details.title": "構成セットの詳細",
+  "ConfigurationSet.library.label.base.Button.save.label": "保存",
+  "ConfigurationSet.library.label.base.CirrusObjectsLinks.documentation_links.label": "ドキュメントのリンク",
+  "ConfigurationSet.library.label.base.Comments.additional_comments.label": "コメント",
+  "ConfigurationSet.library.label.base.InputText.name.label": "構成セット名",
+  "ConfigurationSet.library.label.base.InputText.objectId.label": "構成セット ID",
+  "ConfigurationSet.library.label.base.InputTextarea.description.label": "構成セットの説明",
+  "ConfigurationSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.0.title": "詳細",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.1.title": "ドキュメント",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.2.title": "変更履歴",
+  "ConfigurationSet.schema.field.ConfigurationTable.statusCd.validation.summary.label": "構成セットの状態は、関連付けられたすべての構成テーブルも本稼働中にある場合にのみ本稼働にプロモートできます。",
+  "ConfigurationSet.schema.field.ConfigurationTable.validation.summary.label": "構成セットは、同じ種類のリンクされた構成テーブルと一緒に保存できません。",
+  "ConfigurationSet.schema.field.ConfigurationTable.validation.title.label": "リンクされた構成テーブルが無効です"
+}
