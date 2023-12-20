@@ -1,0 +1,1713 @@
+{
+  "layouts": {
+    "TabView": {
+      "exportMarketData": {
+        "Button": {
+          "h": 26,
+          "i": "Button",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 6,
+          "y": 74
+        },
+        "CheckboxWidget": {
+          "h": 24,
+          "i": "CheckboxWidget",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 130
+        },
+        "CirrusLabel_1": {
+          "h": 25,
+          "i": "CirrusLabel_1",
+          "minH": 10,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 70
+        },
+        "CirrusLabel_5": {
+          "h": 50,
+          "i": "CirrusLabel_5",
+          "minH": 10,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 11
+        },
+        "ImportFileTextLabel_": {
+          "h": 48,
+          "i": "ImportFileTextLabel_",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 14
+        },
+        "ImportMarketDataFileTextLabel_": {
+          "h": 48,
+          "i": "ImportMarketDataFileTextLabel_",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 1,
+          "y": 266
+        },
+        "clearAllFilters": {
+          "h": 26,
+          "i": "clearAllFilters",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 6
+        },
+        "exportMarketData": {
+          "h": 26,
+          "i": "exportMarketData",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 9,
+          "y": 8
+        },
+        "exportMarketDataEndDate": {
+          "h": 52,
+          "i": "exportMarketDataEndDate",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 8,
+          "y": 200
+        },
+        "exportMarketDataStartDate": {
+          "h": 55,
+          "i": "exportMarketDataStartDate",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 8,
+          "y": 131
+        },
+        "exportMarketDataTitle": {
+          "h": 48,
+          "i": "exportMarketDataTitle",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 20
+        },
+        "loadData": {
+          "h": 41,
+          "i": "loadData",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 5,
+          "y": 43
+        },
+        "marketDataDualSelector": {
+          "h": 437,
+          "i": "marketDataDualSelector",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 154
+        },
+        "marketDataTree": {
+          "h": 400,
+          "i": "marketDataTree",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 9,
+          "y": 372
+        },
+        "testText": {
+          "h": 48,
+          "i": "testText",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 9,
+          "y": 317
+        }
+      },
+      "exportRegulations": {
+        "Button": {
+          "h": 26,
+          "i": "Button",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 6,
+          "y": 74
+        },
+        "CheckboxWidget": {
+          "h": 24,
+          "i": "CheckboxWidget",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 130
+        },
+        "ExportRegistrationType": {
+          "h": 52,
+          "i": "ExportRegistrationType",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 0,
+          "y": 75
+        },
+        "ImportFileTextLabel_": {
+          "h": 48,
+          "i": "ImportFileTextLabel_",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 14
+        },
+        "ImportMarketDataFileTextLabel_": {
+          "h": 48,
+          "i": "ImportMarketDataFileTextLabel_",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 1,
+          "y": 266
+        },
+        "RichText": {
+          "h": 48,
+          "i": "RichText",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 30
+        },
+        "exportMarketDataTitle": {
+          "h": 48,
+          "i": "exportMarketDataTitle",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 20
+        },
+        "exportRegButton": {
+          "h": 26,
+          "i": "exportRegButton",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 3,
+          "y": 42
+        },
+        "exportRegulationsLabel": {
+          "h": 50,
+          "i": "exportRegulationsLabel",
+          "minH": 10,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 11
+        },
+        "loadData": {
+          "h": 41,
+          "i": "loadData",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 5,
+          "y": 43
+        },
+        "marketDataDualSelector": {
+          "h": 437,
+          "i": "marketDataDualSelector",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 154
+        },
+        "marketDataTree": {
+          "h": 400,
+          "i": "marketDataTree",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 9,
+          "y": 372
+        },
+        "testText": {
+          "h": 48,
+          "i": "testText",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 9,
+          "y": 317
+        }
+      },
+      "exportRiskFactors": {
+        "Button": {
+          "h": 26,
+          "i": "Button",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 6,
+          "y": 74
+        },
+        "CheckboxWidget": {
+          "h": 24,
+          "i": "CheckboxWidget",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 130
+        },
+        "ExportRiskFactorDefinitionsTextLabel": {
+          "h": 48,
+          "i": "ExportRiskFactorDefinitionsTextLabel",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 14
+        },
+        "ImportFileTextLabel_": {
+          "h": 48,
+          "i": "ImportFileTextLabel_",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 14
+        },
+        "ImportMarketDataFileTextLabel_": {
+          "h": 48,
+          "i": "ImportMarketDataFileTextLabel_",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 1,
+          "y": 266
+        },
+        "exportButton": {
+          "h": 26,
+          "i": "exportButton",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 3,
+          "y": 25
+        },
+        "loadData": {
+          "h": 41,
+          "i": "loadData",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 5,
+          "y": 43
+        },
+        "marketDataDualSelector": {
+          "h": 437,
+          "i": "marketDataDualSelector",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 154
+        },
+        "marketDataTree": {
+          "h": 400,
+          "i": "marketDataTree",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 9,
+          "y": 372
+        },
+        "testText": {
+          "h": 48,
+          "i": "testText",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 9,
+          "y": 317
+        }
+      },
+      "importMarketData": {
+        "Button": {
+          "h": 26,
+          "i": "Button",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 6,
+          "y": 74
+        },
+        "CheckboxWidget": {
+          "h": 24,
+          "i": "CheckboxWidget",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 130
+        },
+        "FileUploadMarketData": {
+          "h": 42,
+          "i": "FileUploadMarketData",
+          "minH": 30,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 62
+        },
+        "ImportFileTextLabel_": {
+          "h": 48,
+          "i": "ImportFileTextLabel_",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 14
+        },
+        "ImportMarketDataButton": {
+          "h": 26,
+          "i": "ImportMarketDataButton",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 3,
+          "y": 79
+        },
+        "ImportMarketDataFileTextLabel": {
+          "h": 50,
+          "i": "ImportMarketDataFileTextLabel",
+          "minH": 10,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 12
+        },
+        "ImportMarketDataFileTextLabel_": {
+          "h": 48,
+          "i": "ImportMarketDataFileTextLabel_",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 1,
+          "y": 266
+        },
+        "loadData": {
+          "h": 41,
+          "i": "loadData",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 5,
+          "y": 43
+        },
+        "marketDataDualSelector": {
+          "h": 437,
+          "i": "marketDataDualSelector",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 154
+        },
+        "marketDataTree": {
+          "h": 400,
+          "i": "marketDataTree",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 9,
+          "y": 372
+        },
+        "testText": {
+          "h": 48,
+          "i": "testText",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 9,
+          "y": 317
+        }
+      },
+      "importRegulations": {
+        "Button": {
+          "h": 26,
+          "i": "Button",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 6,
+          "y": 74
+        },
+        "CheckboxWidget": {
+          "h": 24,
+          "i": "CheckboxWidget",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 130
+        },
+        "CirrusLabel_3": {
+          "h": 48,
+          "i": "CirrusLabel_3",
+          "minH": 10,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 11
+        },
+        "FileUpload_Regulation": {
+          "h": 48,
+          "i": "FileUpload_Regulation",
+          "minH": 30,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 2,
+          "y": 59
+        },
+        "ImportFileTextLabel_": {
+          "h": 48,
+          "i": "ImportFileTextLabel_",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 14
+        },
+        "ImportMarketDataFileTextLabel_": {
+          "h": 48,
+          "i": "ImportMarketDataFileTextLabel_",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 1,
+          "y": 266
+        },
+        "ImportRegButton": {
+          "h": 26,
+          "i": "ImportRegButton",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 5,
+          "y": 82
+        },
+        "ImportRegistrationType": {
+          "h": 52,
+          "i": "ImportRegistrationType",
+          "minH": 52,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 0,
+          "y": 77
+        },
+        "LoadedFile_Reg": {
+          "h": 24,
+          "i": "LoadedFile_Reg",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 0,
+          "y": 145
+        },
+        "exportMarketDataTitle": {
+          "h": 48,
+          "i": "exportMarketDataTitle",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 20
+        },
+        "loadData": {
+          "h": 41,
+          "i": "loadData",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 5,
+          "y": 43
+        },
+        "marketDataDualSelector": {
+          "h": 437,
+          "i": "marketDataDualSelector",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 154
+        },
+        "marketDataTree": {
+          "h": 400,
+          "i": "marketDataTree",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 9,
+          "y": 372
+        },
+        "reportTableShort_Reg": {
+          "h": 300,
+          "i": "reportTableShort_Reg",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 530
+        },
+        "reportTable_Reg": {
+          "h": 350,
+          "i": "reportTable_Reg",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 174
+        },
+        "testText": {
+          "h": 48,
+          "i": "testText",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 9,
+          "y": 317
+        },
+        "validateRegButton": {
+          "h": 26,
+          "i": "validateRegButton",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 4,
+          "y": 82
+        }
+      },
+      "importRiskFactors": {
+        "Button": {
+          "h": 26,
+          "i": "Button",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 6,
+          "y": 74
+        },
+        "CheckboxWidget": {
+          "h": 24,
+          "i": "CheckboxWidget",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 130
+        },
+        "FileUpload": {
+          "h": 42,
+          "i": "FileUpload",
+          "minH": 30,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 0,
+          "y": 62
+        },
+        "ImportFileTextLabel": {
+          "h": 50,
+          "i": "ImportFileTextLabel",
+          "minH": 10,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 11
+        },
+        "ImportFileTextLabel_": {
+          "h": 48,
+          "i": "ImportFileTextLabel_",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 14
+        },
+        "ImportMarketDataFileTextLabel_": {
+          "h": 48,
+          "i": "ImportMarketDataFileTextLabel_",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 1,
+          "y": 266
+        },
+        "LoadedFileWidget": {
+          "h": 24,
+          "i": "LoadedFileWidget",
+          "minH": 24,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 0,
+          "y": 145
+        },
+        "exportMarketDataTitle": {
+          "h": 48,
+          "i": "exportMarketDataTitle",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 20
+        },
+        "importButton": {
+          "h": 26,
+          "i": "importButton",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 3,
+          "y": 79
+        },
+        "loadData": {
+          "h": 41,
+          "i": "loadData",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 5,
+          "y": 43
+        },
+        "marketDataDualSelector": {
+          "h": 437,
+          "i": "marketDataDualSelector",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 154
+        },
+        "marketDataTree": {
+          "h": 400,
+          "i": "marketDataTree",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 9,
+          "y": 372
+        },
+        "reportTable": {
+          "h": 350,
+          "i": "reportTable",
+          "minH": 300,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 174
+        },
+        "reportTableShort": {
+          "h": 300,
+          "i": "reportTableShort",
+          "minH": 125,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 530
+        },
+        "testText": {
+          "h": 48,
+          "i": "testText",
+          "minH": 48,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 9,
+          "y": 317
+        },
+        "validateButton": {
+          "h": 26,
+          "i": "validateButton",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 1,
+          "x": 2,
+          "y": 78
+        }
+      }
+    },
+    "base": {
+      "CirrusLabel": {
+        "h": 50,
+        "i": "CirrusLabel",
+        "minH": 10,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 942
+      },
+      "TabView": {
+        "h": 876,
+        "i": "TabView",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 22
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "onPageLoad": {
+        "name": "onPageLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {},
+      "onTabClose": {}
+    },
+    "props": {
+      "description": "",
+      "icon": "base://EXPORT",
+      "id": "ImportExport",
+      "label": "Import and Export",
+      "tabLabel": "Import and Export"
+    }
+  },
+  "structure": {
+    "TabView": {
+      "exportMarketData": {
+        "Button": {
+          "compName": "Button",
+          "containerId": "TabView",
+          "events": {},
+          "id": "Button",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "shrink": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.11",
+          "versionDeprecated": "2023.12"
+        },
+        "CheckboxWidget": {
+          "compName": "CheckboxWidget",
+          "containerId": "TabView",
+          "events": {
+            "onChange": {
+              "name": "exportMarketDataChecker"
+            }
+          },
+          "id": "CheckboxWidget",
+          "label": "appbuilder.toolboxitem.checkbox.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "boldLabel": true,
+            "colon": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.11",
+          "versionDeprecated": "2023.12"
+        },
+        "CirrusLabel_1": {
+          "compName": "CirrusLabel",
+          "containerId": "TabView",
+          "id": "CirrusLabel_1",
+          "label": "appbuilder.toolboxitem.CirrusLabel.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.11"
+        },
+        "CirrusLabel_5": {
+          "compName": "CirrusLabel",
+          "containerId": "TabView",
+          "id": "CirrusLabel_5",
+          "label": "appbuilder.toolboxitem.CirrusLabel.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.12"
+        },
+        "clearAllFilters": {
+          "compName": "Button",
+          "containerId": "TabView",
+          "events": {
+            "click": {
+              "name": "clearAllFilters"
+            }
+          },
+          "id": "clearAllFilters",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "align": "center",
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "exportMarketData": {
+          "compName": "Button",
+          "containerId": "TabView",
+          "events": {
+            "click": {
+              "name": "exportButton"
+            }
+          },
+          "id": "exportMarketData",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "shrink": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "exportMarketDataEndDate": {
+          "compName": "CalendarWidget",
+          "containerId": "TabView",
+          "events": {
+            "onChange": {
+              "name": "validateEndDate"
+            }
+          },
+          "id": "exportMarketDataEndDate",
+          "label": "appbuilder.toolboxitem.calendar.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "exportMarketDataStartDate": {
+          "compName": "CalendarWidget",
+          "containerId": "TabView",
+          "events": {
+            "onChange": {
+              "name": "startDateValidation"
+            }
+          },
+          "id": "exportMarketDataStartDate",
+          "label": "appbuilder.toolboxitem.calendar.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "exportMarketDataTitle": {
+          "compName": "RichText",
+          "containerId": "TabView",
+          "id": "exportMarketDataTitle",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "value": "\u003cp\u003eExport market data to an Excel workbook.\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05",
+          "versionDeprecated": "2023.12"
+        },
+        "loadData": {
+          "compName": "Button",
+          "containerId": "TabView",
+          "events": {},
+          "id": "loadData",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "shrink": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05",
+          "versionDeprecated": "2023.11"
+        },
+        "marketDataDualSelector": {
+          "compName": "PageableDualSelector",
+          "containerId": "TabView",
+          "events": {
+            "getChildrenForNode": {
+              "name": "getChildren"
+            }
+          },
+          "id": "marketDataDualSelector",
+          "label": "appbuilder.toolboxitem.pageableDualSelector.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "colon": false,
+            "options": []
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.11",
+          "versionDeprecated": "2023.12"
+        },
+        "marketDataTree": {
+          "compName": "GenericTree",
+          "containerId": "TabView",
+          "events": {
+            "getChildrenForNode": {
+              "name": "getChildren"
+            }
+          },
+          "id": "marketDataTree",
+          "label": "appbuilder.toolboxitem.GenericTree.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.05",
+          "versionDeprecated": "2023.11"
+        },
+        "testText": {
+          "compName": "RichText",
+          "containerId": "TabView",
+          "id": "testText",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "value": "\u003ch2\u003e\u003cstrong\u003eTEST TEXT\u003c/strong\u003e\u003c/h2\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05",
+          "versionDeprecated": "2023.07"
+        }
+      },
+      "exportRegulations": {
+        "ExportRegistrationType": {
+          "compName": "DropdownWidget",
+          "containerId": "TabView",
+          "id": "ExportRegistrationType",
+          "label": "appbuilder.toolboxitem.dropdown.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "align": "center",
+            "boldLabel": false,
+            "colon": true,
+            "displayAsText": false,
+            "options": {
+              "irrbb": {
+                "index": 0,
+                "label": "IRRBB",
+                "value": "irrbb"
+              }
+            },
+            "stacked": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.10"
+        },
+        "RichText": {
+          "compName": "RichText",
+          "containerId": "TabView",
+          "id": "RichText",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "value": "\u003cp\u003eExport all regulatory data.\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.09",
+          "versionDeprecated": "2023.12"
+        },
+        "exportRegButton": {
+          "compName": "Button",
+          "containerId": "TabView",
+          "events": {
+            "click": {
+              "name": "exportRegulations"
+            }
+          },
+          "id": "exportRegButton",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "shrink": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.09"
+        },
+        "exportRegulationsLabel": {
+          "compName": "CirrusLabel",
+          "containerId": "TabView",
+          "id": "exportRegulationsLabel",
+          "label": "appbuilder.toolboxitem.CirrusLabel.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.12"
+        }
+      },
+      "exportRiskFactors": {
+        "ExportRiskFactorDefinitionsTextLabel": {
+          "compName": "RichText",
+          "containerId": "TabView",
+          "id": "ExportRiskFactorDefinitionsTextLabel",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "value": "\u003cp\u003eExport risk factor definitions to an Excel workbook.\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        },
+        "exportButton": {
+          "compName": "Button",
+          "containerId": "TabView",
+          "events": {
+            "click": {
+              "name": "exportRiskFactors"
+            }
+          },
+          "id": "exportButton",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "shrink": false
+          },
+          "sasProvided": true
+        }
+      },
+      "importMarketData": {
+        "FileUploadMarketData": {
+          "compName": "FileUpload",
+          "containerId": "TabView",
+          "events": {
+            "onClearFile": {
+              "name": "onClearSelectedFileImportMkt"
+            },
+            "onSelectFile": {
+              "name": "onMarketDataFileSelection"
+            }
+          },
+          "id": "FileUploadMarketData",
+          "label": "appbuilder.toolboxitem.fileUpload.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.03"
+        },
+        "ImportMarketDataButton": {
+          "compName": "Button",
+          "containerId": "TabView",
+          "events": {
+            "click": {
+              "name": "onImportDataButtonClick"
+            }
+          },
+          "id": "ImportMarketDataButton",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "shrink": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.03"
+        },
+        "ImportMarketDataFileTextLabel": {
+          "compName": "CirrusLabel",
+          "containerId": "TabView",
+          "id": "ImportMarketDataFileTextLabel",
+          "label": "appbuilder.toolboxitem.CirrusLabel.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "EUA": true,
+            "colon": true,
+            "contentKey": "importRiskFactorMarketData",
+            "library": "rfmeua-gui-eua"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "ImportMarketDataFileTextLabel_": {
+          "compName": "RichText",
+          "containerId": "TabView",
+          "id": "ImportMarketDataFileTextLabel_",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "value": "\u003cp\u003eImport market data from an Excel workbook:\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.03",
+          "versionDeprecated": "2023.05"
+        }
+      },
+      "importRegulations": {
+        "CirrusLabel_3": {
+          "compName": "CirrusLabel",
+          "containerId": "TabView",
+          "id": "CirrusLabel_3",
+          "label": "appbuilder.toolboxitem.CirrusLabel.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "EUA": false,
+            "contentKey": "importRiskFactorDef",
+            "library": "rfmeua-gui-eua"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.09"
+        },
+        "FileUpload_Regulation": {
+          "compName": "FileUpload",
+          "containerId": "TabView",
+          "events": {
+            "onClearFile": {
+              "name": "onClearSelectedFileImportReg"
+            },
+            "onSelectFile": {
+              "name": "onRegulationFileSelection"
+            }
+          },
+          "id": "FileUpload_Regulation",
+          "label": "appbuilder.toolboxitem.fileUpload.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.09"
+        },
+        "ImportRegButton": {
+          "compName": "Button",
+          "containerId": "TabView",
+          "events": {
+            "click": {
+              "name": "importRegulations"
+            }
+          },
+          "id": "ImportRegButton",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "shrink": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.09"
+        },
+        "ImportRegistrationType": {
+          "compName": "DropdownWidget",
+          "containerId": "TabView",
+          "id": "ImportRegistrationType",
+          "label": "appbuilder.toolboxitem.dropdown.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "align": "start",
+            "colon": true,
+            "options": {
+              "irrbb": {
+                "index": 0,
+                "label": "IRRBB",
+                "value": "irrbb"
+              }
+            },
+            "stacked": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.10"
+        },
+        "LoadedFile_Reg": {
+          "compName": "WorkflowTaskLabelWidget",
+          "containerId": "TabView",
+          "id": "LoadedFile_Reg",
+          "label": "appbuilder.toolboxitem.workflowtasklabel.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.09"
+        },
+        "reportTableShort_Reg": {
+          "compName": "GenericSpreadsheetWidget",
+          "containerId": "TabView",
+          "id": "reportTableShort_Reg",
+          "label": "appbuilder.toolboxitem.spreadsheet.generic.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "columnMetaData": "{\"table\": {\"options\": {\"selectionMode\": \"MultiToggle\"},\"columnOptions\": {\"visible\": true,\"defaultVisible\": true,\"sizeColumnsToFit\": true,\"sortable\": false,\"areLabelsLocalized\": true},\"cellOptions\": {\"readonly\": true,\"cellType\": \"string\"}},\"columns\": [{\"options\": {\"id\": \"createOrUpdate\",\"label\": \"ImportExport.library.label.base.validationSummaryChangeType\"},\"cellOptions\": {\"cellType\": \"string\"}},{\"options\": {\"id\": \"count\",\"label\": \"ImportExport.library.label.base.validationSummaryTotalChanges\"},\"cellOptions\": {\"cellType\": \"string\"}}]}",
+            "suppressSideBar": true,
+            "suppressToolBar": true,
+            "suppressToolBarAddAction": true,
+            "suppressToolBarCollapseAllAction": true,
+            "suppressToolBarDeleteAction": true,
+            "suppressToolBarExpandAllAction": true,
+            "suppressToolBarRefreshAction": true,
+            "suppressToolBarSearchField": true,
+            "value": "\u003cp\u003e{\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"table\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"selectionMode\": \"MultiToggle\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"columnOptions\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"visible\": true,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"defaultVisible\": true,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"sizeColumnsToFit\": true,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"sortable\": false,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"areLabelsLocalized\": true\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellOptions\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"readonly\": true,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellType\": \"string\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;}\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"columns\": [\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;{\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"id\": \"createOrUpdate\",\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"label\": \"ImportExport.library.label.base.validationSummaryChangeType\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellOptions\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellType\": \"string\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;}\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;{\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"id\": \"count\",\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"label\": \"ImportExport.library.label.base.validationSummaryTotalChanges\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellOptions\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellType\": \"string\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;}\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;}\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;]\u003cbr\u003e}\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.09"
+        },
+        "reportTable_Reg": {
+          "compName": "GenericSpreadsheetWidget",
+          "containerId": "TabView",
+          "id": "reportTable_Reg",
+          "label": "appbuilder.toolboxitem.spreadsheet.generic.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "columnMetaData": "{\"table\": {\"options\": {\"selectionMode\": \"MultiToggle\"},\"columnOptions\": {\"visible\": true,\"defaultVisible\": true,\"sizeColumnsToFit\": true,\"sortable\": false,\"areLabelsLocalized\": true},\"cellOptions\": {\"readonly\": true,\"cellType\": \"string\"}},\"columns\": [{\"options\": {\"id\": \"createOrUpdate\",\"label\": \"ImportExport.library.label.base.validationDetailChangeType\"},\"cellOptions\": {\"cellType\": \"string\",\"wrapText\": true}},{\"options\": {\"id\": \"name\",\"label\": \"ImportExport.library.label.base.validationDetailName\"},\"cellOptions\": {\"cellType\": \"string\",\"wrapText\": true}},{\"options\": {\"id\": \"type\",\"label\": \"ImportExport.library.label.base.validationDetailType\"},\"cellOptions\": {\"cellType\": \"string\",\"wrapText\": true}}]}",
+            "pagination": true,
+            "paginationPageSize": 10,
+            "suppressToolBarAddAction": true,
+            "suppressToolBarCollapseAllAction": true,
+            "suppressToolBarDeleteAction": true,
+            "suppressToolBarExpandAllAction": true,
+            "suppressToolBarImportExportAction": true,
+            "suppressToolBarRefreshAction": true,
+            "suppressToolBarSearchField": true,
+            "value": "\u003cp\u003e{\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"table\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"selectionMode\": \"MultiToggle\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"columnOptions\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"visible\": true,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"defaultVisible\": true,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"sizeColumnsToFit\": true,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"sortable\": false,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"areLabelsLocalized\": true\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellOptions\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"readonly\": true,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellType\": \"string\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;}\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"columns\": [\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;{\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"id\": \"createOrUpdate\",\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"label\": \"ImportExport.library.label.base.validationDetailChangeType\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellOptions\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellType\": \"string\",\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"wrapText\": true\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;}\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;{\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"id\": \"name\",\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"label\": \"ImportExport.library.label.base.validationDetailName\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellOptions\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellType\": \"string\",\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"wrapText\": true\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;}\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;{\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"id\": \"type\",\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"label\": \"ImportExport.library.label.base.validationDetailType\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellOptions\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellType\": \"string\",\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"wrapText\": true\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;}\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;}\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;]\u003cbr\u003e}\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.09"
+        },
+        "validateRegButton": {
+          "compName": "Button",
+          "containerId": "TabView",
+          "events": {
+            "click": {
+              "name": "validateRegulations"
+            }
+          },
+          "id": "validateRegButton",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.09"
+        }
+      },
+      "importRiskFactors": {
+        "FileUpload": {
+          "compName": "FileUpload",
+          "containerId": "TabView",
+          "events": {
+            "onClearFile": {
+              "name": "onClearSelectedFileImportDef"
+            },
+            "onSelectFile": {
+              "name": "onSelectFile"
+            }
+          },
+          "id": "FileUpload",
+          "label": "appbuilder.toolboxitem.fileUpload.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        },
+        "ImportFileTextLabel": {
+          "compName": "CirrusLabel",
+          "containerId": "TabView",
+          "id": "ImportFileTextLabel",
+          "label": "appbuilder.toolboxitem.CirrusLabel.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "EUA": true,
+            "colon": true,
+            "contentKey": "importRiskFactorDef",
+            "library": "rfmeua-gui-eua"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        },
+        "ImportFileTextLabel_": {
+          "compName": "RichText",
+          "containerId": "TabView",
+          "id": "ImportFileTextLabel_",
+          "label": "appbuilder.toolboxitem.richtext.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "value": "\u003cp\u003eImport file:\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.02",
+          "versionDeprecated": "2023.05"
+        },
+        "LoadedFileWidget": {
+          "compName": "ReadonlyFieldWidget",
+          "containerId": "TabView",
+          "id": "LoadedFileWidget",
+          "label": "appbuilder.toolboxitem.readonlyfield.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "align": "start",
+            "boldLabel": true,
+            "colon": true,
+            "stacked": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        },
+        "importButton": {
+          "compName": "Button",
+          "containerId": "TabView",
+          "events": {
+            "click": {
+              "name": "importRiskFactors"
+            }
+          },
+          "id": "importButton",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "shrink": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        },
+        "reportTable": {
+          "compName": "GenericSpreadsheetWidget",
+          "containerId": "TabView",
+          "id": "reportTable",
+          "label": "appbuilder.toolboxitem.spreadsheet.generic.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "columnMetaData": "{\"table\": {\"options\": {\"selectionMode\": \"MultiToggle\"},\"columnOptions\": {\"visible\": true,\"defaultVisible\": true,\"sizeColumnsToFit\": true,\"sortable\": false,\"areLabelsLocalized\": true},\"cellOptions\": {\"readonly\": true,\"cellType\": \"string\"}},\"columns\": [{\"options\": {\"id\": \"createOrUpdate\",\"label\": \"ImportExport.library.label.base.validationDetailChangeType\"},\"cellOptions\": {\"cellType\": \"string\",\"wrapText\": true}},{\"options\": {\"id\": \"name\",\"label\": \"ImportExport.library.label.base.validationDetailName\"},\"cellOptions\": {\"cellType\": \"string\",\"wrapText\": true}},{\"options\": {\"id\": \"type\",\"label\": \"ImportExport.library.label.base.validationDetailType\"},\"cellOptions\": {\"cellType\": \"string\",\"wrapText\": true}}]}",
+            "pagination": true,
+            "paginationPageSize": 10,
+            "suppressToolBar": false,
+            "suppressToolBarAddAction": true,
+            "suppressToolBarCollapseAllAction": true,
+            "suppressToolBarDeleteAction": true,
+            "suppressToolBarExpandAllAction": true,
+            "suppressToolBarImportExportAction": true,
+            "suppressToolBarRefreshAction": true,
+            "suppressToolBarSearchField": false,
+            "value": "\u003cp\u003e{\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"table\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"selectionMode\": \"MultiToggle\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"columnOptions\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"visible\": true,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"defaultVisible\": true,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"sizeColumnsToFit\": true,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"sortable\": false,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"areLabelsLocalized\": true\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellOptions\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"readonly\": true,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellType\": \"string\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;}\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"columns\": [\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;{\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"id\": \"createOrUpdate\",\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"label\": \"ImportExport.library.label.base.validationDetailChangeType\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellOptions\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellType\": \"string\",\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"wrapText\": true\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;}\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;{\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"id\": \"name\",\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"label\": \"ImportExport.library.label.base.validationDetailName\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellOptions\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellType\": \"string\",\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"wrapText\": true\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;}\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;{\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"id\": \"type\",\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"label\": \"ImportExport.library.label.base.validationDetailType\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellOptions\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellType\": \"string\",\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"wrapText\": true\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;}\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;}\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;]\u003cbr\u003e}\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        },
+        "reportTableShort": {
+          "compName": "GenericSpreadsheetWidget",
+          "containerId": "TabView",
+          "id": "reportTableShort",
+          "label": "appbuilder.toolboxitem.spreadsheet.generic.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "columnMetaData": "{\"table\": {\"options\": {\"selectionMode\": \"MultiToggle\"},\"columnOptions\": {\"visible\": true,\"defaultVisible\": true,\"sizeColumnsToFit\": true,\"sortable\": false,\"areLabelsLocalized\": true},\"cellOptions\": {\"readonly\": true,\"cellType\": \"string\"}},\"columns\": [{\"options\": {\"id\": \"createOrUpdate\",\"label\": \"ImportExport.library.label.base.validationSummaryChangeType\"},\"cellOptions\": {\"cellType\": \"string\"}},{\"options\": {\"id\": \"count\",\"label\": \"ImportExport.library.label.base.validationSummaryTotalChanges\"},\"cellOptions\": {\"cellType\": \"string\"}}]}",
+            "suppressSideBar": true,
+            "suppressToolBar": true,
+            "suppressToolBarAddAction": true,
+            "suppressToolBarCollapseAllAction": true,
+            "suppressToolBarDeleteAction": true,
+            "suppressToolBarExpandAllAction": true,
+            "suppressToolBarRefreshAction": true,
+            "suppressToolBarSearchField": true,
+            "value": "\u003cp\u003e{\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"table\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"selectionMode\": \"MultiToggle\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"columnOptions\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"visible\": true,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"defaultVisible\": true,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"sizeColumnsToFit\": true,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"sortable\": false,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"areLabelsLocalized\": true\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellOptions\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"readonly\": true,\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellType\": \"string\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;}\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"columns\": [\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;{\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"id\": \"createOrUpdate\",\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"label\": \"ImportExport.library.label.base.validationSummaryChangeType\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellOptions\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellType\": \"string\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;}\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;{\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"options\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"id\": \"count\",\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"label\": \"ImportExport.library.label.base.validationSummaryTotalChanges\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;},\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellOptions\": {\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\"cellType\": \"string\"\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;}\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;}\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;]\u003cbr\u003e}\u003c/p\u003e"
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        },
+        "validateButton": {
+          "compName": "Button",
+          "containerId": "TabView",
+          "events": {
+            "click": {
+              "name": "validateRiskFactors"
+            }
+          },
+          "id": "validateButton",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {
+            "secondary": true,
+            "shrink": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        }
+      }
+    },
+    "base": {
+      "CirrusLabel": {
+        "compName": "CirrusLabel",
+        "containerId": "base",
+        "id": "CirrusLabel",
+        "label": "appbuilder.toolboxitem.CirrusLabel.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {},
+        "sasProvided": true,
+        "versionAdded": "2023.11"
+      },
+      "TabView": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "TabView",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 3,
+          "childProps": {
+            "exportMarketData": {
+              "label": "Export Market Data",
+              "name": "exportMarketData",
+              "position": 3
+            },
+            "exportRegulations": {
+              "label": "Export Regulatory Data",
+              "name": "exportRegulations",
+              "position": 5
+            },
+            "exportRiskFactors": {
+              "label": "Export Definitions",
+              "name": "exportRiskFactors",
+              "position": 1
+            },
+            "importMarketData": {
+              "label": "Import Market Data",
+              "name": "importMarketData",
+              "position": 2
+            },
+            "importRegulations": {
+              "label": "Import Regulatory Data",
+              "name": "importRegulations",
+              "position": 4
+            },
+            "importRiskFactors": {
+              "label": "Import Definitions",
+              "name": "importRiskFactors",
+              "position": 0
+            }
+          },
+          "verticalTabs": false
+        },
+        "sasProvided": true
+      }
+    }
+  }
+}

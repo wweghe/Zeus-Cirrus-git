@@ -1,0 +1,83 @@
+{
+  "layouts": {
+    "base": {
+      "NewDashboardName": {
+        "h": 50,
+        "i": "NewDashboardName",
+        "minH": 50,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      },
+      "SetAsDefaultCheckbox": {
+        "h": 24,
+        "i": "SetAsDefaultCheckbox",
+        "minH": 24,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 55
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "onPageLoad": {
+        "name": "onPageLoadResetState"
+      }
+    },
+    "events": {
+      "onAnyEvent": {},
+      "onTabClose": {}
+    },
+    "props": {
+      "description": "",
+      "id": "NewDashboardDialog",
+      "label": "New Dashboard Dialog",
+      "tabLabel": "New Dashboard Dialog"
+    }
+  },
+  "structure": {
+    "base": {
+      "NewDashboardName": {
+        "compName": "InputTextWidget",
+        "containerId": "base",
+        "events": {
+          "onChange": {
+            "name": "onChangeNewName"
+          }
+        },
+        "id": "NewDashboardName",
+        "label": "appbuilder.toolboxitem.inputtext.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "colon": true
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.10"
+      },
+      "SetAsDefaultCheckbox": {
+        "compName": "CheckboxWidget",
+        "containerId": "base",
+        "events": {
+          "onChange": {
+            "name": "onSetAsDefault"
+          }
+        },
+        "id": "SetAsDefaultCheckbox",
+        "label": "appbuilder.toolboxitem.checkbox.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {},
+        "sasProvided": true,
+        "versionAdded": "2023.10"
+      }
+    }
+  }
+}

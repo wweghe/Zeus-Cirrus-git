@@ -1,0 +1,124 @@
+{
+  "onClaimTask": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "1de74759-7f51-48b3-a204-4c65c3c096e1",
+        "type": "fixed",
+        "value": {
+          "datatype": "boolean",
+          "dataval": true
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "true",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setPotentialTasks",
+        "id": "a0c9dc40-221f-4a32-b7df-953c464badce",
+        "params": {
+          "tasks": {
+            "datatype": "boolean",
+            "name": "true",
+            "scope": "local"
+          }
+        },
+        "widgetId": "ClaimTasksTable"
+      }
+    ],
+    "sasProvided": true
+  },
+  "onReleaseTask": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "5854ec3b-bbc2-45d5-a540-d212e0f094d3",
+        "type": "fixed",
+        "value": {
+          "datatype": "boolean",
+          "dataval": true
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "true",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setClaimedTasks",
+        "id": "99fd0c1b-e384-4b23-8e16-e2f9d028d06f",
+        "params": {
+          "tasks": {
+            "datatype": "boolean",
+            "name": "true",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "PotentialTasksTable"
+      }
+    ],
+    "sasProvided": true
+  },
+  "onSelectTask": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_key"
+      },
+      {
+        "datatype": "text",
+        "name": "input_objectType"
+      },
+      {
+        "datatype": "text",
+        "name": "input_taskId"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "d21a892c-7e39-4a60-b54d-d00a19b3ef09",
+        "type": "calculated",
+        "value": {
+          "function": "getEditLocation",
+          "library": "CirrusLibNav",
+          "params": {
+            "key": {
+              "datatype": "text",
+              "name": "input_key",
+              "scope": "local"
+            },
+            "objectType": {
+              "datatype": "text",
+              "name": "input_objectType",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "navigationLink",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "nav",
+        "id": "2ad37773-1bea-4ce2-8d07-937bb30fb4e1",
+        "location": {
+          "datatype": "text",
+          "name": "navigationLink",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "ConfigurationSetDialogContent.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.help.label": "選取您想要複製和編輯的設定表格。儲存新設定集時，所有已選取的其他表格都會保持不變。",
+  "ConfigurationSetDialogContent.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "選取要複製和編輯的設定表格",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.description.label": "設定集說明",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.name.label": "設定集名稱",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.objectId.label": "設定集 ID",
+  "ConfigurationSetDialogContent.library.label.base.TabView.TabView.configurationTables.title": "設定表格",
+  "ConfigurationSetDialogContent.library.label.base.TabView.TabView.details.title": "詳細資料"
+}
