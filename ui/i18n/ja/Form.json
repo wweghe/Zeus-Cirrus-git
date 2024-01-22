@@ -1,0 +1,12 @@
+{
+  "Form.library.label.base.Accordion.Accordion.panel1.title": "パネル 1",
+  "Form.library.label.base.Accordion.classifications_accordion.classifications.title": "分類",
+  "Form.library.label.base.Button.Button.label": "保存",
+  "Form.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "Form.library.label.base.TabView.TabView.0.title": "詳細",
+  "Form.library.label.base.TabView.TabView.1.title": "チーム",
+  "Form.library.label.base.TabView.TabView.2.title": "関連オブジェクト",
+  "Form.library.label.base.TabView.TabView.4.title": "ドキュメント",
+  "Form.library.label.base.TabView.TabView.5.title": "変更履歴",
+  "undefined": "アコーディオン"
+}

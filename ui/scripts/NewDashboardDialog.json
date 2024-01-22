@@ -1,0 +1,177 @@
+{
+  "onChangeNewName": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_value"
+      }
+    ],
+    "logic": [
+      {
+        "action": "addComment",
+        "commentStep": "0.1 --- Control the status of input text for new dashboard name ---",
+        "id": "904a1fb4-0326-477e-8a41-d355c33f73ec"
+      },
+      {
+        "action": "setvar",
+        "id": "3f10ea76-19d2-4ccf-a88a-b5eb04a863f2",
+        "type": "variable",
+        "value": {
+          "datatype": "text",
+          "name": "input_value",
+          "scope": "local"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "newDashboardName",
+          "scope": "global"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onPageLoadResetState": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "e91508a6-4fc5-4ed5-b4a2-e0a46e548e63",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getAllData",
+          "library": "CirrusLibPageData",
+          "params": {},
+          "returnType": "All Data"
+        },
+        "variable": {
+          "datatype": "All Data",
+          "name": "pageData",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "log",
+        "id": "440346c9-c613-4563-abb0-5b6be4394ac4",
+        "isCommented": true,
+        "library": "CirrusLibDebugging",
+        "params": {
+          "variable": {
+            "datatype": "All Data",
+            "name": "pageData",
+            "scope": "local"
+          }
+        },
+        "returnType": "All Data"
+      },
+      {
+        "action": "setvar",
+        "id": "eb0cd633-323b-4db9-9c7a-5beb09883804",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "setNull",
+          "library": "CirrusLibGeneral",
+          "params": {},
+          "returnType": "\u003cIncoming\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cIncoming\u003e",
+          "name": "emptyString",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "set",
+        "id": "9abe0e8c-6de9-42ed-8051-1925fae2817a",
+        "isCommented": false,
+        "library": "CirrusLibObject",
+        "params": {
+          "name": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "NewDashboardName"
+          },
+          "object": {
+            "datatype": "All Data",
+            "name": "pageData",
+            "scope": "local"
+          },
+          "value": {
+            "datatype": "All Data",
+            "name": "emptyString",
+            "scope": "local"
+          }
+        },
+        "returnType": "All Data"
+      },
+      {
+        "action": "execfunc",
+        "function": "set",
+        "id": "44f96fd1-493a-4068-b1a8-578c224e0681",
+        "isCommented": false,
+        "library": "CirrusLibObject",
+        "params": {
+          "name": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "SetAsDefaultCheckbox"
+          },
+          "object": {
+            "datatype": "All Data",
+            "name": "pageData",
+            "scope": "local"
+          },
+          "value": {
+            "scope": "fixed",
+            "value": false
+          }
+        },
+        "returnType": "All Data"
+      },
+      {
+        "action": "execfunc",
+        "function": "loadData",
+        "id": "07ed2cc1-0ce8-4760-90f7-68656931a9fa",
+        "isCommented": false,
+        "library": "CirrusLibPageData",
+        "params": {
+          "data": {
+            "datatype": "All Data",
+            "name": "pageData",
+            "scope": "local"
+          }
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onSetAsDefault": {
+    "inputs": [
+      {
+        "datatype": "boolean",
+        "name": "input_value"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "ff492bd0-c8b1-488e-882f-aeb0925447eb",
+        "type": "variable",
+        "value": {
+          "datatype": "boolean",
+          "name": "input_value",
+          "scope": "local"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isSetToDefault",
+          "scope": "global"
+        }
+      }
+    ],
+    "sasProvided": true
+  }
+}

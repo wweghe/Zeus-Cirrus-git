@@ -1,0 +1,14 @@
+{
+  "Script.Script.schema.field.endsInAsyncCallFlg.option.label1.label": "ＸYes补Ｚ",
+  "Script.Script.schema.field.endsInAsyncCallFlg.option.label2.label": "ＸNoＺ",
+  "Script.library.label.base.Accordion.instance_details.details.title": "ＸScript Details补 补补Ｚ",
+  "Script.library.label.base.Button.save.label": "ＸSave补补Ｚ",
+  "Script.library.label.base.ReadonlyFieldWidget.ReadonlyFieldWidget.label": "Ｘ Parameters are not currently supported for post-execution scripts.补 补补补补 补补Ｚ",
+  "Script.library.label.base.ReadonlyFieldWidget.name_readonly.label": "Ｘ Ｚ",
+  "Script.library.label.base.TabView.script_tabs.tab_analysis_runs.title": "ＸAnalysis Runs补 补补Ｚ",
+  "Script.library.label.base.TabView.script_tabs.tab_change_history.title": "ＸChange History补 补补Ｚ",
+  "Script.library.label.base.TabView.script_tabs.tab_code.title": "ＸCode补补Ｚ",
+  "Script.library.label.base.TabView.script_tabs.tab_details.title": "ＸDetails补补Ｚ",
+  "Script.library.label.base.TabView.script_tabs.tab_documentation.title": "ＸDocumentation补 补补Ｚ",
+  "Script.library.label.base.TabView.script_tabs.tab_parameters.title": "ＸParameters补补补Ｚ"
+}

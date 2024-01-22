@@ -1,0 +1,14 @@
+{
+  "Script.Script.schema.field.endsInAsyncCallFlg.option.label1.label": "چثس",
+  "Script.Script.schema.field.endsInAsyncCallFlg.option.label2.label": "أخ",
+  "Script.library.label.base.Accordion.instance_details.details.title": "ڀزقهحف ٺثفشهمس",
+  "Script.library.label.base.Button.save.label": "ڀشرث",
+  "Script.library.label.base.ReadonlyFieldWidget.ReadonlyFieldWidget.label": "\\ ےشقشئثفثقس شقث دخف زعققثدفمغ سعححخقفثڈ بخق حخسف-ثطثزعفهخد سزقهحفس.",
+  "Script.library.label.base.ReadonlyFieldWidget.name_readonly.label": "\\ ",
+  "Script.library.label.base.TabView.script_tabs.tab_analysis_runs.title": "ٯدشمغسهس جعدس",
+  "Script.library.label.base.TabView.script_tabs.tab_change_history.title": "ژاشدلث آهسفخقغ",
+  "Script.library.label.base.TabView.script_tabs.tab_code.title": "ژخڈث",
+  "Script.library.label.base.TabView.script_tabs.tab_details.title": "ٺثفشهمس",
+  "Script.library.label.base.TabView.script_tabs.tab_documentation.title": "ٺخزعئثدفشفهخد",
+  "Script.library.label.base.TabView.script_tabs.tab_parameters.title": "ےشقشئثفثقس"
+}

@@ -1,0 +1,14 @@
+{
+  "ConfigurationSet.ConfigurationSet.schema.field.linkedConfigurationTables.label": "XConfiguration Tables补Z",
+  "ConfigurationSet.library.label.base.Accordion.instance_details.details.title": "XConfiguration Set Details补Z",
+  "ConfigurationSet.library.label.base.Button.save.label": "XSave补Z",
+  "ConfigurationSet.library.label.base.CirrusObjectsLinks.documentation_links.label": "XDocumentation links补Z",
+  "ConfigurationSet.library.label.base.Comments.additional_comments.label": "XComments补Z",
+  "ConfigurationSet.library.label.base.InputText.name.label": "XConfiguration set name补Z",
+  "ConfigurationSet.library.label.base.InputText.objectId.label": "XConfiguration set ID补Z",
+  "ConfigurationSet.library.label.base.InputTextarea.description.label": "XConfiguration set description补Z",
+  "ConfigurationSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "X 补Z",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.0.title": "XDetails补Z",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.1.title": "XDocumentation补Z",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.2.title": "XChange History补Z"
+}

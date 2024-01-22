@@ -1,0 +1,12 @@
+{
+  "Form.library.label.base.Accordion.Accordion.panel1.title": "Panel 1",
+  "Form.library.label.base.Accordion.classifications_accordion.classifications.title": "Clasificaciones",
+  "Form.library.label.base.Button.Button.label": "Guardar",
+  "Form.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "Form.library.label.base.TabView.TabView.0.title": "Detalles",
+  "Form.library.label.base.TabView.TabView.1.title": "Equipo",
+  "Form.library.label.base.TabView.TabView.2.title": "Objetos relacionados",
+  "Form.library.label.base.TabView.TabView.4.title": "Documentación",
+  "Form.library.label.base.TabView.TabView.5.title": "Historial de cambios",
+  "undefined": "Acordeón"
+}
