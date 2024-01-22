@@ -1,0 +1,391 @@
+{
+  "apiName": "allocationSchemes",
+  "defaultSortingField": "creationTimeStamp",
+  "defaultSortingType": "desc",
+  "fields": {
+    "additional_comments": {
+      "id": "additional_comments",
+      "label": "Comments",
+      "newId": "additional_comments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Comments",
+        "libName": "base"
+      }
+    },
+    "allocationData": {
+      "id": "allocationData",
+      "index": 0,
+      "label": "Allocation scheme data",
+      "newId": "allocationData",
+      "props": {
+        "hideColumn": true,
+        "maxLength": null
+      },
+      "tableMeta": {
+        "isHideColumn": true,
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "createdBy": {
+      "id": "createdBy",
+      "label": "Created by",
+      "newId": "createdBy",
+      "props": {
+        "maxLength": null
+      },
+      "tableMeta": {
+        "isHideColumn": false,
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "createdInTag": {
+      "id": "createdInTag",
+      "label": "Created in",
+      "newId": "createdInTag",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "creationTimeStamp": {
+      "id": "creationTimeStamp",
+      "index": 7,
+      "label": "Date created",
+      "newId": "creationTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isHideColumn": false,
+        "isSearchable": false,
+        "isShownByDefault": true,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "defaultAllocationMethod": {
+      "id": "defaultAllocationMethod",
+      "index": 9,
+      "label": "Default allocation method",
+      "newId": "defaultAllocationMethod",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "defaultAllocationType": {
+      "id": "defaultAllocationType",
+      "index": 10,
+      "label": "Default allocation type",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "defaultModelParameters": {
+      "id": "defaultModelParameters",
+      "index": 11,
+      "label": "Default model parameters",
+      "newId": "defaultModelParameters",
+      "props": {
+        "hideColumn": true,
+        "maxLength": null
+      },
+      "tableMeta": {
+        "isHideColumn": true,
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "description": {
+      "id": "description",
+      "index": 1,
+      "label": "Allocation scheme description",
+      "newId": "description",
+      "props": {
+        "maxLength": 4000
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "documentation_attachments": {
+      "id": "documentation_attachments",
+      "label": "Documentation Attachments",
+      "newId": "documentation_attachments",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsAttachments",
+        "libName": "base"
+      }
+    },
+    "documentation_links": {
+      "id": "documentation_links",
+      "label": "Documentation Links",
+      "newId": "documentation_links",
+      "props": {
+        "hideColumn": true
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsLinks",
+        "libName": "base"
+      }
+    },
+    "modifiedBy": {
+      "id": "modifiedBy",
+      "label": "Modified by",
+      "newId": "modifiedBy",
+      "props": {
+        "maxLength": null
+      },
+      "tableMeta": {
+        "isHideColumn": false,
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "modifiedTimeStamp": {
+      "id": "modifiedTimeStamp",
+      "index": 8,
+      "label": "Date modified",
+      "newId": "modifiedTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isHideColumn": false,
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "name": {
+      "id": "name",
+      "label": "Allocation scheme name",
+      "newId": "name",
+      "props": {
+        "maxLength": 200
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "objectId": {
+      "id": "objectId",
+      "label": "Allocation scheme ID",
+      "newId": "objectId",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "sourceSystemCd": {
+      "id": "sourceSystemCd",
+      "label": "Source system",
+      "newId": "sourceSystemCd",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "ReadonlyField",
+        "libName": "base"
+      }
+    },
+    "statusCd": {
+      "id": "statusCd",
+      "index": 4,
+      "label": "Allocation scheme status",
+      "newId": "statusCd",
+      "props": {
+        "emptyValue": "Empty"
+      },
+      "tableMeta": {
+        "isHideColumn": false,
+        "isSearchable": false,
+        "isShownByDefault": true,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "targetVariable": {
+      "id": "targetVariable",
+      "label": "Target variable",
+      "newId": "targetVariable",
+      "props": {
+        "emptyValue": "Empty"
+      },
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    }
+  },
+  "id": "AllocationScheme",
+  "index": 0,
+  "labelPlural": "Allocation Schemes",
+  "labelSingular": "Allocation Scheme",
+  "nameField": "name",
+  "relationships": {
+    "allocationScheme_bep": {
+      "cardinality": "manyToOne",
+      "index": 0,
+      "label": "Allocation Schemes",
+      "sourceLabel": "Allocation scheme",
+      "sourceLabelPlural": "Allocation schemes",
+      "sourceName": "AllocationScheme",
+      "sourceSysCode": "RCC",
+      "sourceType": "AllocationScheme",
+      "targetLabel": "Business evolution plan",
+      "targetLabelPlural": "Business evolution plans",
+      "targetName": "BusinessEvolutionPlan",
+      "targetType": "BusinessEvolutionPlan",
+      "type": "lookup"
+    },
+    "allocationScheme_cycle": {
+      "cardinality": "manyToMany",
+      "sourceLabel": "Allocation Scheme",
+      "sourceLabelPlural": "Allocation Schemes",
+      "sourceName": "AllocationScheme",
+      "sourceSysCode": "RCC",
+      "sourceType": "AllocationScheme",
+      "targetLabel": "Cycle",
+      "targetLabelPlural": "Cycles",
+      "targetName": "Cycle",
+      "targetType": "Cycle",
+      "type": "lookup"
+    },
+    "allocationScheme_defaultModel": {
+      "cardinality": "manyToOne",
+      "index": 3,
+      "label": "Default Models",
+      "sourceLabel": "Allocation Scheme",
+      "sourceLabelPlural": "Allocation Schemes",
+      "sourceName": "AllocationScheme",
+      "sourceSysCode": "RCC",
+      "sourceType": "AllocationScheme",
+      "targetLabel": "Default Model",
+      "targetLabelPlural": "Default Models",
+      "targetName": "Model",
+      "targetType": "Model",
+      "type": "lookup"
+    },
+    "analysisRun_param_allocationSchemes": {
+      "cardinality": "manyToMany",
+      "index": 0,
+      "label": "Analysis Runs",
+      "sourceLabel": "Analysis Run",
+      "sourceLabelPlural": "Analysis Runs",
+      "sourceName": "AnalysisRun",
+      "sourceSysCode": "RCC",
+      "sourceType": "AnalysisRun",
+      "targetLabel": "Allocation Scheme",
+      "targetLabelPlural": "Allocation Schemes",
+      "targetName": "AllocationScheme",
+      "targetType": "AllocationScheme",
+      "type": "lookup"
+    }
+  },
+  "tasks": {}
+}

@@ -1,0 +1,4215 @@
+{
+  "checkIfSaveOk": {
+    "inputs": [
+      {
+        "datatype": "boolean",
+        "name": "input_key"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "d3a5508b-9c67-4c35-a8aa-a18f07d27c59",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "boolean",
+          "dataval": true
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "true",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "e56dc34c-e1c0-45fc-ae85-df113335afe9",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "boolean",
+          "dataval": false
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "false",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "84696a56-abcc-4ef8-afc3-a7988d8197d6",
+        "includeElse": true,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "input_key",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "returnvar",
+        "id": "6ce47c4c-975b-48e3-ac8b-91bc7ff5ff01",
+        "isCommented": false,
+        "variable": {
+          "datatype": "boolean",
+          "name": "true",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "55628100-7954-45c8-aba3-055a2718da81",
+        "includeElse": true,
+        "isCommented": false,
+        "iselse": true,
+        "main": "84696a56-abcc-4ef8-afc3-a7988d8197d6",
+        "test": {
+          "datatype": "boolean",
+          "name": "input_key",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "returnvar",
+        "id": "40f8b571-c35a-4db4-ab6c-1e4a8901ab87",
+        "isCommented": false,
+        "variable": {
+          "datatype": "boolean",
+          "name": "false",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "bb6fedfb-8764-4809-8568-5980cfdc4f4e",
+        "includeElse": true,
+        "isCommented": false,
+        "main": "84696a56-abcc-4ef8-afc3-a7988d8197d6",
+        "test": {
+          "datatype": "boolean",
+          "name": "input_key",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "returnvar",
+        "id": "9f082f07-f291-42eb-8e4b-fe3f560b4876",
+        "isCommented": false,
+        "variable": {
+          "datatype": "boolean",
+          "name": "false",
+          "scope": "local"
+        }
+      }
+    ],
+    "resolveEachStep": false,
+    "sasProvided": true
+  },
+  "clearDialogData": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "execfunc",
+        "function": "clearPageData",
+        "id": "035049eb-6f83-4e02-9d3a-f7049bd4efd7",
+        "isCommented": false,
+        "library": "CirrusLibPageData",
+        "params": {
+          "pageUrl": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "/ConfigurationSets#CustomContentDialog-ConfigurationSetDialogContent"
+          }
+        }
+      }
+    ],
+    "resolveEachStep": false,
+    "sasProvided": true
+  },
+  "createConfigurationSetCopy": {
+    "inputs": [
+      {
+        "datatype": "text array",
+        "name": "input_addedNow"
+      }
+    ],
+    "logic": [
+      {
+        "action": "execfunc",
+        "function": "clearPopups",
+        "id": "fa009fea-3482-4c09-9a0f-835c1092d1cd",
+        "isCommented": false,
+        "library": "CirrusLibPage",
+        "params": {}
+      },
+      {
+        "action": "execfunc",
+        "function": "showLoadingOverlay",
+        "id": "88887e10-3846-40c3-bb50-ffcfc66a9c19",
+        "isCommented": false,
+        "library": "CirrusLibPage",
+        "params": {}
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Initializing data",
+        "id": "a6f1ba6e-b178-443b-80eb-9f7099f43ae8",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "849724a1-9b46-475c-b28e-68a05428134c",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "ConfigurationSet"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "3ad0917c-726d-4fd0-98fd-47a9aa2c06df",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "/ConfigurationSets#CustomContentDialog-ConfigurationSetDialogContent"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "dialogPageUrl",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "698b25f0-6243-4a27-a481-8ac414cfeecb",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "createNewStringArray",
+          "library": "CirrusLibArray",
+          "params": {},
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e array array array array array array array",
+          "name": "finalConfigurationTablesKeys",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "07b1c487-7248-4866-983c-7a6bb1011e1c",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "createNewStringArray",
+          "library": "CirrusLibArray",
+          "params": {},
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e array array array array array array array",
+          "name": "selectedConfigurationTablesKeys",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "ab587282-6a93-4fcc-9f11-abbf2397e77b",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": ""
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "newConfigurationSetLocation",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "bc63267f-83ca-47f9-b631-1e347acbdb2f",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "Configuration set has been successfully copied"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "successMessage",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "247cb957-8a6a-41b2-8025-47a49266fb2a",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "An error occurred while copying the configuration set"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "errorMessage",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Getting data from dialog",
+        "id": "701053de-8863-4b11-9fce-c1c7369cd8b6",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "850bed2b-ce57-4691-a7d8-b8c580b446e3",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getDataFromDifferentPage",
+          "library": "CirrusLibPageData",
+          "params": {
+            "fieldName": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "createdFrom"
+            },
+            "pageUrl": {
+              "datatype": "text",
+              "name": "dialogPageUrl",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "originalConfigurationSetKey",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "2f7f9103-3a67-43dc-9351-94da07c97fdc",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getDataFromDifferentPage",
+          "library": "CirrusLibPageData",
+          "params": {
+            "fieldName": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "objectId"
+            },
+            "pageUrl": {
+              "datatype": "text",
+              "name": "dialogPageUrl",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "newConfigurationSetId",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "50839424-533f-47a0-900a-53d2b915758a",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getDataFromDifferentPage",
+          "library": "CirrusLibPageData",
+          "params": {
+            "fieldName": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "name"
+            },
+            "pageUrl": {
+              "datatype": "text",
+              "name": "dialogPageUrl",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "newConfigurationSetName",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "218366ac-70af-44a9-a480-955fab48deec",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getDataFromDifferentPage",
+          "library": "CirrusLibPageData",
+          "params": {
+            "fieldName": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "description"
+            },
+            "pageUrl": {
+              "datatype": "text",
+              "name": "dialogPageUrl",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "newConfigurationSetDescription",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "71151cf9-9874-4742-964c-531b284310d9",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getDataFromDifferentPage",
+          "library": "CirrusLibPageData",
+          "params": {
+            "fieldName": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "GenericSpreadsheetWidget"
+            },
+            "pageUrl": {
+              "datatype": "text",
+              "name": "dialogPageUrl",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "configurationTablesState",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "af62ea1c-8d47-4d73-bc1b-1ebee29afb46",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "isNullOrUndefined",
+          "library": "CirrusLibGeneral",
+          "params": {
+            "value": {
+              "datatype": "text",
+              "name": "configurationTablesState",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isConfigurationTablesStateNullish",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Getting linkedConfigurationTables keys from original object",
+        "id": "e8a7b609-f454-4ce7-8afe-bbeb6372d8d0",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "7355b278-38fe-4b5e-a23e-69aaf69f7c87",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "loadLinkInstances",
+          "library": "CirrusLibCirrusObjectLinkInstance",
+          "params": {
+            "added": {
+              "datatype": "text array",
+              "name": "input_addedNow",
+              "scope": "local"
+            },
+            "linkTypeId": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "configurationSet_configurationTable"
+            },
+            "linkTypeSSC": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "RCC"
+            },
+            "linkedToKey": {
+              "datatype": "text",
+              "name": "originalConfigurationSetKey",
+              "scope": "local"
+            },
+            "linkedToSchemaName": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "ConfigurationSet"
+            },
+            "schemaName": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "ConfigurationTable"
+            },
+            "side": {
+              "datatype": "numeric",
+              "scope": "fixed",
+              "value": 2
+            }
+          },
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "originalConfigurationTables",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "6bb9da96-2034-4bc8-8dbc-cd8ab115266a",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "map",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "text array",
+              "name": "originalConfigurationTables",
+              "scope": "local"
+            },
+            "callback": {
+              "function": "get",
+              "library": "CirrusLibObject",
+              "params": {
+                "name": {
+                  "datatype": "text",
+                  "scope": "fixed",
+                  "value": "key"
+                },
+                "object": {
+                  "datatype": "\u003cOutgoing\u003e array array array array array array array",
+                  "label": "Current value",
+                  "name": "loop_currentValue",
+                  "scope": "local"
+                }
+              },
+              "returnType": "\u003cOutgoing\u003e array array array array array array array"
+            }
+          },
+          "returnType": "\u003cOutgoing\u003e array array array array array array array"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e array array array array array array array",
+          "name": "originalConfigurationTablesKeys",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "32ce9c05-5128-4f10-b8d2-f152217fcbdc",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "jsonStringify",
+          "library": "CirrusLibGeneral",
+          "params": {
+            "data": {
+              "datatype": "\u003cOutgoing\u003e array array array array array array array",
+              "name": "originalConfigurationTablesKeys",
+              "scope": "local"
+            }
+          },
+          "returnType": "\u003cIncoming\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cIncoming\u003e",
+          "name": "originalConfigurationTablesKeysStr",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "70717b98-4ec2-45ba-b5a1-f11a82671641",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "convertStringToArray",
+          "library": "CirrusLibArray",
+          "params": {
+            "string": {
+              "name": "originalConfigurationTablesKeysStr",
+              "scope": "local"
+            }
+          },
+          "returnType": "\u003cOutgoing\u003e array"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e array array array array array array array",
+          "name": "originalConfigurationTablesKeys",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Loading new copy object and populating its new data",
+        "id": "c33bddc7-a9e8-4fe1-8209-d63b7cd6f2f5",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "74d3c4fd-b6cc-4823-87e7-587c7575f619",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "linkedConfigurationTables"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "linkedConfigurationTablesStr",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "7f45a9aa-3e86-460f-a379-8940786d36ed",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "createNewStringArray",
+          "library": "CirrusLibArray",
+          "params": {},
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "linkedConfigurationTablesArr",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "push",
+        "id": "7fdd1bff-e5b3-46ec-9af1-c635295471c6",
+        "isCommented": false,
+        "library": "CirrusLibArray",
+        "params": {
+          "array": {
+            "datatype": "text array",
+            "name": "linkedConfigurationTablesArr",
+            "scope": "local"
+          },
+          "value": {
+            "datatype": "text",
+            "name": "linkedConfigurationTablesStr",
+            "scope": "local"
+          }
+        },
+        "returnType": "numeric"
+      },
+      {
+        "action": "setvar",
+        "id": "ede9e0fa-d029-42c1-b04b-3910a3c3fe35",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "loadObjectCopyAsDraft",
+          "library": "CirrusLibCirrusObject",
+          "params": {
+            "copyClassifications": {
+              "datatype": "boolean",
+              "scope": "fixed",
+              "value": true
+            },
+            "copyCustomFields": {
+              "datatype": "boolean",
+              "scope": "fixed",
+              "value": true
+            },
+            "copyObjectLinks": {
+              "datatype": "boolean",
+              "scope": "fixed",
+              "value": false
+            },
+            "linkFieldsToExclude": {
+              "datatype": "text array",
+              "name": "linkedConfigurationTablesArr",
+              "scope": "local"
+            },
+            "object": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            },
+            "objectKey": {
+              "datatype": "text",
+              "name": "originalConfigurationSetKey",
+              "scope": "local"
+            }
+          },
+          "returnType": "All Data"
+        },
+        "variable": {
+          "datatype": "All Data",
+          "name": "data",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "set",
+        "id": "835856b1-a6cb-4850-b209-40cb58daf9bd",
+        "isCommented": false,
+        "library": "CirrusLibObject",
+        "params": {
+          "name": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "objectId"
+          },
+          "object": {
+            "datatype": "All Data",
+            "name": "data",
+            "scope": "local"
+          },
+          "value": {
+            "datatype": "text",
+            "name": "newConfigurationSetId",
+            "scope": "local"
+          }
+        },
+        "returnType": "All Data"
+      },
+      {
+        "action": "execfunc",
+        "function": "set",
+        "id": "f85345e2-afc6-4b95-b786-9a51cf8048af",
+        "isCommented": false,
+        "library": "CirrusLibObject",
+        "params": {
+          "name": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "name"
+          },
+          "object": {
+            "datatype": "All Data",
+            "name": "data",
+            "scope": "local"
+          },
+          "value": {
+            "datatype": "text",
+            "name": "newConfigurationSetName",
+            "scope": "local"
+          }
+        },
+        "returnType": "All Data"
+      },
+      {
+        "action": "execfunc",
+        "function": "set",
+        "id": "48046689-0664-4cfd-ab61-55926c8ce989",
+        "isCommented": false,
+        "library": "CirrusLibObject",
+        "params": {
+          "name": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "description"
+          },
+          "object": {
+            "datatype": "All Data",
+            "name": "data",
+            "scope": "local"
+          },
+          "value": {
+            "datatype": "text",
+            "name": "newConfigurationSetDescription",
+            "scope": "local"
+          }
+        },
+        "returnType": "All Data"
+      },
+      {
+        "action": "execfunc",
+        "function": "set",
+        "id": "2e6b7f5d-5fef-4940-8d02-55b48aef309b",
+        "isCommented": false,
+        "library": "CirrusLibObject",
+        "params": {
+          "name": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "statusCd"
+          },
+          "object": {
+            "datatype": "All Data",
+            "name": "data",
+            "scope": "local"
+          },
+          "value": {
+            "scope": "fixed",
+            "value": "DEV"
+          }
+        },
+        "returnType": "All Data"
+      },
+      {
+        "action": "execfunc",
+        "function": "set",
+        "id": "b977635d-9bfd-4442-b3b3-e395d3f86662",
+        "isCommented": false,
+        "library": "CirrusLibObject",
+        "params": {
+          "name": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "createdFrom"
+          },
+          "object": {
+            "datatype": "All Data",
+            "name": "data",
+            "scope": "local"
+          },
+          "value": {
+            "datatype": "text",
+            "name": "originalConfigurationSetKey",
+            "scope": "local"
+          }
+        },
+        "returnType": "All Data"
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Checking if configuration tables state exists (it does if the user clicked on the Configuration Tables tab in the dialog)",
+        "id": "24437c65-ff92-461b-955f-eb1bd1d74028",
+        "isCommented": false
+      },
+      {
+        "action": "ifelse",
+        "id": "f229a4b9-56bc-4731-9ac4-77083af1b649",
+        "includeElse": true,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isConfigurationTablesStateNullish",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "User did not click on the Configuration Tables tab and thus did not select any configuration table. Need to link only original tables",
+        "id": "ae10e6f0-5014-4db9-8d98-fa1e6bdb9b14",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "b74fcc9f-7617-4f66-828b-356a6a0dd42d",
+        "isCommented": false,
+        "type": "variable",
+        "value": {
+          "datatype": "\u003cOutgoing\u003e array array array array array array array",
+          "name": "originalConfigurationTablesKeys",
+          "scope": "local"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e array array array array array array array",
+          "name": "finalConfigurationTablesKeys",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "258f05c3-07ba-4ce3-8c04-cf00ee415a44",
+        "includeElse": true,
+        "isCommented": false,
+        "iselse": true,
+        "main": "f229a4b9-56bc-4731-9ac4-77083af1b649",
+        "test": {
+          "datatype": "boolean",
+          "name": "isConfigurationTablesStateNullish",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "User clicked on the Configuration Tables tab. Checking if there were any selected configuration tables",
+        "id": "2b080c2b-9a44-4c09-8a7b-72a1cd7f8d8d",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "5d282407-d5c3-4dd1-a64c-920d94f4fec0",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "get",
+          "library": "CirrusLibObject",
+          "params": {
+            "name": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "selectedRows"
+            },
+            "object": {
+              "datatype": "text",
+              "name": "configurationTablesState",
+              "scope": "local"
+            }
+          },
+          "returnType": "\u003cany\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cany\u003e",
+          "name": "selectedConfigurationTablesArray",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "9bccb68b-b65d-449c-a1ab-86a2b7d00ba7",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "isNullOrUndefined",
+          "library": "CirrusLibGeneral",
+          "params": {
+            "value": {
+              "name": "selectedConfigurationTablesArray",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isNoSelectedConfigurationTables",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "a5f8599b-b352-4926-a160-52217b6c3f6c",
+        "includeElse": true,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isNoSelectedConfigurationTables",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "User clicked on the Configuration Tables tab but did not select any configuration table. Need to link only original tables",
+        "id": "ff9835f1-7838-4ae7-891e-58323723d754",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "a48863f1-880d-4f50-bbf5-2711a4915e7c",
+        "isCommented": false,
+        "type": "variable",
+        "value": {
+          "datatype": "\u003cOutgoing\u003e array array array array array array array",
+          "name": "originalConfigurationTablesKeys",
+          "scope": "local"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e array array array array array array array",
+          "name": "finalConfigurationTablesKeys",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "3059ac73-9e98-4773-9ff8-a06509e42248",
+        "includeElse": true,
+        "isCommented": false,
+        "iselse": true,
+        "main": "a5f8599b-b352-4926-a160-52217b6c3f6c",
+        "test": {
+          "datatype": "boolean",
+          "name": "isNoSelectedConfigurationTables",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "User selected configuration tables. Need to retrieve and store their keys",
+        "id": "eb41d79d-a592-4aa5-8e52-881d1c595113",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "eed3970a-f7d0-4955-a9f7-cff883b6fc5f",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "map",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "name": "selectedConfigurationTablesArray",
+              "scope": "local"
+            },
+            "callback": {
+              "function": "get",
+              "library": "CirrusLibObject",
+              "params": {
+                "name": {
+                  "datatype": "text",
+                  "scope": "fixed",
+                  "value": "key"
+                },
+                "object": {
+                  "datatype": "\u003cOutgoing\u003e array array array array array array array",
+                  "label": "Current value",
+                  "name": "loop_currentValue",
+                  "scope": "local"
+                }
+              },
+              "returnType": "\u003cOutgoing\u003e array array array array array array array"
+            }
+          },
+          "returnType": "\u003cOutgoing\u003e array array array array array array array"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e array array array array array array array",
+          "name": "selectedConfigurationTablesKeys",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "c69d5121-3e59-409a-b22d-d03b7abb6227",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "jsonStringify",
+          "library": "CirrusLibGeneral",
+          "params": {
+            "data": {
+              "datatype": "\u003cOutgoing\u003e array array array array array array array",
+              "name": "selectedConfigurationTablesKeys",
+              "scope": "local"
+            }
+          },
+          "returnType": "\u003cIncoming\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cIncoming\u003e",
+          "name": "selectedConfigurationTablesKeysStr",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "7ad3c4d1-2125-49d3-aa38-1d9ed6ee286f",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "convertStringToArray",
+          "library": "CirrusLibArray",
+          "params": {
+            "string": {
+              "name": "selectedConfigurationTablesKeysStr",
+              "scope": "local"
+            }
+          },
+          "returnType": "\u003cOutgoing\u003e array"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e array array array array array array array",
+          "name": "selectedConfigurationTablesKeys",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Link non selected (original) configuration tables.\nFor the selected ones, create copies of them and only link the copies. At first, store the non selected keys to link",
+        "id": "3419af01-9b52-4987-8a88-c88be40cde9f",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "8233500c-385e-43a1-a54d-c3ea6f6c133a",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getDifference",
+          "library": "CirrusLibArray",
+          "params": {
+            "array1": {
+              "datatype": "\u003cOutgoing\u003e array array array array array array array",
+              "name": "originalConfigurationTablesKeys",
+              "scope": "local"
+            },
+            "array2": {
+              "datatype": "\u003cOutgoing\u003e array array array array array array array",
+              "name": "selectedConfigurationTablesKeys",
+              "scope": "local"
+            }
+          },
+          "returnType": "\u003cOutgoing\u003e array array array array array array array"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e array array array array array array array",
+          "name": "originalKeysToLink",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Assign them to the final keys since they are to be linked",
+        "id": "e23d0ffb-1c66-4f91-b5a3-c85d6f3cbc75",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "bcba997b-9ec0-446d-9221-d17e2f3ff895",
+        "isCommented": false,
+        "type": "variable",
+        "value": {
+          "datatype": "\u003cOutgoing\u003e array array array array array array array",
+          "name": "originalKeysToLink",
+          "scope": "local"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e array array array array array array array",
+          "name": "finalConfigurationTablesKeys",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "For each of the selected configuration sets, create a copy",
+        "id": "6140b44b-0580-4904-97c6-60d455831d3e",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "73e77da6-8d38-4441-99d9-cced5a62d9d8",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "map",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "\u003cOutgoing\u003e array array array array array array array",
+              "name": "selectedConfigurationTablesKeys",
+              "scope": "local"
+            },
+            "callback": {
+              "function": "createConfigurationTableCopy",
+              "library": "$interactions$",
+              "params": {
+                "input_originalConfigurationTable": {
+                  "label": "Current value",
+                  "name": "loop_currentValue",
+                  "scope": "local"
+                },
+                "input_selectedConfigurationTableKey": {
+                  "datatype": "text",
+                  "label": "Current value",
+                  "name": "loop_currentValue",
+                  "scope": "local"
+                }
+              },
+              "returnType": "text"
+            }
+          },
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "newConfigurationTablesKeys",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "3d3e9ca1-5aa6-4c2d-9aa8-f99fee0598e6",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "jsonStringify",
+          "library": "CirrusLibGeneral",
+          "params": {
+            "data": {
+              "datatype": "text array",
+              "name": "newConfigurationTablesKeys",
+              "scope": "local"
+            }
+          },
+          "returnType": "\u003cIncoming\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cIncoming\u003e",
+          "name": "newConfigurationTablesKeysStr",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "f6b166c0-cd31-48f4-a31a-673ffe301289",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "convertStringToArray",
+          "library": "CirrusLibArray",
+          "params": {
+            "string": {
+              "name": "newConfigurationTablesKeysStr",
+              "scope": "local"
+            }
+          },
+          "returnType": "\u003cOutgoing\u003e array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "newConfigurationTablesKeys",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Add the newly created configuration table keys to the final array",
+        "id": "139b11c3-3f07-42c6-95ce-658f7a8d40aa",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "76b0b3b2-3c66-40c5-aa53-397da0ef06a1",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getUnionWithoutDuplicates",
+          "library": "CirrusLibArray",
+          "params": {
+            "array1": {
+              "datatype": "\u003cOutgoing\u003e array array array array array array array",
+              "name": "finalConfigurationTablesKeys",
+              "scope": "local"
+            },
+            "array2": {
+              "datatype": "text array",
+              "name": "newConfigurationTablesKeys",
+              "scope": "local"
+            }
+          },
+          "returnType": "\u003cOutgoing\u003e array array array array array array array"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e array array array array array array array",
+          "name": "finalConfigurationTablesKeys",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Filter only the ones that were successfully saved",
+        "id": "7c8a07b1-4ba1-4016-89e4-72a3804bd497",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "e83efaee-417f-4b2e-8a98-79fca7514221",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "filter",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "\u003cOutgoing\u003e array array array array array array array",
+              "name": "finalConfigurationTablesKeys",
+              "scope": "local"
+            },
+            "callback": {
+              "function": "checkIfSaveOk",
+              "library": "$interactions$",
+              "params": {
+                "input_key": {
+                  "datatype": "\u003cOutgoing\u003e array array array array array array",
+                  "label": "Current value",
+                  "name": "loop_currentValue",
+                  "scope": "local"
+                }
+              },
+              "returnType": "boolean"
+            }
+          },
+          "returnType": "\u003cOutgoing\u003e array array array array array array array"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e array array array array array array array",
+          "name": "finalConfigurationTablesKeys",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "3541d92a-03e6-497b-91a4-4f82134c7064",
+        "includeElse": true,
+        "isCommented": false,
+        "main": "a5f8599b-b352-4926-a160-52217b6c3f6c",
+        "test": {
+          "datatype": "boolean",
+          "name": "isNoSelectedConfigurationTables",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "5044b204-9f06-410e-946d-cbb92514acfc",
+        "includeElse": true,
+        "isCommented": false,
+        "main": "f229a4b9-56bc-4731-9ac4-77083af1b649",
+        "test": {
+          "datatype": "boolean",
+          "name": "isConfigurationTablesStateNullish",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Save new copy object to get its key in order to link the configuration tables",
+        "id": "788e499e-0131-495a-8969-0fe04acc3743",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "14b03d04-aeda-4934-93ca-9c9e281fc4d6",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "saveDraft",
+          "library": "CirrusLibCirrusObject",
+          "params": {
+            "data": {
+              "datatype": "All Data",
+              "name": "data",
+              "scope": "local"
+            },
+            "object": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "newConfigurationSetKey",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "7eaf097f-b957-48d8-9da8-b8f5ff5e4812",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "toString",
+          "library": "CirrusLibString",
+          "params": {
+            "value": {
+              "datatype": "text",
+              "name": "newConfigurationSetKey",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "newConfigurationSetKeyStr",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "cb44a2c3-a8d5-4481-9bc8-58c0804f637e",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "false"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "falseStr",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "40cb12aa-aa5b-44ac-991e-d8550dee2dde",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "strEquals",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "newConfigurationSetKeyStr",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "name": "falseStr",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isKeyFalse",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Check if the save went well or not",
+        "id": "c0117ae5-c8b3-446c-9d70-4fefa0d251ae",
+        "isCommented": false
+      },
+      {
+        "action": "ifelse",
+        "id": "e3335289-d671-4c12-9077-e18336ae9c41",
+        "includeElse": true,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isKeyFalse",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "showError",
+        "id": "8f7b2c21-26e0-4139-8d64-8fc905877425",
+        "isCommented": false,
+        "library": "CirrusLibPage",
+        "params": {
+          "detail": {
+            "datatype": "text",
+            "name": "errorMessage",
+            "scope": "local"
+          },
+          "summary": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "Error"
+          }
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "f7c401d0-caa7-4a93-a135-f6723162e79d",
+        "includeElse": true,
+        "isCommented": false,
+        "iselse": true,
+        "main": "e3335289-d671-4c12-9077-e18336ae9c41",
+        "test": {
+          "datatype": "boolean",
+          "name": "isKeyFalse",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Since the save went well, navigate to the new copy configuration set",
+        "id": "a6596e31-f6ee-4fbe-86f6-cfff450a1dad",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "81dec714-8d9d-49c8-bd28-0c3c1b2cb2ec",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getEditLocation",
+          "library": "CirrusLibNav",
+          "params": {
+            "key": {
+              "datatype": "text",
+              "name": "newConfigurationSetKey",
+              "scope": "local"
+            },
+            "objectType": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "newConfigurationSetLocation",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "navigate",
+        "id": "af50e34e-f875-4f45-a691-ee97b98299d8",
+        "isCommented": false,
+        "library": "CirrusLibNav",
+        "params": {
+          "location": {
+            "datatype": "text",
+            "name": "newConfigurationSetLocation",
+            "scope": "local"
+          },
+          "replace": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": true
+          }
+        },
+        "returnType": "text"
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Call loadExistingObject to get the full new page data and to refresh the page state to pick up the new edit page of the object so that we can call addRelationshipLinks",
+        "id": "09484263-de9d-42a9-9287-7797bce3a2f6",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "713a5ed6-2c11-43ee-8718-4a1b56f21146",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "loadExistingObject",
+          "library": "CirrusLibCirrusObject",
+          "params": {
+            "key": {
+              "datatype": "text",
+              "name": "newConfigurationSetKey",
+              "scope": "local"
+            },
+            "object": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            }
+          },
+          "returnType": "All Data"
+        },
+        "variable": {
+          "datatype": "All Data",
+          "name": "newData",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Call loadData to inject the data object in the page's state in order to be able to link the tables (since the data obj is empty in the state at this point)",
+        "id": "96196434-8131-4cb5-830b-8c38947445ac",
+        "isCommented": false
+      },
+      {
+        "action": "execfunc",
+        "function": "loadData",
+        "id": "88cdcbdb-6454-410e-8f02-dfe976a4df95",
+        "isCommented": false,
+        "library": "CirrusLibPageData",
+        "params": {
+          "data": {
+            "datatype": "All Data",
+            "name": "newData",
+            "scope": "local"
+          },
+          "pageUrl": {
+            "datatype": "text",
+            "name": "newConfigurationSetLocation",
+            "scope": "local"
+          }
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "9c9513fc-6776-4a8b-bca7-27c576e58a2e",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "isEmpty",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "\u003cOutgoing\u003e array array array array array array array",
+              "name": "finalConfigurationTablesKeys",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "areConfigurationTablesKeysEmpty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "7895ad11-3fff-4c7f-aa5c-0e0a68abacbd",
+        "includeElse": true,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "areConfigurationTablesKeysEmpty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "No tables to copy. Don't do anything",
+        "id": "e1a94f43-b717-441a-b93f-81e5f82438bc",
+        "isCommented": false
+      },
+      {
+        "action": "ifelse",
+        "id": "5e57fc08-103a-40f3-96b2-8fc2f9e2a8b0",
+        "includeElse": true,
+        "isCommented": false,
+        "iselse": true,
+        "main": "7895ad11-3fff-4c7f-aa5c-0e0a68abacbd",
+        "test": {
+          "datatype": "boolean",
+          "name": "areConfigurationTablesKeysEmpty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Link new copy object to configuration tables",
+        "id": "d9033731-6dba-4999-8e5a-cd8846f2bdf2",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "08935aae-bf1f-45bd-a828-e59c4c66498b",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "jsonStringify",
+          "library": "CirrusLibGeneral",
+          "params": {
+            "data": {
+              "datatype": "\u003cOutgoing\u003e array array array array array array array",
+              "name": "finalConfigurationTablesKeys",
+              "scope": "local"
+            }
+          },
+          "returnType": "\u003cIncoming\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cIncoming\u003e",
+          "name": "finalConfigurationTablesKeysStr",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "8c55474b-6d72-4819-9dfa-876b461749f2",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "convertStringToArray",
+          "library": "CirrusLibArray",
+          "params": {
+            "string": {
+              "name": "finalConfigurationTablesKeysStr",
+              "scope": "local"
+            }
+          },
+          "returnType": "\u003cOutgoing\u003e array"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e array",
+          "name": "finalConfigurationTablesKeys",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "addRelationshipLinks",
+        "id": "d5781917-d765-401f-9dd7-9c7190122a8f",
+        "isCommented": false,
+        "library": "CirrusLibCirrusObjectLinkInstance",
+        "params": {
+          "fieldName": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "linkedConfigurationTables"
+          },
+          "objectKeys": {
+            "datatype": "text array",
+            "name": "finalConfigurationTablesKeys",
+            "scope": "local"
+          },
+          "pageUrl": {
+            "datatype": "text",
+            "name": "newConfigurationSetLocation",
+            "scope": "local"
+          }
+        },
+        "returnType": "text array"
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "e10dc75b-b25b-4d5d-b49a-0c82f3511493",
+        "includeElse": true,
+        "isCommented": false,
+        "main": "7895ad11-3fff-4c7f-aa5c-0e0a68abacbd",
+        "test": {
+          "datatype": "boolean",
+          "name": "areConfigurationTablesKeysEmpty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Get updated newData after linking configuration tables. If there aren't linked configuration tables no problem",
+        "id": "227ae158-0115-46ff-b297-752d508a3a7b",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "cb58b178-16d5-43e6-99d5-58620f7af0a6",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getAllDataFromDifferentPage",
+          "library": "CirrusLibPageData",
+          "params": {
+            "pageUrl": {
+              "datatype": "text",
+              "name": "newConfigurationSetLocation",
+              "scope": "local"
+            }
+          },
+          "returnType": "All Data"
+        },
+        "variable": {
+          "datatype": "All Data",
+          "name": "newData",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Save object with the newly linked configuration tables",
+        "id": "72894059-6251-4a50-8ef9-b634ac90083d",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "1fb27b61-fe5e-484d-8ea2-a98811a95e69",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "saveObject",
+          "library": "CirrusLibCirrusObject",
+          "params": {
+            "data": {
+              "datatype": "All Data",
+              "name": "newData",
+              "scope": "local"
+            },
+            "object": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "saveResult",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Get updated object data as after saving the etag, linked objects, etc... are updated",
+        "id": "382eea5a-8893-4cc6-90b7-3f369bfeefbc",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "a7b77cd4-e69c-4fc8-a69c-6873d41c51bf",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "loadExistingObject",
+          "library": "CirrusLibCirrusObject",
+          "params": {
+            "key": {
+              "datatype": "text",
+              "name": "newConfigurationSetKey",
+              "scope": "local"
+            },
+            "object": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            }
+          },
+          "returnType": "All Data"
+        },
+        "variable": {
+          "datatype": "All Data",
+          "name": "updatedData",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Load updated object data in page state",
+        "id": "91d099a5-e1bf-40bf-b53a-ae637ce95480",
+        "isCommented": false
+      },
+      {
+        "action": "execfunc",
+        "function": "loadData",
+        "id": "f21030a9-a1b0-4fdd-aa99-54d2daa28d51",
+        "isCommented": false,
+        "library": "CirrusLibPageData",
+        "params": {
+          "data": {
+            "datatype": "All Data",
+            "name": "updatedData",
+            "scope": "local"
+          },
+          "pageUrl": {
+            "datatype": "text",
+            "name": "newConfigurationSetLocation",
+            "scope": "local"
+          }
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Check if the save went well or not",
+        "id": "a3a93781-8a54-40f7-a14c-75fc21b74ef8",
+        "isCommented": false
+      },
+      {
+        "action": "ifelse",
+        "id": "d31140fa-1f87-4d30-8dbe-7484f0ddac2d",
+        "includeElse": true,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "saveResult",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Navigate to each configuration table",
+        "id": "7d93a8a3-8e16-4992-acc1-a7c09ddeb610",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "e4d32620-e59b-4549-83da-2364070fa194",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "map",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "\u003cOutgoing\u003e array array array array array array array",
+              "name": "finalConfigurationTablesKeys",
+              "scope": "local"
+            },
+            "callback": {
+              "function": "getEditLocation",
+              "library": "CirrusLibNav",
+              "params": {
+                "key": {
+                  "datatype": "text",
+                  "label": "Current value",
+                  "name": "loop_currentValue",
+                  "scope": "local"
+                },
+                "objectType": {
+                  "datatype": "text",
+                  "scope": "fixed",
+                  "value": "ConfigurationTable"
+                }
+              },
+              "returnType": "text"
+            }
+          },
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "configurationTablesLocations",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "forEach",
+        "id": "2c43aedf-5cf5-4338-ab21-6f3622f4fe1d",
+        "isCommented": true,
+        "library": "CirrusLibArray",
+        "params": {
+          "array": {
+            "datatype": "text array",
+            "name": "configurationTablesLocations",
+            "scope": "local"
+          },
+          "callback": {
+            "function": "navigate",
+            "library": "$interactions$",
+            "params": {
+              "input_location": {
+                "datatype": "text",
+                "label": "Current value",
+                "name": "loop_currentValue",
+                "scope": "local"
+              },
+              "input_seconds": {
+                "datatype": "numeric",
+                "scope": "fixed",
+                "value": 1
+              }
+            }
+          }
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Calling loadData again as the navigate above for some reason restores outdated data into the page state",
+        "id": "0715ead4-1314-445f-bbfc-ade04174ff7f",
+        "isCommented": false
+      },
+      {
+        "action": "execfunc",
+        "function": "loadData",
+        "id": "854e8f94-261c-404b-8175-64f54d8eb671",
+        "isCommented": false,
+        "library": "CirrusLibPageData",
+        "params": {
+          "data": {
+            "datatype": "All Data",
+            "name": "updatedData",
+            "scope": "local"
+          },
+          "pageUrl": {
+            "datatype": "text",
+            "name": "newConfigurationSetLocation",
+            "scope": "local"
+          }
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "49c6e62c-dc31-4880-b957-b0ce38d27f18",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "size",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "\u003cOutgoing\u003e array array array array array array array",
+              "name": "finalConfigurationTablesKeys",
+              "scope": "local"
+            }
+          },
+          "returnType": "numeric"
+        },
+        "variable": {
+          "datatype": "numeric",
+          "name": "keysNavigateToSize",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "663bc17c-086a-47c9-8811-c8a75c6963f8",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "gt",
+          "library": "CirrusLibMath",
+          "params": {
+            "number1": {
+              "datatype": "numeric",
+              "name": "keysNavigateToSize",
+              "scope": "local"
+            },
+            "number2": {
+              "datatype": "numeric",
+              "scope": "fixed",
+              "value": 0
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isKeysToNavigateToExists",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "e1dd5648-c7ee-45af-a825-ff3c7803cda8",
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isKeysToNavigateToExists",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Final key to navigate to should be the newly copied configuration set. Give enough time for the configuration set's state to be updated in order for page dirty to be false",
+        "id": "117efbc2-777a-496e-a832-ba3df2ded073",
+        "isCommented": false
+      },
+      {
+        "action": "execfunc",
+        "function": "navigate",
+        "id": "8344565f-bc93-4bd7-91f1-82139a0677d4",
+        "isCommented": false,
+        "library": "$interactions$",
+        "params": {
+          "input_location": {
+            "datatype": "text",
+            "name": "newConfigurationSetLocation",
+            "scope": "local"
+          },
+          "input_seconds": {
+            "datatype": "numeric",
+            "scope": "fixed",
+            "value": 3
+          }
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Getting name_readonly to add it in object to load",
+        "id": "1eecb648-74a8-4304-8a81-c03df0fdbad0",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "6a059591-1927-4190-8eee-8cded7c963a4",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getDataFromDifferentPage",
+          "library": "CirrusLibPageData",
+          "params": {
+            "fieldName": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "name_readonly"
+            },
+            "pageUrl": {
+              "datatype": "text",
+              "name": "newConfigurationSetLocation",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "nameReadOnly",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Calling loadData again as the navigate above for some reason restores outdated data into the page state",
+        "id": "ddc73d19-60d2-4ffb-9472-b188d8b598d4",
+        "isCommented": false
+      },
+      {
+        "action": "execfunc",
+        "function": "set",
+        "id": "7f0a2bf5-d981-4946-a509-a1539a43897b",
+        "isCommented": false,
+        "library": "CirrusLibObject",
+        "params": {
+          "name": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "name_readonly"
+          },
+          "object": {
+            "datatype": "All Data",
+            "name": "updatedData",
+            "scope": "local"
+          },
+          "value": {
+            "datatype": "text",
+            "name": "nameReadOnly",
+            "scope": "local"
+          }
+        },
+        "returnType": "All Data"
+      },
+      {
+        "action": "execfunc",
+        "function": "loadData",
+        "id": "9e61b3a0-e815-4f63-9aea-76b74bdb0cf4",
+        "isCommented": false,
+        "library": "CirrusLibPageData",
+        "params": {
+          "data": {
+            "datatype": "All Data",
+            "name": "updatedData",
+            "scope": "local"
+          },
+          "pageUrl": {
+            "datatype": "text",
+            "name": "newConfigurationSetLocation",
+            "scope": "local"
+          }
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "d5cafb93-72e2-49b5-8089-32e41d158042",
+        "isCommented": false,
+        "main": "e1dd5648-c7ee-45af-a825-ff3c7803cda8",
+        "test": {
+          "datatype": "boolean",
+          "name": "isKeysToNavigateToExists",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "showSuccess",
+        "id": "dbe0d609-542f-466f-b258-63be9662d000",
+        "isCommented": false,
+        "library": "CirrusLibPage",
+        "params": {
+          "detail": {
+            "datatype": "text",
+            "name": "successMessage",
+            "scope": "local"
+          },
+          "summary": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "Success"
+          }
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "2110bc46-6787-40f4-bc38-db01da692309",
+        "includeElse": true,
+        "isCommented": false,
+        "iselse": true,
+        "main": "d31140fa-1f87-4d30-8dbe-7484f0ddac2d",
+        "test": {
+          "datatype": "boolean",
+          "name": "saveResult",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "showError",
+        "id": "9d5c58e6-e206-48ab-88e5-79b1236de8c3",
+        "isCommented": false,
+        "library": "CirrusLibPage",
+        "params": {
+          "detail": {
+            "datatype": "text",
+            "name": "errorMessage",
+            "scope": "local"
+          },
+          "summary": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "Error"
+          }
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "a57088a8-ee38-4ec7-9351-99373bc66b73",
+        "includeElse": true,
+        "isCommented": false,
+        "main": "d31140fa-1f87-4d30-8dbe-7484f0ddac2d",
+        "test": {
+          "datatype": "boolean",
+          "name": "saveResult",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "c2572d1f-c9c1-4f96-8ccc-bec26908dc42",
+        "includeElse": true,
+        "isCommented": false,
+        "main": "e3335289-d671-4c12-9077-e18336ae9c41",
+        "test": {
+          "datatype": "boolean",
+          "name": "isKeyFalse",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "hideLoadingOverlay",
+        "id": "cd8464ff-e76f-4985-b827-2333f4f1cc9c",
+        "isCommented": false,
+        "library": "CirrusLibPage",
+        "params": {}
+      }
+    ],
+    "resolveEachStep": false,
+    "sasProvided": true
+  },
+  "createConfigurationTableCopy": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_selectedConfigurationTableKey"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "416ae62e-eca3-4754-af88-c5126d0e8210",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "ConfigurationTable"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "1d542156-3253-4b92-8026-51306b336d30",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "datatype": "text",
+          "function": "setCopySuffix",
+          "library": "$interactions$",
+          "params": {
+            "input_key": {
+              "datatype": "text",
+              "name": "input_selectedConfigurationTableKey",
+              "scope": "local"
+            },
+            "input_objectType": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "suffix",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "0e6bfbab-ffea-49a9-ac76-6725c92549d3",
+        "isCommented": false,
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": ""
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "emptyString",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "579efa7c-074d-4a88-a4e5-121d7adc4a4c",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "loadObjectCopyAsDraft",
+          "library": "CirrusLibCirrusObject",
+          "params": {
+            "copyClassifications": {
+              "datatype": "boolean",
+              "scope": "fixed",
+              "value": true
+            },
+            "copyCustomFields": {
+              "datatype": "boolean",
+              "scope": "fixed",
+              "value": true
+            },
+            "copyObjectLinks": {
+              "datatype": "boolean",
+              "scope": "fixed",
+              "value": false
+            },
+            "copySuffix": {
+              "datatype": "text",
+              "name": "suffix",
+              "scope": "local"
+            },
+            "object": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            },
+            "objectKey": {
+              "datatype": "text",
+              "name": "input_selectedConfigurationTableKey",
+              "scope": "local"
+            }
+          },
+          "returnType": "All Data"
+        },
+        "variable": {
+          "datatype": "All Data",
+          "name": "data",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Name should not have suffix",
+        "id": "e1a29782-60cb-455d-a35e-4c97d8bd2753",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "34d853b3-e59f-4e4f-8672-e57745b90a57",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "get",
+          "library": "CirrusLibObject",
+          "params": {
+            "name": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "name"
+            },
+            "object": {
+              "datatype": "All Data",
+              "name": "data",
+              "scope": "local"
+            }
+          },
+          "returnType": "\u003cany\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cany\u003e",
+          "name": "name",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "4c63f1af-80da-4055-a249-2f1e4bf2e3fe",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "replace",
+          "library": "CirrusLibString",
+          "params": {
+            "mainString": {
+              "datatype": "text",
+              "name": "name",
+              "scope": "local"
+            },
+            "replacement": {
+              "datatype": "text",
+              "name": "emptyString",
+              "scope": "local"
+            },
+            "target": {
+              "datatype": "text",
+              "name": "suffix",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "name",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "set",
+        "id": "544295ad-95e2-4680-8a81-715aecd90107",
+        "isCommented": false,
+        "library": "CirrusLibObject",
+        "params": {
+          "name": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "name"
+          },
+          "object": {
+            "datatype": "All Data",
+            "name": "data",
+            "scope": "local"
+          },
+          "value": {
+            "datatype": "text",
+            "name": "name",
+            "scope": "local"
+          }
+        },
+        "returnType": "All Data"
+      },
+      {
+        "action": "execfunc",
+        "function": "set",
+        "id": "e18ef0c2-74af-49ba-b1ab-0ab54c09b821",
+        "isCommented": false,
+        "library": "CirrusLibObject",
+        "params": {
+          "name": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "statusCd"
+          },
+          "object": {
+            "datatype": "All Data",
+            "name": "data",
+            "scope": "local"
+          },
+          "value": {
+            "scope": "fixed",
+            "value": "DEV"
+          }
+        },
+        "returnType": "All Data"
+      },
+      {
+        "action": "execfunc",
+        "function": "set",
+        "id": "0bb7d73d-0e6f-4a57-b4c6-53573e9304f9",
+        "isCommented": false,
+        "library": "CirrusLibObject",
+        "params": {
+          "name": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "createdFrom"
+          },
+          "object": {
+            "datatype": "All Data",
+            "name": "data",
+            "scope": "local"
+          },
+          "value": {
+            "datatype": "text",
+            "name": "input_selectedConfigurationTableKey",
+            "scope": "local"
+          }
+        },
+        "returnType": "All Data"
+      },
+      {
+        "action": "setvar",
+        "id": "4fad94cd-ab9c-4c0a-9d63-b21c83410202",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "saveDraft",
+          "library": "CirrusLibCirrusObject",
+          "params": {
+            "data": {
+              "datatype": "All Data",
+              "name": "data",
+              "scope": "local"
+            },
+            "object": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "newConfigurationTableKey",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "returnvar",
+        "id": "0673c534-048a-45ed-b563-7652fddecea2",
+        "isCommented": false,
+        "variable": {
+          "datatype": "text",
+          "name": "newConfigurationTableKey",
+          "scope": "local"
+        }
+      }
+    ],
+    "resolveEachStep": false,
+    "sasProvided": true
+  },
+  "navigate": {
+    "inputs": [
+      {
+        "datatype": "numeric",
+        "name": "input_seconds"
+      },
+      {
+        "datatype": "text",
+        "name": "input_location"
+      }
+    ],
+    "logic": [
+      {
+        "action": "addComment",
+        "commentStep": "Sleeping before navigating as a workaround to be able to navigate to multiple pages in a new tab at the same time. Without the sleeping only one page is navigated to",
+        "id": "dbaf8fc1-9ad0-46a3-9f91-208fd6020891",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "4aa98b69-9c4d-45b7-a7d3-77119c9bdc3f",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "multiply",
+          "library": "CirrusLibMath",
+          "params": {
+            "number1": {
+              "datatype": "numeric",
+              "name": "input_seconds",
+              "scope": "local"
+            },
+            "number2": {
+              "datatype": "numeric",
+              "scope": "fixed",
+              "value": 1000
+            }
+          },
+          "returnType": "numeric"
+        },
+        "variable": {
+          "datatype": "numeric",
+          "name": "milliseconds",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "sleep",
+        "id": "c56e3ca8-fac0-4358-88a8-9e0e7e63dc77",
+        "isCommented": false,
+        "library": "CirrusLibGeneral",
+        "params": {
+          "time": {
+            "datatype": "numeric",
+            "name": "milliseconds",
+            "scope": "local"
+          }
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "navigate",
+        "id": "b924d335-b791-4c1b-a96c-6aeeda038ccd",
+        "isCommented": false,
+        "library": "CirrusLibNav",
+        "params": {
+          "location": {
+            "datatype": "text",
+            "name": "input_location",
+            "scope": "local"
+          },
+          "replace": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": false
+          }
+        },
+        "returnType": "text"
+      }
+    ],
+    "resolveEachStep": false,
+    "sasProvided": true
+  },
+  "onCopy": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_widgetID"
+      },
+      {
+        "datatype": "numeric array",
+        "name": "input_keys"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "e0e47add-5b9e-4308-b886-e15860f9c28a",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getObjectType",
+          "library": "WidgetObjectManager",
+          "params": {
+            "widgetID": {
+              "datatype": "text",
+              "name": "input_widgetID",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "2c66f121-0fec-406b-a09f-906c2f72bfb9",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "strEquals",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "ConfigurationSet"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isConfigSet",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "dfe34451-cc0c-44f3-af90-94a8fede7c3e",
+        "includeElse": true,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isConfigSet",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Configuration Sets have a different way of handling when copied",
+        "id": "7563738c-7696-4fe7-b358-ec894dd87e09",
+        "isCommented": false
+      },
+      {
+        "action": "execfunc",
+        "function": "showLoadingOverlay",
+        "id": "866cb5d5-6570-4e73-bf9e-249aac1e6a13",
+        "isCommented": false,
+        "library": "CirrusLibPage",
+        "params": {
+          "label": {
+            "datatype": "text",
+            "scope": "local",
+            "target": "label",
+            "value": ""
+          }
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "52abd499-21b7-474b-aa03-f610a35ea993",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "size",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "numeric array",
+              "name": "input_keys",
+              "scope": "local"
+            }
+          },
+          "returnType": "numeric"
+        },
+        "variable": {
+          "datatype": "numeric",
+          "name": "nbOfSelectedKeys",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "83cb6e71-d166-4671-850b-a24fe9e56cef",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "gt",
+          "library": "CirrusLibMath",
+          "params": {
+            "number1": {
+              "datatype": "numeric",
+              "name": "nbOfSelectedKeys",
+              "scope": "local"
+            },
+            "number2": {
+              "datatype": "numeric",
+              "scope": "fixed",
+              "value": 1
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isMoreThanOneKeySelected",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "5bc5ef76-541d-4683-9798-5934e93e85c9",
+        "includeElse": true,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isMoreThanOneKeySelected",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "showError",
+        "id": "b8c80ae2-7d6a-479c-bde2-a5d7b8fc28a5",
+        "isCommented": false,
+        "library": "CirrusLibPage",
+        "params": {
+          "detail": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "Can only copy one configuration set at a time"
+          },
+          "summary": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "Error"
+          }
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "3635ece9-380f-42b6-92e3-1f7e72247b97",
+        "includeElse": true,
+        "isCommented": false,
+        "iselse": true,
+        "main": "5bc5ef76-541d-4683-9798-5934e93e85c9",
+        "test": {
+          "datatype": "boolean",
+          "name": "isMoreThanOneKeySelected",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "cd210163-7dd6-4f65-a824-f1648f7c2c07",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "map",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "numeric array",
+              "name": "input_keys",
+              "scope": "local"
+            },
+            "callback": {
+              "function": "getObjectData",
+              "library": "CirrusLibCirrusObject",
+              "params": {
+                "key": {
+                  "datatype": "numeric",
+                  "label": "Current value",
+                  "name": "loop_currentValue",
+                  "scope": "local"
+                },
+                "object": {
+                  "datatype": "text",
+                  "name": "objectType",
+                  "scope": "local"
+                }
+              },
+              "returnType": "numeric array"
+            }
+          },
+          "returnType": "numeric array"
+        },
+        "variable": {
+          "datatype": "numeric array",
+          "name": "objectsData",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "5564e4d9-aba7-4329-9dce-5da0f452c81c",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "isEmpty",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "numeric array",
+              "name": "objectsData",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isObjectsDataEmpty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "1adfe23e-8f6b-48b4-8cd8-16c3b9fe9338",
+        "includeElse": true,
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isObjectsDataEmpty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "showError",
+        "id": "30398520-c578-4bd8-9a69-30425033c9e5",
+        "isCommented": false,
+        "library": "CirrusLibPage",
+        "params": {
+          "detail": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "No configuration set data was found to copy from"
+          },
+          "summary": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "Error"
+          }
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "c69d670c-10f9-4506-904c-6bee89f88200",
+        "includeElse": true,
+        "isCommented": false,
+        "iselse": true,
+        "main": "1adfe23e-8f6b-48b4-8cd8-16c3b9fe9338",
+        "test": {
+          "datatype": "boolean",
+          "name": "isObjectsDataEmpty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setDialogPage",
+        "id": "7f175a44-b78b-419b-bfde-6aa82218950b",
+        "isCommented": false,
+        "params": {
+          "reduxPageId": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "ConfigurationSetDialogContent"
+          }
+        },
+        "widgetId": "CustomContentDialog"
+      },
+      {
+        "action": "setprop",
+        "function": "setNewTitle",
+        "id": "324877b2-1bf6-4dd9-b2c4-b8e4bd2624b1",
+        "isCommented": false,
+        "params": {
+          "newTitle": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "New Configuration Set"
+          }
+        },
+        "widgetId": "CustomContentDialog"
+      },
+      {
+        "action": "setprop",
+        "function": "setMiscData",
+        "id": "bed5c937-a24b-4427-9233-0b4a401517b0",
+        "isCommented": false,
+        "params": {
+          "miscData": {
+            "datatype": "numeric array",
+            "name": "objectsData",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "CustomContentDialog"
+      },
+      {
+        "action": "setprop",
+        "function": "setIsOpen",
+        "id": "062e8d29-2c58-4f26-8c7b-fce26757a32f",
+        "isCommented": false,
+        "params": {
+          "isOpen": {
+            "datatype": "boolean",
+            "scope": "fixed",
+            "value": true
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "CustomContentDialog"
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "d212f08c-068f-4c0c-9e77-0172ee9a75df",
+        "includeElse": true,
+        "isCommented": false,
+        "main": "1adfe23e-8f6b-48b4-8cd8-16c3b9fe9338",
+        "test": {
+          "datatype": "boolean",
+          "name": "isObjectsDataEmpty",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "87840ad6-b36d-4ac3-b2fa-bdaadc5c2ddb",
+        "includeElse": true,
+        "isCommented": false,
+        "main": "5bc5ef76-541d-4683-9798-5934e93e85c9",
+        "test": {
+          "datatype": "boolean",
+          "name": "isMoreThanOneKeySelected",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "hideLoadingOverlay",
+        "id": "f4d39d90-1a1a-4686-a621-458354c78e77",
+        "isCommented": false,
+        "library": "CirrusLibPage",
+        "params": {}
+      },
+      {
+        "action": "ifelse",
+        "id": "de407046-dee2-438b-9f2a-197f8f325de1",
+        "includeElse": true,
+        "isCommented": false,
+        "iselse": true,
+        "main": "dfe34451-cc0c-44f3-af90-94a8fede7c3e",
+        "test": {
+          "datatype": "boolean",
+          "name": "isConfigSet",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "For all other object types handle copying normally",
+        "id": "a2708033-26e0-44f8-ba36-1927f7877117",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "03b4c311-05f7-4d99-a76b-c5eae7262262",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "copy"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "entrypoint",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "cc100f63-eaa4-43b0-93b9-e869fb9768c5",
+        "type": "fixed",
+        "value": {
+          "datatype": "boolean",
+          "dataval": "false"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "replace",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "feb71906-e559-4372-b2c3-6c866a02583a",
+        "type": "calculated",
+        "value": {
+          "function": "map",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "datatype": "numeric array",
+              "name": "input_keys",
+              "scope": "local"
+            },
+            "callback": {
+              "function": "buildCopyLocation",
+              "library": "WidgetObjectManager",
+              "params": {
+                "entrypoint": {
+                  "datatype": "text",
+                  "name": "entrypoint",
+                  "scope": "local"
+                },
+                "key": {
+                  "datatype": "numeric",
+                  "label": "Current value",
+                  "name": "loop_currentValue",
+                  "scope": "local"
+                },
+                "widgetID": {
+                  "datatype": "text",
+                  "name": "input_widgetID",
+                  "scope": "local"
+                }
+              },
+              "returnType": "text"
+            }
+          },
+          "returnType": "text array"
+        },
+        "variable": {
+          "datatype": "text array",
+          "name": "locations",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "forEach",
+        "id": "06653a84-c00f-44db-806d-0a8caa322384",
+        "library": "CirrusLibArray",
+        "params": {
+          "array": {
+            "datatype": "text array",
+            "name": "locations",
+            "scope": "local"
+          },
+          "callback": {
+            "function": "navigate",
+            "library": "CirrusLibNav",
+            "params": {
+              "location": {
+                "datatype": "text",
+                "label": "Current value",
+                "name": "loop_currentValue",
+                "scope": "local"
+              },
+              "replace": {
+                "datatype": "boolean",
+                "name": "replace",
+                "scope": "local"
+              }
+            },
+            "returnType": "text"
+          }
+        }
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "45a414e6-19e7-442b-b410-7b795af81155",
+        "includeElse": true,
+        "isCommented": false,
+        "main": "dfe34451-cc0c-44f3-af90-94a8fede7c3e",
+        "test": {
+          "datatype": "boolean",
+          "name": "isConfigSet",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onCreate": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_widgetID"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "cbc91f1f-0d1b-499f-af9d-8fdbca07030c",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "draft"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "entrypoint",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "cbaffd9a-305f-4cce-a8d5-c4c2176d9975",
+        "type": "calculated",
+        "value": {
+          "function": "buildDraftLocation",
+          "library": "WidgetObjectManager",
+          "params": {
+            "entrypoint": {
+              "datatype": "text",
+              "name": "entrypoint",
+              "scope": "local"
+            },
+            "widgetID": {
+              "datatype": "text",
+              "name": "input_widgetID",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "location",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "nav",
+        "id": "f2d35a0a-7ab6-4928-848c-aa9ff948f97e",
+        "location": {
+          "datatype": "text",
+          "name": "location",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onDelete": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_widgetID"
+      },
+      {
+        "datatype": "numeric array",
+        "name": "input_keys"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "8fec35a0-94d5-441b-a9df-55ca28608e8f",
+        "type": "calculated",
+        "value": {
+          "function": "getObjectType",
+          "library": "WidgetObjectManager",
+          "params": {
+            "widgetID": {
+              "datatype": "text",
+              "name": "input_widgetID",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "deleteObjects",
+        "id": "cbbba3f5-7b00-45ec-a342-923b7b352175",
+        "library": "CirrusLibCirrusObject",
+        "params": {
+          "keys": {
+            "datatype": "numeric array",
+            "name": "input_keys",
+            "scope": "local"
+          },
+          "type": {
+            "datatype": "text",
+            "name": "objectType",
+            "scope": "local"
+          }
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onEdit": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_widgetID"
+      },
+      {
+        "datatype": "numeric",
+        "name": "input_key"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "88fcac23-2100-4a86-ab90-3f24b738d034",
+        "type": "fixed",
+        "value": {
+          "datatype": "text",
+          "dataval": "edit"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "entrypoint",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "b80accc3-c82b-40b8-8ca9-2341296415f8",
+        "type": "calculated",
+        "value": {
+          "function": "buildEditLocation",
+          "library": "WidgetObjectManager",
+          "params": {
+            "entrypoint": {
+              "datatype": "text",
+              "name": "entrypoint",
+              "scope": "local"
+            },
+            "key": {
+              "datatype": "numeric",
+              "name": "input_key",
+              "scope": "local"
+            },
+            "widgetID": {
+              "datatype": "text",
+              "name": "input_widgetID",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "location",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "nav",
+        "id": "32a96b82-504d-43b6-ac78-7f89eedd4819",
+        "location": {
+          "datatype": "text",
+          "name": "location",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onExport": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_widgetID"
+      },
+      {
+        "datatype": "text",
+        "name": "input_fields"
+      },
+      {
+        "datatype": "text",
+        "name": "input_filter"
+      },
+      {
+        "datatype": "numeric",
+        "name": "input_limit"
+      },
+      {
+        "datatype": "SortBy",
+        "name": "input_sortBy"
+      },
+      {
+        "datatype": "numeric",
+        "name": "input_start"
+      },
+      {
+        "datatype": "text array",
+        "name": "input_keys"
+      },
+      {
+        "datatype": "text",
+        "name": "input_includeFields"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "80cea824-8f53-4ae7-87ae-0a2198365587",
+        "type": "calculated",
+        "value": {
+          "function": "getObjectType",
+          "library": "WidgetObjectManager",
+          "params": {
+            "widgetID": {
+              "datatype": "text",
+              "name": "input_widgetID",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "exportObjects",
+        "id": "ad188f85-2ce1-4913-a20c-4a6abd8aa1fe",
+        "library": "CirrusLibCirrusObject",
+        "params": {
+          "fields": {
+            "datatype": "text",
+            "name": "input_fields",
+            "scope": "local"
+          },
+          "filter": {
+            "datatype": "text",
+            "name": "input_filter",
+            "scope": "local"
+          },
+          "includeFields": {
+            "datatype": "text",
+            "name": "input_includeFields",
+            "scope": "local"
+          },
+          "keys": {
+            "datatype": "text array",
+            "name": "input_keys",
+            "scope": "local"
+          },
+          "limit": {
+            "datatype": "numeric",
+            "name": "input_limit",
+            "scope": "local"
+          },
+          "sortBy": {
+            "datatype": "SortBy",
+            "name": "input_sortBy",
+            "scope": "local"
+          },
+          "start": {
+            "datatype": "numeric",
+            "name": "input_start",
+            "scope": "local"
+          },
+          "type": {
+            "datatype": "text",
+            "name": "objectType",
+            "scope": "local"
+          }
+        },
+        "returnType": "None"
+      }
+    ],
+    "sasProvided": true
+  },
+  "onFetch": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_widgetID"
+      },
+      {
+        "datatype": "text array",
+        "name": "input_fields"
+      },
+      {
+        "datatype": "text",
+        "name": "input_filter"
+      },
+      {
+        "datatype": "numeric",
+        "name": "input_limit"
+      },
+      {
+        "datatype": "SortBy",
+        "name": "input_sortBy"
+      },
+      {
+        "datatype": "numeric",
+        "name": "input_start"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "ed80cde2-e1ac-45ac-a21e-a628c606d6d4",
+        "type": "calculated",
+        "value": {
+          "function": "getObjectType",
+          "library": "WidgetObjectManager",
+          "params": {
+            "widgetID": {
+              "datatype": "text",
+              "name": "input_widgetID",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "cc8e0d9e-0bb7-480e-bb49-1bd2552be501",
+        "type": "calculated",
+        "value": {
+          "function": "fetchObjectsWithCount",
+          "library": "CirrusLibCirrusObject",
+          "params": {
+            "fields": {
+              "datatype": "text array",
+              "name": "input_fields",
+              "scope": "local"
+            },
+            "filter": {
+              "datatype": "text",
+              "name": "input_filter",
+              "scope": "local"
+            },
+            "limit": {
+              "datatype": "numeric",
+              "name": "input_limit",
+              "scope": "local"
+            },
+            "sortBy": {
+              "datatype": "SortBy",
+              "name": "input_sortBy",
+              "scope": "local"
+            },
+            "start": {
+              "datatype": "numeric",
+              "name": "input_start",
+              "scope": "local"
+            },
+            "type": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            }
+          },
+          "returnType": "All Data"
+        },
+        "variable": {
+          "datatype": "All Data",
+          "name": "items",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "returnvar",
+        "id": "f5dde8ea-b881-4304-a65a-53204757927d",
+        "variable": {
+          "datatype": "object array",
+          "name": "items",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "onSave": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_widgetID"
+      },
+      {
+        "datatype": "Save Patch",
+        "name": "input_patch"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "ea51c85f-d1c7-4feb-8eeb-31fd0c86ff72",
+        "type": "calculated",
+        "value": {
+          "function": "getObjectType",
+          "library": "WidgetObjectManager",
+          "params": {
+            "widgetID": {
+              "datatype": "text",
+              "name": "input_widgetID",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "runConfirmLogic": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "2b58e75d-72d8-4c86-b2f3-51cff33032e8",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getObjectType",
+          "library": "WidgetObjectManager",
+          "params": {
+            "widgetID": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "ObjectManager"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "db91586d-bc38-4461-984c-3e1b824f9251",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "strEquals",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "ConfigurationSet"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isConfigSet",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "f9a6cfc0-08d9-433e-8be3-a9af3d705607",
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isConfigSet",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "Configuration Set",
+        "id": "201bd1a8-de25-49b6-8a02-efba57a19edb",
+        "isCommented": false
+      },
+      {
+        "action": "execfunc",
+        "function": "createConfigurationSetCopy",
+        "id": "60ef4bc3-394a-46ba-b783-875d51b5ee4a",
+        "isCommented": false,
+        "library": "$interactions$",
+        "params": {}
+      },
+      {
+        "action": "addComment",
+        "commentStep": "After copying clear the data in order to not show it again once reopening the dialog",
+        "id": "f6b5e055-6fa4-481a-8341-38ad26f0f50d",
+        "isCommented": false
+      },
+      {
+        "action": "execfunc",
+        "function": "clearDialogData",
+        "id": "ac904baa-21b7-4c54-8a00-4a483c79a97a",
+        "isCommented": false,
+        "library": "$interactions$",
+        "params": {}
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "8d42ff85-e099-4dea-83f3-5d8030696ae4",
+        "isCommented": false,
+        "main": "f9a6cfc0-08d9-433e-8be3-a9af3d705607",
+        "test": {
+          "datatype": "boolean",
+          "name": "isConfigSet",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "runDenyLogic": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "2b58e75d-72d8-4c86-b2f3-51cff33032e8",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getObjectType",
+          "library": "WidgetObjectManager",
+          "params": {
+            "widgetID": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "ObjectManager"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "db91586d-bc38-4461-984c-3e1b824f9251",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "strEquals",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "ConfigurationSet"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isConfigSet",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "f9a6cfc0-08d9-433e-8be3-a9af3d705607",
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isConfigSet",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "After cancelling clear the data in order to not show it again once reopening the dialog",
+        "id": "f6b5e055-6fa4-481a-8341-38ad26f0f50d",
+        "isCommented": false
+      },
+      {
+        "action": "execfunc",
+        "function": "clearDialogData",
+        "id": "ac904baa-21b7-4c54-8a00-4a483c79a97a",
+        "isCommented": false,
+        "library": "$interactions$",
+        "params": {}
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "8d42ff85-e099-4dea-83f3-5d8030696ae4",
+        "isCommented": false,
+        "main": "f9a6cfc0-08d9-433e-8be3-a9af3d705607",
+        "test": {
+          "datatype": "boolean",
+          "name": "isConfigSet",
+          "scope": "local"
+        }
+      }
+    ],
+    "resolveEachStep": false,
+    "sasProvided": true
+  },
+  "runTriggerParentLogic": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_trigger"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "59f2a273-3e83-43f5-9483-578b78bcdb3a",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "getObjectType",
+          "library": "WidgetObjectManager",
+          "params": {
+            "widgetID": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "ObjectManager"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "objectType",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "29607ad9-a9f9-4e05-bbf1-e852797382f7",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "strEquals",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "objectType",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "ConfigurationSet"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isConfigSet",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "ifelse",
+        "id": "1913c1ce-d4ab-48b0-b647-691631ff512e",
+        "isCommented": false,
+        "test": {
+          "datatype": "boolean",
+          "name": "isConfigSet",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "For configuration sets need to disable save button in dialog if objectId or name are empty (emptiness check is done on the child content page)",
+        "id": "cebd1992-15d8-460a-90ce-ff487e6e7f6b",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "bb798cc3-04d8-4750-b9fb-14da51047c54",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "strEquals",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "name": "input_trigger",
+              "scope": "local"
+            },
+            "string2": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "true"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isDisable",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "disableOkayButton",
+        "id": "4aaafe6a-2dd6-45a6-8313-118e77c91b19",
+        "isCommented": false,
+        "params": {
+          "reduxDisableConfirmButton": {
+            "datatype": "boolean",
+            "name": "isDisable",
+            "scope": "local"
+          }
+        },
+        "widgetId": "CustomContentDialog"
+      },
+      {
+        "action": "ifelse",
+        "end": true,
+        "id": "1dc2b847-ab2d-4a93-8a40-b3c5a2b5cc8f",
+        "isCommented": false,
+        "main": "1913c1ce-d4ab-48b0-b647-691631ff512e",
+        "test": {
+          "datatype": "boolean",
+          "name": "isConfigSet",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  },
+  "setCopySuffix": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_key"
+      },
+      {
+        "datatype": "text",
+        "name": "input_objectType"
+      }
+    ],
+    "logic": [
+      {
+        "action": "addComment",
+        "commentStep": "// Extract target objectId for filter condition",
+        "id": "18b70e2c-e24c-4503-b323-c8c437e13eeb",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "5502d84b-2c16-4505-9539-520d78ff3ad0",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "replace",
+          "library": "CirrusLibString",
+          "params": {
+            "mainString": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "contains(createdFrom,'__name_of_target__')"
+            },
+            "replacement": {
+              "datatype": "text",
+              "name": "input_key",
+              "scope": "local"
+            },
+            "target": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "__name_of_target__"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "condition",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "log",
+        "id": "ca552822-5c10-4cd4-ae46-2bed7229a164",
+        "isCommented": true,
+        "library": "CirrusLibDebugging",
+        "params": {
+          "variable": {
+            "datatype": "text",
+            "name": "condition",
+            "scope": "local"
+          }
+        },
+        "returnType": "text"
+      },
+      {
+        "action": "addComment",
+        "commentStep": "// Filter objects based on object type and condition",
+        "id": "4ddd12d9-71b9-4e23-a2b1-a1bcefa9e256",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "ef87cea6-ee70-447c-ab70-1a4a9d6f3797",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "fetchObjects",
+          "library": "CirrusLibCirrusObject",
+          "params": {
+            "filter": {
+              "datatype": "text",
+              "name": "condition",
+              "scope": "local"
+            },
+            "type": {
+              "datatype": "text",
+              "name": "input_objectType",
+              "scope": "local"
+            }
+          },
+          "returnType": "All Data"
+        },
+        "variable": {
+          "datatype": "All Data",
+          "name": "filteredObjects",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "ca83938f-1f68-4351-8dae-baec2cc2551b",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "jsonStringify",
+          "library": "CirrusLibGeneral",
+          "params": {
+            "data": {
+              "datatype": "All Data",
+              "name": "filteredObjects",
+              "scope": "local"
+            }
+          },
+          "returnType": "\u003cIncoming\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cIncoming\u003e",
+          "name": "objToString",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "87607c90-97ce-473c-afcd-4f2ed36cef01",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "convertStringToArray",
+          "library": "CirrusLibArray",
+          "params": {
+            "string": {
+              "name": "objToString",
+              "scope": "local"
+            }
+          },
+          "returnType": "\u003cOutgoing\u003e array"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e array",
+          "name": "stringToArr",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "addComment",
+        "commentStep": "// count the number of instances and create copySuffix",
+        "id": "24ff8c01-2c62-4c27-991d-12b4d920d47d",
+        "isCommented": false
+      },
+      {
+        "action": "setvar",
+        "id": "fba07fb6-4c54-4449-af4d-5f8538f26f95",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "datatype": "numeric",
+          "function": "size",
+          "library": "CirrusLibArray",
+          "params": {
+            "array": {
+              "name": "stringToArr",
+              "scope": "local"
+            }
+          },
+          "returnType": "numeric"
+        },
+        "variable": {
+          "datatype": "numeric",
+          "name": "arrayLength",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "be349d48-7db6-491d-b3c3-a3876ebe062e",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "datatype": "numeric",
+          "function": "add",
+          "library": "CirrusLibMath",
+          "params": {
+            "from": {
+              "datatype": "numeric",
+              "name": "arrayLength",
+              "scope": "local"
+            },
+            "number": {
+              "datatype": "numeric",
+              "scope": "fixed",
+              "value": 1
+            }
+          },
+          "returnType": "numeric"
+        },
+        "variable": {
+          "datatype": "numeric",
+          "name": "arrayLength",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "execfunc",
+        "function": "log",
+        "id": "9e188af7-cf00-478d-a196-90773d36d641",
+        "isCommented": true,
+        "library": "CirrusLibDebugging",
+        "params": {
+          "variable": {
+            "name": "stringToArr",
+            "scope": "local"
+          }
+        },
+        "returnType": "\u003cany\u003e"
+      },
+      {
+        "action": "execfunc",
+        "function": "log",
+        "id": "1c55fda9-e204-4a65-bf8e-a6f6c8f188f3",
+        "isCommented": true,
+        "library": "CirrusLibDebugging",
+        "params": {
+          "prefix": {
+            "datatype": "text",
+            "scope": "fixed",
+            "value": "len:"
+          },
+          "variable": {
+            "datatype": "numeric",
+            "name": "arrayLength",
+            "scope": "local"
+          }
+        },
+        "returnType": "numeric"
+      },
+      {
+        "action": "setvar",
+        "id": "d94e0b2f-de33-4109-96e5-80a1756637d4",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "datatype": "text",
+          "function": "toString",
+          "library": "CirrusLibString",
+          "params": {
+            "value": {
+              "datatype": "numeric",
+              "name": "arrayLength",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "copySuffix",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "bed4859a-044c-40f9-be45-953a245a3395",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "datatype": "text",
+          "function": "concat",
+          "library": "CirrusLibString",
+          "params": {
+            "string1": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "_"
+            },
+            "string2": {
+              "datatype": "text",
+              "name": "copySuffix",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "copySuffix",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "returnvar",
+        "id": "306f42d2-ddf4-402b-beb6-e79e8f93c4bc",
+        "isCommented": false,
+        "variable": {
+          "datatype": "text",
+          "name": "copySuffix",
+          "scope": "local"
+        }
+      }
+    ],
+    "resolveEachStep": false,
+    "sasProvided": true
+  }
+}

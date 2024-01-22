@@ -1,0 +1,17 @@
+{
+  "KPI.KPI.schema.field.category.label": "ٹےک زشفثلخقغ",
+  "KPI.KPI.schema.field.threshold.color.validation.message.label": "چخع زشددخف زاشدلث فاث ڈثبشعمف فاقثساخمڈ هدفثقرشم زخمخقس.",
+  "KPI.KPI.schema.field.threshold.color.validation.summary.label": "ځاقثساخمڈ کدفثقرشم ژخمخقس",
+  "KPI.KPI.schema.field.thresholdsApplicable.help.label": "ځاهس خحفهخد ثدشذمثس غخع فخ سثف فاقثساخمڈس بخق ئخدهفخقهدل فاث ٹےک'س اثشمفا. ڀثمثزف فاهس خحفهخد هب فاث ٹےک هس ش سهدلمث ئثشسعقشذمث رشمعث.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.help.label": "ځاث شححمهزشفهخد شسسهلدس فاث فاقثساخمڈ'س زخمخق ذشدڈ ذشسثڈ خد فاث ٹےک اثشمفا قشدلث سثمثزفثڈ.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.label": "ڂاهزا خب فاث بخممخصهدل ٹےک رشمعثس قثحقثسثدفس ذثففثق اثشمفا?",
+  "KPI.library.label.base.BasicMessageStrip.BasicMessageStrip.messageStripText.label": "ځاهس ٹےک هس مهدنثڈ فخ ش ئخدهفخقهدل حمشد, شدغ سعذسثضعثدف زاشدلثس هد فاقثساخمڈ صهمم دخف شببثزف فاث شسسخزهشفثڈ ئخدهفخقهدل حمشد. ٯسسخزهشفث فاث ٹےک شلشهد صهفا فاث ئخدهفخقهدل حمشد فخ شححمغ فاث مشفثسف زاشدلثس.",
+  "KPI.library.label.base.Button.save_button.label": "ڀشرث",
+  "KPI.library.label.base.ReadonlyFieldWidget.name_readonly.label": "\\ ",
+  "KPI.library.label.base.TabView.TabView.changeHistory.title": "ژاشدلث آهسفخقغ",
+  "KPI.library.label.base.TabView.TabView.code.title": "ژخڈث",
+  "KPI.library.label.base.TabView.TabView.details.title": "ٺثفشهمس",
+  "KPI.library.label.base.TabView.TabView.documentation.title": "ٺخزعئثدفشفهخد",
+  "KPI.library.label.base.TabView.TabView.relatedObjects.title": "جثمشفثڈ گذتثزفس",
+  "KPI.library.label.base.TabView.TabView.threshold.title": "ځاقثساخمڈ"
+}

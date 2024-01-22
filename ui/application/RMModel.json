@@ -1,0 +1,1298 @@
+{
+  "layouts": {
+    "Accordion": {
+      "genCode": {
+        "genCode": {
+          "h": 315,
+          "i": "genCode",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "Accordion_1": {
+      "postGenCode": {
+        "postGenCode": {
+          "h": 315,
+          "i": "postGenCode",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 3
+        }
+      }
+    },
+    "Accordion_2": {
+      "postRiskCode": {
+        "postRiskCode": {
+          "h": 315,
+          "i": "postRiskCode",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "CodeContainer": {
+      "RE": {
+        "PostModelCodeAccordion": {
+          "h": 360,
+          "i": "PostModelCodeAccordion",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 1082
+        },
+        "PostReActionsCodeAccordion": {
+          "h": 360,
+          "i": "PostReActionsCodeAccordion",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 722
+        },
+        "PreModelCodeAccordion": {
+          "h": 360,
+          "i": "PreModelCodeAccordion",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "PreReActionsCodeAccordion": {
+          "h": 360,
+          "i": "PreReActionsCodeAccordion",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 361
+        }
+      },
+      "SAS": {
+        "ModelCode": {
+          "h": 850,
+          "i": "ModelCode",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "default": {
+        "Accordion": {
+          "h": 360,
+          "i": "Accordion",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "Accordion_1": {
+          "h": 360,
+          "i": "Accordion_1",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 368
+        },
+        "Accordion_2": {
+          "h": 360,
+          "i": "Accordion_2",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 728
+        }
+      }
+    },
+    "EngineWidgetContainer": {
+      "RE": {
+        "RiskEngineProjectSelector": {
+          "h": 52,
+          "i": "RiskEngineProjectSelector",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 7,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "SAS": {},
+      "default": {
+        "engineCd": {
+          "h": 52,
+          "i": "engineCd",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 0
+        },
+        "engineCd_1": {
+          "h": 52,
+          "i": "engineCd_1",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 53
+        },
+        "engineCd_2": {
+          "h": 52,
+          "i": "engineCd_2",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 106
+        }
+      }
+    },
+    "ModelCode": {
+      "ModelCode": {
+        "modelCode": {
+          "h": 800,
+          "i": "modelCode",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "ModelPostExecCode": {
+      "postExecCode": {
+        "modelPostExecCode": {
+          "h": 315,
+          "i": "modelPostExecCode",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "ModelPostRunCode": {
+      "postRunCode": {
+        "modelPostCode": {
+          "h": 315,
+          "i": "modelPostCode",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "ModelPreExecCode": {
+      "preExecCode": {
+        "modelPreExecCode": {
+          "h": 315,
+          "i": "modelPreExecCode",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "ModelPreRunCode": {
+      "preRunCode": {
+        "modelPreCode": {
+          "h": 315,
+          "i": "modelPreCode",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "PostModelCodeAccordion": {
+      "PostModelCode": {
+        "postModelCode": {
+          "h": 315,
+          "i": "postModelCode",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "PostReActionsCodeAccordion": {
+      "PostReActionsCode": {
+        "postReActionsCode": {
+          "h": 315,
+          "i": "postReActionsCode",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "PreModelCodeAccordion": {
+      "PreModelCode": {
+        "preModelCode": {
+          "h": 315,
+          "i": "preModelCode",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "PreReActionsCodeAccordion": {
+      "PreReActionsCode": {
+        "preReActionsCode": {
+          "h": 315,
+          "i": "preReActionsCode",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "StatusEngineContainer": {
+      "default": {}
+    },
+    "base": {
+      "header_container": {
+        "h": 50,
+        "i": "header_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 8,
+        "x": 4,
+        "y": 0
+      },
+      "model_tabs": {
+        "h": 786,
+        "i": "model_tabs",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 79
+      },
+      "name_readonly": {
+        "h": 26,
+        "i": "name_readonly",
+        "minH": 24,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 0
+      },
+      "statusCd": {
+        "h": 52,
+        "i": "statusCd",
+        "minH": 52,
+        "minW": 3,
+        "moved": false,
+        "static": false,
+        "w": 4,
+        "x": 0,
+        "y": 26
+      }
+    },
+    "header_container": {
+      "default": {
+        "save": {
+          "h": 26,
+          "i": "save",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 2,
+          "x": 10,
+          "y": 0
+        }
+      }
+    },
+    "model_details": {
+      "details": {}
+    },
+    "model_tabs": {
+      "2": {
+        "additional_comments": {
+          "h": 550,
+          "i": "additional_comments",
+          "minH": 236,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 4,
+          "y": 0
+        },
+        "documentation_attachments": {
+          "h": 286,
+          "i": "documentation_attachments",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 16
+        },
+        "documentation_links": {
+          "h": 241,
+          "i": "documentation_links",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 312
+        }
+      },
+      "3": {
+        "ChangeHistory": {
+          "h": 675,
+          "i": "ChangeHistory",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "4": {
+        "EngineWidgetContainer": {
+          "h": 73,
+          "i": "EngineWidgetContainer",
+          "minH": 50,
+          "minW": 2,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 6,
+          "y": 118
+        },
+        "Image": {
+          "h": 23,
+          "i": "Image",
+          "minH": 1,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 460
+        },
+        "description": {
+          "h": 80,
+          "i": "description",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 111
+        },
+        "execTypeCd": {
+          "h": 52,
+          "i": "execTypeCd",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 4
+        },
+        "manageModelLink": {
+          "h": 54,
+          "i": "manageModelLink",
+          "minH": 54,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 224
+        },
+        "name": {
+          "h": 50,
+          "i": "name",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 53
+        },
+        "objectId": {
+          "h": 50,
+          "i": "objectId",
+          "minH": 50,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "relatedObjects": {
+        "linkedMonitoringPlans": {
+          "h": 50,
+          "i": "linkedMonitoringPlans",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 6,
+          "x": 0,
+          "y": 0
+        }
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "draft": {
+        "name": "onDraftLoad"
+      },
+      "edit": {
+        "name": "onEditLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "onAnyEvent"
+      },
+      "onTabClose": {
+        "name": "onTabClose"
+      }
+    },
+    "props": {
+      "description": "",
+      "icon": "base://MODELS",
+      "id": "RMModel",
+      "label": "RM Model",
+      "tabLabel": ""
+    }
+  },
+  "structure": {
+    "Accordion": {
+      "genCode": {
+        "genCode": {
+          "compName": "CodeEditor",
+          "containerId": "Accordion",
+          "fieldName": "genCode",
+          "id": "genCode",
+          "label": "appbuilder.toolboxitem.codeEditor.title",
+          "libName": "base",
+          "parentId": "Accordion",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        }
+      }
+    },
+    "Accordion_1": {
+      "postGenCode": {
+        "postGenCode": {
+          "compName": "CodeEditor",
+          "containerId": "Accordion_1",
+          "fieldName": "postGenCode",
+          "id": "postGenCode",
+          "label": "appbuilder.toolboxitem.codeEditor.title",
+          "libName": "base",
+          "parentId": "Accordion_1",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        }
+      }
+    },
+    "Accordion_2": {
+      "postRiskCode": {
+        "postRiskCode": {
+          "compName": "CodeEditor",
+          "containerId": "Accordion_2",
+          "fieldName": "postRiskCode",
+          "id": "postRiskCode",
+          "label": "appbuilder.toolboxitem.codeEditor.title",
+          "libName": "base",
+          "parentId": "Accordion_2",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        }
+      }
+    },
+    "CodeContainer": {
+      "RE": {
+        "PostModelCodeAccordion": {
+          "compName": "Accordion",
+          "containerId": "CodeContainer",
+          "id": "PostModelCodeAccordion",
+          "label": "appbuilder.toolboxitem.accordion.title",
+          "libName": "base",
+          "parentId": "CodeContainer",
+          "props": {
+            "childProps": {
+              "PostModelCode": {
+                "help": "Use the Post-Model Code section to include model-specific code that the model needs after the model execution.",
+                "label": "Post-Model Code",
+                "name": "PostModelCode",
+                "position": 0
+              }
+            }
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        },
+        "PostReActionsCodeAccordion": {
+          "compName": "Accordion",
+          "containerId": "CodeContainer",
+          "id": "PostReActionsCodeAccordion",
+          "label": "appbuilder.toolboxitem.accordion.title",
+          "libName": "base",
+          "parentId": "CodeContainer",
+          "props": {
+            "childProps": {
+              "PostReActionsCode": {
+                "help": "Use the Risk Engine Post-Actions Code section to include custom code that needs to be executed after the Risk Pipeline execution.",
+                "label": "Risk Engine Post-Actions Code",
+                "name": "PostReActionsCode",
+                "position": 0
+              }
+            }
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        },
+        "PreModelCodeAccordion": {
+          "compName": "Accordion",
+          "containerId": "CodeContainer",
+          "id": "PreModelCodeAccordion",
+          "label": "appbuilder.toolboxitem.accordion.title",
+          "libName": "base",
+          "parentId": "CodeContainer",
+          "props": {
+            "childProps": {
+              "PreModelCode": {
+                "help": "Use the Pre-Model Code section to include model-specific code that the model needs prior to the model execution.",
+                "label": "Pre-Model Code",
+                "name": "PreModelCode",
+                "position": 0
+              }
+            }
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        },
+        "PreReActionsCodeAccordion": {
+          "compName": "Accordion",
+          "containerId": "CodeContainer",
+          "id": "PreReActionsCodeAccordion",
+          "label": "appbuilder.toolboxitem.accordion.title",
+          "libName": "base",
+          "parentId": "CodeContainer",
+          "props": {
+            "childProps": {
+              "PreReActionsCode": {
+                "help": "Use the Risk Engine Pre-Actions Code section to include custom code that needs to be executed before the Risk Pipeline scoring, evaluation, or simulation execution.",
+                "label": "Risk Engine Pre-Actions Code",
+                "name": "PreReActionsCode",
+                "position": 0
+              }
+            }
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        }
+      },
+      "SAS": {
+        "ModelCode": {
+          "compName": "Accordion",
+          "containerId": "CodeContainer",
+          "id": "ModelCode",
+          "label": "appbuilder.toolboxitem.accordion.title",
+          "libName": "base",
+          "parentId": "CodeContainer",
+          "props": {
+            "activeIndex": 0,
+            "childProps": {
+              "ModelCode": {
+                "label": "Model Code",
+                "name": "ModelCode",
+                "position": 0
+              }
+            }
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        }
+      },
+      "default": {
+        "Accordion": {
+          "compName": "Accordion",
+          "containerId": "CodeContainer",
+          "id": "Accordion",
+          "label": "appbuilder.toolboxitem.accordion.title",
+          "libName": "base",
+          "parentId": "CodeContainer",
+          "props": {
+            "childProps": {
+              "genCode": {
+                "help": "",
+                "label": "Generation Code",
+                "name": "genCode",
+                "position": 0
+              }
+            }
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        },
+        "Accordion_1": {
+          "compName": "Accordion",
+          "containerId": "CodeContainer",
+          "id": "Accordion_1",
+          "label": "appbuilder.toolboxitem.accordion.title",
+          "libName": "base",
+          "parentId": "CodeContainer",
+          "props": {
+            "childProps": {
+              "postGenCode": {
+                "help": "",
+                "label": "Post-Generation Code",
+                "name": "postGenCode",
+                "position": 0
+              }
+            }
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        },
+        "Accordion_2": {
+          "compName": "Accordion",
+          "containerId": "CodeContainer",
+          "id": "Accordion_2",
+          "label": "appbuilder.toolboxitem.accordion.title",
+          "libName": "base",
+          "parentId": "CodeContainer",
+          "props": {
+            "activeIndex": 0,
+            "childProps": {
+              "postRiskCode": {
+                "help": "",
+                "label": "Post-Risk Code",
+                "name": "postRiskCode",
+                "position": 0
+              }
+            }
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07"
+        }
+      }
+    },
+    "EngineWidgetContainer": {
+      "RE": {
+        "RiskEngineProjectSelector": {
+          "compName": "RiskEngineProjectSelector",
+          "containerId": "EngineWidgetContainer",
+          "events": {},
+          "id": "RiskEngineProjectSelector",
+          "label": "appbuilder.toolboxitem.riskengineprojectselector.title",
+          "libName": "base",
+          "parentId": "EngineWidgetContainer",
+          "props": {},
+          "sasProvided": true,
+          "versionDeprecated": "2023.04"
+        }
+      },
+      "SAS": {},
+      "default": {
+        "engineCd": {
+          "compName": "Dropdown",
+          "containerId": "EngineWidgetContainer",
+          "fieldName": "engineCd",
+          "id": "engineCd",
+          "libName": "base",
+          "parentId": "EngineWidgetContainer",
+          "props": {
+            "align": "start"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.03",
+          "versionDeprecated": "2023.04"
+        },
+        "engineCd_1": {
+          "compName": "Dropdown",
+          "containerId": "EngineWidgetContainer",
+          "fieldName": "engineCd",
+          "id": "engineCd_1",
+          "libName": "base",
+          "parentId": "EngineWidgetContainer",
+          "props": {
+            "align": "start"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.03",
+          "versionDeprecated": "2023.04"
+        },
+        "engineCd_2": {
+          "compName": "Dropdown",
+          "containerId": "EngineWidgetContainer",
+          "fieldName": "engineCd",
+          "id": "engineCd_2",
+          "libName": "base",
+          "parentId": "EngineWidgetContainer",
+          "props": {
+            "align": "start"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.03",
+          "versionDeprecated": "2023.04"
+        }
+      }
+    },
+    "ModelCode": {
+      "ModelCode": {
+        "modelCode": {
+          "compName": "CodeEditor",
+          "containerId": "ModelCode",
+          "fieldName": "modelCode",
+          "id": "modelCode",
+          "label": "appbuilder.toolboxitem.codeEditor.title",
+          "libName": "base",
+          "parentId": "ModelCode",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        }
+      }
+    },
+    "ModelPostExecCode": {
+      "postExecCode": {
+        "modelPostExecCode": {
+          "compName": "CodeEditor",
+          "containerId": "ModelPostExecCode",
+          "fieldName": "modelPostExecCode",
+          "id": "modelPostExecCode",
+          "label": "appbuilder.toolboxitem.codeEditor.title",
+          "libName": "base",
+          "parentId": "ModelPostExecCode",
+          "props": {
+            "pythonChecked": false
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "ModelPostRunCode": {
+      "postRunCode": {
+        "modelPostCode": {
+          "compName": "CodeEditor",
+          "containerId": "ModelPostRunCode",
+          "fieldName": "modelPostCode",
+          "id": "modelPostCode",
+          "label": "appbuilder.toolboxitem.codeEditor.title",
+          "libName": "base",
+          "parentId": "ModelPostRunCode",
+          "props": {},
+          "sasProvided": true
+        }
+      }
+    },
+    "ModelPreExecCode": {
+      "preExecCode": {
+        "modelPreExecCode": {
+          "compName": "CodeEditor",
+          "containerId": "ModelPreExecCode",
+          "fieldName": "modelPreExecCode",
+          "id": "modelPreExecCode",
+          "label": "appbuilder.toolboxitem.codeEditor.title",
+          "libName": "base",
+          "parentId": "ModelPreExecCode",
+          "props": {
+            "pythonChecked": false
+          },
+          "sasProvided": true
+        }
+      }
+    },
+    "ModelPreRunCode": {
+      "preRunCode": {
+        "modelPreCode": {
+          "compName": "CodeEditor",
+          "containerId": "ModelPreRunCode",
+          "fieldName": "modelPreCode",
+          "id": "modelPreCode",
+          "label": "appbuilder.toolboxitem.codeEditor.title",
+          "libName": "base",
+          "parentId": "ModelPreRunCode",
+          "props": {},
+          "sasProvided": true
+        }
+      }
+    },
+    "PostModelCodeAccordion": {
+      "PostModelCode": {
+        "postModelCode": {
+          "compName": "CodeEditor",
+          "containerId": "PostModelCodeAccordion",
+          "fieldName": "postModelCode",
+          "id": "postModelCode",
+          "label": "appbuilder.toolboxitem.codeEditor.title",
+          "libName": "base",
+          "parentId": "PostModelCodeAccordion",
+          "props": {
+            "pythonChecked": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        }
+      }
+    },
+    "PostReActionsCodeAccordion": {
+      "PostReActionsCode": {
+        "postReActionsCode": {
+          "compName": "CodeEditor",
+          "containerId": "PostReActionsCodeAccordion",
+          "fieldName": "postReActionsCode",
+          "id": "postReActionsCode",
+          "label": "appbuilder.toolboxitem.codeEditor.title",
+          "libName": "base",
+          "parentId": "PostReActionsCodeAccordion",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        }
+      }
+    },
+    "PreModelCodeAccordion": {
+      "PreModelCode": {
+        "preModelCode": {
+          "compName": "CodeEditor",
+          "containerId": "PreModelCodeAccordion",
+          "fieldName": "preModelCode",
+          "id": "preModelCode",
+          "label": "appbuilder.toolboxitem.codeEditor.title",
+          "libName": "base",
+          "parentId": "PreModelCodeAccordion",
+          "props": {
+            "pythonChecked": false
+          },
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        }
+      }
+    },
+    "PreReActionsCodeAccordion": {
+      "PreReActionsCode": {
+        "preReActionsCode": {
+          "compName": "CodeEditor",
+          "containerId": "PreReActionsCodeAccordion",
+          "fieldName": "preReActionsCode",
+          "id": "preReActionsCode",
+          "label": "appbuilder.toolboxitem.codeEditor.title",
+          "libName": "base",
+          "parentId": "PreReActionsCodeAccordion",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2022.11"
+        }
+      }
+    },
+    "StatusEngineContainer": {
+      "default": {}
+    },
+    "base": {
+      "header_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "header_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "model_tabs": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "model_tabs",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 3,
+          "childProps": {
+            "2": {
+              "label": "Documentation",
+              "name": "2",
+              "position": 2
+            },
+            "3": {
+              "label": "Change History",
+              "name": "3",
+              "position": 3
+            },
+            "4": {
+              "id": "4",
+              "label": "Details",
+              "name": "4",
+              "position": 0
+            },
+            "relatedObjects": {
+              "id": "relatedObjects",
+              "label": "Related Objects",
+              "name": "relatedObjects",
+              "position": 1
+            }
+          }
+        },
+        "sasProvided": true
+      },
+      "name_readonly": {
+        "compName": "ReadonlyFieldWidget",
+        "containerId": "base",
+        "id": "name_readonly",
+        "label": "appbuilder.toolboxitem.readonlyfield.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldLabel": true,
+          "boldValue": true,
+          "colon": false,
+          "stacked": false
+        },
+        "sasProvided": true
+      },
+      "statusCd": {
+        "compName": "Dropdown",
+        "containerId": "base",
+        "fieldName": "statusCd",
+        "id": "statusCd",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "colon": true
+        },
+        "sasProvided": true,
+        "versionDeprecated": "2023.04"
+      }
+    },
+    "header_container": {
+      "default": {
+        "save": {
+          "compName": "Button",
+          "containerId": "header_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "header_container",
+          "props": {},
+          "sasProvided": true
+        }
+      }
+    },
+    "model_details": {
+      "details": {}
+    },
+    "model_tabs": {
+      "2": {
+        "additional_comments": {
+          "compName": "Comments",
+          "containerId": "model_tabs",
+          "events": {},
+          "fieldName": "additional_comments",
+          "id": "additional_comments",
+          "libName": "base",
+          "parentId": "model_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_attachments": {
+          "compName": "CirrusObjectsAttachments",
+          "containerId": "model_tabs",
+          "fieldName": "documentation_attachments",
+          "id": "documentation_attachments",
+          "libName": "base",
+          "parentId": "model_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "documentation_links": {
+          "compName": "CirrusObjectsLinks",
+          "containerId": "model_tabs",
+          "fieldName": "documentation_links",
+          "id": "documentation_links",
+          "libName": "base",
+          "parentId": "model_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "3": {
+        "ChangeHistory": {
+          "compName": "ChangeHistory",
+          "containerId": "model_tabs",
+          "id": "ChangeHistory",
+          "label": "appbuilder.toolboxitem.changeHistory.title",
+          "libName": "base",
+          "parentId": "model_tabs",
+          "props": {},
+          "sasProvided": true
+        }
+      },
+      "4": {
+        "EngineWidgetContainer": {
+          "compName": "GroupableContainer",
+          "containerId": "model_tabs",
+          "id": "EngineWidgetContainer",
+          "label": "appbuilder.toolboxitem.groupableContainer.title",
+          "libName": "base",
+          "parentId": "model_tabs",
+          "props": {
+            "activeIndex": 1,
+            "childProps": {
+              "RE": {
+                "name": "RE",
+                "position": 1
+              },
+              "SAS": {
+                "name": "SAS",
+                "position": 2
+              },
+              "default": {
+                "name": "default",
+                "position": 0
+              }
+            }
+          },
+          "sasProvided": true,
+          "versionDeprecated": "2023.04"
+        },
+        "Image": {
+          "compName": "Image",
+          "containerId": "model_tabs",
+          "id": "Image",
+          "label": "appbuilder.toolboxitem.image.title",
+          "libName": "base",
+          "parentId": "model_tabs",
+          "props": {},
+          "sasProvided": true
+        },
+        "description": {
+          "compName": "InputTextarea",
+          "containerId": "model_tabs",
+          "fieldName": "description",
+          "id": "description",
+          "libName": "base",
+          "parentId": "model_tabs",
+          "props": {
+            "colon": true,
+            "rows": 3,
+            "validations": [
+              {
+                "id": "validateMaxLength",
+                "params": [
+                  {
+                    "datatype": "text",
+                    "name": "value"
+                  }
+                ],
+                "type": "CirrusLibValidators"
+              }
+            ]
+          },
+          "sasProvided": true
+        },
+        "execTypeCd": {
+          "compName": "Dropdown",
+          "containerId": "model_tabs",
+          "events": {},
+          "fieldName": "execTypeCd",
+          "id": "execTypeCd",
+          "libName": "base",
+          "parentId": "model_tabs",
+          "props": {
+            "align": "start"
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.07",
+          "versionDeprecated": "2023.08"
+        },
+        "manageModelLink": {
+          "compName": "LinkWidget",
+          "containerId": "model_tabs",
+          "id": "manageModelLink",
+          "label": "appbuilder.toolboxitem.link.title",
+          "libName": "base",
+          "parentId": "model_tabs",
+          "props": {
+            "align": "start",
+            "colon": false,
+            "linkText": "Manage Model Specifications",
+            "stacked": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2023.04"
+        },
+        "name": {
+          "compName": "InputText",
+          "containerId": "model_tabs",
+          "events": {
+            "onChange": {
+              "name": "onNameChange"
+            }
+          },
+          "fieldName": "name",
+          "id": "name",
+          "libName": "base",
+          "parentId": "model_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        },
+        "objectId": {
+          "compName": "InputText",
+          "containerId": "model_tabs",
+          "events": {
+            "onChange": {
+              "name": "setDefaultName"
+            }
+          },
+          "fieldName": "objectId",
+          "id": "objectId",
+          "libName": "base",
+          "parentId": "model_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true
+        }
+      },
+      "relatedObjects": {
+        "linkedMonitoringPlans": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "model_tabs",
+          "events": {
+            "getEditLinkForObjectInstance": {
+              "name": "getEditLinkForObjectInstance"
+            }
+          },
+          "fieldName": "linkedMonitoringPlans",
+          "id": "linkedMonitoringPlans",
+          "libName": "base",
+          "parentId": "model_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.03"
+        }
+      }
+    }
+  }
+}

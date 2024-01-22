@@ -1,0 +1,17 @@
+{
+  "KPI.KPI.schema.field.category.label": "Categoría KPI",
+  "KPI.KPI.schema.field.threshold.color.validation.message.label": "No puede cambiar los colores del intervalo de umbral predeterminados.",
+  "KPI.KPI.schema.field.threshold.color.validation.summary.label": "Colores del intervalo de umbral",
+  "KPI.KPI.schema.field.thresholdsApplicable.help.label": "Esta opción le permite establecer umbrales para monitorizar la integridad del KPI. Seleccionar esta opción si el indicador clave de rendimiento es un único valor medible.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.help.label": "La aplicación asigna la banda de color del umbral dependiendo del rango de integridad del KPI.",
+  "KPI.KPI.schema.field.thresholdsBetterBound.label": "¿Cuál se los siguientes valores KPI representa una mejor integridad?",
+  "KPI.library.label.base.BasicMessageStrip.BasicMessageStrip.messageStripText.label": "Este KPI está vinculado a un plan de monitorización, cualquier cambio posterior en el umbral no afectará al plan de monitorización asociado. Vuelva a asociar el KPI con el plan de monitorización para aplicar los cambios más recientes.",
+  "KPI.library.label.base.Button.save_button.label": "Guardar",
+  "KPI.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "KPI.library.label.base.TabView.TabView.changeHistory.title": "Historial de cambios",
+  "KPI.library.label.base.TabView.TabView.code.title": "Código",
+  "KPI.library.label.base.TabView.TabView.details.title": "Detalles",
+  "KPI.library.label.base.TabView.TabView.documentation.title": "Documentación",
+  "KPI.library.label.base.TabView.TabView.relatedObjects.title": "Objetos relacionados",
+  "KPI.library.label.base.TabView.TabView.threshold.title": "Umbral"
+}

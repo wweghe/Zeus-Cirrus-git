@@ -1,0 +1,19 @@
+{
+  "ConfigurationSet.ConfigurationSet.schema.field.linkedConfigurationTables.label": "[Ćőňfígűřąţíőň Ţąbłęś@ @@@@ @]",
+  "ConfigurationSet.ConfigurationSet.schema.field.statusCd.label": "[Śţąţę@@@]",
+  "ConfigurationSet.library.label.base.Accordion.instance_details.details.title": "[Ćőňfígűřąţíőň Śęţ Đęţąíłś@ @@@@ @]",
+  "ConfigurationSet.library.label.base.Button.save.label": "[Śąvę@@@]",
+  "ConfigurationSet.library.label.base.CirrusObjectsLinks.documentation_links.label": "[Đőćűmęňţąţíőň łíňkś@ @@@@ @]",
+  "ConfigurationSet.library.label.base.Comments.additional_comments.label": "[Ćőmmęňţś@ @@]",
+  "ConfigurationSet.library.label.base.InputText.name.label": "[Ćőňfígűřąţíőň śęţ ňąmę@ @@@@ @]",
+  "ConfigurationSet.library.label.base.InputText.objectId.label": "[Ćőňfígűřąţíőň śęţ ÍĐ@ @@@@ @]",
+  "ConfigurationSet.library.label.base.InputTextarea.description.label": "[Ćőňfígűřąţíőň śęţ đęśćřípţíőň@ @@@@ @]",
+  "ConfigurationSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "[ ]",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.0.title": "[Đęţąíłś@@@]",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.1.title": "[Đőćűmęňţąţíőň@ @@@]",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.2.title": "[Ćhąňgę Híśţőřy@ @@@]",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.tabRelatedObjects.title": "[Řęłąţęđ Őbjęćţś@ @@@@]",
+  "ConfigurationSet.schema.field.ConfigurationTable.statusCd.validation.summary.label": "[Ţhę śţąţűś őf ą ćőňfígűřąţíőň śęţ ćąň őňły bę přőmőţęđ ţő přőđűćţíőň íf ąłł ąśśőćíąţęđ ćőňfígűřąţíőň ţąbłęś ąřę ąłśő íň přőđűćţíőň.@ @@@@ @@@@@ @@@@]",
+  "ConfigurationSet.schema.field.ConfigurationTable.validation.summary.label": "[Ą ćőňfígűřąţíőň śęţ ćąňňőţ bę śąvęđ wíţh łíňkęđ ćőňfígűřąţíőň ţąbłęś őf ţhę śąmę ţypę.@ @@@@ @@@@@]",
+  "ConfigurationSet.schema.field.ConfigurationTable.validation.title.label": "[Łíňkęđ ćőňfígűřąţíőň ţąbłęś ąřę íňvąłíđ@ @@@@ @@]"
+}

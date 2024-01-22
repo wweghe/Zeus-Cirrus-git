@@ -1,0 +1,13 @@
+{
+  "SampleObject.AttributionTemplate.schema.field.objectId.label": "기여도 템플릿 ID",
+  "SampleObject.library.label.base.Accordion.attribution_template_details.details.title": "기여도 템플릿 상세 정보",
+  "SampleObject.library.label.base.Button.save.label": "저장",
+  "SampleObject.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.1.title": "문서",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.2.title": "변경 히스토리",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.tabDetails.title": "상세 정보",
+  "SampleObject.library.label.base.TabView.main_tabs.1.title": "문서",
+  "SampleObject.library.label.base.TabView.main_tabs.2.title": "변경 히스토리",
+  "SampleObject.library.label.base.TabView.main_tabs.tabDetails.title": "상세 정보",
+  "undefined": "탭"
+}

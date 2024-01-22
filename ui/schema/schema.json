@@ -1,0 +1,30 @@
+{
+  "id": "CORE",
+  "objects": [
+    "AllocationScheme",
+    "AnalysisData",
+    "AnalysisRun",
+    "AttributionTemplate",
+    "BusinessEvolutionPlan",
+    "CodeLibrary",
+    "ConfigurationSet",
+    "ConfigurationTable",
+    "Cycle",
+    "DataDefinition",
+    "DataMap",
+    "DataProject",
+    "DataSecurityRule",
+    "Finding",
+    "Form",
+    "KPI",
+    "Model",
+    "ModelReview",
+    "MonitoringPlan",
+    "RuleSet",
+    "SampleObject",
+    "Script",
+    "User",
+    "WorkflowTemplate"
+  ],
+  "sasProvided": true
+}

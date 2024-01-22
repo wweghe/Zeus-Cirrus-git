@@ -1,0 +1,13 @@
+{
+  "SampleObject.AttributionTemplate.schema.field.objectId.label": "ID do modelo de Atribuição",
+  "SampleObject.library.label.base.Accordion.attribution_template_details.details.title": "Detalhes de Modelo de Atribuição",
+  "SampleObject.library.label.base.Button.save.label": "Guardar",
+  "SampleObject.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.1.title": "Documentação",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.2.title": "Histórico de Alterações",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.tabDetails.title": "Detalhes",
+  "SampleObject.library.label.base.TabView.main_tabs.1.title": "Documentação",
+  "SampleObject.library.label.base.TabView.main_tabs.2.title": "Histórico de Alterações",
+  "SampleObject.library.label.base.TabView.main_tabs.tabDetails.title": "Detalhes",
+  "undefined": "Separador"
+}

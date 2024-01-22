@@ -1,0 +1,17 @@
+{
+  "DataMap.DataMap.schema.field.mapType.label": "ٽشح فغحث",
+  "DataMap.DataMap.schema.field.objectId.label": "ٺشفش ئشح کٺ",
+  "DataMap.library.label.base.Accordion.cycle_details.0.title": "ٺشفش ٽشح ٺثفشهمس",
+  "DataMap.library.label.base.Accordion.instance_details.details.title": "ٺشفش ٽشح ٺثفشهمس",
+  "DataMap.library.label.base.Button.save.label": "ڀشرث",
+  "DataMap.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "ٽشححهدل ٺثفشهمس",
+  "DataMap.library.label.base.ReadonlyFieldWidget.cycle_name_readonly.label": "",
+  "DataMap.library.label.base.ReadonlyFieldWidget.name_readonly.label": "\\ ",
+  "DataMap.library.label.base.RichText.RichText.label": "جهزا ځثطف",
+  "DataMap.library.label.base.TabView.cycle_tabs.0.title": "ٽشححهدل",
+  "DataMap.library.label.base.TabView.cycle_tabs.1.title": "ٺخزعئثدفشفهخد",
+  "DataMap.library.label.base.TabView.data_map_tabs.0.title": "ٺشفش ٽشح ٯففقهذعفثس",
+  "DataMap.library.label.base.TabView.data_map_tabs.1.title": "ٺخزعئثدفشفهخد",
+  "DataMap.library.label.base.TabView.data_map_tabs.2.title": "ژاشدلث آهسفخقغ",
+  "DataMap.library.label.base.TabView.data_map_tabs.tabDetails.title": "ٺثفشهمس"
+}

@@ -1,0 +1,200 @@
+{
+  "onClaimTask": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "1de74759-7f51-48b3-a204-4c65c3c096e1",
+        "type": "fixed",
+        "value": {
+          "datatype": "boolean",
+          "dataval": true
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "true",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setPotentialTasks",
+        "id": "a0c9dc40-221f-4a32-b7df-953c464badce",
+        "params": {
+          "tasks": {
+            "datatype": "boolean",
+            "name": "true",
+            "scope": "local"
+          }
+        },
+        "widgetId": "ClaimTasksTable"
+      }
+    ],
+    "sasProvided": true
+  },
+  "onPageLoad": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "1b0d5ece-f512-48b6-9419-800d91e0dada",
+        "type": "calculated",
+        "value": {
+          "function": "getAppConfigProperty",
+          "library": "CirrusLibConfigProperties",
+          "params": {
+            "propertyName": {
+              "datatype": "text",
+              "scope": "fixed",
+              "value": "Solution.claimTask.enabled"
+            }
+          },
+          "returnType": "\u003cOutgoing\u003e"
+        },
+        "variable": {
+          "datatype": "\u003cOutgoing\u003e",
+          "name": "claimTaskEnabled",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setvar",
+        "id": "d60acb44-165a-485f-b432-cfde889b2374",
+        "isCommented": false,
+        "type": "calculated",
+        "value": {
+          "function": "not",
+          "library": "CirrusLibBoolean",
+          "params": {
+            "bool": {
+              "name": "claimTaskEnabled",
+              "scope": "local"
+            }
+          },
+          "returnType": "boolean"
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "isClaimTaskNotEnabled",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setHidden",
+        "id": "1dd08a66-6ea4-4e9c-ab48-fe541a045943",
+        "params": {
+          "hidden": {
+            "datatype": "boolean",
+            "name": "isClaimTaskNotEnabled",
+            "scope": "local"
+          }
+        },
+        "widgetId": "ClaimTasksTable"
+      },
+      {
+        "action": "setprop",
+        "function": "disableClaiming",
+        "id": "543d2b60-c906-42c0-82a3-c2ff40a3d702",
+        "params": {
+          "claimingDisabled": {
+            "datatype": "boolean",
+            "name": "isClaimTaskNotEnabled",
+            "scope": "local"
+          }
+        },
+        "widgetId": "PotentialTasksTable"
+      }
+    ],
+    "sasProvided": true
+  },
+  "onReleaseTask": {
+    "inputs": [],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "5854ec3b-bbc2-45d5-a540-d212e0f094d3",
+        "type": "fixed",
+        "value": {
+          "datatype": "boolean",
+          "dataval": true
+        },
+        "variable": {
+          "datatype": "boolean",
+          "name": "true",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "setprop",
+        "function": "setClaimedTasks",
+        "id": "99fd0c1b-e384-4b23-8e16-e2f9d028d06f",
+        "params": {
+          "tasks": {
+            "datatype": "boolean",
+            "name": "true",
+            "scope": "local"
+          }
+        },
+        "scope": "currentPage",
+        "widgetId": "PotentialTasksTable"
+      }
+    ],
+    "sasProvided": true
+  },
+  "onSelectTask": {
+    "inputs": [
+      {
+        "datatype": "text",
+        "name": "input_key"
+      },
+      {
+        "datatype": "text",
+        "name": "input_objectType"
+      },
+      {
+        "datatype": "text",
+        "name": "input_taskId"
+      }
+    ],
+    "logic": [
+      {
+        "action": "setvar",
+        "id": "d21a892c-7e39-4a60-b54d-d00a19b3ef09",
+        "type": "calculated",
+        "value": {
+          "function": "getEditLocation",
+          "library": "CirrusLibNav",
+          "params": {
+            "key": {
+              "datatype": "text",
+              "name": "input_key",
+              "scope": "local"
+            },
+            "objectType": {
+              "datatype": "text",
+              "name": "input_objectType",
+              "scope": "local"
+            }
+          },
+          "returnType": "text"
+        },
+        "variable": {
+          "datatype": "text",
+          "name": "navigationLink",
+          "scope": "local"
+        }
+      },
+      {
+        "action": "nav",
+        "id": "2ad37773-1bea-4ce2-8d07-937bb30fb4e1",
+        "location": {
+          "datatype": "text",
+          "name": "navigationLink",
+          "scope": "local"
+        }
+      }
+    ],
+    "sasProvided": true
+  }
+}
