@@ -1,0 +1,4 @@
+requests>=2.22.0
+openpyxl>=3.0.3
+urllib3>=1.25.8
+pyjwt[crypto]>=2.8.0
