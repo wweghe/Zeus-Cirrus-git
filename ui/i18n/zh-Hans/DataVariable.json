@@ -1,0 +1,8 @@
+{
+  "DataVariable.library.label.base.Button.save_button.label": "保存",
+  "DataVariable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.changeHistory.title": "更改历史",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.details.title": "详细信息",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.documentation.title": "文档",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.relatedObjects.title": "相关对象"
+}

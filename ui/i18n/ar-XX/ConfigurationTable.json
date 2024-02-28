@@ -1,0 +1,23 @@
+{
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd.label": "ڀفشفث",
+  "ConfigurationTable.ConfigurationTable.schema.field.statusCd_1.label": "ڀفشفعس",
+  "ConfigurationTable.library.label.base.Accordion.instance_details.details.title": "ژخدبهلعقشفهخد ځشذمث ٺثفشهمس",
+  "ConfigurationTable.library.label.base.Attachments.additional_attachments.label": "ٺخزعئثدفشفهخد شففشزائثدفس",
+  "ConfigurationTable.library.label.base.Button.save.label": "ڀشرث",
+  "ConfigurationTable.library.label.base.CirrusObjectsLinks.documentation_links.label": "ٺخزعئثدفشفهخد مهدنس",
+  "ConfigurationTable.library.label.base.Comments.additional_comments.label": "ژخئئثدفس",
+  "ConfigurationTable.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget_1.label": "ڀحقثشڈساثثف",
+  "ConfigurationTable.library.label.base.InputText.name.label": "ژخدبهلعقشفهخد فشذمث دشئث",
+  "ConfigurationTable.library.label.base.InputText.objectId.label": "ژخدبهلعقشفهخد فشذمث کٺ",
+  "ConfigurationTable.library.label.base.InputTextarea.description.label": "ژخدبهلعقشفهخد فشذمث ڈثسزقهحفهخد",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.help.label": "کب شدغ خب فاث مهدنثڈ زخدبهلعقشفهخد سثفس شقث هد حقخڈعزفهخد سفشفعس, زخدبهلعقشفهخد فشذمث هس زخدسهڈثقثڈ شس حقخڈعزفهخد شس صثمم.",
+  "ConfigurationTable.library.label.base.RadioButtonFieldWidget.isProduction.label": "کس ےقخڈعزفهخد",
+  "ConfigurationTable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "\\ ",
+  "ConfigurationTable.library.label.base.RichText.RichText_1.label": "جهزا ځثطف",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabChangeHistory.title": "ژاشدلث آهسفخقغ",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabData.title": "ٺشفش",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDetails.title": "ٺثفشهمس",
+  "ConfigurationTable.library.label.base.TabView.configurationtable_tabs.tabDocumentation.title": "ٺخزعئثدفشفهخد",
+  "ConfigurationTable.schema.field.ConfigurationSet.validation.summary.label": "گدث خق ئخقث خب فاث مهدنثڈ زخدبهلعقشفهخد سثفس هس شمقثشڈغ شسسخزهشفثڈ صهفا ش زخدبهلعقشفهخد فشذمث خب فغحث: ",
+  "ConfigurationTable.schema.field.ConfigurationSet.validation.title.label": "ہهدنثڈ زخدبهلعقشفهخد سثفس شقث هدرشمهڈ"
+}

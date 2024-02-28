@@ -1,0 +1,456 @@
+{
+  "layouts": {
+    "base": {
+      "dataVariableStatus": {
+        "h": 62,
+        "i": "dataVariableStatus",
+        "minH": 52,
+        "minW": 3,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 82
+      },
+      "dataVariable_tabs": {
+        "h": 572,
+        "i": "dataVariable_tabs",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 186
+      },
+      "header_container": {
+        "h": 105,
+        "i": "header_container",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 5,
+        "x": 7,
+        "y": 19
+      },
+      "name_readonly": {
+        "h": 29,
+        "i": "name_readonly",
+        "minH": 24,
+        "minW": 1,
+        "moved": false,
+        "static": false,
+        "w": 3,
+        "x": 0,
+        "y": 26
+      }
+    },
+    "dataVariable_tabs": {
+      "changeHistory": {
+        "ChangeHistory": {
+          "h": 326,
+          "i": "ChangeHistory",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "details": {
+        "dataVariableRole": {
+          "h": 52,
+          "i": "dataVariableRole",
+          "minH": 52,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 6,
+          "y": 51
+        },
+        "description": {
+          "h": 50,
+          "i": "description",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 247
+        },
+        "label": {
+          "h": 50,
+          "i": "label",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 105
+        },
+        "name_1": {
+          "h": 50,
+          "i": "name_1",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 171
+        },
+        "objectId": {
+          "h": 50,
+          "i": "objectId",
+          "minH": 50,
+          "minW": 3,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 0,
+          "y": 30
+        }
+      },
+      "documentation": {
+        "additional_comments": {
+          "h": 431,
+          "i": "additional_comments",
+          "minH": 236,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 6,
+          "y": 8
+        },
+        "documentation_attachments": {
+          "h": 155,
+          "i": "documentation_attachments",
+          "minH": 100,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 5,
+          "x": 0,
+          "y": 10
+        },
+        "documentation_links": {
+          "h": 260,
+          "i": "documentation_links",
+          "minH": 100,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 4,
+          "x": 0,
+          "y": 187
+        }
+      },
+      "relatedObjects": {
+        "linkedDataProjects": {
+          "h": 429,
+          "i": "linkedDataProjects",
+          "minH": 50,
+          "minW": 4,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 21
+        }
+      }
+    },
+    "header_container": {
+      "default": {
+        "save_button": {
+          "h": 36,
+          "i": "save_button",
+          "minH": 26,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 3,
+          "x": 8,
+          "y": 16
+        }
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "draft": {
+        "name": "onDraftLoad"
+      },
+      "edit": {
+        "name": "onEditLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {
+        "name": "onAnyEvent"
+      },
+      "onTabClose": {
+        "name": "onTabClose"
+      }
+    },
+    "props": {
+      "description": "",
+      "icon": "base://VARIABLE_VALUE",
+      "id": "DataVariable",
+      "label": "Data Variable",
+      "tabLabel": ""
+    }
+  },
+  "structure": {
+    "base": {
+      "dataVariableStatus": {
+        "compName": "Dropdown",
+        "containerId": "base",
+        "fieldName": "dataVariableStatus",
+        "id": "dataVariableStatus",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "colon": true
+        },
+        "sasProvided": true,
+        "versionAdded": "2024.02"
+      },
+      "dataVariable_tabs": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "dataVariable_tabs",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 1,
+          "childProps": {
+            "changeHistory": {
+              "label": "Change History",
+              "name": "changeHistory",
+              "position": 3
+            },
+            "details": {
+              "label": "Details",
+              "name": "details",
+              "position": 0
+            },
+            "documentation": {
+              "label": "Documentation",
+              "name": "documentation",
+              "position": 2
+            },
+            "relatedObjects": {
+              "label": "Related Objects",
+              "name": "relatedObjects",
+              "position": 1
+            }
+          }
+        },
+        "sasProvided": true,
+        "versionAdded": "2024.02"
+      },
+      "header_container": {
+        "compName": "GroupableContainer",
+        "containerId": "base",
+        "id": "header_container",
+        "label": "appbuilder.toolboxitem.groupableContainer.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "default": {
+              "name": "default",
+              "position": 0
+            }
+          }
+        },
+        "sasProvided": true,
+        "versionAdded": "2024.02"
+      },
+      "name_readonly": {
+        "compName": "ReadonlyFieldWidget",
+        "containerId": "base",
+        "id": "name_readonly",
+        "label": "appbuilder.toolboxitem.readonlyfield.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "align": "start",
+          "boldLabel": true,
+          "boldValue": true,
+          "colon": false,
+          "stacked": true
+        },
+        "sasProvided": true,
+        "versionAdded": "2024.02"
+      }
+    },
+    "dataVariable_tabs": {
+      "changeHistory": {
+        "ChangeHistory": {
+          "compName": "ChangeHistory",
+          "containerId": "dataVariable_tabs",
+          "id": "ChangeHistory",
+          "label": "appbuilder.toolboxitem.changeHistory.title",
+          "libName": "base",
+          "parentId": "dataVariable_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2024.02"
+        }
+      },
+      "details": {
+        "dataVariableRole": {
+          "compName": "Dropdown",
+          "containerId": "dataVariable_tabs",
+          "fieldName": "dataVariableRole",
+          "id": "dataVariableRole",
+          "libName": "base",
+          "parentId": "dataVariable_tabs",
+          "props": {
+            "align": "start",
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2024.02"
+        },
+        "description": {
+          "compName": "InputTextarea",
+          "containerId": "dataVariable_tabs",
+          "fieldName": "description",
+          "id": "description",
+          "libName": "base",
+          "parentId": "dataVariable_tabs",
+          "props": {
+            "colon": true,
+            "rows": 3
+          },
+          "sasProvided": true,
+          "versionAdded": "2024.02"
+        },
+        "label": {
+          "compName": "InputText",
+          "containerId": "dataVariable_tabs",
+          "events": {
+            "onChange": {
+              "name": "onNameChange"
+            }
+          },
+          "fieldName": "label",
+          "id": "label",
+          "libName": "base",
+          "parentId": "dataVariable_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2024.02"
+        },
+        "name_1": {
+          "compName": "InputText",
+          "containerId": "dataVariable_tabs",
+          "fieldName": "name",
+          "id": "name_1",
+          "libName": "base",
+          "parentId": "dataVariable_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2024.02"
+        },
+        "objectId": {
+          "compName": "InputText",
+          "containerId": "dataVariable_tabs",
+          "fieldName": "objectId",
+          "id": "objectId",
+          "libName": "base",
+          "parentId": "dataVariable_tabs",
+          "props": {
+            "colon": true
+          },
+          "sasProvided": true,
+          "versionAdded": "2024.02"
+        }
+      },
+      "documentation": {
+        "additional_comments": {
+          "compName": "Comments",
+          "containerId": "dataVariable_tabs",
+          "fieldName": "additional_comments",
+          "id": "additional_comments",
+          "libName": "base",
+          "parentId": "dataVariable_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2024.02"
+        },
+        "documentation_attachments": {
+          "compName": "CirrusObjectsAttachments",
+          "containerId": "dataVariable_tabs",
+          "fieldName": "documentation_attachments",
+          "id": "documentation_attachments",
+          "libName": "base",
+          "parentId": "dataVariable_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2024.02"
+        },
+        "documentation_links": {
+          "compName": "CirrusObjectsLinks",
+          "containerId": "dataVariable_tabs",
+          "fieldName": "documentation_links",
+          "id": "documentation_links",
+          "libName": "base",
+          "parentId": "dataVariable_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2024.02"
+        }
+      },
+      "relatedObjects": {
+        "linkedDataProjects": {
+          "compName": "CirrusObjectsRelationshipContainer",
+          "containerId": "dataVariable_tabs",
+          "fieldName": "linkedDataProjects",
+          "id": "linkedDataProjects",
+          "libName": "base",
+          "parentId": "dataVariable_tabs",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2024.02"
+        }
+      }
+    },
+    "header_container": {
+      "default": {
+        "save_button": {
+          "compName": "Button",
+          "containerId": "header_container",
+          "events": {
+            "click": {
+              "name": "onSave"
+            }
+          },
+          "id": "save_button",
+          "label": "appbuilder.toolboxitem.button.title",
+          "libName": "base",
+          "parentId": "header_container",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2024.02"
+        }
+      }
+    }
+  }
+}

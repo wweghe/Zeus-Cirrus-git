@@ -1,0 +1,17 @@
+{
+  "DataMap.DataMap.schema.field.mapType.label": "Zuordnungstyp",
+  "DataMap.DataMap.schema.field.objectId.label": "Datenzuordnungs-ID",
+  "DataMap.library.label.base.Accordion.cycle_details.0.title": "Datenzuordnungs-Details",
+  "DataMap.library.label.base.Accordion.instance_details.details.title": "Datenzuordnungs-Details",
+  "DataMap.library.label.base.Button.save.label": "Speichern",
+  "DataMap.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "Zuordnungsdetails",
+  "DataMap.library.label.base.ReadonlyFieldWidget.cycle_name_readonly.label": "",
+  "DataMap.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "DataMap.library.label.base.RichText.RichText.label": "Rich-Text",
+  "DataMap.library.label.base.TabView.cycle_tabs.0.title": "Zuordnung",
+  "DataMap.library.label.base.TabView.cycle_tabs.1.title": "Dokumentation",
+  "DataMap.library.label.base.TabView.data_map_tabs.0.title": "Datenzuordnungsattribute",
+  "DataMap.library.label.base.TabView.data_map_tabs.1.title": "Dokumentation",
+  "DataMap.library.label.base.TabView.data_map_tabs.2.title": "Änderungshistorie",
+  "DataMap.library.label.base.TabView.data_map_tabs.tabDetails.title": "Details"
+}

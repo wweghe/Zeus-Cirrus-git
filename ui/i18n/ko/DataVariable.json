@@ -1,0 +1,8 @@
+{
+  "DataVariable.library.label.base.Button.save_button.label": "저장",
+  "DataVariable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.changeHistory.title": "변경 히스토리",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.details.title": "상세 정보",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.documentation.title": "문서",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.relatedObjects.title": "관련 개체"
+}

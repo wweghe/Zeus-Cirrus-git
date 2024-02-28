@@ -1,0 +1,17 @@
+{
+  "KPI.KPI.schema.field.category.label": "ＸKPI category补 补补Ｚ",
+  "KPI.KPI.schema.field.threshold.color.validation.message.label": "ＸYou cannot change the default threshold interval colors.补 补补补补 补补Ｚ",
+  "KPI.KPI.schema.field.threshold.color.validation.summary.label": "ＸThreshold Interval Colors补 补补补补Ｚ",
+  "KPI.KPI.schema.field.thresholdsApplicable.help.label": "ＸThis option enables you to set thresholds for monitoring the KPI's health. Select this option if the KPI is a single measurable value.补 补补补补 补补补补补 Ｚ",
+  "KPI.KPI.schema.field.thresholdsBetterBound.help.label": "ＸThe application assigns the threshold's color band based on the KPI health range selected.补 补补补补 补补Ｚ",
+  "KPI.KPI.schema.field.thresholdsBetterBound.label": "ＸWhich of the following KPI values represents better health?补 补补补补 补补Ｚ",
+  "KPI.library.label.base.BasicMessageStrip.BasicMessageStrip.messageStripText.label": "ＸThis KPI is linked to a monitoring plan, any subsequent changes in threshold will not affect the associated monitoring plan. Associate the KPI again with the monitoring plan to apply the latest changes.补 补补补补 补补补补补 补补补补补 补Ｚ",
+  "KPI.library.label.base.Button.save_button.label": "ＸSave补补Ｚ",
+  "KPI.library.label.base.ReadonlyFieldWidget.name_readonly.label": "Ｘ Ｚ",
+  "KPI.library.label.base.TabView.TabView.changeHistory.title": "ＸChange History补 补补Ｚ",
+  "KPI.library.label.base.TabView.TabView.code.title": "ＸCode补补Ｚ",
+  "KPI.library.label.base.TabView.TabView.details.title": "ＸDetails补补Ｚ",
+  "KPI.library.label.base.TabView.TabView.documentation.title": "ＸDocumentation补 补补Ｚ",
+  "KPI.library.label.base.TabView.TabView.relatedObjects.title": "ＸRelated Objects补 补补Ｚ",
+  "KPI.library.label.base.TabView.TabView.threshold.title": "ＸThreshold补补补Ｚ"
+}

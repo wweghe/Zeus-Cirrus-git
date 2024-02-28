@@ -1,0 +1,368 @@
+{
+  "layouts": {
+    "TabView": {
+      "report1": {
+        "report1": {
+          "h": 750,
+          "i": "report1",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "report10": {
+        "report10": {
+          "h": 750,
+          "i": "report10",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "report2": {
+        "report2": {
+          "h": 750,
+          "i": "report2",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "report3": {
+        "report3": {
+          "h": 750,
+          "i": "report3",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "report4": {
+        "report4": {
+          "h": 750,
+          "i": "report4",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "report5": {
+        "report5": {
+          "h": 750,
+          "i": "report5",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "report6": {
+        "report6": {
+          "h": 750,
+          "i": "report6",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "report7": {
+        "report7": {
+          "h": 750,
+          "i": "report7",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 27
+        }
+      },
+      "report8": {
+        "report8": {
+          "h": 750,
+          "i": "report8",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "report9": {
+        "report9": {
+          "h": 750,
+          "i": "report9",
+          "minH": 30,
+          "minW": 1,
+          "moved": false,
+          "static": false,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "base": {
+      "TabView": {
+        "h": 750,
+        "i": "TabView",
+        "minH": 50,
+        "minW": 2,
+        "moved": false,
+        "static": false,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "page": {
+    "entrypoints": {
+      "onPageLoad": {
+        "name": "onPageLoad"
+      }
+    },
+    "events": {
+      "onAnyEvent": {},
+      "onTabClose": {}
+    },
+    "props": {
+      "description": "",
+      "icon": "base://GAUGE_DASHBOARD_COMPONENT",
+      "id": "Dashboard",
+      "label": "Dashboard",
+      "tabLabel": "Dashboard"
+    }
+  },
+  "structure": {
+    "TabView": {
+      "report1": {
+        "report1": {
+          "compName": "ReportingDashboard",
+          "containerId": "TabView",
+          "id": "report1",
+          "label": "appbuilder.toolboxitem.reportingDashboard.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.02"
+        }
+      },
+      "report10": {
+        "report10": {
+          "compName": "ReportingDashboard",
+          "containerId": "TabView",
+          "id": "report10",
+          "label": "appbuilder.toolboxitem.reportingDashboard.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.12"
+        }
+      },
+      "report2": {
+        "report2": {
+          "compName": "ReportingDashboard",
+          "containerId": "TabView",
+          "id": "report2",
+          "label": "appbuilder.toolboxitem.reportingDashboard.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        }
+      },
+      "report3": {
+        "report3": {
+          "compName": "ReportingDashboard",
+          "containerId": "TabView",
+          "id": "report3",
+          "label": "appbuilder.toolboxitem.reportingDashboard.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        }
+      },
+      "report4": {
+        "report4": {
+          "compName": "ReportingDashboard",
+          "containerId": "TabView",
+          "id": "report4",
+          "label": "appbuilder.toolboxitem.reportingDashboard.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        }
+      },
+      "report5": {
+        "report5": {
+          "compName": "ReportingDashboard",
+          "containerId": "TabView",
+          "id": "report5",
+          "label": "appbuilder.toolboxitem.reportingDashboard.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.05"
+        }
+      },
+      "report6": {
+        "report6": {
+          "compName": "ReportingDashboard",
+          "containerId": "TabView",
+          "id": "report6",
+          "label": "appbuilder.toolboxitem.reportingDashboard.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.12"
+        }
+      },
+      "report7": {
+        "report7": {
+          "compName": "ReportingDashboard",
+          "containerId": "TabView",
+          "id": "report7",
+          "label": "appbuilder.toolboxitem.reportingDashboard.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.12"
+        }
+      },
+      "report8": {
+        "report8": {
+          "compName": "ReportingDashboard",
+          "containerId": "TabView",
+          "id": "report8",
+          "label": "appbuilder.toolboxitem.reportingDashboard.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.12"
+        }
+      },
+      "report9": {
+        "report9": {
+          "compName": "ReportingDashboard",
+          "containerId": "TabView",
+          "id": "report9",
+          "label": "appbuilder.toolboxitem.reportingDashboard.title",
+          "libName": "base",
+          "parentId": "TabView",
+          "props": {},
+          "sasProvided": true,
+          "versionAdded": "2023.12"
+        }
+      }
+    },
+    "base": {
+      "TabView": {
+        "compName": "TabView",
+        "containerId": "base",
+        "id": "TabView",
+        "label": "appbuilder.toolboxitem.tabview.title",
+        "libName": "base",
+        "parentId": "base",
+        "props": {
+          "activeIndex": 0,
+          "childProps": {
+            "report1": {
+              "label": "Report 1",
+              "name": "report1",
+              "position": 0
+            },
+            "report10": {
+              "label": "Report 10",
+              "name": "report10",
+              "position": 9
+            },
+            "report2": {
+              "label": "Report 2",
+              "name": "report2",
+              "position": 1
+            },
+            "report3": {
+              "label": "Report 3",
+              "name": "report3",
+              "position": 2
+            },
+            "report4": {
+              "label": "Report 4",
+              "name": "report4",
+              "position": 3
+            },
+            "report5": {
+              "label": "Report 5",
+              "name": "report5",
+              "position": 4
+            },
+            "report6": {
+              "label": "Report 6",
+              "name": "report6",
+              "position": 5
+            },
+            "report7": {
+              "label": "Report 7",
+              "name": "report7",
+              "position": 6
+            },
+            "report8": {
+              "label": "Report 8",
+              "name": "report8",
+              "position": 7
+            },
+            "report9": {
+              "label": "Report 9",
+              "name": "report9",
+              "position": 8
+            }
+          }
+        },
+        "sasProvided": true,
+        "versionAdded": "2023.05"
+      }
+    }
+  }
+}

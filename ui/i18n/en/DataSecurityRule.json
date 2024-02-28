@@ -1,0 +1,12 @@
+{
+  "DataSecurityRule.DataSecurityRule.schema.field.objectId.label": "Data security rules ID",
+  "DataSecurityRule.DataSecurityRule.schema.field.securityRules.label": "Security rules",
+  "DataSecurityRule.library.label.base.Accordion.classification_accordion.classifications.title": "Classifications",
+  "DataSecurityRule.library.label.base.Accordion.instance_details.details.title": "Data Security Rule Details",
+  "DataSecurityRule.library.label.base.Button.save.label": "Save",
+  "DataSecurityRule.library.label.base.ReadonlyFieldWidget.name_readonly.label": " ",
+  "DataSecurityRule.library.label.base.TabView.TabView.0.title": "Security Rules",
+  "DataSecurityRule.library.label.base.TabView.TabView.1.title": "Documentation",
+  "DataSecurityRule.library.label.base.TabView.TabView.2.title": "Change History",
+  "DataSecurityRule.library.label.base.TabView.TabView.tab_details.title": "Details"
+}

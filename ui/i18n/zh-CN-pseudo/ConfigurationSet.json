@@ -1,0 +1,19 @@
+{
+  "ConfigurationSet.ConfigurationSet.schema.field.linkedConfigurationTables.label": "ＸConfiguration Tables补 补补补补Ｚ",
+  "ConfigurationSet.ConfigurationSet.schema.field.statusCd.label": "ＸState补补Ｚ",
+  "ConfigurationSet.library.label.base.Accordion.instance_details.details.title": "ＸConfiguration Set Details补 补补补补Ｚ",
+  "ConfigurationSet.library.label.base.Button.save.label": "ＸSave补补Ｚ",
+  "ConfigurationSet.library.label.base.CirrusObjectsLinks.documentation_links.label": "ＸDocumentation links补 补补补补Ｚ",
+  "ConfigurationSet.library.label.base.Comments.additional_comments.label": "ＸComments补补补Ｚ",
+  "ConfigurationSet.library.label.base.InputText.name.label": "ＸConfiguration set name补 补补补补Ｚ",
+  "ConfigurationSet.library.label.base.InputText.objectId.label": "ＸConfiguration set ID补 补补补补Ｚ",
+  "ConfigurationSet.library.label.base.InputTextarea.description.label": "ＸConfiguration set description补 补补补补Ｚ",
+  "ConfigurationSet.library.label.base.ReadonlyFieldWidget.name_readonly.label": "Ｘ Ｚ",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.0.title": "ＸDetails补补Ｚ",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.1.title": "ＸDocumentation补 补补Ｚ",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.2.title": "ＸChange History补 补补Ｚ",
+  "ConfigurationSet.library.label.base.TabView.configurationset_tabs.tabRelatedObjects.title": "ＸRelated Objects补 补补Ｚ",
+  "ConfigurationSet.schema.field.ConfigurationTable.statusCd.validation.summary.label": "ＸThe status of a configuration set can only be promoted to production if all associated configuration tables are also in production.补 补补补补 补补补补补 Ｚ",
+  "ConfigurationSet.schema.field.ConfigurationTable.validation.summary.label": "ＸA configuration set cannot be saved with linked configuration tables of the same type.补 补补补补 补补Ｚ",
+  "ConfigurationSet.schema.field.ConfigurationTable.validation.title.label": "ＸLinked configuration tables are invalid补 补补补补 Ｚ"
+}

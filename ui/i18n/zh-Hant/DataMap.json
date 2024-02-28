@@ -1,0 +1,17 @@
+{
+  "DataMap.DataMap.schema.field.mapType.label": "對應類型",
+  "DataMap.DataMap.schema.field.objectId.label": "資料對應 ID",
+  "DataMap.library.label.base.Accordion.cycle_details.0.title": "資料對應詳細資料",
+  "DataMap.library.label.base.Accordion.instance_details.details.title": "資料對應詳細資料",
+  "DataMap.library.label.base.Button.save.label": "儲存",
+  "DataMap.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "對應詳細資料",
+  "DataMap.library.label.base.ReadonlyFieldWidget.cycle_name_readonly.label": "",
+  "DataMap.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "DataMap.library.label.base.RichText.RichText.label": "RTF 文字",
+  "DataMap.library.label.base.TabView.cycle_tabs.0.title": "對應",
+  "DataMap.library.label.base.TabView.cycle_tabs.1.title": "文件",
+  "DataMap.library.label.base.TabView.data_map_tabs.0.title": "資料對應屬性",
+  "DataMap.library.label.base.TabView.data_map_tabs.1.title": "文件",
+  "DataMap.library.label.base.TabView.data_map_tabs.2.title": "變更歷程記錄",
+  "DataMap.library.label.base.TabView.data_map_tabs.tabDetails.title": "詳細資料"
+}

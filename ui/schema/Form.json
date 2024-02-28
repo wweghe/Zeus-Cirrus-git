@@ -1,0 +1,241 @@
+{
+  "apiName": "forms",
+  "defaultSortingField": "creationTimeStamp",
+  "defaultSortingType": "desc",
+  "fields": {
+    "additionalComments": {
+      "id": "additionalComments",
+      "label": "Additional Comments",
+      "newId": "additionalComments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Comments",
+        "libName": "base"
+      }
+    },
+    "createdBy": {
+      "id": "createdBy",
+      "label": "Creator",
+      "newId": "createdBy",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "createdInTag": {
+      "id": "createdInTag",
+      "label": "Created in",
+      "newId": "createdInTag",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "creationTimeStamp": {
+      "id": "creationTimeStamp",
+      "index": 4,
+      "label": "Date created",
+      "newId": "creationTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "default": {
+      "id": "default",
+      "label": "Default classification",
+      "newId": "default",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsClassification",
+        "libName": "base"
+      }
+    },
+    "description": {
+      "id": "description",
+      "index": 10,
+      "label": "Form description",
+      "newId": "description",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "formBuilder": {
+      "id": "formBuilder",
+      "label": "Build forms",
+      "newId": "formBuilder",
+      "props": {},
+      "tableMeta": {},
+      "type": {
+        "compName": "EmbeddedBuilder",
+        "libName": "base"
+      }
+    },
+    "formLinks": {
+      "id": "formLinks",
+      "label": "Form-Related Links",
+      "newId": "formLinks",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsLinks",
+        "libName": "base"
+      }
+    },
+    "modifiedBy": {
+      "id": "modifiedBy",
+      "label": "Last editor",
+      "newId": "modifiedBy",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "modifiedTimeStamp": {
+      "id": "modifiedTimeStamp",
+      "label": "Date modified",
+      "newId": "modifiedTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "name": {
+      "id": "name",
+      "label": "Form name",
+      "newId": "name",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "objectId": {
+      "id": "objectId",
+      "label": "Form ID",
+      "newId": "objectId",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "supportingDoc": {
+      "id": "supportingDoc",
+      "label": "Supporting Documentation",
+      "newId": "supportingDoc",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsAttachments",
+        "libName": "base"
+      }
+    },
+    "usageType": {
+      "id": "usageType",
+      "index": 13,
+      "label": "Usage type",
+      "newId": "usageType",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    }
+  },
+  "id": "Form",
+  "index": 14,
+  "labelPlural": "Forms",
+  "labelSingular": "Form",
+  "nameField": "name",
+  "relationships": {
+    "form_model": {
+      "cardinality": "manyToMany",
+      "sourceLabel": "Form",
+      "sourceLabelPlural": "Forms",
+      "sourceName": "linkedForm",
+      "sourceSysCode": "RCC",
+      "sourceType": "Form",
+      "targetLabel": "Model",
+      "targetLabelPlural": "Models",
+      "targetName": "linkedModels",
+      "targetType": "Model",
+      "type": "lookup"
+    }
+  },
+  "tasks": {}
+}

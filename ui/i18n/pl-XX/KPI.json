@@ -1,0 +1,17 @@
+{
+  "KPI.KPI.schema.field.category.label": "[KPÍ ćąţęgőřy@ @@@]",
+  "KPI.KPI.schema.field.threshold.color.validation.message.label": "[Yőű ćąňňőţ ćhąňgę ţhę đęfąűłţ ţhřęśhőłđ íňţęřvął ćőłőřś.@ @@@@ @@@@@]",
+  "KPI.KPI.schema.field.threshold.color.validation.summary.label": "[Ţhřęśhőłđ Íňţęřvął Ćőłőřś@ @@@@ @]",
+  "KPI.KPI.schema.field.thresholdsApplicable.help.label": "[Ţhíś őpţíőň ęňąbłęś yőű ţő śęţ ţhřęśhőłđś főř mőňíţőříňg ţhę KPÍ'ś hęąłţh. Śęłęćţ ţhíś őpţíőň íf ţhę KPÍ íś ą śíňgłę męąśűřąbłę vąłűę.@ @@@@ @@@@@ @@@@]",
+  "KPI.KPI.schema.field.thresholdsBetterBound.help.label": "[Ţhę ąppłíćąţíőň ąśśígňś ţhę ţhřęśhőłđ'ś ćőłőř bąňđ bąśęđ őň ţhę KPÍ hęąłţh řąňgę śęłęćţęđ.@ @@@@ @@@@@]",
+  "KPI.KPI.schema.field.thresholdsBetterBound.label": "[Whíćh őf ţhę főłłőwíňg KPÍ vąłűęś řępřęśęňţś bęţţęř hęąłţh?@ @@@@ @@@@@]",
+  "KPI.library.label.base.BasicMessageStrip.BasicMessageStrip.messageStripText.label": "[Ţhíś KPÍ íś łíňkęđ ţő ą mőňíţőříňg płąň, ąňy śűbśęqűęňţ ćhąňgęś íň ţhřęśhőłđ wíłł ňőţ ąffęćţ ţhę ąśśőćíąţęđ mőňíţőříňg płąň. Ąśśőćíąţę ţhę KPÍ ągąíň wíţh ţhę mőňíţőříňg płąň ţő ąppły ţhę łąţęśţ ćhąňgęś.@ @@@@ @@@@@ @@@@@ @@@@@ @]",
+  "KPI.library.label.base.Button.save_button.label": "[Śąvę@@@]",
+  "KPI.library.label.base.ReadonlyFieldWidget.name_readonly.label": "[ ]",
+  "KPI.library.label.base.TabView.TabView.changeHistory.title": "[Ćhąňgę Híśţőřy@ @@@]",
+  "KPI.library.label.base.TabView.TabView.code.title": "[Ćőđę@@@]",
+  "KPI.library.label.base.TabView.TabView.details.title": "[Đęţąíłś@@@]",
+  "KPI.library.label.base.TabView.TabView.documentation.title": "[Đőćűmęňţąţíőň@ @@@]",
+  "KPI.library.label.base.TabView.TabView.relatedObjects.title": "[Řęłąţęđ Őbjęćţś@ @@@@]",
+  "KPI.library.label.base.TabView.TabView.threshold.title": "[Ţhřęśhőłđ@ @@]"
+}

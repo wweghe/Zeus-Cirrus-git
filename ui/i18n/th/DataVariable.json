@@ -1,0 +1,8 @@
+{
+  "DataVariable.library.label.base.Button.save_button.label": "บันทึก",
+  "DataVariable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.changeHistory.title": "ประวัติการเปลี่ยนแปลง",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.details.title": "รายละเอียด",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.documentation.title": "เอกสารประกอบ",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.relatedObjects.title": "ออบเจ็กต์ที่เกี่ยวข้อง"
+}

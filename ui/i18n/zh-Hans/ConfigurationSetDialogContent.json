@@ -1,0 +1,9 @@
+{
+  "ConfigurationSetDialogContent.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.help.label": "选择您要复制和编辑的配置表。保存新配置集时，尚未选择的所有其他表将保持不变。",
+  "ConfigurationSetDialogContent.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "选择要复制和编辑的配置表",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.description.label": "配置集说明",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.name.label": "配置集名称",
+  "ConfigurationSetDialogContent.library.label.base.InputTextWidget.objectId.label": "配置集 ID",
+  "ConfigurationSetDialogContent.library.label.base.TabView.TabView.configurationTables.title": "配置表",
+  "ConfigurationSetDialogContent.library.label.base.TabView.TabView.details.title": "详细信息"
+}

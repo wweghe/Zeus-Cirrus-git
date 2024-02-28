@@ -1,0 +1,4 @@
+{
+  "AnalysisRuns.library.label.base.Template.ObjectManagerTemplate.label": "템플릿 페이지",
+  "AnalysisRuns.script.validation.summary.label": "프로덕션이 아닌 스크립트를 참조한다면 프로덕션 분석 런을 저장할 수 없습니다."
+}

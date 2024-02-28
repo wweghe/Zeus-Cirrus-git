@@ -1,0 +1,8 @@
+{
+  "DataVariable.library.label.base.Button.save_button.label": "儲存",
+  "DataVariable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.changeHistory.title": "變更歷程記錄",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.details.title": "詳細資料",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.documentation.title": "文件",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.relatedObjects.title": "相關物件"
+}

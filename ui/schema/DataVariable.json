@@ -1,0 +1,323 @@
+{
+  "apiName": "dataVariables",
+  "defaultSortingField": "label",
+  "fields": {
+    "additional_attachments": {
+      "id": "additional_attachments",
+      "index": 10,
+      "label": "Variable-related links",
+      "newId": "additional_attachments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsAttachments",
+        "libName": "base"
+      }
+    },
+    "additional_comments": {
+      "id": "additional_comments",
+      "index": 0,
+      "label": "Additional comments",
+      "newId": "additional_comments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Comments",
+        "libName": "base"
+      }
+    },
+    "createdBy": {
+      "id": "createdBy",
+      "index": 1,
+      "label": "Creator",
+      "newId": "createdBy",
+      "props": {
+        "maxLength": null
+      },
+      "tableMeta": {
+        "isHideColumn": false,
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "creationTimeStamp": {
+      "id": "creationTimeStamp",
+      "index": 1,
+      "label": "Date created",
+      "newId": "creationTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isHideColumn": false,
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "dataVariableRole": {
+      "id": "dataVariableRole",
+      "index": 12,
+      "label": "Variable role",
+      "newId": "dataVariableRole",
+      "props": {
+        "emptyValue": "Empty",
+        "options": [
+          {
+            "label": "Input",
+            "value": "INPUT"
+          }
+        ]
+      },
+      "tableMeta": {
+        "isHideColumn": false,
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "dataVariableStatus": {
+      "id": "dataVariableStatus",
+      "index": 13,
+      "label": "Variable state",
+      "newId": "dataVariableStatus",
+      "props": {
+        "emptyValue": "Empty",
+        "options": [
+          {
+            "label": "Developing",
+            "value": "DEV"
+          }
+        ]
+      },
+      "tableMeta": {
+        "isHideColumn": false,
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "Dropdown",
+        "libName": "base"
+      }
+    },
+    "default ": {
+      "id": "default ",
+      "label": "Default classification",
+      "newId": "default ",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsClassification",
+        "libName": "base"
+      }
+    },
+    "description": {
+      "id": "description",
+      "index": 8,
+      "label": "Variable description",
+      "newId": "description",
+      "props": {
+        "maxLength": 4000
+      },
+      "tableMeta": {
+        "isHideColumn": false,
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputTextarea",
+        "libName": "base"
+      }
+    },
+    "documentation_attachments": {
+      "id": "documentation_attachments",
+      "label": "Documentation Attachments",
+      "newId": "documentation_attachments",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsAttachments",
+        "libName": "base"
+      }
+    },
+    "documentation_links": {
+      "id": "documentation_links",
+      "index": 4,
+      "label": "Supporting documentation link",
+      "newId": "documentation_links",
+      "props": {},
+      "tableMeta": {
+        "isSearchable": false,
+        "isShownByDefault": false,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": false
+      },
+      "type": {
+        "compName": "CirrusObjectsLinks",
+        "libName": "base"
+      }
+    },
+    "label": {
+      "id": "label",
+      "index": 10,
+      "label": "Variable name",
+      "newId": "label",
+      "props": {
+        "maxLength": 200
+      },
+      "tableMeta": {
+        "isHideColumn": false,
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isShownByDefaultInRelationshipTable": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "modifiedBy": {
+      "id": "modifiedBy",
+      "label": "Last editor",
+      "newId": "modifiedBy",
+      "props": {
+        "maxLength": null
+      },
+      "tableMeta": {
+        "isHideColumn": false,
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "modifiedTimeStamp": {
+      "id": "modifiedTimeStamp",
+      "index": 2,
+      "label": "Date modified",
+      "newId": "modifiedTimeStamp",
+      "props": {
+        "showTime": true
+      },
+      "tableMeta": {
+        "isHideColumn": false,
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "Calendar",
+        "libName": "base"
+      }
+    },
+    "name": {
+      "id": "name",
+      "index": 11,
+      "label": "Variable physical name",
+      "newId": "name",
+      "props": {
+        "maxLength": 200
+      },
+      "tableMeta": {
+        "isHideColumn": false,
+        "isSearchable": true,
+        "isShownByDefault": false,
+        "isShownByDefaultInRelationshipTable": false,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    },
+    "objectId": {
+      "id": "objectId",
+      "index": 9,
+      "label": "Variable ID",
+      "newId": "objectId",
+      "props": {
+        "maxLength": 50
+      },
+      "tableMeta": {
+        "isHideColumn": false,
+        "isSearchable": true,
+        "isShownByDefault": true,
+        "isShownByDefaultInRelationshipTable": true,
+        "isSortable": true
+      },
+      "type": {
+        "compName": "InputText",
+        "libName": "base"
+      }
+    }
+  },
+  "id": "DataVariable",
+  "index": 13,
+  "labelPlural": "Data Variables",
+  "labelSingular": "Data Variable",
+  "nameField": "label",
+  "relationships": {
+    "dataProject_dataVariable": {
+      "cardinality": "manyToMany",
+      "index": 0,
+      "label": "DataProjects",
+      "sourceLabel": "Data Project",
+      "sourceLabelPlural": "Data Projects",
+      "sourceName": "linkedDataProjects",
+      "sourceSysCode": "RCC",
+      "sourceType": "DataProject",
+      "targetLabel": "Data Variable",
+      "targetLabelPlural": "Data Variables",
+      "targetName": "linkedDataVariables",
+      "targetType": "DataVariable",
+      "type": "lookup"
+    }
+  },
+  "tasks": {}
+}

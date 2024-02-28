@@ -1,0 +1,8 @@
+{
+  "DataVariable.library.label.base.Button.save_button.label": "Salva",
+  "DataVariable.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.changeHistory.title": "Cronologia delle modifiche",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.details.title": "Dettagli",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.documentation.title": "Documentazione",
+  "DataVariable.library.label.base.TabView.dataVariable_tabs.relatedObjects.title": "Oggetti correlati"
+}

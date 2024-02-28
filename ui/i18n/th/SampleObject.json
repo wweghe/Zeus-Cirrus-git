@@ -1,0 +1,13 @@
+{
+  "SampleObject.AttributionTemplate.schema.field.objectId.label": "ID เทมเพลตแอททริบิวต์",
+  "SampleObject.library.label.base.Accordion.attribution_template_details.details.title": "รายละเอียดเทมเพลตแอททริบิวต์",
+  "SampleObject.library.label.base.Button.save.label": "บันทึก",
+  "SampleObject.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.1.title": "เอกสารประกอบ",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.2.title": "ประวัติการเปลี่ยนแปลง",
+  "SampleObject.library.label.base.TabView.attribution_template_tabs.tabDetails.title": "รายละเอียด",
+  "SampleObject.library.label.base.TabView.main_tabs.1.title": "เอกสารประกอบ",
+  "SampleObject.library.label.base.TabView.main_tabs.2.title": "ประวัติการเปลี่ยนแปลง",
+  "SampleObject.library.label.base.TabView.main_tabs.tabDetails.title": "รายละเอียด",
+  "undefined": "แท็บ"
+}

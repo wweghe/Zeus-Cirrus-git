@@ -1,0 +1,17 @@
+{
+  "DataMap.DataMap.schema.field.mapType.label": "マップの種類",
+  "DataMap.DataMap.schema.field.objectId.label": "データマップ ID",
+  "DataMap.library.label.base.Accordion.cycle_details.0.title": "データマップの詳細",
+  "DataMap.library.label.base.Accordion.instance_details.details.title": "データマップの詳細",
+  "DataMap.library.label.base.Button.save.label": "保存",
+  "DataMap.library.label.base.GenericSpreadsheetWidget.GenericSpreadsheetWidget.label": "マッピングの詳細",
+  "DataMap.library.label.base.ReadonlyFieldWidget.cycle_name_readonly.label": "",
+  "DataMap.library.label.base.ReadonlyFieldWidget.name_readonly.label": "",
+  "DataMap.library.label.base.RichText.RichText.label": "リッチテキスト",
+  "DataMap.library.label.base.TabView.cycle_tabs.0.title": "マッピング",
+  "DataMap.library.label.base.TabView.cycle_tabs.1.title": "ドキュメント",
+  "DataMap.library.label.base.TabView.data_map_tabs.0.title": "データマップ属性",
+  "DataMap.library.label.base.TabView.data_map_tabs.1.title": "ドキュメント",
+  "DataMap.library.label.base.TabView.data_map_tabs.2.title": "変更履歴",
+  "DataMap.library.label.base.TabView.data_map_tabs.tabDetails.title": "詳細"
+}
